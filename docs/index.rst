@@ -32,7 +32,6 @@ Das Multifunktionsdisplay OBP40 dient zur Anzeige von Daten aus Boots-Netzen wie
    Bedienelemente <usermanual/elements>
    Inbetriebnahme <usermanual/start>
    Konfiguration <usermanual/configuration>
-   Bussysteme <usermanual/bussystems>
    Datenaustausch <usermanual/dataexchange>
    Erweiterte Sensorik <usermanual/sensors>
    Beispielkonfiguration <usermanual/samples>
@@ -44,10 +43,6 @@ Das Multifunktionsdisplay OBP40 dient zur Anzeige von Daten aus Boots-Netzen wie
    :name: sec-assembling
    
    Geräteaufbau <assembling/device>
-   Vorbereitung <assembling/preparation>
-   Bauteilliste <assembling/partlist>
-   Durchführung <assembling/actionsteps>
-   Funktionstest <assembling/tests>
    
 .. toctree::
    :maxdepth: 3
