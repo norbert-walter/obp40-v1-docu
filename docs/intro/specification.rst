@@ -11,16 +11,19 @@ Funktionen
 * Numerische Anzeigeseiten für 1, 2, 3 und 4 Werte (Werte frei wählbar)
 * Grafische Anzeigeseiten (feste Werte)
 * Trendanzeige für Werte
-* 1 Auswahlrad und 2 Tasten
+* 1 Auswahlrad mit Drucktaster und 2 Auswahltasten
+* Magnet-Dock für Stromversorgung über Pogo-Pins
+* Magnet- und Kletthalterung
+* USB-Dockingstation zum Laden und zum Datenaustausch
 * NMEA2000 (über Hardwareerweiterung)
-* NMEA0183 (WiFi oder über Hardwareerweiterung)
+* NMEA0183 (über WiFi oder über Hardwareerweiterung)
 * NMEA2000/NMEA0183 Gateway (bidirektional)
-* I2C (Erweiterungsport)
-* 1Wire (Erweiterungsport)
+* I2C (über Erweiterungsport)
+* 1Wire (über Erweiterungsport)
 * USB-C (OTG, Debug, NMEA0183)
 * WiFi 2.4GHz (HTTP, TCP, UDP)
 * Bluetooth (aktuell ungenutzt)
-* LiPo-Akku-Tiefentladeschutz < 3,65V
+* LiPo-Akku-Tiefentladeschutz < 3,65V (erfordert LiPo-Akku)
 * Low Power Modus (Deep Sleep)
 
 
@@ -55,7 +58,7 @@ Spezifikation
 +----------------------+-----------------------------+
 | Sensortasten         | kapazitiv                   |
 +----------------------+-----------------------------+
-| Schutzgrad           | IP22                        |
+| Schutzgrad           | IP20                        |
 +----------------------+-----------------------------+
 | Abmessungen          | 110 x 115 x 30 mm           |
 +----------------------+-----------------------------+
