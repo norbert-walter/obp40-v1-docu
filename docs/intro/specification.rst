@@ -11,25 +11,17 @@ Funktionen
 * Numerische Anzeigeseiten für 1, 2, 3 und 4 Werte (Werte frei wählbar)
 * Grafische Anzeigeseiten (feste Werte)
 * Trendanzeige für Werte
-* Grenzwertüberschreitung akustisch und optisch
-* 6 Sensor-Tasten (geeignet für Wischgesten)
-* Akustischer Signalgeber (Buzzer)
-* Optischer Signalgeber (RGB-LED)
-* LED-Displaybeleuchtung (RGB-LEDs)
-* NMEA2000 (vollduplex, isoliert)
-* NMEA0183 (RX oder TX, konfigurierbar, isoliert)
+* 1 Auswahlrad und 2 Tasten
+* NMEA2000 (über Hardwareerweiterung)
+* NMEA0183 (WiFi oder über Hardwareerweiterung)
 * NMEA2000/NMEA0183 Gateway (bidirektional)
-* I2C (isoliert)
-* 1Wire (nicht isoliert)
-* Spannungsausgang 5V (max. 200mA) für externe Sensorik
+* I2C (Erweiterungsport)
+* 1Wire (Erweiterungsport)
 * USB-C (OTG, Debug, NMEA0183)
-* Batteriemonitor (12V-Spannungsmessung)
-* Umgebungssensor BMP280 (Temperatur, Luftdruck)
-* GPS-Empfäger (GPS, Glonass, Baidu, interne oder externe GPS-Antenne)
 * WiFi 2.4GHz (HTTP, TCP, UDP)
 * Bluetooth (aktuell ungenutzt)
-* Batterie-Tiefentladeschutz < 9.0V
-* Low Power Modus
+* LiPo-Akku-Tiefentladeschutz < 3,65V
+* Low Power Modus (Deep Sleep)
 
 
 Aufbau
@@ -43,9 +35,9 @@ Spezifikation
 -------------
 
 +----------------------+-----------------------------+
-| Versorgungsspannung  | 10...28 V                   |
+| Versorgungsspannung  | 5 V, USB-C                  |
 +----------------------+-----------------------------+
-| Stromverbrauch       | 0.5...3.5 W, typisch 1 W    |
+| Stromverbrauch       | 0.5 W                       |
 +----------------------+-----------------------------+
 | Prozessor            | ESP32-S3, Dual Core         |
 +----------------------+-----------------------------+
@@ -53,7 +45,7 @@ Spezifikation
 +----------------------+-----------------------------+
 | RAM                  | 512 kB                      |
 +----------------------+-----------------------------+
-| Flash                | 16 MB                       |
+| Flash                | 8 MB                        |
 +----------------------+-----------------------------+
 | PSRAM                | 8 MB                        |
 +----------------------+-----------------------------+
@@ -63,23 +55,11 @@ Spezifikation
 +----------------------+-----------------------------+
 | Sensortasten         | kapazitiv                   |
 +----------------------+-----------------------------+
-| NMEA0183-Bus         | RS485, max. 115.2 kBd, 30 m |
-+----------------------+-----------------------------+
-| NMEA2000-Bus         | CAN, 250 kBit/s, 30 m       |
-+----------------------+-----------------------------+
-| I2C-Bus              | 5V, 100 kBit/s, 10 m        |
-+----------------------+-----------------------------+
-| 1Wire-Bus            | 3.3V, 10 m                  |
-+----------------------+-----------------------------+
-| 5V-Ausgang           | 200 mA, isoliert            |
-+----------------------+-----------------------------+
-| ESD-Schutz           | 8 kV                        |
-+----------------------+-----------------------------+
-| Schutzgrad           | IP68, frontseitig           |
+| Schutzgrad           | IP22                        |
 +----------------------+-----------------------------+
 | Abmessungen          | 110 x 115 x 30 mm           |
 +----------------------+-----------------------------+
-| Gewicht              | 280 g                       |
+| Gewicht              | 110 g                       |
 +----------------------+-----------------------------+
 
 Anschlussbelegung
