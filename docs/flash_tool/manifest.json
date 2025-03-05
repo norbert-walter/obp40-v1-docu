@@ -1,12 +1,12 @@
 {
     "name": "OBP40 V1.0 Firmware",
-    "version": "dev20241130-all.bin",
+    "version": "obp40_s3-dev20250305-all.bin",
     "new_install_prompt_erase": false,
     "builds": [
       {
         "chipFamily": "ESP32-S3",
         "parts": [
-          { "path": "https://norbert-walter.github.io/obp40-v1-docu/flash_tool/obp60_s3-dev20241130-all.bin", "offset": 0 }
+          { "path": "https://norbert-walter.github.io/obp40-v1-docu/flash_tool/obp40_s3-dev20250305-all.bin", "offset": 0 }
         ]
       }
     ]
