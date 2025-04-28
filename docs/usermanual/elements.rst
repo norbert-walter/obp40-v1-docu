@@ -2,7 +2,7 @@ Bedienelemente
 ==============
 
 .. image:: ../pics/OBP40_Screen_2.png
-             :scale: 45%
+             :scale: 55%
              
 Statuszeile
 -----------
@@ -27,7 +27,7 @@ Die Statuszeile dient zur Anzeige von Statusinformationen. Dazu zählen:
    * **LOT** - Lokalzeit
 
 .. image:: ../pics/Header.png
-             :scale: 45%
+             :scale: 55%
 
 Die Statuszeile ist in allen Anzeigeseiten zu sehen, sie zeigt den aktuellen Status des Gerätes an.
 
@@ -46,13 +46,10 @@ Die Entstehung von Geisterbildern ist von der Display-Temperatur des OBP40 abhä
 .. note::
    Trotz Filter kann es bei extrem hoher Sonneneinstrahlung vorkommen, dass der Kontrast des Display-Inhaltes verloren geht. Schwarze Anzeigebereiche werden dann nur noch grau dargestellt. Das Display ist in dem Fall nicht defekt. Nach einem Voll-Refresh regeneriert sich das Display und der Kontrast wird wieder vollständig hergestellt.
    
-.. important::  
-   Wird das OBP40 nicht benutzt, löschen Sie bitte den Bildschirminhalt und decken das Gerät mit der Schutzkappe ab. So schützen Sie es vor zu großer Sonneneinstrahlung und vor Witterungseinflüssen.
-   
 Fußzeile
 ---------
 .. image:: ../pics/Footer.png
-             :scale: 45%
+             :scale: 55%
 
 Die Fußzeile dient zur Bezeichnung der Tastenfunktionen. Die Belegung der Tasten ändert sich abhängig vom Inhalt der Anzeigeseiten. Aktive Tasten sind mit Kurzbezeichnungen in eckigen Klammern versehen wie z.B. ``[AVG]``. Es kann auch Anzeigeseiten geben, die keine Tastenfunktionen enthalten. In der Mitte der Fußzeile werden weitere Informationen eingeblendet:
 
