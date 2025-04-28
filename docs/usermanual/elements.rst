@@ -64,13 +64,19 @@ Sofern die Wischgeste aktiv ist, werden im Infobereich die aktuelle Seite und di
 Jogdail-Wählrad und Tasten
 --------------------------
 
-Das OBP40 hat ein Jogdail-Wählrad und zwei Tasten am rechten Displayrand. Über das Wählrad lassen sich die Seiten auswählen. Mit den Tasten können auf einigen Seiten Änderungen durchgeführt werden. Folgende Funktionen stehen zur verfügung:
+.. image:: ../pics/OBP40_Side_View_Buttons_2.png
+             :scale: 45%
+
+Das OBP40 hat ein Jogdail-Wählrad und zwei Tasten am rechten Displayrand. Über das Wählrad lassen sich die Seiten auswählen. Mit den Tasten können auf einigen Seiten Änderungen durchgeführt werden. Folgende Funktionen stehen zur Verfügung:
 
 * **Wählrad drehen nach oben** - Seite zurück
 * **Wählrad drehen nach unten** - Seite vorwärts
 * **Wählrad drücken** - Sleep-Mode an/aus
 * **Taste oben** - Seitenspezifische Funktion
 * **Taste unten** - Seitenspezifische Funktion
+
+.. note::
+   Das Jogdail-Wählrad kann nur gedrückt werden, wenn sich das Wählrad in Mittenposition bzw. Ruhestellung befindet.
 
 Reset-Taster
 ------------
