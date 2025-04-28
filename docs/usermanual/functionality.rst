@@ -1,24 +1,6 @@
 Funktionsweise
 ==============
 
-Bussysteme
-----------
-
-.. image:: ../pics/NMEA_Bus.png
-             :scale: 35%
-
-Das OBP40 ist ein Datenanzeigegerät für den Marinebereich, mit dem verschiedenste Informationen aus Bussystemen ausgelesen und angezeigt werden. Zu den typischen Bussystemen im Marinebereich, die das OPB60 verarbeitet, gehören:
-
-* NMEA0183 (RS485, isoliert)
-* NMEA2000 (CAN, isoliert)
-
-Damit lässt sich das OBP40 in vorhandene Bootsnetze integrieren. Es kann selbst Daten einspeisen und auslesen. Darüber hinaus verarbeitet das OPB60 weitere Sensornetzwerke wie:
-
-* I2C-Bus (5V, isoliert)
-* 1Wire-Bus (3.3V, nicht isoliert)
-
-Diese beiden Bussysteme kommen aus dem Elektronikbereich. Über diese beiden Busse lassen sich günstige Sensoren anbinden, um deren Daten anzuzeigen. Über den isolierten I2C-Bus können zudem recht einfach und sicher eigene Hardwareerweiterungen eingebunden werden.
-
 Gateway
 -------
 
@@ -43,9 +25,9 @@ Das OBP40 hat einen Access Point und einen kleinen Webserver integriert, mit den
 Anzeige und Bedienung
 ---------------------
 
-.. image:: ../pics/Front_View_Screen.png
-             :scale: 20%
+.. image:: ../pics/OBP40_Side_View_Buttons.png
+             :scale: 35%
 
 Als Anzeige wird ein E-Paper Display verwendet. Es besitzt einen hohen Kontrast und eine gute Ablesbarkeit auch bei starkem Sonnenlicht. Zudem verbraucht es sehr wenig Energie. Beim Nachtbetrieb ist das Display beleuchtbar. Die Hintergrundfarbe kann frei gewählt werden. So lässt sich das OBP40 auch gut mit anderen Anzeigegeräten kombinieren, um ein einheitliches Aussehen zu erreichen. Eine kleine Flash-LED und ein Buzzer signalisieren dem Anwender optisch und akustisch Grenzwertüberschreitungen. Die Grenzwerte lassen sich frei einstellen.
 
-Die Auswahl der Anzeigeseiten erfolgt über kapazitive Sensortasten, indem mit einer Wischgeste über die Tasten die nächste Seite angesteuert wird. Die Sensitivität der Tasten lässt sich einstellen. Gegen versehentliche Auslösung können die Tasten auch gesperrt werden. Je nach Anzeigeseite können einige Einstellungen auch über die Tasten vorgenommen werden. Die Einstellungen gelten dann ausschließlich für die Anzeigeseite und werden gespeichert, sodass die Einstellungen beim Seitenwechsel erhalten bleiben.
+Die Auswahl der Anzeigeseiten erfolgt über ein Jogdail-Auswahlrad mit Druckpunkt und zwei zusätzliche Tasten an der rechten Seite. Je nach Anzeigeseite können einige Einstellungen auch über die Tasten vorgenommen werden. Die Einstellungen gelten dann ausschließlich für die Anzeigeseite und werden gespeichert, sodass die Einstellungen beim Seitenwechsel erhalten bleiben.

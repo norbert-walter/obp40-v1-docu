@@ -1,7 +1,7 @@
 Bedienelemente
 ==============
 
-.. image:: ../pics/Front_View_Screen.png
+.. image:: ../pics/OBP40_Screen_2.png
              :scale: 45%
              
 Statuszeile
@@ -61,65 +61,24 @@ Die Fußzeile dient zur Bezeichnung der Tastenfunktionen. Die Belegung der Taste
 
 Sofern die Wischgeste aktiv ist, werden im Infobereich die aktuelle Seite und die Seitenanzahl angezeigt. 
 
-Sensor-Tasten
--------------
+Jogdail-Wählrad und Tasten
+--------------------------
 
-Das OBP40 hat 6 kapazitive Sensortasten am unteren Displayrand. Die Tasten reagieren auf Berührung durch Veränderung des Bezugspotenzials. Wassertropfen oder Regen haben so gut wie keinen Einfluss auf die Auslösefunktion der Tasten. Aktuell sind folgende Tastenfunktionen realisiert:
+Das OBP40 hat ein Jogdail-Wählrad und zwei Tasten am rechten Displayrand. Über das Wählrad lassen sich die Seiten auswählen. Mit den Tasten können auf einigen Seiten Änderungen durchgeführt werden. Folgende Funktionen stehen zur verfügung:
 
-* Konfiguration der Tasten-Sensitivität
-* Wischen links / rechts
-* Kurzes Tippen
-* Normales Drücken
-* Drücken mehrerer Tasten gleichzeitig
-* Tasten sperren
-
-Die Tasten-Sensitivität kann über die Konfigurationsseite eingestellt werden. Damit lässt sich die Schwelle einstellen, ab der ein Tastendruck erkannt wird. Die Tasten haben in der Mitte eine Vertiefung. So kann das Zentrum der Taste besser erfühlt werden. Erkannte Tastenberührungen werden akustisch mit einem Piepton signalisiert.
-
-Die Tasten sind bündig in das Display eingelassen. So ist es möglich, mit Wischgesten die Seiteninhalte umzuschalten. Dazu wischt man zügig nach rechts oder links über mindestens zwei Tasten. Die Software erkennt automatisch, wenn mehrere Tasten hintereinander ausgelöst werden, und bestimmt daraus die Wischrichtung. Für die Wischgeste wird ein akustisches Feedback gegeben. **Rechts wischen** wird mit der Tonfolge **tief-hoch** signalisiert, **links wischen** mit **hoch-tief**. Die Seitenweiterschaltung ist an den Enden rollierend.
-
-Bei kurzem Tippen wird kein Piepton ausgegeben. Kurzes Tippen der zwei äußeren Tasten links und rechts nacheinander aktiviert die Tastensperre, gefolgt von einem langen Piepton. Danach sind die normalen Tastenfunktionen deaktiviert und es wird keine Wischgeste mehr erkannt. Im Display ist die Meldung ``[Keylock active]`` zu sehen. Welche Taste beim Aktivieren der Tastensperre zuerst gedrückt wird, ist unerheblich, ebenso die Reihenfolge. Die Deaktivierung der Tastensperre erfolgt auf die gleiche Weise.
-
-.. important::
-   Sollte Ihr OBP40 so platziert sein, dass sich eine Person versehentlich dagegen lehnen kann, so stellen Sie die Tasten-Sensitivität entsprechend niedriger ein. So vermeiden Sie versehentliches Auslösen der Tasten. Sie können als zusätzlichen Schutz gegen unbeabsichtigtes Bedienen auch die Tasten-Sperrfunktion aktivieren. 
-
-Flash LED
----------
-
-.. image:: ../pics/Flash_LED.png
-             :scale: 45%
-Links oberhalb des Displays befindet sich eine kleine Flash-LED. Diese LED dient zur Signalisierung von Betriebszuständen des OPB60. Die LED kann dabei verschiedene Farben annehmen. Die LED leuchtet mit maximaler Helligkeit, sodass sie optisch auch bei hellen Sonnenlicht gut wahrgenommen werden kann.
-
-* Rot - Alarmierung bei Grenzwertüberschreitung
-* Grün - Bestätigung von Zustandsänderungen (z.B. Autopilot ein/aus)
-* Blau - Signalisierung von Zuständen (z.B. GPS-Empfang, Datentransfer usw.)
-
-Hintergrundbeleuchtung
-----------------------
-
-Um das Display bei Nacht ablesen zu können, kann eine Hintergrundbeleuchtung über die rechte Sensortaste zugeschaltet werden. Die Farbe und die Helligkeit können über die Konfiguration eingestellt werden. Grundsätzlich lässt sich die Hintergrundbeleuchtung folgendermaßen konfigurieren:
-
-* Dauerhaft an
-* Dauerhaft aus
-* Manuell einschaltbar über Sensortaste
-* Automatisch schaltbar abhängig vom Sonnenstand
-
-.. important::
-   Wenn Sie den Sonnenstand zum Schalten der Hintergrundbeleuchtung verwenden wollen, benötigen Sie ein gültiges GPS-Signal, damit die Schaltzustände ausgelöst werden können. Die Hintergrundbeleuchtung wird dann automatisch bei astronomischem Sonnenuntergang eingeschaltet und bei Sonnenaufgang abgeschaltet. Dabei wird der geografische Ort berücksichtigt. Ist kein gültiges GPS-Signal vorhanden, so erfolgt keine Änderung der Schaltzustände.
-=======
-
-   
-Buzzer
-------
-
-Der Buzzer dient zur akustischen Signalisierung von Störungen und als Feedback bei Zustandsänderungen. Der Buzzer befindet sich im Inneren des Gerätes. Die Funktion und Lautstärke des Buzzers kann in der Konfiguration eingestellt werden. Beim Einschalten und beim manuellen oder automatischen Reset des OBP40 erfolgt ein kurzer Signalton, um das Hochfahren des Gerätes zu signalisieren.
+* **Wählrad drehen nach oben** - Seite zurück
+* **Wählrad drehen nach unten** - Seite vorwärts
+* **Wählrad drücken** - Sleep-Mode an/aus
+* **Taste oben** - Seitenspezifische Funktion
+* **Taste unten** - Seitenspezifische Funktion
 
 Reset-Taster
 ------------
 
-.. image:: ../pics/OBP40_Back_Side_3.png
+.. image:: ../pics/OBP40_Back_Side_2.png
              :scale: 45%
 
-Der Reset-Taster befindet sich auf der Rückseite des Displays an der Unterseite des großen linken Steckverbinders **CN1**. Der Reset-Taster wird im normalen Betrieb nicht genutzt. Bei Programmiervorgängen kann es nützlich sein, einen manuellen Reset auszulösen. Benutzen Sie zum Auslösen des Reset einen nicht leitenden, schmalen Gegenstand und drücken Sie den Taster vorsichtig, bis der Druckpunkt spürbar überwunden ist.
+Der Reset-Taster befindet sich auf der Rückseite des Displays oben rechts hinter einem kleinen Loch. Der Reset-Taster wird im normalen Betrieb nicht genutzt. Bei Programmiervorgängen kann es nützlich sein, einen manuellen Reset auszulösen. Benutzen Sie zum Auslösen des Reset einen nicht leitenden, schmalen Gegenstand und drücken Sie den Taster vorsichtig, bis der Druckpunkt spürbar überwunden ist.
 
 .. warning::
    Verwenden Sie keine leitenden Gegenstände. Damit können Kurzschlüsse auf der Platine ausgelöst werden, das Gerät kann dadurch beschädigt werden.
