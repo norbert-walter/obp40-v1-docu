@@ -76,7 +76,7 @@ Anschlussbelegung
 Schaltplan
 ----------
 
-* `Schaltplan V2.1 [PDF] <../_static/files/Schematic_OBP40_V2.1.pdf>`_
+* `Schaltplan V2.1 [PDF] <../_static/files/CrowPanel_ESP32_Display-4.2(E)_Inch.pdf>`_
 
 
 Maßbilder
