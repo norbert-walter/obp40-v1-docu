@@ -31,7 +31,7 @@ Aufbau
 ------
 
 .. image:: ../pics/OBP40_Explode_View.png
-   :scale: 45%
+   :scale: 50%
 
 
 Spezifikation
@@ -67,7 +67,7 @@ Spezifikation
 
 Anschlussbelegung
 -----------------
-.. image:: ../pics/Bus_Systems.png
+.. image:: ../pics/OBP40_Side_View_Ports.png
    :scale: 50%
    
 .. image:: ../pics/Logo_ESP32-S3_t.png
