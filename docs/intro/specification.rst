@@ -1,7 +1,7 @@
 Technische Daten
 ================
 
-.. image:: ../pics/OBP40_OBP_Logo_tr.png
+.. image:: ../pics/OBP40_Front_View.png
    :scale: 30%
 
 Funktionen
