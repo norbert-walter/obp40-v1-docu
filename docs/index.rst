@@ -20,7 +20,6 @@ Das Multifunktionsdisplay OBP40 dient zur Anzeige von Daten aus Boots-Netzen wie
    :caption: Einführung
    :name: sec-intro
 
-   Historie <intro/historie>
    Technische Daten <intro/specification>
    
 .. toctree::
