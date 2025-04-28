@@ -73,6 +73,13 @@ Anschlussbelegung
 .. image:: ../pics/Logo_ESP32-S3_t.png
    :scale: 60%
    
+Abb.: USB-Port
+   
+.. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
+   :scale: 50%
+   
+Abb.: Platinen-Anschlussbelegung
+   
 Schaltplan
 ----------
 
