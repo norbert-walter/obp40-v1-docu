@@ -10,7 +10,7 @@ Letzte Aktualisierung |today|
 .. note::
    Diese Seiten sind noch in Bearbeitung.
 
-.. image:: /pics/OBP40_Front_View.png
+.. image:: /pics/OBP40_Front_View_2_t.png
              :scale: 50%
 
 Das Multifunktionsdisplay OBP40 dient zur Anzeige von Daten aus Boots-Netzen wie NMEA0183, NMEA2000. Darüber hinaus können Daten aus dem 1Wire-Bus und dem I2C-Bus ausgelesen werden. Das OBP40 enthält ein Gateway, das Daten bidirektional zwischen NMEA0183 und NMEA2000 austauschen kann. Über WiFi lassen sich die Daten importieren oder exportieren und können auf anderen Geräten oder in Drittanbietersoftware verwendet werden. Die Konfiguration erfolgt über eine Webseite. Darüber lassen sich vordefinierte Anzeigeseiten auswählen, und es können dessen Anzeigeinhalte festgelegt werden. Das OBP40 basiert auf Open Hardware, Open Software und Open Data. Das Gerät lässt sich durch die Offenheit an beliebige Anforderungen über die Software anpassen.

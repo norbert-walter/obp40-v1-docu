@@ -1,7 +1,7 @@
 Bedienelemente
 ==============
 
-.. image:: ../pics/OBP40_Screen_2.png
+.. image:: ../pics/OBP40_Screen_2_t.png
              :scale: 55%
              
 Statuszeile
@@ -61,7 +61,7 @@ Sofern die Wischgeste aktiv ist, werden im Infobereich die aktuelle Seite und di
 Jogdail-Wählrad und Tasten
 --------------------------
 
-.. image:: ../pics/OBP40_Side_View_Buttons_2.png
+.. image:: ../pics/OBP40_Side_View_Buttons_2_t.png
              :scale: 45%
 
 Das OBP40 hat ein Jogdail-Wählrad und zwei Tasten am rechten Displayrand. Über das Wählrad lassen sich die Seiten auswählen. Mit den Tasten können auf einigen Seiten Änderungen durchgeführt werden. Folgende Funktionen stehen zur Verfügung:
@@ -78,7 +78,7 @@ Das OBP40 hat ein Jogdail-Wählrad und zwei Tasten am rechten Displayrand. Über
 Reset-Taster
 ------------
 
-.. image:: ../pics/OBP40_Back_Side_2.png
+.. image:: ../pics/OBP40_Back_Side_2_t.png
              :scale: 45%
 
 Der Reset-Taster befindet sich auf der Rückseite des Displays oben rechts hinter einem kleinen Loch. Der Reset-Taster wird im normalen Betrieb nicht genutzt. Bei Programmiervorgängen kann es nützlich sein, einen manuellen Reset auszulösen. Benutzen Sie zum Auslösen des Reset einen nicht leitenden, schmalen Gegenstand und drücken Sie den Taster vorsichtig, bis der Druckpunkt spürbar überwunden ist.

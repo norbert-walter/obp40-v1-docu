@@ -1,7 +1,7 @@
 Technische Daten
 ================
 
-.. image:: ../pics/OBP40_Front_View.png
+.. image:: ../pics/OBP40_Front_View_2_t.png
    :scale: 50%
 
 Funktionen
@@ -67,7 +67,7 @@ Spezifikation
 
 Anschlussbelegung
 -----------------
-.. image:: ../pics/OBP40_Side_View_Ports.png
+.. image:: ../pics/OBP40_Side_View_Ports_2_t.png
    :scale: 50%
    
 .. image:: ../pics/Logo_ESP32-S3_t.png

@@ -25,7 +25,7 @@ Das OBP40 hat einen Access Point und einen kleinen Webserver integriert, mit den
 Anzeige und Bedienung
 ---------------------
 
-.. image:: ../pics/OBP40_Side_View_Buttons.png
+.. image:: ../pics/OBP40_Side_View_Buttons_2_t.png
              :scale: 35%
 
 Als Anzeige wird ein E-Paper Display verwendet. Es besitzt einen hohen Kontrast und eine gute Ablesbarkeit auch bei starkem Sonnenlicht. Zudem verbraucht es sehr wenig Energie. Beim Nachtbetrieb ist das Display beleuchtbar. Die Hintergrundfarbe kann frei gewählt werden. So lässt sich das OBP40 auch gut mit anderen Anzeigegeräten kombinieren, um ein einheitliches Aussehen zu erreichen. Eine kleine Flash-LED und ein Buzzer signalisieren dem Anwender optisch und akustisch Grenzwertüberschreitungen. Die Grenzwerte lassen sich frei einstellen.
