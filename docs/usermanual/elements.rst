@@ -26,7 +26,7 @@ Die Statuszeile dient zur Anzeige von Statusinformationen. Dazu zählen:
    * **UTC** - Weltzeit
    * **LOT** - Lokalzeit
 
-.. image:: ../pics/Header.png
+.. image:: ../pics/Header_t.png
              :scale: 55%
 
 Die Statuszeile ist in allen Anzeigeseiten zu sehen, sie zeigt den aktuellen Status des Gerätes an.
@@ -48,7 +48,7 @@ Die Entstehung von Geisterbildern ist von der Display-Temperatur des OBP40 abhä
    
 Fußzeile
 ---------
-.. image:: ../pics/Footer.png
+.. image:: ../pics/Footer_t.png
              :scale: 55%
 
 Die Fußzeile dient zur Bezeichnung der Tastenfunktionen. Die Belegung der Tasten ändert sich abhängig vom Inhalt der Anzeigeseiten. Aktive Tasten sind mit Kurzbezeichnungen in eckigen Klammern versehen wie z.B. ``[AVG]``. Es kann auch Anzeigeseiten geben, die keine Tastenfunktionen enthalten. In der Mitte der Fußzeile werden weitere Informationen eingeblendet:
