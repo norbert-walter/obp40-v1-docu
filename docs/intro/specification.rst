@@ -30,7 +30,7 @@ Funktionen
 Aufbau
 ------
 
-.. image:: ../pics/OBP40_Explode_View.png
+.. image:: ../pics/OBP40_Explode_View_2_t.png
    :scale: 50%
 
 
