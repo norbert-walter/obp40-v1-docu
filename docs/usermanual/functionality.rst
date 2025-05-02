@@ -28,6 +28,27 @@ Anzeige und Bedienung
 .. image:: ../pics/OBP40_Side_View_Buttons_2_t.png
              :scale: 35%
 
-Als Anzeige wird ein E-Paper Display verwendet. Es besitzt einen hohen Kontrast und eine gute Ablesbarkeit auch bei starkem Sonnenlicht. Zudem verbraucht es sehr wenig Energie. Beim Nachtbetrieb ist das Display beleuchtbar. Die Hintergrundfarbe kann frei gewählt werden. So lässt sich das OBP40 auch gut mit anderen Anzeigegeräten kombinieren, um ein einheitliches Aussehen zu erreichen. Eine kleine Flash-LED und ein Buzzer signalisieren dem Anwender optisch und akustisch Grenzwertüberschreitungen. Die Grenzwerte lassen sich frei einstellen.
+Als Anzeige wird ein E-Paper Display verwendet. Es besitzt einen hohen Kontrast und eine gute Ablesbarkeit auch bei starkem Sonnenlicht. Zudem verbraucht es sehr wenig Energie.
 
 Die Auswahl der Anzeigeseiten erfolgt über ein Jogdail-Auswahlrad mit Druckpunkt und zwei zusätzliche Tasten an der rechten Seite. Je nach Anzeigeseite können einige Einstellungen auch über die Tasten vorgenommen werden. Die Einstellungen gelten dann ausschließlich für die Anzeigeseite und werden gespeichert, sodass die Einstellungen beim Seitenwechsel erhalten bleiben.
+
+Erweiterungsport
+----------------
+
+.. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
+   :scale: 50%
+   
+Abb.: Platinen-Anschlussbelegung
+
+Die Platine verfügt über einen 20-poligen Erweiterungsport an der oberen Seite. Darüber lässt sich optional Zusatzhardware anschließen wie z.B.:
+
+* CAN-Bus (NMEA0183)
+* RS485-Bus (NMEA0183)
+* I2C-Bus
+* 1Wire-Bus
+* Buzzer
+* GPS-Empfänger (RS232)
+* Analoger Eingang zur Spannungsmessung
+
+.. warning::
+	Der Anschluss von Zusatzhardware erfordert Kenntnisse in Elektronik, um die Zusatzhardware korrekt anschließen zu können. Die Signalpegel an der Anschlüssen dürfen 3.3 V nicht übersteigen und es ist darauf zu achten, ob die Anschlüsse als Eingang oder Ausgang verwendet werden. Die herausgeführten Anschlüsse sind ungeschützt. Der Prozessor kann bei falscher Benutzung der Anschlüsse irreparabel beschädigt werden.
