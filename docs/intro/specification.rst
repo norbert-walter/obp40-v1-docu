@@ -7,7 +7,7 @@ Technische Daten
 Funktionen
 ----------
 
-* E-Paper Display (tageslichttauglich)
+* Mobiles E-Paper Display (tageslichttauglich)
 * Numerische Anzeigeseiten für 1, 2, 3 und 4 Werte (Werte frei wählbar)
 * Grafische Anzeigeseiten (feste Werte)
 * Trendanzeige für Werte
@@ -58,6 +58,12 @@ Spezifikation
 +----------------------+-----------------------------+
 | Sensortasten         | kapazitiv                   |
 +----------------------+-----------------------------+
+| Akkutyp (optional)   | LiPo, 3,7V, 1200 mAh        |
++----------------------+-----------------------------+
+| Ladezeit über USB    | ca. 2,5 h bei 600 mA        |
++----------------------+-----------------------------+
+| Nutzungsdauer        | ca. 8,8 h bei Volllast      |
++----------------------+-----------------------------+
 | Schutzgrad           | IP20                        |
 +----------------------+-----------------------------+
 | Abmessungen          | 110 x 115 x 30 mm           |
@@ -79,6 +85,34 @@ Abb.: USB-Port
    :scale: 50%
    
 Abb.: Platinen-Anschlussbelegung
+
+Erweiterungsport
+----------------
+
++--------+----------+--------+----------+
+| Oben   | Funktion | Unten  | Funktion |
++========+==========+========+==========+
+| GPOI8  | 0183 Dir | GPIO3  | Analog In|
++--------+----------+--------+----------+
+| GPOI14 | 0183 RX  | GPIO9  | 0183 TX  |
++--------+----------+--------+----------+
+| GPOI16 | CAN RX   | GPIO15 | CAN TX   |
++--------+----------+--------+----------+
+| GPOI18 | Buzzer   | GPIO17 | 1Wire    |
++--------+----------+--------+----------+
+| GPOI20 | GPS TX   | GPIO19 | GPS RX   |
++--------+----------+--------+----------+
+| GPOI38 | I2C SCL  | GPIO21 | I2C SDA  |
++--------+----------+--------+----------+
+| 3V3    | 3.3V     | GND    | Masse    |
++--------+----------+--------+----------+
+| 3V3    | 3.3V     | GND    | Masse    |
++--------+----------+--------+----------+
+| 3V3    | 3.3V     | GND    | Masse    |
++--------+----------+--------+----------+
+| 3V3    | 3.3V     | GND    | Masse    |
++--------+----------+--------+----------+
+
    
 Schaltplan
 ----------
