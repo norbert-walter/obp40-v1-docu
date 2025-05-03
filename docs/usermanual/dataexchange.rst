@@ -113,7 +113,7 @@ Der Vorteil ist, dass sich SeaSmart-Telegramme genauso wie NMEA0183-Telegramme �
 
 .. image:: ../pics/SeaSmart1.png
              :scale: 60%	
-Abb.: Datenübertragung via WiFi OBP40 - OBP40
+Abb.: Datenübertragung via WiFi OBP60 - OBP40
 
 .. image:: ../pics/SeaSmart2.png
              :scale: 60%	
@@ -122,14 +122,14 @@ Abb.: Datenübertragung via WiFi M5Stack - OBP40
 .. hint::
 	Beide Geräte müssen sich im selben WiFi-Netzwerk befinden und unterschiedliche Netzwerknamen und IP-Adressen besitzen. Dabei muss ein Gerät als TCP-Server und das andere Gerät als TCP-Client konfiguriert sein und auf beiden Geräten **SeaSmart out** aktiviert werden.
 	
-Nachfolgend ist ein Konfigurationsbeispiel für die obere Abbildung gezeigt, in dem ein Datenaustausch über WiFi zwischen zwei OBP40 stattfindet. Das Gerät 1 ist dabei als TCP-Server und Gerät 2 als TCP-Client konfiguriert. Das Gerät 2 bucht sich in das WiFi-Netzwerk vom Gerät 1 ein und tauscht darüber bidirektional Daten aus.
+Nachfolgend ist ein Konfigurationsbeispiel für die obere Abbildung gezeigt, in dem ein Datenaustausch über WiFi zwischen einem OBP60 und einem OBP40 stattfindet. Das Gerät 1 ist dabei als TCP-Server und Gerät 2 als TCP-Client konfiguriert. Das Gerät 2 bucht sich in das WiFi-Netzwerk vom Gerät 1 ein und tauscht darüber bidirektional Daten aus.
 
 +---------------------------+---------------------+---------------------+
 |Einstellung                |Gerät 1              |Gerät 2              |
 +===========================+=====================+=====================+
 |:ref:`Config - System`     |                     |                     |
 +---------------------------+---------------------+---------------------+
-|System Name                |OBP40-1              |OBP40-2              |
+|System Name                |OBP60V2              |OBP40V1              |
 +---------------------------+---------------------+---------------------+
 |ApPassword                 |11111111             |22222222             |
 +---------------------------+---------------------+---------------------+
@@ -151,7 +151,7 @@ Nachfolgend ist ein Konfigurationsbeispiel für die obere Abbildung gezeigt, in 
 +---------------------------+---------------------+---------------------+
 |WiFi Client                |off                  |on                   |
 +---------------------------+---------------------+---------------------+
-|WiFi Client SSID           |---                  |OBP40-1              |
+|WiFi Client SSID           |---                  |OBP60V2              |
 +---------------------------+---------------------+---------------------+
 |WiFi Client Password       |---                  |11111111             |
 +---------------------------+---------------------+---------------------+
@@ -172,7 +172,7 @@ An dieser Stelle wird ein Beispiel gezeigt, wie Daten von einem NMEA0183-Multipl
 Abb.: NMEA0183-Verbindung zu einem Multiplexer (empfangen)
 
 +---------------------------+---------------------+
-|Einstellung                |OBP40                |
+|Einstellung                |OBP60                |
 +===========================+=====================+
 |:ref:`Config - Serial Port`|                     |
 +---------------------------+---------------------+
@@ -190,7 +190,7 @@ Zum Senden von NMEA0183-Daten hier ein Beispiel für einen Autopiloten. Dabei we
 Abb.: NMEA0183-Verbindung zu einem Autopiloten (senden)
 
 +---------------------------+---------------------+
-|Einstellung                |OBP40                |
+|Einstellung                |OBP60                |
 +===========================+=====================+
 |:ref:`Config - Serial Port`|                     |
 +---------------------------+---------------------+
@@ -291,13 +291,13 @@ Abb.: Verbindung OBP40 - Raspberry Pi
              :scale: 40%	
 Abb.: Aktive USB-Verlängerung für 5 m
 
-.. image:: ../pics/AvNav_Start_Page.png
+.. image:: ../pics/AVnav_Start_Page.png
              :scale: 50%	
 Abb.: AvNav Startseite
 
 Unter AvNav kicken Sie auf der Startseite oben rechts das Symbol mit den 3 Strichen.
 
-.. image:: ../pics/AvNav_Server_Status_Icon.png
+.. image:: ../pics/AVnav_Server_Status_Icon.png
 
 Sie gelangen dann auf die Seite zum Serverstatus. 
 
@@ -307,7 +307,7 @@ Abb.: Server-Status ohne OBP40
 
 AvNav ist so eingerichtet, dass es automatisch alle seriellen USB-Geräte erkennen kann und automatisch zuordnet. Sowohl das Gerät, als auch die Übertragungsrate werden erkannt. Verschaffen Sie sich als erstes einen Überblick, welche Geräte bereits mit USB verbunden sind. Im oberen Bild sehen Sie unter Punkt **[3] USBSerialReader** alle aktuell erkannten und zugeordneten Geräte. In unserem Fall ist bereits ein GPS-Stick an USB angeschlossen. Das Gerät ist der Schnittstelle **/dev/ttyACM0** zugeordnet und arbeitet mit einer Übertragungsrate von 38.400 Bd. 
 
-.. image:: ../pics/AvNav_Server_Status_USBSerialReader_2.png
+.. image:: ../pics/AVnav_Server_Status_USBSerialReader_2.png
              :scale: 50%	
 Abb.: Server-Status mit OBP40 (noch nicht konfiguriert) 
 
@@ -319,7 +319,7 @@ Wenn Sie auf das Stiftsymbol hinter der Zeile mit dem Eintrag **/dev/ttyACM1** k
     * **Type** ``combined``
     * **Name** ``OBP40V2``
     
-.. image:: ../pics/AvNav_Edit_Handler.png
+.. image:: ../pics/AVnav_Edit_Handler.png
              :scale: 50%	
 Abb.: Einstellungen für das OBP40
 
@@ -333,7 +333,7 @@ Abb.: Server-Status mit OBP40 (korrekt konfiguriert)
 Beispiel AvNav auf Android-Autoradio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: ../pics/OBP40_USB_Connection_Radio_AvNav.png
+.. image:: ../pics/OBP40_USB_Connection_Radio_AVnav.png
              :scale: 60%	
 Abb.: Verbindung OBP40 - Android Autoradio AvNav
 
@@ -355,11 +355,11 @@ Abb.: Startseite AvNav für Android
 
 Unter AvNav kicken Sie auf der Startseite oben rechts das Symbol mit den 3 Strichen.
 
-.. image:: ../pics/AvNav_Server_Status_Icon.png
+.. image:: ../pics/AVnav_Server_Status_Icon.png
 
 Sie gelangen dann auf die Seite zum Serverstatus. Dort können Sie über das Plus-Symbol weitere Verbindungen zum AvNavServer einrichten.
 
-.. image:: ../pics/AvNav_Add_Icon.png
+.. image:: ../pics/AVnav_Add_Icon.png
 
 Für die bidirektionale Kommunikation über USB wählen Sie **UsbConnection**.
 
@@ -455,10 +455,10 @@ Abb.: I2C-Anbindung magnetischer Winkelmesser AS5600
 .. note::
 	Bedenken Sie, dass nur ein AS5600 als Winkelmesser verwendet werden kann, da die I2C-Adresse nicht änderbar ist. Das Verbindungskabel sollte ein geschirmtes Kabel sein und eine Länge von 10 m nicht überschreiten.
 	
-Folgende Einstellungen sind im OBP40 vorzunehmen.
+Folgende Einstellungen sind im OBP60 vorzunehmen.
 
 +----------------------------+---------------------+
-|Einstellung                 |OBP40                |
+|Einstellung                 |OBP60                |
 +============================+=====================+
 |:ref:`Config - OBP Hardware`|                     |
 +----------------------------+---------------------+
@@ -497,7 +497,7 @@ Im unteren Bild ist eine Schaltung zu sehen, in der 4 DS18B20 verwendet werden. 
 Abb.: 1Wire-Anbindung von externen Temperatur-Sensoren (direkt versorgt)
 
 +----------------------------+---------------------+
-|Einstellung                 |OBP40                |
+|Einstellung                 |OBP60                |
 +============================+=====================+
 |:ref:`Config - OBP Hardware`|                     |
 +----------------------------+---------------------+
