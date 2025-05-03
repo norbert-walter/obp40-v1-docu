@@ -6,7 +6,7 @@ Dieser Abschnitt hat die Erstinbetriebnahme Ihres OBP40 zum Inhalt. Dazu wird da
 Stromversorgung USB-C
 ---------------------
 
-Das OBP40 wird über USB-C mit Strom versorgt. Der USB-Anschluss muss aber ausreichend Spannung von 5V und Strom bis 150 mA liefern können. 
+Das OBP40 wird über USB-C mit Strom versorgt. Der USB-Anschluss muss aber ausreichend Spannung von 5 V und Strom bis 1 A liefern können. 
 
 .. note::
 	Viele USB-Computeranschlüsse verfügen nicht über einen ausreichend hohen Ausgangsstrom und teilen sich den Strom mit mehreren Anschlüssen. Das kann dazu führen, dass das OBP40 nicht direkt von einem PC aus mit Strom versorgt werden kann. Auch die Kabelqualität und Kabellänge ist entscheidend. Einige Kabel haben zu geringe Querschnitte und erzeugen einen hohen Spannungsabfall auf den Leitungen. Die Spannung ist dann am USB-C-Ausgang zu gering. Benutzen Sie in solchen Fällen passige Netzteile wie sie zum Laden von Handys oder Tablets benutzt werden. 
