@@ -169,7 +169,7 @@ An dieser Stelle wird ein Beispiel gezeigt, wie Daten von einem NMEA0183-Multipl
 	
 .. image:: ../pics/NMEA0183_Sample_Setup_Multiplexer_2.png
              :scale: 40%
-Abb.: NMEA0183-Verbindung zu einem Multiplexer (empfangen)
+Abb.: NMEA0183-Verbindung eines OBP60 zu einem Multiplexer (empfangen)
 
 +---------------------------+---------------------+
 |Einstellung                |OBP60                |
@@ -187,7 +187,7 @@ Zum Senden von NMEA0183-Daten hier ein Beispiel für einen Autopiloten. Dabei we
 
 .. image:: ../pics/NMEA0183_Sample_Setup_Autopilot.png
              :scale: 40%
-Abb.: NMEA0183-Verbindung zu einem Autopiloten (senden)
+Abb.: NMEA0183-Verbindung eines OBP60 zu einem Autopiloten (senden)
 
 +---------------------------+---------------------+
 |Einstellung                |OBP60                |
@@ -212,8 +212,10 @@ An den Autopiloten werden nur die NMEA0183-Telegramme **XTE**, **XDR**, **RMB**,
 
 NMEA0183 - USB
 --------------
+.. image:: ../pics/OBP40_Explode_View_2_t.png
+   :scale: 50%
 
-NMEA0183-Telegramme lassen sich auch über USB vollduplex übertragen. Das bedeutet, dass Daten gleichzeitig gesendet und empfangen werden können. Den USB-Port für die Datenübertragung findet man auf der Rückseite des OBP40 unterhalb des Steckverbinders **CN2**. Er ist als USB-C ausgeführt. Die USB-Schnittstelle im OBP40 ist als serielles RS232 Device implementiert und unterstützt die Übertragungsgeschwindigkeiten 1.200...460.800 Bd. Die Defaulteinstellung für die Datenübertragung ist auf 115.200 Bd eingestellt und sollte für die meisten Anwendungen ausreichend schnell sein. Die Daten werden ausschließlich als NMEA0183-Daten über USB übertragen.
+NMEA0183-Telegramme lassen sich auch über USB vollduplex übertragen. Das bedeutet, dass Daten gleichzeitig gesendet und empfangen werden können. Den USB-Port für die Datenübertragung findet man auf der linken Seite des OBP40. Er ist als USB-C ausgeführt. Die USB-Schnittstelle im OBP40 ist als serielles RS232 Device implementiert und unterstützt die Übertragungsgeschwindigkeiten 1.200...460.800 Bd. Die Defaulteinstellung für die Datenübertragung ist auf 115.200 Bd eingestellt und sollte für die meisten Anwendungen ausreichend schnell sein. Die Daten werden ausschließlich als NMEA0183-Daten über USB übertragen.
 
 Als mögliche Endpunkte könnte folgende Hardware verwendet werden:
 
@@ -301,7 +303,7 @@ Unter AvNav kicken Sie auf der Startseite oben rechts das Symbol mit den 3 Stric
 
 Sie gelangen dann auf die Seite zum Serverstatus. 
 
-.. image:: ../pics/AvNav_Server_Status_USBSerialReader_1.png
+.. image:: ../pics/AVnav_Server_Status_USBSerialReader_1.png
              :scale: 50%	
 Abb.: Server-Status ohne OBP40
 
@@ -325,7 +327,7 @@ Abb.: Einstellungen für das OBP40
 
 Durch die Änderung des Typs von ``read`` auf ``combined`` ist eine bidirektionale Kommunikation über USB mit einer Übertragungsgeschwindigkeit von 115200 Bd möglich. Das OBP40 ist nun mit AvNav verbunden. Solange Sie die selben USB-Ports verwenden, werden nach jedem Neustart des Systems die USB-Geräte korrekt zugeordnet und die Übertragungsgeschwindigkeit richtig eingestellt.
 
-.. image:: ../pics/AvNav_Server_Status_USBSerialReader_3.png
+.. image:: ../pics/AVnav_Server_Status_USBSerialReader_3.png
              :scale: 50%	
 Abb.: Server-Status mit OBP40 (korrekt konfiguriert)
     
@@ -333,9 +335,9 @@ Abb.: Server-Status mit OBP40 (korrekt konfiguriert)
 Beispiel AvNav auf Android-Autoradio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: ../pics/OBP40_USB_Connection_Radio_AVnav.png
+.. image:: ../pics/OBP60_USB_Connection_Radio_AVnav.png
              :scale: 60%	
-Abb.: Verbindung OBP40 - Android Autoradio AvNav
+Abb.: Verbindung OBP60 - Android Autoradio AvNav
 
 In diesem Beispiel wird gezeigt, wie man Busdaten in ein Android-Radio einspeisen kann, um die Daten dort in AvNav nutzen zu können. Für die Datenübertragung zum Android-Autoradio benötigen Sie ein **USB-C zu USB-A Kabel**, sofern eine passende Adapterbuchse zur Verfügung steht. In einigen Situation müssen Sie die USB-Kabel direkt über spezielle Stecker am Autoradio anschließen. Konsultieren Sie dazu das Handbuch zum Android-Autoradio und stellen Sie die USB-Verbindung wie gefordert her.
 
@@ -412,9 +414,9 @@ OpenPlotter stellt alle verfügbaren Daten über SignalK zur Verfügung. Von dor
 Beispiel Navionics auf Android-Autoradio
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: ../pics/OBP40_USB_Connection_Radio_Navionics.png
+.. image:: ../pics/OBP60_USB_Connection_Radio_Navionics.png
              :scale: 60%	
-Abb.: Verbindung OBP40 - Android Autoradio Navionics
+Abb.: Verbindung OBP60 - Android Autoradio Navionics
 
 In dem Beispiel wird gezeigt, wie man Busdaten in ein Android-Radio einspeisen kann, um die Daten in Navionics nutzen zu können. Für die Datenübertragung zum Android-Autoradio benötigen Sie ein **USB-C zu USB-A Kabel**, sofern eine passende Adapterbuchse zur Verfügung steht. In einigen Situation müssen Sie die USB-Kabel direkt über spezielle Stecker am Autoradio anschließen. Konsultieren Sie dazu das Handbuch zum Android-Autoradio und stellen Sie die USB-Verbindung wie gefordert her.
 
