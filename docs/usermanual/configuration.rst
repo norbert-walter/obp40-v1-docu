@@ -4,12 +4,12 @@ Konfiguration
 Um das OBP40 konfigurieren zu können, muss das Gerät in Betrieb sein. Schalten Sie dazu die Stromversorgung ein, die Firmware des OBP40 startet nun. Nach Abschluss der Initialisierungsphase ertönt ein Piepton. Im Display wird zuerst das Open Boat Projects-Logo angezeigt, gefolgt von einem QR-Code, der die Zugangsdaten zum Access Point des OBP40 anzeigt. Beide Bilder sind für einige Sekunden sichtbar. Sie können mit Ihrer Handy-Kamera den QR-Code scannen und sich mit diesen Daten in das WiFi-Netz des OBP40 einloggen.
 
 .. image:: ../pics/OBP40_OBP_Logo_tr.png
-             :scale: 30%
+             :scale: 55%
              
 Abb.: Startbildschirm mit OBP-Logo
              
 .. image:: ../pics/OBP40_QR_Code_tr.png
-             :scale: 30%
+             :scale: 55%
              
 Abb.: QR-Code für WiFi-Zugang
 
@@ -426,7 +426,7 @@ Das OBP40 kann neben dem WiFi Access Point auch als WiFi-Client betrieben werden
 Config - OBP Settings
 ---------------------
 
-.. image:: ../pics/Config_OBP40_Settings.png
+.. image:: ../pics/Config_OBP60_Settings.png
              :scale: 60%
              
 Auf der Seite **OBP40 Settings** können Sie Einstellungen vornehmen, die sich auf Ihr Boot beziehen, in dem das OBP40 eingebaut ist.  Die eingetragenen Werte werden dazu benutzt, um zum Beispiel eine ungefähre Reichweitenbestimmung für Wasser, Kraftstoff und Batterie vornehmen zu können. Geben Sie bitte die Werte für Ihr Boot möglichst genau ein, und beachten Sie die entsprechenden Einheiten. Die Einstellungen dienen dazu, verschiedene Betriebszustände auf dem OPB60 in Grafiken darzustellen.
@@ -442,7 +442,7 @@ Die meisten Einstellungen sollten selbsterklärend sein. Sofern Sie keine Solarp
 Config - OBP Units
 ------------------
 
-.. image:: ../pics/Config_OBP40_Units.png
+.. image:: ../pics/Config_OBP60_Units.png
              :scale: 60%
              
 Die Einstellung der Einheiten wird unter **OBP Units** vorgenommen. Für die jeweiligen physikalischen Größen lassen sich verschiedene Einheiten verwenden. 
@@ -458,7 +458,7 @@ Die Einstellung der Einheiten wird unter **OBP Units** vorgenommen. Für die jew
 Config - OBP Hardware
 ---------------------
 
-.. image:: ../pics/Config_OBP40_Hardware.png
+.. image:: ../pics/Config_OBP60_Hardware.png
              :scale: 60%
 
 Unter **Hardware** werden alle Einstellungen bezüglich verbauter Hardware oder externer Zusatz-Hardware des OPB60 vorgenommen. Die Default-Einstellungen entsprechen den Minimal-Einstellungen für ein OBP40-Gerät. Je nach verbauter Hardware können unterschiedliche Sensoren und Funktionen zum Einsatz kommen.
@@ -571,74 +571,26 @@ Unter **Hardware** werden alle Einstellungen bezüglich verbauter Hardware oder 
     * ``DS18B20`` - Temperatursensor -10...+85°C (1...8 Sensoren)
     
 **Power Mode**
-    * Der **Power Mode** bezieht sich auf die Art der Stromversorgung, die für das OBP40 verwendet wird.
-    * ``Max Power`` - Alle Stromversorgungen sind eingeschaltet. Hierbei ist das Gerät am leistungsfähigsten und es kann der höchste Stromverbrauch entstehen.
-    * ``Only 5.0V`` - Es ist nur die zusätzliche Stromversorgung für 5.0 V eingeschaltet.
-    * ``Min Power`` - Es sind nur die Stromversorgungen eingeschaltet, die die Minimal-Funktionen bereitstellen. Hierbei entsteht der geringste Stromverbrauch. Die Bussysteme, das GPS, die externe 5V-Stromversorgung, die Hintergrundbeleuchtung und der Buzzer sind ausgeschaltet. Das Display, die Tasten, die RTC und der Umweltsensor BMP280 sind eingeschaltet.
-
-+----------------------+--------------+--------------+
-|Baugruppe             |Max Power [W] |Min Power [W] |
-+======================+==============+==============+
-|CPU ESP32-S3          |on            |on            |
-+----------------------+--------------+--------------+
-|e-Paper Display       |on            |on            |
-+----------------------+--------------+--------------+
-|Touch-Tasten          |on            |on            |
-+----------------------+--------------+--------------+
-|Echtzeituhr RTC       |on            |on            |
-+----------------------+--------------+--------------+
-|Sensor BMP280         |on            |on            |
-+----------------------+--------------+--------------+
-|1Wire                 |on            |on            |
-+----------------------+--------------+--------------+
-|Flash-LED             |on            |off           |
-+----------------------+--------------+--------------+
-|Hintergrundbeleuchtung|on            |off           |
-+----------------------+--------------+--------------+
-|Buzzer                |on            |off           |
-+----------------------+--------------+--------------+
-|GPS                   |on            |off           |
-+----------------------+--------------+--------------+
-|Bussysteme N2k, 0183  |on            |off           |
-+----------------------+--------------+--------------+ 
-|Externe 5V-Versorgung |on            |off           |
-+----------------------+--------------+--------------+
-Tab.: Aktive Baugruppen OBP40 V2.1
+    Diese Einstellungen haben keine Relevanz für das OBP40.
     
-+----------------------+--------------+--------------+
-|Komponenten           |Max Power [W] |Min Power [W] |
-+======================+==============+==============+
-|CPU 240 MHz, WiFi, AP |1.78          |1.30          |
-+----------------------+--------------+--------------+
-|CPU 160 MHz, WiFi, AP |1.68          |1.20          |
-+----------------------+--------------+--------------+
-|CPU 80 MHz, WiFi, AP  |1.58          |1.13          |
-+----------------------+--------------+--------------+
-|CPU 240 MHz, WiFi     |1.16          |0.70          |
-+----------------------+--------------+--------------+
-|CPU 160 MHz, WiFi     |1.07          |0.60          |
-+----------------------+--------------+--------------+
-|CPU 80 MHz, WiFi      |0.96          |0.53          |
-+----------------------+--------------+--------------+ 
-|Externe 5V-Versorgung |0.83          |0.00          |
-+----------------------+--------------+--------------+
-Tab.: Stromverbrauch OBP40 V2.1 (AP - Access Point)
-
-Je nach zugeschalteter Farbe und Leistung der Hintergrundbeleuchtung entsteht ein zusätzlicher Stromverbrauch.
-
-+----------------------+--------------+--------------+
-|RGB-LED-Beleuchtung   |LED 100% [W]  |LED 50% [W]   |
-+======================+==============+==============+
-|LED rot               |0.24          |0.11          |
-+----------------------+--------------+--------------+
-|LED grün              |0.24          |0.11          |
-+----------------------+--------------+--------------+
-|LED blau              |0.24          |0.11          |
-+----------------------+--------------+--------------+
-|LED weiss             |0.61          |0.32          |
-+----------------------+--------------+--------------+
-Tab.: Stromverbrauch der LED-Hintergrundbeleuchtung
-
++----------------------+--------------+
+|Komponenten           |Power [W]     |
++======================+==============+
+|CPU 240 MHz, WiFi, AP |1.78          |
++----------------------+--------------+
+|CPU 160 MHz, WiFi, AP |1.68          |
++----------------------+--------------+
+|CPU 80 MHz, WiFi, AP  |1.58          |
++----------------------+--------------+
+|CPU 240 MHz, WiFi     |1.16          |
++----------------------+--------------+
+|CPU 160 MHz, WiFi     |1.07          |
++----------------------+--------------+
+|CPU 80 MHz, WiFi      |0.96          |
++----------------------+--------------+
+|Deep Sleep            |0.01          |
++----------------------+--------------+
+Tab.: Stromverbrauch OBP40 V1 (AP - Access Point)
     
 **Undervoltage**
     * Erkennung einer Unterspannung der Stromversorgung. Wenn eine Unterspannung niedriger als 9 V erkannt wird, kann das OBP40 automatisch deaktiviert werden, um eine Tiefentladung der Bordbatterie vermeiden zu helfen. In kritischen Situationen kann das OBP40 trotz Unterspannung bis 7 V funktionsfähig bleiben, wenn der Unterspannungsschutz deaktiviert ist. Als Default-Wert ist der Unterspannungsschutz aktiviert. Wenn im aktivierten Zustand eine Unterspannung auftritt, wird das OBP40 deaktiviert und in den Tiefschlaf versetzt. Im Display erscheint die Meldung **Undervoltage**. Dieser Zustand kann nur verändert werden, wenn die Versorgungsspannung vollständig ausgeschaltet und wieder eingeschaltet wird.
@@ -659,7 +611,7 @@ Tab.: Stromverbrauch der LED-Hintergrundbeleuchtung
 Config - OBP Calibrations
 -------------------------
 
-.. image:: ../pics/Config_OBP40_Calibrations.png
+.. image:: ../pics/Config_OBP60_Calibrations.png
              :scale: 60%
 
 Auf der Seite **Calibrations** können Einstellungen zur Kalibrierung vorgenommen werden. Damit lassen sich Ungenauigkeiten von bestimmten Messwerten korrigieren. Die Korrektur kann je nach Sensor mit einer linearen oder quadratischen Korrektur durchgeführt werden.  
@@ -676,7 +628,7 @@ Auf der Seite **Calibrations** können Einstellungen zur Kalibrierung vorgenomme
 Config - OBP Display
 --------------------
 
-.. image:: ../pics/Config_OBP40_Display.png
+.. image:: ../pics/Config_OBP60_Display.png
              :scale: 60%
 
 Der Bereich **Display** enthält alle Einstellungen, die das Display betreffen.
@@ -730,57 +682,21 @@ Als Hilfestellung wie man die Einstellungen zum Display vornehmen kann, dient di
     * ``off`` - Anzeigewerte werden nicht gehalten. Bei unterbrochener Datenverbindung länger als 5 s werden fehlende Daten mit ``---`` gekennzeichnet.
     
 **Backlight Mode**
-    * ``Off`` - Die Hintergrundbeleuchtung ist dauerhaft ausgeschaltet.
-    * ``Control by Sun`` - Automatisches Schalten der Beleuchtung durch den Sonnenstand
-    * ``Control by Bus`` - Automatisches Schalten der Beleuchtung über den Bus durch NMEA2000
-    * ``Control by Time`` - Schalten der Beleuchtung durch ein vorgegebenes Zeitintervall
-    * ``Control by Key`` - Manuelles Schalten der Beleuchtung durch eine Sensortaste
-    * ``On`` - Die Hintergrundbeleuchtung ist dauerhaft eingeschaltet.
+    Diese Einstellungen haben keine Relevanz für das OBP40, da keine Hintergrundbeleuchtung vorhanden ist.
     
 **Backlight Color**
-    * Die Farbe der Hintergrundbeleuchtung kann durch 6 RGB-LEDs individuell eingestellt werden.
-    * ``Red`` - rot
-    * ``Orange`` - orange
-    * ``Yellow`` - gelb
-    * ``Green`` - grün
-    * ``Blue`` - blau
-    * ``Aqua`` - wasser
-    * ``Violet``- violett
-    * ``White`` - weiß (höchster Stromverbrauch)
+    Diese Einstellungen haben keine Relevanz für das OBP40, da keine Hintergrundbeleuchtung vorhanden ist.
     
 **Brightness**
-    Über **Brightness** kann die Helligkeit der Hintergrundbeleuchtung der RGB-LEDs zwischen 20... 100% eingestellt werden. Der Default-Wert liegt bei 50%. Damit wird sehr wenig Strom für die Hintergrundbeleuchtung benötigt. Die Helligkeit ist damit für den Nachtbetrieb so eingestellt, dass die Beleuchtung nicht blenden kann.
-    
-.. hint::
-    Für längere Nachtfahrten ist eine rote Hintergrundbeleuchtung empfehlenswert, die moderat in der Helligkeit auf z.B. 50% eingestellt ist. Bei rotem Licht muss sich das Auge nicht ständig an wechselnde Lichtverhältnisse anpassen. So können Sie nachts das Display ohne Sichteinschränkungen ablesen. 
-    
-.. note::
-   Je höher die Helligkeit der Hintergrundbeleuchtung eingestellt wird, um so mehr Strom wird verbraucht. Bei weißer Hintergrundbeleuchtung tritt der größte Stromverbrauch auf, da alle 3 Farben der RGB-LED zur Erzeugung von weißem Licht benutzt werden. Bei reinen Grundfarben wie rot, grün und blau wird am wenigsten Strom verbraucht. Bei Mischfarben weden die RGB-LEDs unterschiedlich stark angesteuert und der Stromverbrauch ist höher als bei den Grundfarben. Nachfolgend zwei Beispiele:
-        * 100%, weiß - 2 W
-        * 50%, rot - 0.2W
+    Diese Einstellungen haben keine Relevanz für das OBP40, da keine Hintergrundbeleuchtung vorhanden ist.
         
 **Flash LED Mode**
-
-.. image:: ../pics/Flash_LED.png
-             :scale: 45%
-             
-Die Flash-LED befindet sich in der linken oberen Ecke über dem E-Paper-Display und zeigt verschiedene Zustände des OBP40 an. Die LED kann dabei verschiedene Farben annehmen, die je nach Verwendung unterschiedliche Bedeutung haben.
-
-    * ``Off`` - Die Flash-LED ist dauerhaft ausgeschaltet.
-    * ``Bus Data`` - Bei eintreffenden Busdaten leuchtet die LED kurz blau auf.
-    * ``GPS Fix Lost`` - Bei dauerhaft roter Flash-LED wurde der GPS-Fix verloren. Die GPS-Daten sind ungültig.
-    * ``Limit Violation`` - Bei blinkend roter Flash-LED ist ein Grenzwert über- oder unterschritten worden.
-    
-Die Flash-LED leuchtet mit maximaler Helligkeit, sodass sie optisch auch bei hellen Sonnenlicht gut wahrgenommen werden kann. Die Bedeutung der Farben ist folgende:
-
-    * Rot - Alarmierung bei Grenzwertüberschreitung
-    * Grün - Bestätigung von Zustandsänderungen (z.B. Autopilot ein/aus)
-    * Blau - Signalisierung von Zuständen (z.B. GPS-Empfang, Datentransfer usw.)    
+	Diese Einstellungen haben keine Relevanz für das OBP40, da keine Hintergrundbeleuchtung vorhanden ist. 
 
 Config - OBP Buzzer
 -------------------
 
-.. image:: ../pics/Config_OBP40_Buzzer.png
+.. image:: ../pics/Config_OBP60_Buzzer.png
              :scale: 60%
              
 In diesem Bereich lassen sich die Funktionen des Buzzer einstellen. Der Buzzer dient zur akustischen Signalisierung von Systemzuständen und Störungen des OBP40. 
@@ -809,7 +725,7 @@ In diesem Bereich lassen sich die Funktionen des Buzzer einstellen. Der Buzzer d
 Config - OBP Pages
 ------------------
 
-.. image:: ../pics/Config_OBP40_Pages.png
+.. image:: ../pics/Config_OBP60_Pages.png
              :scale: 60%
              
 Die Konfiguration der möglichen Anzeigeseiten des OPB60 erfolgt auf der Seite **Pages**. Hier wird festgelegt, wie viele Anzeigeseiten das OPB60 darstellen soll. Außerdem lässt sich festlegen, welche Anzeigeseite beim Einschalten gezeigt werden soll.
@@ -828,7 +744,7 @@ Die Konfiguration der möglichen Anzeigeseiten des OPB60 erfolgt auf der Seite *
     * Ein Screenshot kann erstellt werden, indem folgende Webseite aufgerufen wird:
     * `http://192.168.15.1/api/user/OBP40Task/screenshot`_
 
-.. _http://192.168.15.1/api/user/OBP40Task/screenshot: http://192.168.15.1/api/user/OBP40Task/screenshot
+.. _http://192.168.15.1/api/user/OBP60Task/screenshot: http://192.168.15.1/api/user/OBP60Task/screenshot
     
 
 Config - OBP Page X
@@ -867,7 +783,7 @@ Im OBP40 gibt es insgesamt bis zu 10 Seiten, die man frei auswählen und gestalt
     
 Bei Seiten mit veränderlichem Inhalt stehen je nach Anzahl der Anzeigewerte unterschiedlich viele Eingabefelder zur Verfügung. Darüber können die anzuzeigenden Daten ausgewählt werden.
 
-.. image:: /pics/Config_OBP40_Page_4Value.png
+.. image:: /pics/Config_OBP60_Page_4Value.png
              :scale: 60%
 
 Abb.: Seite mit 4 Anzeigewerten
@@ -914,7 +830,7 @@ Abb.: Seite mit 4 Anzeigewerten
 OneValue
 ^^^^^^^^
 
-.. image:: /pics/OBP40_OneValue_tr.png
+.. image:: /pics/OBP60_OneValue_tr.png
              :scale: 30%
 Abb.: Anzeige OneValue
 
@@ -923,7 +839,7 @@ Bei der OneValue-Anzeige kann ein beliebiger Messwert aus dem Datenpool angezeig
 TwoValue
 ^^^^^^^^
 
-.. image:: /pics/OBP40_TwoValue_tr.png
+.. image:: /pics/OBP60_TwoValue_tr.png
              :scale: 30%
 Abb.: Anzeige TwoValue
 
@@ -932,7 +848,7 @@ Bei der TwoValue-Anzeige können zwei beliebige Messwerte aus dem Datenpool vert
 ThreeValue
 ^^^^^^^^^^
 
-.. image:: /pics/OBP40_ThreeValue.png
+.. image:: /pics/OBP60_ThreeValue.png
              :scale: 30%
 Abb.: Anzeige ThreeValue
 
@@ -941,7 +857,7 @@ Bei der ThreeValue-Anzeige können drei beliebige Messwerte aus dem Datenpool ve
 FourValue
 ^^^^^^^^^
 
-.. image:: /pics/OBP40_FourValue_tr.png
+.. image:: /pics/OBP60_FourValue_tr.png
              :scale: 30%
 Abb.: Anzeige FourValue
 
@@ -950,7 +866,7 @@ Bei der ThreeValue-Anzeige können vier beliebige Messwerte aus dem Datenpool ve
 FourValue2
 ^^^^^^^^^^
 
-.. image:: /pics/OBP40_FourValue2_tr.png
+.. image:: /pics/OBP60_FourValue2_tr.png
              :scale: 30%
 Abb.: Anzeige FourValue
 
@@ -959,7 +875,7 @@ Bei der FourValue-Anzeige können vier beliebige Messwerte aus dem Datenpool ver
 Voltage
 ^^^^^^^
 
-.. image:: /pics/OBP40_Voltage.png
+.. image:: /pics/OBP60_Voltage.png
              :scale: 30%
 Abb.: Anzeige Voltage
 
@@ -978,7 +894,7 @@ Die Anzeigeseite benötigt folgende Messwerte: **xdrVBat**
 WindRose
 ^^^^^^^
 
-.. image:: /pics/OBP40_WindRose.png
+.. image:: /pics/OBP60_WindRose.png
              :scale: 30%
 Abb.: Anzeige Windrose
 
@@ -991,7 +907,7 @@ Die Anzeigeseite benötigt folgende Messwerte: **AWA, AWS, TWD, TWS, DBT, STW**
 WindRoseFlex
 ^^^^^^^^^^^^
 
-.. image:: /pics/OBP40_WindRose.png
+.. image:: /pics/OBP60_WindRose.png
              :scale: 30%
 Abb.: Anzeige WindroseFlex
 
@@ -1000,7 +916,7 @@ Bei dieser Variante der Anzeige WindRose können die darzustellenden Werte frei 
 DST810
 ^^^^^^
 
-.. image:: /pics/OBP40_FourValue2_tr.png
+.. image:: /pics/OBP60_FourValue2_tr.png
              :scale: 30%
 Abb.: Anzeige FourValue
 
@@ -1011,7 +927,7 @@ Die Anzeigeseite benötigt folgende Messwerte: **DBT, STW, Log, WTemp**
 Clock
 ^^^^^
 
-.. image:: /pics/OBP40_Clock_tr.png
+.. image:: /pics/OBP60_Clock_tr.png
              :scale: 30%
 Abb.: Anzeige Clock
 
@@ -1027,7 +943,7 @@ Die Anzeigeseite benötigt folgende Messwerte: **GPST, GPSD**
 WhitePage
 ^^^^^^^^^
 
-.. image:: /pics/OBP40_Blank_tr.png
+.. image:: /pics/OBP60_Blank_tr.png
              :scale: 30%
 Abb.: Anzeige WhitePage
 
@@ -1036,7 +952,7 @@ Bei WhitePage handelt es sich um eine Anzeigeseite, die nur eine weiße leere Se
 BME280
 ^^^^^^
 
-.. image:: /pics/OBP40_ThreeValue.png
+.. image:: /pics/OBP60_ThreeValue.png
              :scale: 30%
 Abb.: Anzeige BME280
 
@@ -1060,7 +976,7 @@ Die Messwerte vom externen Sensor müssen als XDR-Telegramme angelegt werden (si
 Rudder
 ^^^^^^
 
-.. image:: /pics/OBP40_Rudder_tr.png
+.. image:: /pics/OBP60_Rudder_tr.png
              :scale: 30%
 Abb.: Anzeige Rudder
 
@@ -1074,7 +990,7 @@ Die Anzeigeseite benötigt folgende Messwerte: **RPOS**
 Keel
 ^^^^
 
-.. image:: /pics/OBP40_Keel_tr.png
+.. image:: /pics/OBP60_Keel_tr.png
              :scale: 30%
 Abb.: Anzeige Keel
 
@@ -1094,7 +1010,7 @@ Beachten Sie auch die Hinweise im Kapitel **Datenaustausch - I2C-Bus** und **Bus
 Battery
 ^^^^^^^
 
-.. image:: /pics/OBP40_ThreeValue.png
+.. image:: /pics/OBP60_ThreeValue.png
              :scale: 30%
 Abb.: Anzeige Battery
 
@@ -1131,7 +1047,7 @@ Zu weitergehenden Informationen können Sie das Informationsmaterial **Leitungen
 Battery2
 ^^^^^^^^
 
-.. image:: /pics/OBP40_Battery2_tr.png
+.. image:: /pics/OBP60_Battery2_tr.png
              :scale: 30%
 Abb.: Anzeige Battery2
 
@@ -1181,7 +1097,7 @@ Abb.: Schaltung INA226 Batteriemonitoring
 RollPitch
 ^^^^^^^^^
 
-.. image:: /pics/OBP40_RollPitch_tr.png
+.. image:: /pics/OBP60_RollPitch_tr.png
              :scale: 30%
 Abb.: Anzeige RollPitch
 
@@ -1193,7 +1109,7 @@ Bei der RollPitch-Anzeige werden die aktuellen Werte für Roll und Pitch angezei
 Solar
 ^^^^^
 
-.. image:: /pics/OBP40_Solar_tr.png
+.. image:: /pics/OBP60_Solar_tr.png
              :scale: 30%
 Abb.: Anzeige Solar
 
@@ -1235,7 +1151,7 @@ Abb.: Schaltung INA226 Solarmonitoring
 Generator
 ^^^^^^^^^
 
-.. image:: /pics/OBP40_Generator_tr.png
+.. image:: /pics/OBP60_Generator_tr.png
              :scale: 30%
 Abb.: Anzeige Generator
 
