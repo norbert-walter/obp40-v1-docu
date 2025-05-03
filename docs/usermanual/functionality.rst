@@ -32,6 +32,14 @@ Als Anzeige wird ein E-Paper Display verwendet. Es besitzt einen hohen Kontrast 
 
 Die Auswahl der Anzeigeseiten erfolgt über ein Jogdail-Auswahlrad mit Druckpunkt und zwei zusätzliche Tasten an der rechten Seite. Je nach Anzeigeseite können einige Einstellungen auch über die Tasten vorgenommen werden. Die Einstellungen gelten dann ausschließlich für die Anzeigeseite und werden gespeichert, sodass die Einstellungen beim Seitenwechsel erhalten bleiben.
 
+USB-Ports
+---------
+
+Das OBP40 verfügt auf der linken Seite über einen USB-Port, der parallel über Kontakte auf der Rückseite auf die Docking-Station übertragen wird. Die Docking-Station verfügt über ein eigenes USB-Kabel, das mit anderen Geräten verbunden werden kann. Solange sich das OBP40 in der Docking-Station befindet, erfolgt die USB-Verbindung über das USB-Kabel der Docking-Station.
+
+.. hint::
+	Es darf nur eine USB-Verbindung zum OBP40 bestehen. Verwenden Sie entweder die linke USB-Buchse am OBP40 **oder** das USB-Kabel der Docking-Station. Beide USB-Verbindungen dürfen nicht gleichzeitig benutzt werden.
+
 Erweiterungsport
 ----------------
 

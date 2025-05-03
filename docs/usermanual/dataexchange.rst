@@ -212,7 +212,7 @@ An den Autopiloten werden nur die NMEA0183-Telegramme **XTE**, **XDR**, **RMB**,
 
 NMEA0183 - USB
 --------------
-.. image:: ../pics/OBP40_Explode_View_2_t.png
+.. image:: ../pics/OBP40_Side_View_2_t.png
    :scale: 50%
 
 NMEA0183-Telegramme lassen sich auch über USB vollduplex übertragen. Das bedeutet, dass Daten gleichzeitig gesendet und empfangen werden können. Den USB-Port für die Datenübertragung findet man auf der linken Seite des OBP40. Er ist als USB-C ausgeführt. Die USB-Schnittstelle im OBP40 ist als serielles RS232 Device implementiert und unterstützt die Übertragungsgeschwindigkeiten 1.200...460.800 Bd. Die Defaulteinstellung für die Datenübertragung ist auf 115.200 Bd eingestellt und sollte für die meisten Anwendungen ausreichend schnell sein. Die Daten werden ausschließlich als NMEA0183-Daten über USB übertragen.
