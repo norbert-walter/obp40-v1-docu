@@ -15,7 +15,7 @@ Für den Flash-Vorgang benötigt man folgende Dinge:
 	* PC mit Chrome- oder Edge-Browser
 
 **1. OBP40 in den Flash-Modus setzen**
-	Als erstes stecken Sie das USB-Kabel in den PC ohne es mit dem OBP40 zu verbinden. Auf der Platine befindet sich oben rechts ein Taster mit der Bezeichnung ``BOOT``. Drücken Sie die Taste ``BOOT``. Halten Sie die Taste gedrückt und stecken dann den USB-Stecker an die Platine. Danach können Sie die Taste ``BOOT`` loslassen.
+	Als erstes stecken Sie das USB-Kabel in den PC, ohne es mit dem OBP40 zu verbinden. Danach öffnen Sie die Rückseite des OBP40. Auf der Platine befindet sich oben rechts ein Taster mit der Bezeichnung ``BOOT``. Drücken Sie die Taste ``BOOT``. Halten Sie die Taste gedrückt und stecken dann den USB-Stecker an die Platine. Danach können Sie die Taste ``BOOT`` loslassen.
 	
 	.. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
    :scale: 50%   
@@ -60,6 +60,6 @@ Für den Flash-Vorgang benötigt man folgende Dinge:
 **4. OBP40 starten**
 	Entfernen Sie das USB-Verbindungskabel zurzzeitig vonder Platine und stecken es wieder an. Nach kurzer Zeit sollte eine Anzeigeseite zu sehen sein. Je nach Einstellung wird vorher noch das OBP-Logo und der QR-Code für den WiFi-Zugang angezeigt.
 	
-	.. image:: ../pics/OBP40_FourValue2_tr.png
-	   :scale: 30%
+	.. image:: ../pics/OBP40_Screen_2_t.png
+             :scale: 55%
 	Abb.: Anzeigeseite
