@@ -1,30 +1,26 @@
 Web-Flashtool
 =============
 
-Mit dem Web-Flashtool kann die Firmware für das OBP40 mit einem Webbrowser über eine USB-Verbindung in das Gerät übertragen werden. Dazu wird das OBP40 über die USB-C-Buchse mit einem PC oder Laptop verbunden und der **Chrome-** oder **Edge-Webbrowser** gestartet. Im OBP40 ist ein USB-Seriell-Konverter integriert, über den die Datenübertragung durchgeführt wird. Mit dem USB-C-Kabel lässt sich nur die Firmware übertragen. Ein Betrieb des Gerätes über USB ist damit nicht möglich.
+Mit dem Web-Flashtool kann die Firmware für das OBP40 mit einem Webbrowser über eine USB-Verbindung in das Gerät übertragen werden. Dazu wird das OBP40 über die USB-C-Buchse mit einem PC oder Laptop verbunden und der **Chrome-** oder **Edge-Webbrowser** gestartet. Im OBP40 ist ein USB-Seriell-Konverter integriert, über den die Datenübertragung durchgeführt wird. Mit dem USB-C-Kabel lässt sich nur die Firmware übertragen.
 
 .. note::
 	Andere Webbrowser als **Chrome** oder **Edge** werden derzeit nicht unterstützt, da die Funktionalität für den Zugriff auf eine serielle Schnittstelle in anderen Webbrowsern nicht implementiert ist.
 	
 .. warning::
-	Beachten Sie, dass das Web-Flashtool nur für ein OBP40 V2.1 verwendet werden kann, das als Prozessor einen **ESP32-S3 N16R8** und als E-Paper-Display ein **GDEY042T81** verwenden. Sofern Sie andere Hardware benutzen, müssen Sie sich eine angepasste Firmwareversion für ihre Hardware kompilieren. Folgen Sie den Anweisungen im Kapitel :ref:`Kompilieren und Download`.  
+	Beachten Sie, dass das Web-Flashtool nur für ein OBP40 V1 verwendet werden kann, das als Prozessor einen **ESP32-S3 N8R8** und als E-Paper-Display ein **GDEY042T81** verwenden. Sofern Sie andere Hardware benutzen, müssen Sie sich eine angepasste Firmwareversion für ihre Hardware kompilieren. Folgen Sie den Anweisungen im Kapitel :ref:`Kompilieren und Download`.  
 	
 Für den Flash-Vorgang benötigt man folgende Dinge:
-	* OBP40 (ESP32-S3 N16R8, E-Paper GDEY042T81)
+	* OBP40 (ESP32-S3 N8R8, E-Paper GDEY042T81)
 	* USB-C zu USB-A Verbindungskabel < 1,5m
-	* Drahtbrücke 5 cm
 	* PC mit Chrome- oder Edge-Browser
 
 **1. OBP40 in den Flash-Modus setzen**
-	Öffnen Sie die hintere Gehäuseabdeckung und stellen Sie mit der Drahtbrücke eine Verbindung von ``GND`` (CN2) zum ``Pin 27`` (ESP32-S3) her. Dann verbinden Sie das OBP40 mit dem PC über das USB-Verbindungskabel. Sobald die USB-Schnittstelle erkannt wird, erfolgt eine Tonausgabe auf dem PC. Sie können dann die Drahtbrücke zwischen ``GND`` und ``Pin 27`` trennen. Der ESP32-S3 befindet sich jetzt im Flash-Modus.
+	Als erstes stecken Sie das USB-Kabel in den PC ohne es mit dem OBP40 zu verbinden. Auf der Platine befindet sich oben rechts ein Taster mit der Bezeichnung ``BOOT``. Drücken Sie die Taste ``BOOT``. Halten Sie die Taste gedrückt und stecken dann den USB-Stecker an die Platine. Danach können Sie die Taste ``BOOT`` loslassen.
 	
-	.. image:: ../pics/ESP32-S3_Pin27.png
-	   :scale: 40%
-	Abb.: Pin27 am OBP40
-	
-	.. image:: ../pics/Bridge_GND-Pin27.png
-	   :scale: 40%
-	Abb.: Brücke zwischen ``GND`` und ``Pin 27``
+	.. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
+   :scale: 50%   
+	Abb.: Platinen-Anschlussbelegung
+
 	
 	
 **2. Flashtool starten**
@@ -62,7 +58,7 @@ Für den Flash-Vorgang benötigt man folgende Dinge:
 	
 	
 **4. OBP40 starten**
-	Entfernen Sie das USB-Verbindungskabel und versorgen Sie das OBP40 über ``+12V`` und ``GND`` von **CN2** mit 12V. Beim Starten der Firmware erfolgt ein kurzer Piepton. Nach kurzer Zeit sollte eine Anzeigeseite zu sehen sein. Je nach Einstellung wird vorher noch das OBP-Logo und der QR-Code für den WiFi-Zugang angezeigt.
+	Entfernen Sie das USB-Verbindungskabel zurzzeitig vonder Platine und stecken es wieder an. Nach kurzer Zeit sollte eine Anzeigeseite zu sehen sein. Je nach Einstellung wird vorher noch das OBP-Logo und der QR-Code für den WiFi-Zugang angezeigt.
 	
 	.. image:: ../pics/OBP40_FourValue2_tr.png
 	   :scale: 30%
