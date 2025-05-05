@@ -1,6 +1,18 @@
 Funktionsweise
 ==============
 
+Bedienkonzept
+-------------
+.. image:: ../pics/OBP40_Two_Parts_USB_2_t.png
+   :scale: 50%
+
+Das OBP40 kann sowohl als eigenständiges mobiles Gerät als auch als stationäres Gerät in einer Docking-Station betrieben werden. Um es als mobiles Gerät verwenden zu können, muss ein optionaler LiPo-Akku in das OBP40 eingebaut werden. Der Akku lässt sich lokal am Gerät über die USB-Buchse an der linken Seite und über die Docking-Sation aufladen. Zum Aufladen in der Docking-Station befindet sich auf der Rückseite des OBP40 ein Magnet-Dock. Als mobiles Gerät kann das OBP40 bis zu 8,5 Stunden autark betrieben werden. Sollte die Batteriespannung unter eine kritische Mindestspannung fallen, geht das OBP40 automatisch in den Tiefschlaf, um Strom zu sparen und den Akku zu schonen. 
+
+WiFi-Verbindung
+---------------
+
+Die Datenübertragung im mobilen und stationären Betrieb erfolgt ausschließlich über eine WiFi-Verbindung im 2.4 GHz Funkbereich. Das OBP40 bezieht seine Daten über NMEA0183 als TCP-Datenstrom von anderen Geräten. Als Datenquellen können ein OBP60, ein M5Stack, SignalK, AvNav oder andere Quellen benutzt werden.
+
 Gateway
 -------
 
@@ -11,11 +23,6 @@ Im OBP40 ist ein Gateway integriert, das Daten zwischen NMEA0183 und NMEA2000 bi
 
 .. note::
    Dabei ist zu beachten, dass nicht alle NMEA2000-Daten in NMEA0183-Daten übersetzt werden können, weil dafür nicht immer geeignete Telegramme in NMEA0183 existieren.
-   
-WiFi-Verbindung
----------------
-
-Das OBP40 verfügt über eine WiFi-Funktionalität im 2.4 GHz Funkbereich. Darüber hinaus kann das Gerät mit dem Internet oder mit anderen WiFi-Netzwerken verbunden werden und so mit anderen Geräten kommunizieren. So lassen sich z.B. Daten aus den Bussystemen an einen Laptop, einen PC oder ein Handy übertragen oder von dort beziehen. Damit ist es möglich, die Sensordaten auch in Drittanbieter-Software wie SignalK, OpenPlotter, Navionics, NMEA-Remote oder WinGPS zu verwenden.
 
 Konfiguration
 -------------
@@ -35,9 +42,6 @@ Die Auswahl der Anzeigeseiten erfolgt über ein Jogdail-Auswahlrad mit Druckpunk
 USB-Ports
 ---------
 .. image:: ../pics/OBP40_Side_View_2_t.png
-   :scale: 50%
-   
-.. image:: ../pics/OBP40_Two_Parts_USB_2_t.png
    :scale: 50%
 
 Das OBP40 verfügt auf der linken Seite über einen USB-Port, der parallel über Kontakte auf der Rückseite auf die Docking-Station übertragen wird. Die Docking-Station verfügt über ein eigenes USB-Kabel, das mit anderen Geräten verbunden werden kann. Solange sich das OBP40 in der Docking-Station befindet, erfolgt die USB-Verbindung über das USB-Kabel der Docking-Station.
