@@ -57,7 +57,7 @@ Erweiterungsport
    
 Abb.: Platinen-Anschlussbelegung
 
-Die Platine verfügt über einen 20-poligen Erweiterungsport an der oberen Seite. Darüber lässt sich optional Zusatzhardware anschließen wie z.B.:
+Die Platine verfügt über einen 20-poligen GPIO-Erweiterungsport an der oberen Seite. Darüber lässt sich optional Zusatzhardware anschließen wie z.B.:
 
 * CAN-Bus (NMEA0183)
 * RS485-Bus (NMEA0183)
@@ -66,6 +66,8 @@ Die Platine verfügt über einen 20-poligen Erweiterungsport an der oberen Seite
 * Buzzer
 * GPS-Empfänger (RS232)
 * Analoger Eingang zur Spannungsmessung
+
+Um einen Datenaustausch über NMEA2000 oder NMEA0183 zu ermöglichen, werden optionale Zusatzmodule benötigt, die am Erweiterungsport angeschlossen werden müssen. Der I2C- und 1Wire-Bus können dagegen direkt benutzt werden. Details zur Belegung des GPIO-Erweiterungsports finden Sie im Kapitel :ref:`Technische Daten`.
 
 .. warning::
 	Der Anschluss von Zusatzhardware erfordert Kenntnisse in Elektronik, um die Zusatzhardware korrekt anschließen zu können. Die Signalpegel an der Anschlüssen dürfen 3.3 V nicht übersteigen und es ist darauf zu achten, ob die Anschlüsse als Eingang oder Ausgang verwendet werden. Die herausgeführten Anschlüsse sind ungeschützt. Der Prozessor kann bei falscher Benutzung der Anschlüsse irreparabel beschädigt werden.
