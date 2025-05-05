@@ -36,6 +36,9 @@ USB-Ports
 ---------
 .. image:: ../pics/OBP40_Side_View_2_t.png
    :scale: 50%
+   
+.. image:: ../pics/OBP40_Two_Parts_USB_2_t.png
+   :scale: 50%
 
 Das OBP40 verfügt auf der linken Seite über einen USB-Port, der parallel über Kontakte auf der Rückseite auf die Docking-Station übertragen wird. Die Docking-Station verfügt über ein eigenes USB-Kabel, das mit anderen Geräten verbunden werden kann. Solange sich das OBP40 in der Docking-Station befindet, erfolgt die USB-Verbindung über das USB-Kabel der Docking-Station.
 
