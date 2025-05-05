@@ -22,7 +22,9 @@ Das OBP40 verfügt über keine separaten Ein/Aus-Schalter. Das Gerät wird einfa
 Benutzung
 ---------
 
-Das OBP40 kann einzeln als auch mit der Ladeschale verwendet werden. Wenn das OBP40 in der Ladeschale liegt, wird der Lipo-Akku automatisch geladen, sofern ein Lipo-Akku verwendet wird. Der Ladezustand des Akkus kann angezeigt werden, wenn zusätzlich ein Spannungsteiler zur Messung der Akkuspannung eingebaut worden ist. Die Firmware unterstützt die Funktionalität des Akkus und der Ladestandsanzeige, wenn in der platformio.ini die entsprechenden Kompiler-Flags gesetzt sind und die Firmware neu kompiliert und in das OBP40 übertragen wurde.
+Das OBP40 kann einzeln als auch mit der Ladeschale verwendet werden. Wenn das OBP40 in der Ladeschale liegt, wird der Lipo-Akku automatisch geladen, sofern ein Lipo-Akku verwendet wird. Der Ladezustand des Akkus kann angezeigt werden, wenn zusätzlich ein Spannungsteiler zur Messung der Akkuspannung eingebaut worden ist. Die Firmware unterstützt die Funktionalität des Akkus und der Ladestandsanzeige, wenn in der `platformio.ini`_ die entsprechenden Kompiler-Flags gesetzt sind und die Firmware neu kompiliert und in das OBP40 übertragen wurde.
+
+.._platformio.ini: https://github.com/norbert-walter/esp32-nmea2000-obp60/blob/master/lib/obp60task/platformio.ini
 
 Die Ladetsandsanzeige erfolgt in 20% Schritten und wird in der Statuszeile über im Akkusymbol mit Füllstandsbalken angezeigt.   
 
