@@ -38,9 +38,9 @@ Spezifikation
 -------------
 
 +----------------------+-----------------------------+
-| Versorgungsspannung  | 5 V, 1 A, USB-C             |
+| Versorgungsspannung  | 5 V, 1 A, USB-C, Magnet Dock|
 +----------------------+-----------------------------+
-| Stromverbrauch       | 0.5 W                       |
+| Stromverbrauch       | 0.5...3.5 W, typisch 0,5 W  |
 +----------------------+-----------------------------+
 | Prozessor            | ESP32-S3, Dual Core         |
 +----------------------+-----------------------------+

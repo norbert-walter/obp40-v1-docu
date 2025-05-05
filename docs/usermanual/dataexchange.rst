@@ -111,11 +111,11 @@ Der Vorteil ist, dass sich SeaSmart-Telegramme genauso wie NMEA0183-Telegramme �
 
 .. _NMEA2000-Gateway: https://open-boat-projects.org/de/nmea2000-gateway-mit-m5stack-atom/
 
-.. image:: ../pics/SeaSmart1.png
+.. image:: ../pics/SeaSmart1_OBP40.png
              :scale: 60%	
 Abb.: Datenübertragung via WiFi OBP60 - OBP40
 
-.. image:: ../pics/SeaSmart2.png
+.. image:: ../pics/SeaSmart2_OBP40.png
              :scale: 60%	
 Abb.: Datenübertragung via WiFi M5Stack - OBP40
 
