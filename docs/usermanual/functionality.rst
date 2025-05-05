@@ -15,7 +15,7 @@ Im OBP40 ist ein Gateway integriert, das Daten zwischen NMEA0183 und NMEA2000 bi
 WiFi-Verbindung
 ---------------
 
-Das OBP40 verfügt über eine WiFi-Funktionalität im 2.4 GHz Funkbereich. Darüber hinaus kann das Gerät mit dem Internet oder mit anderen WiFi-Netzwerken verbunden werden und so mit anderen Geräten kommunizieren. So lassen sich z.B. Daten aus den Bussystemen an einen Laptop, einen PC oder ein Handy übertragen oder von dort beziehen. Damit ist es möglich, die Sensordaten auch in Drittanbieter-Software wie Navionics, NMEA-Remote oder WinGPS zu verwenden.
+Das OBP40 verfügt über eine WiFi-Funktionalität im 2.4 GHz Funkbereich. Darüber hinaus kann das Gerät mit dem Internet oder mit anderen WiFi-Netzwerken verbunden werden und so mit anderen Geräten kommunizieren. So lassen sich z.B. Daten aus den Bussystemen an einen Laptop, einen PC oder ein Handy übertragen oder von dort beziehen. Damit ist es möglich, die Sensordaten auch in Drittanbieter-Software wie SignalK, OpenPlotter, Navionics, NMEA-Remote oder WinGPS zu verwenden.
 
 Konfiguration
 -------------
