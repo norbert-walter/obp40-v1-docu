@@ -58,7 +58,7 @@ Für den Flash-Vorgang benötigt man folgende Dinge:
 	
 	
 **4. OBP40 starten**
-	Entfernen Sie das USB-Verbindungskabel zurzzeitig vonder Platine und stecken es wieder an. Nach kurzer Zeit sollte eine Anzeigeseite zu sehen sein. Je nach Einstellung wird vorher noch das OBP-Logo und der QR-Code für den WiFi-Zugang angezeigt.
+	Entfernen Sie das USB-Verbindungskabel zurzzeitig von der Platine und stecken es wieder an. Nach kurzer Zeit sollte eine Anzeigeseite zu sehen sein. Je nach Einstellung wird vorher noch das OBP-Logo und der QR-Code für den WiFi-Zugang angezeigt.
 	
 	.. image:: ../pics/OBP40_Screen_2_t.png
              :scale: 55%

@@ -119,7 +119,7 @@ Erweiterungsport
 Schaltplan
 ----------
 
-* `Schaltplan V2.1 [PDF] <../_static/files/CrowPanel_ESP32_Display-4.2(E)_Inch.pdf>`_
+* `Schaltplan V1.0 [PDF] <../_static/files/CrowPanel_ESP32_Display-4.2(E)_Inch.pdf>`_
 
 
 Maßbilder
