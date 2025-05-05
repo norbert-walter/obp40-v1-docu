@@ -246,11 +246,11 @@ Wenn Sie die Firmware auf das OBP40 flashen möchten, dann verbinden Sie das OBP
 Abb.: Flashen der Firmware
 
 .. hint::
-	Falls keine Verbindung mit dem OBP40 über die USB-Schnittstelle zustande kommt, können Sie das OBP40 manuell in den Flash-Modus versetzen. Trennen Sie zunächst die USB-Verbindung. Öffnen Sie danach die hintere Gehäuseabdeckung des OBP40 und stellen Sie mit der Drahtbrücke eine Verbindung von ``GND`` (CN2) zum ``Pin 27`` (ESP32-S3) her. Dann verbinden Sie das OBP40 mit Ihrem PC über das USB-Verbindungskabel. Sobald die USB-Schnittstelle erkannt wird, erfolgt eine Tonausgabe auf dem PC. Sie können dann die Drahtbrücke zwischen ``GND`` und ``Pin 27`` trennen. Der ESP32-S3 befindet sich jetzt im Flash-Modus. Danach starten Sie einen erneuten Flash-Vorgang über das Symbol mit dem Pfeil, wie oben gezeigt.
+	Falls keine Verbindung mit dem OBP40 über die USB-Schnittstelle zustande kommt, können Sie das OBP40 manuell in den Flash-Modus versetzen. Trennen Sie zunächst die USB-Verbindung. Öffnen Sie danach die hintere Gehäuseabdeckung des OBP40 und halten Sie die Taste ``BOOT`` gedrückt. Dann verbinden Sie das OBP40 mit Ihrem PC über das USB-Verbindungskabel. Sobald die USB-Schnittstelle erkannt wird, erfolgt eine Tonausgabe auf dem PC. Sie können dann die Taste ``BOOT`` loslassen. Der ESP32-S3 befindet sich jetzt im Flash-Modus. Danach starten Sie einen erneuten Flash-Vorgang über das Symbol mit dem Pfeil, wie oben gezeigt.
 
-.. image:: ../pics/Bridge_GND-Pin27.png
-   :scale: 40%
-Abb.: Brücke zwischen ``GND`` und ``Pin 27``
+.. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
+   :scale: 50%
+Abb.: Platinenrückseite CrowPanel 4.2
 
 Debuggen der Firmware
 ^^^^^^^^^^^^^^^^^^^^^

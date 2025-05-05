@@ -1,7 +1,11 @@
 Programmierumgebung
 ===================
 
-Als Programmierumgebung für das OBP40 wird das kostenlose Entwicklungstool **Visual Studio Code** in Verbindung mit **PlatformIO** verwendet. Diese Kombination bietet Vorteile gegenüber der Arduino-IDE, da projektbezogen die verwendete Hardware und die Bibliotheken in den richtigen Versionen hinzugelinkt sind und Sie sich um diese Dinge nicht kümmern müssen. Zusätzlich verfügt Visual Studio Code über eine mächtige Querverweisliste, so dass Sie den Code besser verstehen und nachvollziehen können. Intellisense unterstützt Sie bei der korrekten Verwendung von Funktionsaufrufen und Variablen. Über Github können Sie von Visual Studio Code aus auf den aktuellsten Firmware-Code zugreifen und sind damit immer auf dem aktuellsten Stand. 
+Als Programmierumgebung für das OBP40 wird das kostenlose Entwicklungstool **Visual Studio Code** in Verbindung mit **PlatformIO** verwendet. Diese Kombination bietet Vorteile gegenüber der Arduino-IDE, da projektbezogen die verwendete Hardware und die Bibliotheken in den richtigen Versionen hinzugelinkt sind und Sie sich um diese Dinge nicht kümmern müssen. Zusätzlich verfügt Visual Studio Code über eine mächtige Querverweisliste, so dass Sie den Code besser verstehen und nachvollziehen können. Intellisense unterstützt Sie bei der korrekten Verwendung von Funktionsaufrufen und Variablen. Über Github können Sie von Visual Studio Code aus auf den aktuellsten Firmware-Code zugreifen und sind damit immer auf dem aktuellsten Stand.
+
+.. image:: ../pics/VSC_Flash_Hardware.png
+   :scale: 40%
+Abb.: Visual Studio Code
 
 Visual Studio Code mit PlatformIO ist für alle gängigen Betriebssysteme verfügbar wie:
 
