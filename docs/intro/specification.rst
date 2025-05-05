@@ -26,12 +26,14 @@ Funktionen
 * LiPo-Akku-Tiefentladeschutz < 3,65V (erfordert LiPo-Akku)
 * Low Power Modus (Deep Sleep)
 
-Funktionalität OBP40 / OBP60
-----------------------------
+Vergleich OBP40 / OBP60
+-----------------------
 +------------------------+--------+--------+
 | Funktion               | OBP40  | OBP60  |
 +========================+========+========+
 | e-Paper-Display        | **X**  | **X**  |
++------------------------+--------+--------+
+| Flash-Speicher         | **8MB**| **16** |
 +------------------------+--------+--------+
 | 12V-Stromversorgung    |        | **X**  |
 +------------------------+--------+--------+
