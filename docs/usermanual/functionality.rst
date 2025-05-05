@@ -67,7 +67,7 @@ Die Platine verfügt über einen 20-poligen GPIO-Erweiterungsport an der oberen 
 * GPS-Empfänger (RS232)
 * Analoger Eingang zur Spannungsmessung
 
-Um einen Datenaustausch über NMEA2000 oder NMEA0183 zu ermöglichen, werden optionale Zusatzmodule benötigt, die am Erweiterungsport angeschlossen werden müssen. Der I2C- und 1Wire-Bus können dagegen direkt benutzt werden. Details zur Belegung des GPIO-Erweiterungsports finden Sie im Kapitel :ref:`Technische Daten`.
+Um einen Datenaustausch über NMEA2000 oder NMEA0183 zu ermöglichen, werden optionale Zusatzmodule benötigt, die am Erweiterungsport angeschlossen werden müssen. Der I2C- und 1Wire-Bus können dagegen direkt benutzt werden. Details zur Belegung des GPIO-Erweiterungsports finden Sie im Kapitel :ref:`Erweiterungsport`.
 
 .. warning::
 	Der Anschluss von Zusatzhardware erfordert Kenntnisse in Elektronik, um die Zusatzhardware korrekt anschließen zu können. Die Signalpegel an der Anschlüssen dürfen 3.3 V nicht übersteigen und es ist darauf zu achten, ob die Anschlüsse als Eingang oder Ausgang verwendet werden. Die herausgeführten Anschlüsse sind ungeschützt. Der Prozessor kann bei falscher Benutzung der Anschlüsse irreparabel beschädigt werden.
