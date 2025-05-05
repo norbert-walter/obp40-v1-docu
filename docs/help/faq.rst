@@ -29,6 +29,9 @@ Fragen und Antworten
 **Warum funktionieren WiFi-Verbindungen nicht richtig?**
 
 	WiFi-Verbindungen sind auf das 2,4 GHz Frequenzband begrenzt. Andere Teilnehmer außerhalb des eigenen Access Point nutzen das selbe Frequenzband und müssen sich die Bandbreite mit anderen Teilnehmern teilen. In größeren Häfen kann es dazu kommen, dass die Bandbreite aller Kanäle durch zu viele Teilnehmer ausgelastet ist. In diesem Fall kommt es zu Verzögerungen bei der Datenübertragung. Sie müssen dann mit einem trägen Ansprechverhalten der Messdaten im Display rechnen, wenn die Daten über WiFi-Verbindungen übertragen werden. Leitungsgebundene Datenübertragungen aus Bussystemen wie NMEA2000 oder NMEA0183 sind davon nicht betroffen. Etwas Abhilfe kann die Auswahl der Übertagungskanäle Kanäle 1 und 13 bewirken, da sie sich an den Rändern des 2,4 GHz Frequennzbereiches befinden und nur einen Nachbarkanal haben.
+	
+	.. image:: ../pics/WiFi_Channels.png
+             :scale: 35%
 
 **Das GPS bekommt beim OBP60 keinen Fix. Was kann ich tun?**
 
