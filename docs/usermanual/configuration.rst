@@ -23,7 +23,7 @@ Abb.: WLAN Settings unter Android 11
 .. note::
     Sollte das Einbuchen in das WiFi-Netzwerk des OBP40 per QR-Code nicht funktionieren, können Sie die Konfiguration auch manuell vornehmen. Verwenden Sie dazu die folgenden Zugangsdaten:
 
-* **SSID:** OBP40V2
+* **SSID:** OBP40V1
 * **Passwort:** esp32nmea2k  
 
 Nachdem Ihr Endgerät im WiFi-Netzwerk eingebucht ist, öffnen Sie in einem Web-Browser die Adresse **OBP40V2.local** oder die IP-Adresse **192.168.15.1**. Sie gelangen so auf die Benutzeroberfläche des OPB60 und können den aktuellen Status des Geräts überprüfen. Auf der Benutzeroberfläche befinden sich Tabs, mit denen verschiedene Bereiche der Konfiguration ausgewählt werden können:
