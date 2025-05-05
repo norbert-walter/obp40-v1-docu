@@ -17,7 +17,7 @@ Ausschalten des OBP40
 Das OBP40 verfügt über keine separaten Ein/Aus-Schalter. Das Gerät wird einfach spannungslos gemacht, indem der USB-Stecker gezogen wird. Das Gerät schaltet sich dann aus.
 
 .. note::
-	Wenn Sie einen LoPo-Akku zur mobilen Verwendung benutzen, reicht es nicht das USB-Kabel zu ziehen, da das Gerät dauerhaft über den Akku mit Strom versorgt wird. Um das Gerat auszuschalten, kann das OBP40 in einen Tiefschlaf versetzt werden, indem Sie das Auswahlrad in der Mittenposition länger drücken, bis im Display die Info **Sleep Mode** erscheint. Das OBP40 befindet sich dann in einem energiesparenden Tiefschlaf. Je nach Akkuzustand kann der LoPo-Akku das OBP40 bis zu 1,3 Jahre im Tiefschlaf halten. Ein aufwecken des Gerätes ist durch erneutes drücken des Auswahlrades möglich. Das Gerät benötigt ungefähr 5s bis es vollständig gestartet ist.
+	Wenn Sie optional einen LoPo-Akku zur mobilen Verwendung benutzen, reicht es nicht das USB-Kabel zu ziehen, da das Gerät dauerhaft über den Akku mit Strom versorgt wird. Um das Gerat auszuschalten, kann das OBP40 in einen Tiefschlaf versetzt werden, indem Sie das Auswahlrad in der Mittenposition länger drücken, bis im Display die Info **Sleep Mode** erscheint. Das OBP40 befindet sich dann in einem energiesparenden Tiefschlaf. Je nach Akkuzustand kann der LoPo-Akku das OBP40 bis zu 1,3 Jahre im Tiefschlaf halten. Ein aufwecken des Gerätes ist durch erneutes drücken des Auswahlrades möglich. Das Gerät benötigt ungefähr 5s bis es vollständig gestartet ist.
 
 Benutzung
 ---------
