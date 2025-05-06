@@ -153,8 +153,8 @@ Abb.: USB-Port
    
 Abb.: Platinen-Anschlussbelegung CrowPanel 4.2
 
-Erweiterungsport
-----------------
+GPIO-Erweiterungsport
+---------------------
 
 +------------+----------+------------+----------+
 | Oben       | Funktion | Unten      | Funktion |
