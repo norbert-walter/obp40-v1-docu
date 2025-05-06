@@ -6,7 +6,37 @@ Bedienkonzept
 .. image:: ../pics/OBP40_Two_Parts_USB_2_t.png
    :scale: 50%
 
-Das OBP40 kann sowohl als eigenständiges mobiles Gerät als auch als stationäres Gerät in einer Docking-Station betrieben werden. Um es als mobiles Gerät verwenden zu können, muss ein optionaler LiPo-Akku in das OBP40 eingebaut werden. Der Akku lässt sich lokal am Gerät über die USB-Buchse an der linken Seite und über die Docking-Sation aufladen. Zum Aufladen in der Docking-Station befindet sich auf der Rückseite des OBP40 ein Magnet-Dock. Als mobiles Gerät kann das OBP40 bis zu 8,5 Stunden autark betrieben werden. Sollte die Batteriespannung unter eine kritische Mindestspannung fallen, geht das OBP40 automatisch in den Tiefschlaf, um Strom zu sparen und den Akku zu schonen. 
+Das OBP40 kann sowohl als eigenständiges mobiles Gerät als auch als stationäres Gerät in einer Docking-Station betrieben werden. Um es als mobiles Gerät verwenden zu können, muss ein optionaler LiPo-Akku in das OBP40 eingebaut werden. Der Akku lässt sich lokal am Gerät über die USB-Buchse an der linken Seite und über die Docking-Sation aufladen. Zum Aufladen in der Docking-Station befindet sich auf der Rückseite des OBP40 ein Magnet-Dock. Als mobiles Gerät kann das OBP40 bis zu 8,5 Stunden autark betrieben werden. Sollte die Batteriespannung unter eine kritische Mindestspannung fallen, geht das OBP40 automatisch in den Tiefschlaf, um Strom zu sparen und den Akku zu schonen.
+
+Befestigung
+-----------
+
+Das OBP40 kann auf verschiedene Arten befestigt werden. Dabei werden Metallboote als auch Kunhststoffboote berücksichtigt.
+
+* Befestigung über Magnete auf Metallflächen und in der Docking-Station
+* Befestigung über Klettband an beliebigen Oberflächen und in der Docking-Station
+* Befestigung über Magnete an Halteplatte
+* Befestigung über Klettband an der Halteplatte
+
+.. image:: ../pics/OBP40_Back_Side_2_t.png
+             :scale: 50%
+Abb.: Rückseite OBP40 mit Magnet-Dock und Klettband
+
+.. image:: ../pics/OBP40_Docking_Station_2_t.png
+             :scale: 50%
+Abb.: Auflagefläche Docking-Station
+
+.. image:: ../pics/OBP40_Wallmount_t.png
+             :scale: 50%
+Abb.: Halteplatte
+
+Grundsätzlich bestehen zwei Möglichkeiten der Befestigung. Entweder über Magnete oder über Klettband. Je nach Situation kann man sich für eine der beiden Möglichkeiten entscheiden oder beides gleichzeitig benutzen. Das Klettband mit der Größe 50 x 40 mm bietet ausreichend Haftkraft und kann auf beliebigen Oberflächen verwendet werden. Wer feste Positionen für das OBP40 bevorzugt, kann die Halteplatte verwenden. Damit ist eine exakte Ausrichtung des Anzeigegerätes zu anderen Geräten möglich. Das OBP40 zentriert sich selbständig über die konische Vertiefung in der Halteplatte. Die Halteplatte kann optional mit einem Magnet-Dock ausgestattet werden, über das das OBP40 mit Strom versorgt werden kann.
+
+.. warning::
+	Als Befestigungsmagnete werden starke Neodym-Magnete verwendet, die das gemessene Erdmagnetfeld im Kompass verzerren können. Halten Sie einen Mindestabstand von 2 m zu Kompassen ein und prüfen Sie die Deviationstabelle des Kompasses auf zusätzliche Abweichungen. Das betrifft auch elektronische Kompasse.
+	
+.. note::
+	An den äußeren beiden Federkontakten des Magnet-Dock liegt eine Versorgungsspannung von 5V an. Die inneren beiden Federkontakte übertragen die USB-Daten. Vermeiden Sie Kurzschlüsse mit metallischen Gegenständen an der Kontakten und schützen Sie die Kontakte vor Feuchtigkeit. 
 
 WiFi-Verbindung
 ---------------
