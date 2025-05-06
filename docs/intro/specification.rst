@@ -151,7 +151,7 @@ Abb.: USB-Port
 .. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
    :scale: 50%
    
-Abb.: Platinen-Anschlussbelegung CrowPanel 4.2
+Abb.: Platinen-Anschlussbelegung CrowPanel 4.2 (Elecrow)
 
 GPIO-Erweiterungsport
 ---------------------
