@@ -26,7 +26,7 @@ Das OBP40 kann einzeln als auch mit der Ladeschale verwendet werden. Wenn das OB
 
 .. _platformio.ini: https://github.com/norbert-walter/esp32-nmea2000-obp60/blob/master/lib/obp60task/platformio.ini
 
-Die Ladetsandsanzeige erfolgt in 20% Schritten und wird in der Statuszeile über im Akkusymbol mit Füllstandsbalken angezeigt.   
+Die Ladezustandanzeige erfolgt in 20% Schritten und wird in der Statuszeile über im Akkusymbol mit Füllstandsbalken angezeigt.   
 
 .. warning::
 	Setzen Sie das OBP40 keiner direkten Sonnenstrahlung aus, da das e-Paper-Display keinen UV-Filter besitzt und den Kontrast bei direkter Sonneneinstarhlung verlieren kann. Schützen Sie das OBP40 vor direkter Wassereinwirkung wie Regen oder Gischt. Das OBP40 ist nicht wasserdicht und kann nur in trockenen Umgebeungen verwendet werden.
