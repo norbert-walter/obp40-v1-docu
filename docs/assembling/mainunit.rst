@@ -38,6 +38,7 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 
 1. Gehäuseteile drucken
 	Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. Verwenden Sie folgende Einstelleungen:
+	
 	* 0.4 mm Düse
 	* Wanddicke 1 mm
 	* Wanddicke der Ober- und Unterseite 1 mm
