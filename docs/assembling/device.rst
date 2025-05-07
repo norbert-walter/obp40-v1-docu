@@ -5,6 +5,7 @@ Mechanischer Aufbau
 -------------------
 
 .. image:: ../pics/OBP40_Explode_View_Main_Unit_2.png
+	:scale: 45%
 Abb.: Explosionsansicht OBP40 Main Unit
 
 In der oberen Abbildung ist der Aufbau des OBP40 zu sehen. Das Gerät besteht aus einzelnen Komponenten, die im folgenden beschrieben werden.
@@ -27,6 +28,7 @@ In der oberen Abbildung ist der Aufbau des OBP40 zu sehen. Das Gerät besteht au
 		Die 4 Gehäuseschrauben verbinden die Frontschale mit der Rückseite. Die Gehäuseschrauben sind Bestandteil des Crow Panel 4.2 und können beim OBP40 wiederverwendet werden.
 		
 .. image:: ../pics/Docking_Station_2.png
+	:scale: 45%
 Abb.: Explosionsansicht Docking-Station
 
 Die Docking-Station dient zur Aufnahme des OBP40. In der Docking-Station kann der Akku des OBP40 geladen werden. Zusätzlich besteht die Möglichkeit der Datenübertragung über eine USB-Verbindung.
