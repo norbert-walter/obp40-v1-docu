@@ -63,8 +63,10 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 
 7. LiPo-Akku und Magnet Dock einbauen und Kabel anlöten
 	Löten Sie die Kabel entsprechend des Bildes an.
+	
 	.. image:: ../pics/Schematic_USB_LiPo.png
 		:scale: 45%
+	Abb.: Lötpunkte für Anschlusskabel
 	
 	.. hint::
 		Das Anlöten der Kabel erfordert gute Lötkenntnisse und qualitativ hochwertiges Lötwerkzeug, da die Anschlüsse sehr klein sind. Verwenden Sie einen regelbaren Lötkolben mit einer feinen Spitze und Lötzinn mit 0.5 mm Durchmesser. Flussmittel und Kupferband zum Aufnehmen von überschüssigem Lötzinn vereinfachen die Arbeiten. Wenn Sie sich die Arbeiten nicht zutrauen, kontaktieren Sie eine Fachkraft die ihnen behilflich ist. 
