@@ -33,7 +33,7 @@ Abb.: Halteplatte
 Grundsätzlich bestehen zwei Möglichkeiten der Befestigung. Entweder über Magnete oder über Klettband. Je nach Situation kann man sich für eine der beiden Möglichkeiten entscheiden oder beides gleichzeitig benutzen. Das Klettband mit der Größe 50 x 40 mm bietet ausreichend Haftkraft und kann auf beliebigen Oberflächen verwendet werden. Wer feste Positionen für das OBP40 bevorzugt, kann die Halteplatte verwenden. Damit ist eine exakte Ausrichtung des Anzeigegerätes zu anderen Geräten möglich. Das OBP40 zentriert sich selbständig über die konische Vertiefung in der Halteplatte. Die Halteplatte kann optional mit einem Magnet-Dock ausgestattet werden, über das das OBP40 mit Strom versorgt werden kann.
 
 .. warning::
-	Als Befestigungsmagnete werden starke Neodym-Magnete verwendet, die das gemessene Erdmagnetfeld im Kompass verzerren können. Halten Sie einen Mindestabstand von 2 m zu Kompassen ein und prüfen Sie die Deviationstabelle auf zusätzliche Abweichungen. Das betrifft auch elektronische Kompasse.
+	Als Befestigungsmagnete werden starke Neodym-Magnete verwendet, die das Erdmagnetfeld am Kompass verzerren können. Halten Sie einen Mindestabstand von 2 m zu Kompassen ein und prüfen Sie die Deviationstabelle auf zusätzliche Abweichungen. Das betrifft auch elektronische Kompasse.
 	
 .. note::
 	An den äußeren beiden Federkontakten des Magnet-Dock liegt eine Versorgungsspannung von 5V an. Die inneren beiden Federkontakte übertragen die USB-Daten. Vermeiden Sie Kurzschlüsse mit metallischen Gegenständen an der Kontakten und schützen Sie die Kontakte vor Feuchtigkeit. 

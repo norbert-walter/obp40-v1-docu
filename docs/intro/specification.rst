@@ -181,7 +181,7 @@ GPIO-Erweiterungsport
 +------------+----------+------------+----------+
 
 .. warning::
-   Die Anschlüsse des Erweiterungsports sind nicht geschützt. Spannungen keiner 0 V und größer 3.3V können den Prozessor bei Nichtbeachtung der zulässigen Grenzwerte irreparabel beschädigen. Konsultieren Sie das technische Handbuch zum `ESP32-S3 <../_static/files/esp32-s3_datasheet_en.pdf>`_ und zum `ESP32-S3 WROOM <../_static/files/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf>`_, bevor Sie zusätzliche Module am Erweiterungsport anschließen.
+   Die Anschlüsse des Erweiterungsports sind nicht geschützt. Spannungen keiner 0 V und größer 3.3V können den Prozessor bei Nichtbeachtung der zulässigen Grenzwerte irreparabel beschädigen. Konsultieren Sie das technische Handbuch zum `ESP32-S3 <../_static/files/esp32-s3_datasheet_en.pdf>`_ und zum `ESP32-S3 WROOM <../_static/files/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf>`_, bevor Sie Zusatzhardware am Erweiterungsport anschließen.
 
 
 
