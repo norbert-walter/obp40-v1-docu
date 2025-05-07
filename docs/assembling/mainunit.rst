@@ -43,78 +43,36 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 	* Wanddicke 1 mm
 	* Wanddicke der Ober- und Unterseite 1 mm
 	* Füllgrad 30 %
+	
 2. Rückseite und Spacer des Crow Panel 4.2 abschrauben
 	.. image:: ../pics/CrowPanel_4.2_Top_Side.png
 		:scale: 45%
 	Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)
-3. Crow Panle 4.2 Platine in Frontschale einlegen
-**4. Magnet Dock mit Heißkleber in Rückwand einkleben**
-**5. Magnete mit Heißkleber in Rückwand einkleben**
-**6. Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand einkleben**
-**7. LiPo-Akku und Magnet Dock einbauen und Kabel anlöten**
-**8. Rückwand auf Frontschale auflegen und mit Schrauben M2.5 verbinden**
-
-Die Docking-Station dient zur Aufnahme des OBP40. In der Docking-Station kann der Akku des OBP40 geladen werden. Zusätzlich besteht die Möglichkeit der Datenübertragung über eine USB-Verbindung.
-
-	* **Screws**
-		Die 6 Schrauben verbinden die Adapterplatte mit der Rückseite und dem Standfuß.
-	* **Velcro**
-		Das Klettband ist das Gegenstück zum Klettband auf der Rückseite des OBP40.	
-	* **Adapter Plate**
-		Die Adapterplatte dient zur Aufnahme des OBP40. Das OBP40 haftet mit den Magneten an den inneren 4 Schrauben, die zur Befestigung der Rückseite dienen.
-	* **Magnet Dock**
-		Das Magnet Dock ist das Gegenstück zum Magnet Dock im OBP40. Die vergoldeten Kontaktstifte sind federnd gelagert und können Lagetoleranzen in gewissen Grenzen ausgleichen.
-	* **Magnet Dock**
-		Das Magnet Dock dient zur Stromversorgung und zur Datenübertragung. Die Schnittstelle ist als USB-Schnittstelle ausgelegt. Das Magnet Dock dient zum Aufladen des LiPo-Akkus in der Docking-Station und zur Datenübertragung mit anderen Geräten wie z.B. einem Marine Control Server.
-	* **Backside Case**
-		Die Rückseite wird zur Aufnahme des Magnet Dock verwendet. Die Rückseite enthält genügend Platz für weitere kleine Elektronik-Module. Es gibt noch eine weitere größere Version der Rückseite, die mehr Platz für Erweiterungen zur Verfügung stellt.
-	* **Stand**
-		Der Standfuß ist mit der Adapterplatte über zwei Schrauben verbunden. Durch den Standfuß ist die Adapterplatte leicht geneigt, so dass das Display des OBP40 besser abgelesen werden kann.
 	
-		
-Main Board
-----------
+3. Crow Panle 4.2 Platine in Frontschale einlegen
+	Platine seitlich beginnend mit den Tastern in die Frontschale einlegen.
 
-Das Crow Panel 4.2 Mainboard enthält alle elektrischen und elektronischen Komponenten wie:
+4. Magnet Dock mit Heißkleber in Rückwand einkleben
+	Darauf achten, dass der Magnet Dock mittig sitzt und mit reichlich Heißkleber umschlossen ist, Darauf achten, dass kein Heißkleber nach außen dringt. Gegebenenfalls überschüssigen Heißkleber entfernen.
 
-	* Dual Core CPU ESP32-S3
-	* Stromversorgung
-	* Display-Ansteuerung
-	* e-Paper-Display
-	* Tasten
-	* GPIO-Erweiterungsport
-	* LiPo-Ladeschaltung
-	* SD-Card-Adapter
-	* USB-C
+5. Magnete mit Heißkleber in Rückwand einkleben
+	Vor dem einlegen der Magnete einen Klecks Heißkleber in die Vertiefung geben und zügig den Magneten einlegen, damit der Kleber nicht frühzeitig erstarrt. Darauf achten, dass nicht zu viel Heißkleber in der Vertiefung verwendet wird.
 
-.. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
-   :scale: 50%
-Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)
+6. Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand einkleben
+	Das Klettband so einkleben, dass es nicht an den Kanten übersteht und vollständig in der Vertiefung ist.
 
+7. LiPo-Akku und Magnet Dock einbauen und Kabel anlöten
+	Löten Sie die Kabel entsprechend des Bildes an.
+	.. image:: ../pics/Schematic_USB_LiPo.png
+		:scale: 45%
+	
+	.. hint::
+		Das Anlöten der Kabel erfordert gute Lötkenntnisse und qualitativ hochwertiges Lötwerkzeug, da die Anschlüsse sehr klein sind. Verwenden Sie einen regelbaren Lötkolben mit einer feinen Spitze und Lötzinn mit 0.5 mm Durchmesser. Flussmittel und Kupferband zum Aufnehmen von überschüssigem Lötzinn vereinfachen die Arbeiten. Wenn Sie sich die Arbeiten nicht zutrauen, kontaktieren Sie eine Fachkraft die ihnen behilflich ist. 
+	.. warning::	
+		Achten Sie darauf, dass sie keine Kurzschlüsse auf der Platine mit anderen Bauelementen verursachen. Löten sie nicht zu lange an den betreffenden Stellen, da sie sonst u.U. Bauelemente entlöten oder Leiterbahnen beschädigen. Kontrollieren Sie alle Lötstellen bevor Sie die Platine wieder in Betrieb nehmen. Prüfen Sie mit einem Digitalvoltmeter auf Kurzschlüsse an den Lötungen. Bedenken sie, dass Sie durch die Lötarbeiten die Garantie des Herstellers verlieren.
 
-Schaltplan und Fertigungsunterlagen
------------------------------------
+8. Rückwand auf Frontschale auflegen und mit Schrauben M2.5 verbinden
+	Verwenden Sie die Schrauben, die sie beim Crow panel 4.2 an der Rückseite abgeschraubt haben. Die Löcher im Kunststoff sind so dimensioniert, dass sie die Schrauben mit etwas Druck einschrauben können. Das Geinde schneidet sich dann selbständig in den Kunststoff.
 
-Nachfolgend sind die Unterlagen für einen Nachbau aufgeführt.
-
-* `Schaltplan V1.0 [PDF] <../_static/CrowPanel_ESP32_Display-4.2(E)_Inch.pdf>`_
-* `3D-Daten Crow Panel 4.2 [ZIP] <../_static/files/3D_File_CrowPanel_ESP32_4.2_E-paper_HMI_Display.zip>`_
-* `WiKi zum Crow Panel 4.2 [HTML]`_
-* `Github Repository zum Crow Panel 4.2 [HTML]`_
-* `Github Repository zur OBP40-Firmware [HTML]`_
-* `3D-Daten OBP40 und Docking Station [ZIP] <../_static/files/Cases_OBP40.zip>`_
-
-.. _WiKi zum Crow Panel 4.2 [HTML]: https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_4.2-inch_HMI_Display.html
-.. _Github Repository zum Crow Panel 4.2 [HTML]: https://github.com/Elecrow-RD/CrowPanel-ESP32-4.2-E-paper-HMI-Display-with-400-300
-.. _Github Repository zur OBP40-Firmware [HTML]: https://github.com/norbert-walter/esp32-nmea2000-obp60
-
-Die Fertigungsdaten zum Schaltplan und den 3D-Daten für das Crow Panel 4.2 unterliegen dem Urheberrecht der Firma Elecrow. Welche Art des Urheberrechtes zu Grunde liegt ist nicht bekannt. Die Unterlagen sind öffentlich über das Wiki und Github einsehbar und haben Public-Charakter.
-
-.. image:: ../pics/Lizenz_by-nc-sa_eu.png
-   :scale: 45%
-
-Die 3D-Konstruktionsunterlagen der Mechanikteile zum OBP40 und zur Docking-Station unterliegen der `Common Creative Lizenz (CC) BY BC SA 4.0`_. Das OBP40 darf unter Nennung der Urheber nachgebaut oder modifiziert werden. Es entstehen keinerlei Kosten für eine private Nutzung ohne kommerzielle Absichten. Eine kommerzielle Verwertung wird durch die Lizenz ausgeschlossen. Abgeleitete Werke unterliegen der selben Lizenz. Wenn Sie eine kommerzielle Nutzung des OBP40 beabsichtigen, kontaktieren Sie uns über das `Kontaktformular`_. Es besteht die Möglichkeit, ein nicht exklusives Nutzungsrecht über eine kommerzielle Lizenz zu erwerben. Die Firmware des OBP40 steht unter der Apache 2.0 Lizenz.
-
-.. _Common Creative Lizenz (CC) BY BC SA 4.0: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.de
-.. _Kontaktformular: https://open-boat-projects.org/de/kontakt
-.. _Apache 2.0 Lizenz: https://www.apache.org/licenses/LICENSE-2.0
+	.. hint::
+		Wenn Sie die Schrauben erneut hereinschrauben wollen, drehen sie die Schrauben zu erst nach links bis das Gewinde spürbar einrastet und ziehen erst danach die Schraube rechts herum an. So vermeiden Sie eine Beschädigung des Geindes.
