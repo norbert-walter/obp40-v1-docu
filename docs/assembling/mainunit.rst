@@ -24,7 +24,7 @@ Stückliste
 +------+--------+----------------+--------------+
 |  5   |   1    | Magnet Dock    | 4 pol.       |
 +------+--------+----------------+--------------+
-|  6   |   4    | Magnets D5x3   | Neodym       |
+|  6   |   4    | Magnete D5x3   | Neodym       |
 +------+--------+----------------+--------------+
 |  7   |   1    | Velcro D 3 mm  | 50 x 40 mm   |
 +------+--------+----------------+--------------+
@@ -36,15 +36,22 @@ Montageanleitung
 
 Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 
-1. Gehäuseteile drucken
-2. Rückseite und Spacer des Crow Panel 4.2 abschrauben
-3. Crow Panle 4.2 Platine in Frontschale einlegen
-4. Magnet Dock mit Heißkleber in Rückwand einkleben
-5. Magnete mit Heißkleber in Rückwand einkleben
-6. Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand einkleben
-7. LiPo-Akku einbauen und Kabel anlöten
-8. Kabel des Magnet Dock anlöten
-9. Rückwand auf Frontschale auflegen und mit Schrauben M2.5 verbinden
+**1. Gehäuseteile drucken**
+	Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. Verwenden Sie folgende Einstelleungen:
+	* 0.4 mm Düse
+	* Wanddicke 1 mm
+	* Wanddicke der Ober- und Unterseite 1 mm
+	* Füllgrad 30 %
+**2. Rückseite und Spacer des Crow Panel 4.2 abschrauben**
+	.. image:: ../pics/CrowPanel_4.2_Top_Side.png
+		:scale: 45%
+	Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)
+**3. Crow Panle 4.2 Platine in Frontschale einlegen**
+**4. Magnet Dock mit Heißkleber in Rückwand einkleben**
+**5. Magnete mit Heißkleber in Rückwand einkleben**
+**6. Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand einkleben**
+**7. LiPo-Akku und Magnet Dock einbauen und Kabel anlöten**
+**8. Rückwand auf Frontschale auflegen und mit Schrauben M2.5 verbinden**
 
 Die Docking-Station dient zur Aufnahme des OBP40. In der Docking-Station kann der Akku des OBP40 geladen werden. Zusätzlich besteht die Möglichkeit der Datenübertragung über eine USB-Verbindung.
 
