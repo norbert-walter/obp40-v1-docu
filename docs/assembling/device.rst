@@ -15,7 +15,7 @@ In der oberen Abbildung ist der Aufbau des OBP40 zu sehen. Das Gerät besteht au
 	* **Crow Panel 4.2**
 		Die Elektronikeinheit **Crow Panel 4.2** mit Display ist ein käufliche Einheit der Firma **Elecrow**. Das Crow Panel 4.2 kann direkt über Elecrow oder über einige Elektronik-Versandfirmen bezogen werden. Es wird mit einer Testfirmware ausgeliefert, die den Funktionsumfang zeigt. Um das Crow Panel 4.2 als OBP40 nutzen zu können muss eine neue Firmware aufgespielt werden.	
 	* **LiPo Accu**
-		Das OBP40 kann optional mit einem LiPo-Akku betrieben werden. Damit lässt sich das OBP40 autark mehr als 8 Stunden verwenden. Der LiPo-Akku wird fest mit der Platine an definierten Punkten mit der Hauptplatine verlötet. Das OBP40 wird dann dauerhaft mit Strom versorgt und kann bei Nichtbenutzung in einen stromsparenden Tiefschlaf versetzt werden.
+		Das OBP40 kann optional mit einem LiPo-Akku betrieben werden. Damit lässt sich das OBP40 autark mehr als 8 Stunden betreiben. Der LiPo-Akku wird fest mit der Platine an definierten Punkten mit der Hauptplatine verlötet. Das OBP40 wird dann dauerhaft mit Strom versorgt und kann bei Nichtbenutzung in einen stromsparenden Tiefschlaf versetzt werden.
 	* **Backside Case**
 		Die Gehäuserückseite schließt die Rückseite des Gehäuses ab. Sie enthält zusätzlich eine Aufnahme für den Magnet Dock, das Klettband und 4 Neodym-Haltemagnete. Das Klettband und die Haltemagnete können nach Bedarf benutzt werden.
 	* **Magnet Dock**
@@ -66,7 +66,7 @@ Das Crow Panel 4.2 Mainboard enthält alle elektrischen und elektronischen Kompo
 
 .. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
    :scale: 50%
-Abb.: Crow Panel 4.2 Mainboard Oberseite
+Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)
 
 
 Schaltplan und Fertigungsdaten
@@ -76,14 +76,14 @@ Der Schaltplan und die Platine wurden mit dem Online-Entwicklungstool EasyEDA er
 
 * `Schaltplan V1.0 [PDF] <../_static/CrowPanel_ESP32_Display-4.2(E)_Inch.pdf>`_
 * `3D-Daten Crow Panel 4.2 [ZIP] <../_static/files/3D_File_CrowPanel_ESP32_4.2_E-paper_HMI_Display.zip>`_
-* `WiKi zum Crow Panel 4.2`_ [HTML]
-* `Github Repository zum Crow Panel 4.2`_ [HTML]
-* `Github Repository zur OBP40-Firmware`_ [HTML]
-* `3D-Daten OBP40 und Docking Station [ZIP] <../_static/files/3D_File_CrowPanel_ESP32_4.2_E-paper_HMI_Display.zip>`_
+* `WiKi zum Crow Panel 4.2 [HTML]`_
+* `Github Repository zum Crow Panel 4.2 [HTML]`_
+* `Github Repository zur OBP40-Firmware [HTML]`_
+* `3D-Daten OBP40 und Docking Station [ZIP] <../_static/files/Cases_OBP40.zip>`_
 
-.. _WiKi zum Crow Panel 4.2: https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_4.2-inch_HMI_Display.html
-.. _Github Repository zum Crow Panel 4.2: https://github.com/Elecrow-RD/CrowPanel-ESP32-4.2-E-paper-HMI-Display-with-400-300
-.. _Github Repository zur OBP40-Firmware: https://github.com/norbert-walter/esp32-nmea2000-obp60
+.. _WiKi zum Crow Panel 4.2 [HTML]: https://www.elecrow.com/wiki/CrowPanel_ESP32_E-paper_4.2-inch_HMI_Display.html
+.. _Github Repository zum Crow Panel 4.2 [HTML]: https://github.com/Elecrow-RD/CrowPanel-ESP32-4.2-E-paper-HMI-Display-with-400-300
+.. _Github Repository zur OBP40-Firmware [HTML]: https://github.com/norbert-walter/esp32-nmea2000-obp60
 
 Die Fertigungsdaten zum Schaltplan und den 3D-Daten für das Crow Panel 4.2 unterliegen dem Urheberrecht der Firma Elecrow. Welche Art des Urheberrechtes zu Grunde liegt ist nicht bekannt. Die Unterlagen sind öffentlich über das Wiki und Github einsehbar und haben Public-Charakter.
 
