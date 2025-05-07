@@ -36,17 +36,17 @@ Montageanleitung
 
 Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 
-**1. Gehäuseteile drucken**
+1. Gehäuseteile drucken
 	Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. Verwenden Sie folgende Einstelleungen:
 	* 0.4 mm Düse
 	* Wanddicke 1 mm
 	* Wanddicke der Ober- und Unterseite 1 mm
 	* Füllgrad 30 %
-**2. Rückseite und Spacer des Crow Panel 4.2 abschrauben**
+2. Rückseite und Spacer des Crow Panel 4.2 abschrauben
 	.. image:: ../pics/CrowPanel_4.2_Top_Side.png
 		:scale: 45%
 	Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)
-**3. Crow Panle 4.2 Platine in Frontschale einlegen**
+3. Crow Panle 4.2 Platine in Frontschale einlegen
 **4. Magnet Dock mit Heißkleber in Rückwand einkleben**
 **5. Magnete mit Heißkleber in Rückwand einkleben**
 **6. Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand einkleben**
