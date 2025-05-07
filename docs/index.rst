@@ -46,6 +46,9 @@ Das Multifunktionsdisplay OBP40 basiert auf dem `Crow Panel 4.2`_ von Elecrow un
    :name: sec-assembling
    
    Geräteaufbau <assembling/device>
+   Montage OBP40 <assembling/mainunit>
+   Montage Docking Station <assembling/dockingstation>
+   
    
 .. toctree::
    :maxdepth: 3

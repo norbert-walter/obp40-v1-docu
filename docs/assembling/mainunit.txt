@@ -1,35 +1,50 @@
-Geräteaufbau
-============
+Montage OBP40
+=============
 
-Mechanischer Aufbau
--------------------
+Zusammenbauzeichnung
+--------------------
 
 .. image:: ../pics/OBP40_Explode_View_Main_Unit_2.png
 	:scale: 45%
-Abb.: Explosionsansicht OBP40 Main Unit
+Abb.: Montage OBP40 Main Unit
 
-In der oberen Abbildung ist der Aufbau des OBP40 zu sehen. Das Gerät besteht aus einzelnen Komponenten, die im folgenden beschrieben werden.
+Stückliste
+----------
 
-	* **Front Case**
-		Die Frontschale des Gehäuses bildet des Abschluss des Gehäuses. Es ist als Kastenkonstruktion ausgeführt und dadurch verwindungssteif. Im Frontbereich sind schwarze Flächen eingelassen. Das Gehäuse wird als zweifarbiges Teil 3D gedruckt.
-	* **Crow Panel 4.2**
-		Die Elektronikeinheit **Crow Panel 4.2** mit Display ist ein käufliche Einheit der Firma **Elecrow**. Das Crow Panel 4.2 kann direkt über Elecrow oder über einige Elektronik-Versandfirmen bezogen werden. Es wird mit einer Testfirmware ausgeliefert, die den Funktionsumfang zeigt. Um das Crow Panel 4.2 als OBP40 nutzen zu können muss eine neue Firmware aufgespielt werden.	
-	* **LiPo Accu**
-		Das OBP40 kann optional mit einem LiPo-Akku betrieben werden. Damit lässt sich das OBP40 autark mehr als 8 Stunden betreiben. Der LiPo-Akku wird fest mit der Platine an definierten Punkten mit der Hauptplatine verlötet. Das OBP40 wird dann dauerhaft mit Strom versorgt und kann bei Nichtbenutzung in einen stromsparenden Tiefschlaf versetzt werden.
-	* **Backside Case**
-		Die Gehäuserückseite schließt die Rückseite des Gehäuses ab. Sie enthält zusätzlich eine Aufnahme für den Magnet Dock, das Klettband und 4 Neodym-Haltemagnete. Das Klettband und die Haltemagnete können nach Bedarf benutzt werden.
-	* **Magnet Dock**
-		Das Magnet Dock dient zur Stromversorgung und zur Datenübertragung. Die Schnittstelle ist als USB-Schnittstelle ausgelegt. Das Magnet Dock dient zum Aufladen des LiPo-Akkus in der Docking-Station und zur Datenübertragung mit anderen Geräten wie z.B. einem Marine Control Server.
-	* **Magnets**
-		Die Magnete können zum Befestigen des OBP40 in der Ladeschale oder an metallischen Flächen verwendet werden.
-	* **Velcro**
-		In der Gehäuserückseite kann optional Klettband verwendet werden. Damit hat man eine unabhängige Befestigungsmöglichkeit an beliebigen Flächen.
-	* **Screws**
-		Die 4 Gehäuseschrauben verbinden die Frontschale mit der Rückseite. Die Gehäuseschrauben sind Bestandteil des Crow Panel 4.2 und können beim OBP40 wiederverwendet werden.
-		
-.. image:: ../pics/Docking_Station_2.png
-	:scale: 45%
-Abb.: Explosionsansicht Docking-Station
++------+--------+----------------+--------------+
+| Pos. | Anzahl | Bezeichnung    | Material     |
++======+========+================+==============+
+|  1   |   1    | Front Case     | ABS / ASA    |
++------+--------+----------------+--------------+
+|  2   |   1    | Backside Case  | ABS / ASA    |
++------+--------+----------------+--------------+
+|  3   |   1    | Crow Panel 4.2 | FR4          |
++------+--------+----------------+--------------+
+|  4   |   1    | LiPo-Akku      | 3.7V, 1200mA |
++------+--------+----------------+--------------+
+|  5   |   1    | Magnet Dock    | 4 pol.       |
++------+--------+----------------+--------------+
+|  6   |   4    | Magnets D5x3   | Neodym       |
++------+--------+----------------+--------------+
+|  7   |   1    | Velcro D 3 mm  | 50 x 40 mm   |
++------+--------+----------------+--------------+
+|  8   |   4    | M2.5x4         | Stahl/Nickel |
++------+--------+----------------+--------------+
+
+Montageanleitung
+----------------
+
+Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
+
+1. Gehäuseteile drucken
+2. Rückseite und Spacer des Crow Panel 4.2 abschrauben
+3. Crow Panle 4.2 Platine in Frontschale einlegen
+4. Magnet Dock mit Heißkleber in Rückwand einkleben
+5. Magnete mit Heißkleber in Rückwand einkleben
+6. Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand einkleben
+7. LiPo-Akku einbauen und Kabel anlöten
+8. Kabel des Magnet Dock anlöten
+9. Rückwand auf Frontschale auflegen und mit Schrauben M2.5 verbinden
 
 Die Docking-Station dient zur Aufnahme des OBP40. In der Docking-Station kann der Akku des OBP40 geladen werden. Zusätzlich besteht die Möglichkeit der Datenübertragung über eine USB-Verbindung.
 
