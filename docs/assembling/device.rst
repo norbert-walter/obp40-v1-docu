@@ -59,7 +59,7 @@ Das Crow Panel 4.2 Mainboard enthält alle elektrischen und elektronischen Kompo
 	* Display-Ansteuerung
 	* e-Paper-Display
 	* Tasten
-	* GPIO Erweiterungsboard
+	* GPIO-Erweiterungsport
 	* LiPo-Ladeschaltung
 	* SD-Card-Adapter
 	* USB-C
