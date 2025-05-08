@@ -67,7 +67,29 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 	.. warning::	
 		Achten Sie darauf, dass sie keine Kurzschlüsse auf der Platine mit anderen Bauelementen verursachen. Löten sie nicht zu lange an den betreffenden Stellen, da sie sonst u.U. Bauelemente entlöten oder Leiterbahnen beschädigen. Kontrollieren Sie alle Lötstellen bevor Sie die Platine wieder in Betrieb nehmen. Prüfen Sie mit einem Digitalvoltmeter auf Kurzschlüsse an den Lötungen. Bedenken sie, dass Sie durch die Lötarbeiten die Garantie des Herstellers verlieren.
 
-	Löten Sie die Kabel entsprechend des Bildes an.
+	Löten Sie die Kabel entsprechend der Tabelle und der Bilder an.
+	
+	+------------+-----------+-------------+
+	| Lötpunkt   | Aderfarbe | Bauteil     |
+	+============+===========+=============+
+	| C5 oben    | rot, 3.7V | LiPo Accu   |
+	+------------+-----------+-------------+
+	| C5 unten   | schwarz   | LiPo Accu   |
+	+------------+-----------+-------------+
+	| C4 links   | rot, 5 V  | Magnet Dock |
+	+------------+-----------+-------------+
+	| R2 links   | weiß, D-  | Magnet Dock |
+	+------------+-----------+-------------+
+	| U1 Pin 5   | gelb, D+  | Magnet Dock |
+	+------------+-----------+-------------+
+	| C4 rechts  | schwarz   | Magnet Dock |
+	+------------+-----------+-------------+
+	| C5 oben    | rot       | V-Teiler    |
+	+------------+-----------+-------------+
+	| IO3        | grün      | V-Teiler    |
+	+------------+-----------+-------------+
+	| USB-C, GND | schwarz   | V-Teiler    |
+	+------------+-----------+-------------+
 	
 	.. image:: ../pics/Schematic_USB_LiPo.png
 		:scale: 45%
