@@ -10,7 +10,7 @@ Abb.: Montage OBP40 Main Unit
 
 Stückliste
 ----------
--
+
 +------+--------+----------------+--------------+----------------+
 | Pos. | Anzahl | Bezeichnung    | Material     | Bezugsquelle   |
 +======+========+================+==============+================+
@@ -34,7 +34,7 @@ Stückliste
 .. [#f1] LiPo-Akku: 52 x 43 x 6 mm
 
 .. _Filamentworld: https://filamentworld.de/
-.. _Elecrow: https:/www.elecrow.com/crowpanel-esp32-4-2-e-paper-hmi-display-with-400-300-resolution-black-white-color-driven-by-spi-interface.html?srsltid=AfmBOop2GlNZoGPKRSSgsEbjJsjm_UUejsKLcMl8AgrbSMgXZkk0wmqY
+.. _Elecrow: https://www.elecrow.com/crowpanel-esp32-4-2-e-paper-hmi-display-with-400-300-resolution-black-white-color-driven-by-spi-interface.html?srsltid=AfmBOop2GlNZoGPKRSSgsEbjJsjm_UUejsKLcMl8AgrbSMgXZkk0wmqY
 .. _Ebay 1: https://www.ebay.de/itm/255510046348?var=555706977193
 .. _Ebay 2: https://www.ebay.de/itm/184323747008?var=692014131466
 .. _Ebay 3: https://www.ebay.de/itm/267017971020
