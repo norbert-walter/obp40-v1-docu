@@ -51,15 +51,24 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 	
 3. Crow Panle 4.2 Platine in Frontschale einlegen
 	Platine seitlich beginnend mit den Tastern in die Frontschale einlegen.
+	
+	.. image:: ../pics/OBP40_Assembling_1_t.png
+		:scale: 45%
 
 4. Magnet Dock mit Heißkleber in Rückwand einkleben
 	Darauf achten, dass der Magnet Dock mittig sitzt und mit reichlich Heißkleber umschlossen ist, Darauf achten, dass kein Heißkleber nach außen dringt. Gegebenenfalls überschüssigen Heißkleber entfernen.
+	
+	.. image:: ../pics/OBP40_Assembling_6_t.png
+		:scale: 45%
 
 5. Magnete mit Heißkleber in Rückwand einkleben
 	Vor dem einlegen der Magnete einen Klecks Heißkleber in die Vertiefung geben und zügig den Magneten einlegen, damit der Kleber nicht frühzeitig erstarrt. Darauf achten, dass nicht zu viel Heißkleber in der Vertiefung verwendet wird.
 
 6. Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand einkleben
 	Das Klettband so einkleben, dass es nicht an den Kanten übersteht und vollständig in der Vertiefung ist.
+	
+	.. image:: ../pics/OBP40_Back_Side_2_t.png
+		:scale: 45%
 
 7. LiPo-Akku, Magnet Dock und Spannungsteiler einbauen und Kabel anlöten
 	.. hint::
@@ -98,6 +107,20 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 	.. image:: ../pics/Voltage_Measurement.png
 		:scale: 50%
 	Abb.: Spannungsteiler für Ladezustandsmessung
+	
+	.. image:: ../pics/OBP40_Assembling_4_t.png
+		:scale: 45%
+	Abb.: Lötpunk für IO3
+	
+	.. image:: ../pics/OBP40_Assembling_5_t.png
+		:scale: 45%
+	Abb.: Lötpunkte für USB-C GND
+	
+	.. note::
+		Achten Sie darauf, die Anschlusskabel am Magnet Dock mit 3 mm Schrumpfschlaich zu isolieren. So vermeiden Sie Kurzschlüsse mit der Platine.
+		
+	.. image:: ../pics/OBP40_Assembling_3_t.png
+		:scale: 45%
 	
 	.. note::
 		Damit die Firmware den LiPo-Akku und den Ladezustand anzeigen kann, müssen in der Firmware die entsprechenden Kompiler-Flags ``LIPO_ACCU_1200`` und ``VOLTAGE_SENSOR`` in der `platformio.ini`_ gesetzt sein. Sie müssen sich dazu eine angepasste Firmware erstellen und diese Firmware im OBP60 als :ref:`Update` aktivieren . Details zur Firmwareerstellung finden Sie im Kapitel :ref:`Gitpod`. 
