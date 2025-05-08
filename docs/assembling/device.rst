@@ -40,9 +40,7 @@ Die Docking-Station dient zur Aufnahme des OBP40. In der Docking-Station kann de
 	* **Adapter Plate**
 		Die Adapterplatte dient zur Aufnahme des OBP40. Das OBP40 haftet mit den Magneten an den inneren 4 Schrauben, die zur Befestigung der Rückseite dienen.
 	* **Magnet Dock**
-		Das Magnet Dock ist das Gegenstück zum Magnet Dock im OBP40. Die vergoldeten Kontaktstifte sind federnd gelagert und können Lagetoleranzen in gewissen Grenzen ausgleichen.
-	* **Magnet Dock**
-		Das Magnet Dock dient zur Stromversorgung und zur Datenübertragung. Die Schnittstelle ist als USB-Schnittstelle ausgelegt. Das Magnet Dock dient zum Aufladen des LiPo-Akkus in der Docking-Station und zur Datenübertragung mit anderen Geräten wie z.B. einem Marine Control Server.
+		Das Magnet Dock ist das Gegenstück zum Magnet Dock im OBP40. Die vergoldeten Kontaktstifte sind federnd gelagert und können Lagetoleranzen in gewissen Grenzen ausgleichen. Die Schnittstelle ist als USB-Schnittstelle ausgelegt. Das Magnet Dock dient zum Aufladen des LiPo-Akkus in der Docking-Station und zur Datenübertragung.
 	* **Backside Case**
 		Die Rückseite wird zur Aufnahme des Magnet Dock verwendet. Die Rückseite enthält genügend Platz für weitere kleine Elektronik-Module. Es gibt noch eine weitere größere Version der Rückseite, die mehr Platz für Erweiterungen zur Verfügung stellt.
 	* **Stand**
