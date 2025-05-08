@@ -55,7 +55,9 @@ Abb.: Versionen BMP280/BME280
 | DS18B20  | 1W  | T       | B15  |  X   |    | Vin, Data, GND     |
 
 .. |B1| image:: ../pics/Modul_BMP085.png
+.. _B1: ../pics/Modul_BMP085.png
 .. |B2| image:: ../pics/Modul_BMP180.png
+.. _B2: ../pics/Modul_BMP180.png
 
 T - Lufttemperatur
 P - Luftdruck
