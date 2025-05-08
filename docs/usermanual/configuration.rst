@@ -26,7 +26,7 @@ Abb.: WLAN Settings unter Android 11
 * **SSID:** OBP40V1
 * **Passwort:** esp32nmea2k  
 
-Nachdem Ihr Endgerät im WiFi-Netzwerk eingebucht ist, öffnen Sie in einem Web-Browser die Adresse **OBP40V2.local** oder die IP-Adresse **192.168.15.1**. Sie gelangen so auf die Benutzeroberfläche des OPB60 und können den aktuellen Status des Geräts überprüfen. Auf der Benutzeroberfläche befinden sich Tabs, mit denen verschiedene Bereiche der Konfiguration ausgewählt werden können:
+Nachdem Ihr Endgerät im WiFi-Netzwerk eingebucht ist, öffnen Sie in einem Web-Browser die Adresse **OBP40V1.local** oder die IP-Adresse **192.168.15.1**. Sie gelangen so auf die Benutzeroberfläche des OPB60 und können den aktuellen Status des Geräts überprüfen. Auf der Benutzeroberfläche befinden sich Tabs, mit denen verschiedene Bereiche der Konfiguration ausgewählt werden können:
 
 * **Status** - Statusanzeige mit Übersicht der Bussysteme
 * **Config** - Allgemeine Konfigurationsseite
@@ -1346,4 +1346,4 @@ Help
 Unter **Help** erfolgt ein Wechsel ins Internet zur Github-Seite, auf der das Projekt gehostet wird. Dort sind einige weitergehende Informationen zum NMEA2000-Gateway zu finden, das die Basis für diese Firmware ist. 
 
 .. note::
-    Die Github-Seite lässt sich nur aufrufen, wenn das OBP40 auf das Internet zugreifen kann. Das lässt sich realisieren, wenn das OPB60 zum Beispiel als Client in Ihrem Boots-WLAN arbeitet, und Ihr Boots-WLAN Internetzugang hat. Alternativ starten Sie zum Beispiel einen Hotspot auf Ihrem Handy und verbinden das OPB60 als WLAN-Client mit Ihrem Handy.
+    Die Github-Seite lässt sich nur aufrufen, wenn das OBP40 auf das Internet zugreifen kann. Das lässt sich realisieren, wenn das OBP40 zum Beispiel als Client in Ihrem Boots-WLAN arbeitet, und Ihr Boots-WLAN Internetzugang hat. Alternativ starten Sie zum Beispiel einen Hotspot auf Ihrem Handy und verbinden das OBP40 als WLAN-Client mit Ihrem Handy.

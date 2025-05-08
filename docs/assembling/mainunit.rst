@@ -51,6 +51,10 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 	* Wanddicke 1 mm
 	* Wanddicke der Ober- und Unterseite 1 mm
 	* Füllgrad 30 %
+	* Support eingeschaltet
+	
+	.. hint::
+		Die Frontschale ist als zweifarbiger Druck ausgelegt. Die schwarzen Flächen sind als 0.2 mm dicke Einlagen realisiert. Konsultieren Sie die Dokumentation des Druckers für einen zweifarbigen Ausdruck. Wenn Ihr Drucker keinen zweifarbigen Ausdruck zulässt, können Sie die Frontschale auch in einer durchgängigen Farbe drucken. Benutzen Sie dazu einfach die STL-Datei.
 	
 2. Rückseite und Spacer des Crow Panel 4.2 abschrauben
 	.. image:: ../pics/CrowPanel_4.2_Top_Side.png
