@@ -42,10 +42,10 @@ Stückliste
 Montageanleitung
 ----------------
 
-Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
+Die Gehäusemontage erfolgt nach der Montageanleitung in folgender Reihenfolge:
 
 1. Gehäuseteile drucken
-	Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. Verwenden Sie folgende Einstelleungen:
+	Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. Verwenden Sie folgende Einstellungen:
 	
 	* 0.4 mm Düse
 	* Wanddicke 1 mm
@@ -74,7 +74,7 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 		:scale: 45%
 
 5. Magnete mit Heißkleber in Rückwand einkleben
-	Vor dem einlegen der Magnete einen Klecks Heißkleber in die Vertiefung geben und zügig den Magneten einlegen, damit der Kleber nicht frühzeitig erstarrt. Darauf achten, dass nicht zu viel Heißkleber in der Vertiefung verwendet wird.
+	Vor dem Einlegen der Magnete einen Klecks Heißkleber in die Vertiefung geben und zügig den Magneten einlegen, damit der Kleber nicht frühzeitig erstarrt. Darauf achten, dass nicht zu viel Heißkleber in der Vertiefung verwendet wird.
 
 6. Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand einkleben
 	Das Klettband so einkleben, dass es nicht an den Kanten übersteht und vollständig in der Vertiefung ist.
@@ -84,7 +84,7 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 
 7. LiPo-Akku, Magnet Dock und Spannungsteiler einbauen und Kabel anlöten
 	.. hint::
-		Das Anlöten der Kabel erfordert gute Lötkenntnisse und qualitativ hochwertiges Lötwerkzeug, da die Anschlüsse sehr klein sind. Verwenden Sie einen regelbaren Lötkolben mit einer feinen Spitze und Lötzinn mit 0.5 mm Durchmesser. Flussmittel und Kupferband zum Aufnehmen von überschüssigem Lötzinn vereinfachen die Arbeiten. Wenn Sie sich die Arbeiten nicht zutrauen, kontaktieren Sie eine Fachkraft die ihnen behilflich ist. 
+		Das Anlöten der Kabel erfordert gute Lötkenntnisse und qualitativ hochwertiges Lötwerkzeug, da die Anschlüsse sehr klein sind. Verwenden Sie einen regelbaren Lötkolben mit einer feinen Spitze und Lötzinn mit 0.5 mm Durchmesser. Flussmittel und Kupferband zum Aufnehmen von überschüssigem Lötzinn vereinfachen die Arbeiten. Wenn Sie sich die Arbeiten nicht zutrauen, kontaktieren Sie eine Fachkraft, die ihnen behilflich ist. 
 	.. warning::	
 		Achten Sie darauf, dass sie keine Kurzschlüsse auf der Platine mit anderen Bauelementen verursachen. Löten sie nicht zu lange an den betreffenden Stellen, da sie sonst u.U. Bauelemente entlöten oder Leiterbahnen beschädigen. Kontrollieren Sie alle Lötstellen bevor Sie die Platine wieder in Betrieb nehmen. Prüfen Sie mit einem Digitalvoltmeter auf Kurzschlüsse an den Lötungen. Bedenken sie, dass Sie durch die Lötarbeiten die Garantie des Herstellers verlieren.
 
@@ -122,7 +122,7 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 	
 	.. image:: ../pics/OBP40_Assembling_4_t.png
 		:scale: 45%
-	Abb.: Lötpunk für IO3
+	Abb.: Lötpunkt für IO3
 	
 	.. image:: ../pics/OBP40_Assembling_5_t.png
 		:scale: 45%
@@ -130,24 +130,24 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 	
 	.. image:: ../pics/OBP40_Assembling_7_t.png
 		:scale: 45%
-	Abb.: Position des LiPo-Akku auf der Paltine
+	Abb.: Position des LiPo-Akku auf der Platine
 	
 	.. note::
-		Achten Sie darauf, die Anschlusskabel am Magnet Dock mit 3 mm Schrumpfschlaich zu isolieren. So vermeiden Sie Kurzschlüsse mit der Platine.
+		Achten Sie darauf, die Anschlusskabel am Magnet Dock mit 3 mm Schrumpfschlauch zu isolieren. So vermeiden Sie Kurzschlüsse mit der Platine.
 		
 	.. image:: ../pics/OBP40_Assembling_3_t.png
 		:scale: 45%
 	
 	.. note::
-		Damit die Firmware den LiPo-Akku und den Ladezustand anzeigen kann, müssen in der Firmware die entsprechenden Kompiler-Flags ``LIPO_ACCU_1200`` und ``VOLTAGE_SENSOR`` in der `platformio.ini`_ gesetzt sein. Sie müssen sich dazu eine angepasste Firmware erstellen und diese Firmware im OBP60 als :ref:`Update` aktivieren . Details zur Firmwareerstellung finden Sie im Kapitel :ref:`Gitpod`. 
+		Damit die Firmware den LiPo-Akku und den Ladezustand anzeigen kann, müssen in der Firmware die entsprechenden Compiler-Flags ``LIPO_ACCU_1200`` und ``VOLTAGE_SENSOR`` in der `platformio.ini`_ gesetzt sein. Sie müssen sich dazu eine angepasste Firmware erstellen und diese Firmware im OBP60 als :ref:`Update` aktivieren . Details zur Firmwareerstellung finden Sie im Kapitel :ref:`Gitpod`. 
 
 	.. _platformio.ini: https://github.com/norbert-walter/esp32-nmea2000-obp60/blob/master/lib/obp60task/platformio.ini	
 
 8. Rückwand auf Frontschale auflegen und mit Schrauben M2.5 verbinden
-	Verwenden Sie die Schrauben, die sie beim Crow panel 4.2 an der Rückseite abgeschraubt haben. Die Löcher im Kunststoff sind so dimensioniert, dass sie die Schrauben mit etwas Druck einschrauben können. Das Geinde schneidet sich dann selbständig in den Kunststoff.
+	Verwenden Sie die Schrauben, die sie beim Crow Panel 4.2 an der Rückseite abgeschraubt haben. Die Löcher im Kunststoff sind so dimensioniert, dass sie die Schrauben mit etwas Druck einschrauben können. Das Geinde schneidet sich dann selbständig in den Kunststoff.
 
 	.. hint::
-		Wenn Sie die Schrauben erneut hereinschrauben wollen, drehen sie die Schrauben zu erst nach links bis das Gewinde spürbar einrastet und ziehen erst danach die Schraube rechts herum an. So vermeiden Sie eine Beschädigung des Gewindes.
+		Wenn Sie die Schrauben erneut hereinschrauben wollen, drehen sie die Schrauben zuerst nach links bis das Gewinde spürbar einrastet und ziehen erst danach die Schraube rechts herum an. So vermeiden Sie eine Beschädigung des Gewindes.
 
 9. Firmware flashen
-	Im letzen Punkt wird die Firmware geflasht. Dazu gehen Sie nach der Anleitung im Kapitel :ref:`Web-Flashtool` vor.
+	Im letzten Punkt wird die Firmware geflasht. Dazu gehen Sie nach der Anleitung im Kapitel :ref:`Web-Flashtool` vor.

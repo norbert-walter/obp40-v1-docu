@@ -35,10 +35,10 @@ Stückliste
 Montageanleitung
 ----------------
 
-Die Montage der Docking Sation erfolgt nach der Montageanleitung in folgeder Reihenfolge:
+Die Montage der Docking Station erfolgt nach der Montageanleitung in folgender Reihenfolge:
 
 1. Gehäuseteile drucken
-	Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. Verwenden Sie folgende Einstelleungen:
+	Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. Verwenden Sie folgende Einstellungen:
 	
 	* 0.4 mm Düse
 	* Wanddicke 1 mm
@@ -77,4 +77,4 @@ Die Montage der Docking Sation erfolgt nach der Montageanleitung in folgeder Rei
 
 4. Kunststoffteile mit Schrauben M3 verbinden
 	.. hint::
-		Wenn Sie die Schrauben erneut hereinschrauben wollen, drehen sie die Schrauben zu erst nach links bis das Gewinde spürbar einrastet und ziehen erst danach die Schraube rechts herum an. So vermeiden Sie eine Beschädigung des Gewindes.
+		Wenn Sie die Schrauben erneut hereinschrauben wollen, drehen sie die Schrauben zuerst nach links bis das Gewinde spürbar einrastet und ziehen erst danach die Schraube rechts herum an. So vermeiden Sie eine Beschädigung des Gewindes.

@@ -11,9 +11,9 @@ Abb.: Explosionsansicht OBP40 Main Unit
 In der oberen Abbildung ist der Aufbau des OBP40 zu sehen. Das Gerät besteht aus einzelnen Komponenten, die im folgenden beschrieben werden.
 
 	* **Front Case**
-		Die Frontschale des Gehäuses bildet des Abschluss des Gehäuses. Es ist als Kastenkonstruktion ausgeführt und dadurch verwindungssteif. Im Frontbereich sind schwarze Flächen eingelassen. Das Gehäuse wird als zweifarbiges Teil 3D gedruckt.
+		Die Frontschale des Gehäuses bildet den Abschluss des Gehäuses. Es ist als Kastenkonstruktion ausgeführt und dadurch verwindungssteif. Im Frontbereich sind schwarze Flächen eingelassen. Das Gehäuse wird als zweifarbiges Teil 3D gedruckt.
 	* **Crow Panel 4.2**
-		Die Elektronikeinheit **Crow Panel 4.2** mit Display ist ein käufliche Einheit der Firma **Elecrow**. Das Crow Panel 4.2 kann direkt über Elecrow oder über einige Elektronik-Versandfirmen bezogen werden. Es wird mit einer Testfirmware ausgeliefert, die den Funktionsumfang zeigt. Um das Crow Panel 4.2 als OBP40 nutzen zu können muss eine neue Firmware aufgespielt werden.	
+		Die Elektronikeinheit **Crow Panel 4.2** mit Display ist eine käufliche Einheit der Firma **Elecrow**. Das Crow Panel 4.2 kann direkt über Elecrow oder über einige Elektronik-Versandfirmen bezogen werden. Es wird mit einer Testfirmware ausgeliefert, die den Funktionsumfang zeigt. Um das Crow Panel 4.2 als OBP40 nutzen zu können, muss eine neue Firmware aufgespielt werden.	
 	* **LiPo Accu**
 		Das OBP40 kann optional mit einem LiPo-Akku betrieben werden. Damit lässt sich das OBP40 autark mehr als 8 Stunden betreiben. Der LiPo-Akku wird fest mit der Platine an definierten Punkten mit der Hauptplatine verlötet. Das OBP40 wird dann dauerhaft mit Strom versorgt und kann bei Nichtbenutzung in einen stromsparenden Tiefschlaf versetzt werden.
 	* **Backside Case**
