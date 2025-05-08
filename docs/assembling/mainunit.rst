@@ -81,9 +81,9 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 	+------------+-----------+-------------+
 	| Lötpunkt   | Aderfarbe | Bauteil     |
 	+============+===========+=============+
-	| C5 oben    | rot, 3.7V | LiPo Accu   |
+	| C5 oben    | rot, 3.7V | LiPo Akku   |
 	+------------+-----------+-------------+
-	| C5 unten   | schwarz   | LiPo Accu   |
+	| C5 unten   | schwarz   | LiPo Akku   |
 	+------------+-----------+-------------+
 	| C4 links   | rot, 5 V  | Magnet Dock |
 	+------------+-----------+-------------+
@@ -115,6 +115,10 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgeder Reihenfolge:
 	.. image:: ../pics/OBP40_Assembling_5_t.png
 		:scale: 45%
 	Abb.: Lötpunkte für USB-C GND
+	
+	.. image:: ../pics/OBP40_Assembling_7_t.png
+		:scale: 45%
+	Abb.: Position des LiPo-Akku auf der Paltine
 	
 	.. note::
 		Achten Sie darauf, die Anschlusskabel am Magnet Dock mit 3 mm Schrumpfschlaich zu isolieren. So vermeiden Sie Kurzschlüsse mit der Platine.
