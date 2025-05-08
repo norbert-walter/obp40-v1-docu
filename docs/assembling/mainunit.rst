@@ -10,26 +10,33 @@ Abb.: Montage OBP40 Main Unit
 
 Stückliste
 ----------
+-
++------+--------+----------------+--------------+----------------+
+| Pos. | Anzahl | Bezeichnung    | Material     | Bezugsquelle   |
++======+========+================+==============+================+
+|  1   |   1    | Front Case     | ABS / ASA    |`Filamentworld`_| 
++------+--------+----------------+--------------+----------------+
+|  2   |   1    | Backside Case  | ABS / ASA    |`Filamentworld`_| 
++------+--------+----------------+--------------+----------------+
+|  3   |   1    | Crow Panel 4.2 | FR4          |`Elecrow`_      | 
++------+--------+----------------+--------------+----------------+
+|  4   |   1    | LiPo-Akku      | 3.7V, 1200mA |`Ebay 1`_       | 
++------+--------+----------------+--------------+----------------+
+|  5   |   1    | Magnet Dock    | 4 pol.       |`Aliexpress`_   | 
++------+--------+----------------+--------------+----------------+
+|  6   |   4    | Magnete D5x3   | Neodym       |`Ebay 2`_       | 
++------+--------+----------------+--------------+----------------+
+|  7   |   1    | Velcro D 3 mm  | 50 x 40 mm   |`Ebay 3`_       | 
++------+--------+----------------+--------------+----------------+
+|  8   |   4    | M2.5x4         | Stahl/Nickel |                | 
++------+--------+----------------+--------------+----------------+
 
-+------+--------+----------------+--------------+
-| Pos. | Anzahl | Bezeichnung    | Material     |
-+======+========+================+==============+
-|  1   |   1    | Front Case     | ABS / ASA    |
-+------+--------+----------------+--------------+
-|  2   |   1    | Backside Case  | ABS / ASA    |
-+------+--------+----------------+--------------+
-|  3   |   1    | Crow Panel 4.2 | FR4          |
-+------+--------+----------------+--------------+
-|  4   |   1    | LiPo-Akku      | 3.7V, 1200mA |
-+------+--------+----------------+--------------+
-|  5   |   1    | Magnet Dock    | 4 pol.       |
-+------+--------+----------------+--------------+
-|  6   |   4    | Magnete D5x3   | Neodym       |
-+------+--------+----------------+--------------+
-|  7   |   1    | Velcro D 3 mm  | 50 x 40 mm   |
-+------+--------+----------------+--------------+
-|  8   |   4    | M2.5x4         | Stahl/Nickel |
-+------+--------+----------------+--------------+
+.. _Filamentworld: https://filamentworld.de/
+.. _Elecrow: https:/www.elecrow.com/crowpanel-esp32-4-2-e-paper-hmi-display-with-400-300-resolution-black-white-color-driven-by-spi-interface.html?srsltid=AfmBOop2GlNZoGPKRSSgsEbjJsjm_UUejsKLcMl8AgrbSMgXZkk0wmqY
+.. _Ebay 1: https://www.ebay.de/itm/255510046348?var=555706977193
+.. _Ebay 2: https://www.ebay.de/itm/184323747008?var=692014131466
+.. _Ebay 3: https://www.ebay.de/itm/267017971020
+.. _Aliexpress: https://de.aliexpress.com/item/1005007348770116.html?spm=a2g0o.order_list.order_list_main.5.54d95c5ftn0cyU&gatewayAdapt=glo2deu
 
 Montageanleitung
 ----------------
