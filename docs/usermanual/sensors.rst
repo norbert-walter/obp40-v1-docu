@@ -33,31 +33,35 @@ Abb.: Versionen BMP280/BME280
 
 +----------+-----+---------+-----------------------------------------+------+----+--------------------+
 | Typ      | Bus | Sensor  | Bild                                    | 3.3V | 5V | Benutzte Pins      |
-+----------+-----+---------+-----------------------------------------+------+----+--------------------+
++==========+=====+=========+=========================================+======+====+====================+
 | BMP085   | I2C | T, P    | .. image:: ../pics/Modul_BMP085.png     |  X   |    | Vin, SCL, SDA, GND |
 +----------+-----+---------+-----------------------------------------+------+----+--------------------+
 | BMP180   | I2C | T, P    | .. image:: ../pics/Modul_BMP085.png     |  X   |    | Vin, SCL, SDA, GND |
 +----------+-----+---------+-----------------------------------------+------+----+--------------------+
-
-
-| BMP280   | I2C | T, P    | B3   |  X   |  X | Vin, SCL, SDA, GND |
-| BME280   | I2C | T, P, H | B4   |  X   |  X | Vin, SCL, SDA, GND |
-| SHT21    | I2C | T, H    | B5   |  X   |  X | Viin SCL, SDA, GND |
-| SHT31    | I2C | T, H    | B6   |  X   |    | Vin, SCL, SDA, GND |
-| HTU21    | I2C | T, H    | B7   |  X   |  X | Vin, SCL, SDA, GND |
-| BMP280   | I2C | T, P    | B8   |  X   |    | Vin, SCL, SDA, GND |
-| BME280   | I2C | T, P, H | B8   |  X   |    | Vin, SCL, SDA, GND |
-| AS5600   | I2C | R       | B10  |  X   |    | VCC, SCL, SDA, GND |
-| INA219   | I2C | U, I    | B11  |  X   |  X | VCC, SCL, SDA, GND |
-| INA226   | I2C | U, I, W | B12  |  X   |  X | VCC, SCL, SDA, GND |
-| SN65H230 | TTL | CAN     | B13  |  X   |    | 3.3, CRX, CTX, GND |
-| SN65H230 | TTL | CAN     | B14  |  X   |    | 3.3, CRX, CTX, GND |
-| DS18B20  | 1W  | T       | B15  |  X   |    | Vin, Data, GND     |
-
-.. |B1| image:: ../pics/Modul_BMP180.png
-.. _B1: ../pics/Modul_BMP180.png
-.. |B2| image:: ../pics/Modul_BMP180.png
-.. _B2: ../pics/Modul_BMP180.png
+| BMP280   | I2C | T, P    | .. image:: ../pics/Modul_BMP280_1.png   |  X   |  X | Vin, SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| BME280   | I2C | T, P, H | .. image:: ../pics/Modul_BME280_1.png   |  X   |  X | Vin, SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| SHT21    | I2C | T, H    | .. image:: ../pics/Modul_SHT21.png      |  X   |  X | Viin SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| SHT31    | I2C | T, H    | .. image:: ../pics/Modul_SHT31.png      |  X   |    | Vin, SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| HTU21    | I2C | T, H    | .. image:: ../pics/Modul_SHT21.png      |  X   |  X | Vin, SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| BMP280   | I2C | T, P    | .. image:: ../pics/Modul_BMP280_2.png   |  X   |    | Vin, SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| BME280   | I2C | T, P, H | .. image:: ../pics/Modul_BME280_2.png   |  X   |    | Vin, SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| AS5600   | I2C | R       | .. image:: ../pics/Modul_AS5600.png     |  X   |    | VCC, SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| INA219   | I2C | U, I    | .. image:: ../pics/Modul_INA219.png     |  X   |  X | VCC, SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| INA226   | I2C | U, I, W | .. image:: ../pics/Modul_INA226.png     |  X   |  X | VCC, SCL, SDA, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| SN65H230 | TTL | CAN     | .. image:: ../pics/Modul_CAN_2.png      |  X   |    | 3.3, CRX, CTX, GND |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
+| DS18B20  | 1W  | T       | .. image:: ../pics/Modul_BMP085.png     |  X   |    | Vin, Data, GND     |
++----------+-----+---------+-----------------------------------------+------+----+--------------------+
 
 * T - Lufttemperatur
 * P - Luftdruck
@@ -66,30 +70,3 @@ Abb.: Versionen BMP280/BME280
 * U - Spannung
 * I - Strom
 * W - Leistung
-
-.. list-table::
-    :name: tab-beispieltabelle
-    :header-rows: 1
-
-    * - Typ
-      - Bus
-      - Senor
-	  - Bild
-	  - 3.3V
-	  - 5.0V
-	  - Benutzte Pins
-    * - BMP085
-      - I2C
-      - T, P
-	  - .. image:: ../pics/Modul_BMP085.png
-	  - X
-	  - O
-      - Vin, SCL, SDA, GND
-	* - BMP180
-      - I2C
-      - T, P
-	  - .. image:: ../pics/Modul_BMP180.png
-	  - X
-	  - O
-      - Vin, SCL, SDA, GND
-    
