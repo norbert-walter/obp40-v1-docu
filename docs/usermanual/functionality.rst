@@ -85,7 +85,7 @@ Erweiterungsport
 .. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
    :scale: 50%
    
-Abb.: Platinen-Anschlussbelegung
+Abb.: Platinen-Anschlussbelegung (Elecrow)
 
 Die Platine verfügt über einen 20-poligen GPIO-Erweiterungsport an der oberen Seite. Darüber lässt sich optional Zusatzhardware anschließen wie z.B.:
 

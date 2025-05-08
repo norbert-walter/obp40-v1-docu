@@ -90,7 +90,7 @@ Um den Code kompilieren zu können, müssen Sie folgende Befehle nacheinander in
 
 	* ``cd /workspace/esp32-nmea2000-obp60``
 	* ``bash /workspace/esp32-nmea2000-obp60/lib/obp60task/run_install_tools``
-	* ``bash /workspace/esp32-nmea2000-obp60/lib/obp60task/run_obp60_s3``
+	* ``bash /workspace/esp32-nmea2000-obp60/lib/obp60task/run_obp40_s3``
 
 Nach dem zweiten Befehl werden alle notwendigen Tool-Chains und Bibliotheken in den Workplace geladen. Dieser Vorgang kann einige Minuten dauern. Mit dem letzten Befehl beginnt der eigentliche Kompiliervorgang, der ebenfalls einiges an Zeit benötigt. Wenn Sie den Code später geändert haben und erneut kompilieren wollen, so benutzen Sie einfach den letzten Befehl erneut.
 
@@ -109,7 +109,7 @@ Binary-Download
 
 Der Binary-Code zur Firmware befindet sich nach dem Kompilieren im Verzeichnis:
 
-	* */ESP32-NMEA2000_OBP40/.pio/build/obp60_s3* (für OBP40)
+	* */ESP32-NMEA2000-OBP60/.pio/build/obp40_s3* (für OBP40)
 
 .. image:: ../pics/Gitpod_Download.png
    :scale: 40%
@@ -121,9 +121,9 @@ Dabei haben die Files folgende Bedeutung:
 	* partitions.bin - Partitionstabelle für den Flash Speicher
 	* firmware.bin - Binärfile als Update (nur Firmware)
 	* firmware.elf - ELF-File für Fehlerverfolgung
-	* obp60_s3-all.bin - Binärfile mit allen Bestandteilen (Bootloader, Partitionstabelle, Firmware, Default-Settings)
-	* **obp60_s3-dev20240820-all.bin** - wie obp60_s3-all.bin
-	* **obp60_s3-dev20240820-update.bin** - Binärfile als Update (nur Firmware)
+	* obp40_s3-all.bin - Binärfile mit allen Bestandteilen (Bootloader, Partitionstabelle, Firmware, Default-Settings)
+	* **obp40_s3-dev20240820-all.bin** - wie obp40_s3-all.bin
+	* **obp40_s3-dev20240820-update.bin** - Binärfile als Update (nur Firmware)
 	
 Je nachdem, ob man mit Default-Einstellungen starten oder mit den alten Einstellungen weiter arbeiten möchte, kann man eine der beiden fett hervorgehobenen Dateien herunter laden. Das geht am einfachsten, wenn man die entsprechende Datei im Dateibaum per Rechtsklick auswählt und sie dann über **Download** herunterlädt. Die **update-** Datei kann man später auf dem OBP40 über die Webseite :ref:`Update` hochladen und damit die Firmware aktualisieren. Die **all-** Datei muss über USB geflasht werden.
 
@@ -195,7 +195,7 @@ Damit beginnt der Download des Projektes und im Workplace erscheint auf der link
    :scale: 40%
 Abb.: Konfigurationsdatei schließen
 
-Gehen Sie gehen dann in den Dateibaum und öffnen den Pfad: ``/esp32-nmea2000/lib/obp60task`` und öffnen dort die Datei **platformio.ini**, die zum OBP40-Projekt gehört. Ändern Sie in der Datei die serielle Schnittstelle entsprechend zum Port, an dem Sie das OBP40 angeschlossen haben. Die Schnittstellenbezeichnungen unter Windows und Linux sind dabei unterschiedlich.
+Gehen Sie gehen dann in den Dateibaum und öffnen den Pfad: ``/esp32-nmea2000-obp60/lib/obp60task`` und öffnen dort die Datei **platformio.ini**, die zum OBP40-Projekt gehört. Ändern Sie in der Datei die serielle Schnittstelle entsprechend zum Port, an dem Sie das OBP40 angeschlossen haben. Die Schnittstellenbezeichnungen unter Windows und Linux sind dabei unterschiedlich.
 
 	* Windows: COMx
 	* Linux: /dev/ttyACM0
@@ -209,7 +209,7 @@ Gehen Sie gehen dann in den Dateibaum und öffnen den Pfad: ``/esp32-nmea2000/li
    :scale: 40%
 Abb.: Konfigurationsdatei schließen und seriellen Port einstellen
 
-Wählen Sie danach die zu benutzende Hardware-Umgebung aus, indem Sie auf die untere Zeile klicken. Es öffnet sich dann oben ein Fenster, in dem Sie die Einstellung **env:obp60_s3** auswählen. Damit wird sichergestellt, dass die Firmware für die Hardware OBP40 erstellt wird.
+Wählen Sie danach die zu benutzende Hardware-Umgebung aus, indem Sie auf die untere Zeile klicken. Es öffnet sich dann oben ein Fenster, in dem Sie die Einstellung **env:obp40_s3** auswählen. Damit wird sichergestellt, dass die Firmware für die Hardware OBP40 erstellt wird.
 
 .. image:: ../pics/VSC_Select_Hardware.png
    :scale: 40%
@@ -224,7 +224,7 @@ Wenn Sie Ihre Code-Änderungen abgeschlossen haben, können Sie den Kompiliervor
    :scale: 40%
 Abb.: Kompilierung
 
-Der Binary-Code zur Firmware befindet sich nach dem Kompilieren im Verzeichnis: */esp32-nmea2000/.pio/build/obp32_s3*
+Der Binary-Code zur Firmware befindet sich nach dem Kompilieren im Verzeichnis: */esp32-nmea2000-obp60/.pio/build/obp40_s3*
 
 Dabei haben die Dateien folgende Bedeutung:
 
@@ -232,9 +232,9 @@ Dabei haben die Dateien folgende Bedeutung:
 	* partitions.bin - Partitionstabelle für den Flash-Speicher
 	* firmware.bin - Binärfile als Update (nur Firmware)
 	* firmware.elf - ELF-File für Fehlerverfolgung
-	* obp60_s3-all.bin - Binärfile mit allen Bestandteilen (Bootloader, Partitionstabelle, Firmware, Default-Settings)
-	* **obp60_s3-dev20240820-all.bin** - wie obp60_s3-all.bin
-	* **obp60_s3-dev20240820-update.bin** - Binärfile als Update (nur Firmware)
+	* obp40_s3-all.bin - Binärfile mit allen Bestandteilen (Bootloader, Partitionstabelle, Firmware, Default-Settings)
+	* **obp40_s3-dev20240820-all.bin** - wie obp40_s3-all.bin
+	* **obp40_s3-dev20240820-update.bin** - Binärfile als Update (nur Firmware)
 
 Flashen der Firmware
 ^^^^^^^^^^^^^^^^^^^^
