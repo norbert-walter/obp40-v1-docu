@@ -20,7 +20,7 @@ Stückliste
 +------+--------+----------------+--------------+----------------+
 |  3   |   1    | Crow Panel 4.2 | FR4          |`Elecrow`_      | 
 +------+--------+----------------+--------------+----------------+
-|  4   |   1    | LiPo-Akku      | 3.7V, 1200mA |`Ebay 1`_       | 
+|  4   |   1    | LiPo-Akku[#f1]_| 3.7V, 1200mA |`Ebay 1`_       | 
 +------+--------+----------------+--------------+----------------+
 |  5   |   1    | Magnet Dock    | 4 pol.       |`Aliexpress`_   | 
 +------+--------+----------------+--------------+----------------+
@@ -30,6 +30,8 @@ Stückliste
 +------+--------+----------------+--------------+----------------+
 |  8   |   4    | M2.5x4         | Stahl/Nickel |                | 
 +------+--------+----------------+--------------+----------------+
+.. rubric:: Footnotes
+.. [#f1] LiPo-Akku: 52 x 43 x 6 mm
 
 .. _Filamentworld: https://filamentworld.de/
 .. _Elecrow: https:/www.elecrow.com/crowpanel-esp32-4-2-e-paper-hmi-display-with-400-300-resolution-black-white-color-driven-by-spi-interface.html?srsltid=AfmBOop2GlNZoGPKRSSgsEbjJsjm_UUejsKLcMl8AgrbSMgXZkk0wmqY
