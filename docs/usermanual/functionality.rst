@@ -1,8 +1,8 @@
 Funktionsweise
 ==============
 
-Bedienkonzept
--------------
+Nutzung
+-------
 .. image:: ../pics/OBP40_Two_Parts_USB_2_t.png
    :scale: 50%
 
