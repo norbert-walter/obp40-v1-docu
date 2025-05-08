@@ -84,7 +84,7 @@ Abb.: Fertiger Workplace
 Codeänderung und Kompilieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Der Code zum OBP40 befindet sich im Ordner: */ESP32-NMEA2000_OBP40/lib/obp60task* . Durch Editieren der Datei *platformio.ini* können einige Hardwareanpassungen zur Variante des ESP32-S3 und zum e-Paper-Display vorgenommen werden. 
+Der Code zum OBP40 befindet sich im Ordner: */ESP32-NMEA2000-OBP60/lib/obp60task* . Durch Editieren der Datei *platformio.ini* können einige Hardwareanpassungen zur Variante des ESP32-S3 und zum e-Paper-Display vorgenommen werden. 
 
 Um den Code kompilieren zu können, müssen Sie folgende Befehle nacheinander in das Terminal-Fenster unten rechts einfügen. Sie können dazu die Copy & Paste Funktion benutzen.
 
