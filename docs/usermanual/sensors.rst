@@ -83,13 +83,13 @@ Abb.: Versionen BMP280/BME280
       - T, P
 	  - .. image:: ../pics/Modul_BMP085.png
 	  - X
-	  -
+	  - O
       - Vin, SCL, SDA, GND
 	* - BMP180
       - I2C
       - T, P
 	  - .. image:: ../pics/Modul_BMP180.png
 	  - X
-	  -
+	  - O
       - Vin, SCL, SDA, GND
     
