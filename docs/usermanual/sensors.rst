@@ -31,13 +31,13 @@ In der nachfolgenden Tabelle sind einige Sensoren aufgelistet, die am OBP40 und 
 	:scale: 50%
 Abb.: Versionen BMP280/BME280	
 
-+----------+-----+---------+------+------+----+--------------------+
-| Typ      | Bus | Sensor  | Bild | 3.3V | 5V | Benutzte Pins      |
-+----------+-----+---------+------+------+----+--------------------+
-| BMP085   | I2C | T, P    ||B1|_ |  X   |    | Vin, SCL, SDA, GND |
-+----------+-----+---------+------+------+----+--------------------+
-| BMP180   | I2C | T, P    ||B2|_ |  X   |    | Vin, SCL, SDA, GND |
-+----------+-----+---------+------+------+----+--------------------+
++----------+-----+---------+---------+------+----+--------------------+
+| Typ      | Bus | Sensor  | Bild    | 3.3V | 5V | Benutzte Pins      |
++----------+-----+---------+---------+------+----+--------------------+
+| BMP085   | I2C | T, P    ||B1|_    |  X   |    | Vin, SCL, SDA, GND |
++----------+-----+---------+---------+------+----+--------------------+
+| BMP180   | I2C | T, P    ||B2|_    |  X   |    | Vin, SCL, SDA, GND |
++----------+-----+---------+---------+------+----+--------------------+
 
 
 | BMP280   | I2C | T, P    | B3   |  X   |  X | Vin, SCL, SDA, GND |
@@ -59,10 +59,10 @@ Abb.: Versionen BMP280/BME280
 .. |B2| image:: ../pics/Modul_BMP180.png
 .. _B2: ../pics/Modul_BMP180.png
 
-T - Lufttemperatur
-P - Luftdruck
-H - Relative Luftfeuchtigkeit
-R - Rotation 0...360°
-U - Spannung
-I - Strom
-W - Leistung
+* T - Lufttemperatur
+* P - Luftdruck
+* H - Relative Luftfeuchtigkeit
+* R - Rotation 0...360°
+* U - Spannung
+* I - Strom
+* W - Leistung
