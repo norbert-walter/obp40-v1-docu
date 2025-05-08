@@ -54,8 +54,8 @@ Abb.: Versionen BMP280/BME280
 | SN65H230 | TTL | CAN     | B14  |  X   |    | 3.3, CRX, CTX, GND |
 | DS18B20  | 1W  | T       | B15  |  X   |    | Vin, Data, GND     |
 
-.. |B1| image:: ../pics/Modul_BMP085.png
-.. _B1: ../pics/Modul_BMP085.png
+.. |B1| image:: ../pics/Modul_BMP180.png
+.. _B1: ../pics/Modul_BMP180.png
 .. |B2| image:: ../pics/Modul_BMP180.png
 .. _B2: ../pics/Modul_BMP180.png
 
