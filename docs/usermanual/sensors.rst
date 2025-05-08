@@ -34,7 +34,7 @@ Abb.: Versionen BMP280/BME280
 +----------+-----+---------+---------+------+----+--------------------+
 | Typ      | Bus | Sensor  | Bild    | 3.3V | 5V | Benutzte Pins      |
 +----------+-----+---------+---------+------+----+--------------------+
-| BMP085   | I2C | T, P    |.. image:: ../pics/Modul_BMP180.png|  X   |    | Vin, SCL, SDA, GND |
+| BMP085   | I2C | T, P    |         |  X   |    | Vin, SCL, SDA, GND |
 +----------+-----+---------+---------+------+----+--------------------+
 | BMP180   | I2C | T, P    ||B2|_    |  X   |    | Vin, SCL, SDA, GND |
 +----------+-----+---------+---------+------+----+--------------------+
@@ -66,3 +66,29 @@ Abb.: Versionen BMP280/BME280
 * U - Spannung
 * I - Strom
 * W - Leistung
+
+.. list-table::
+    :name: tab-beispieltabelle
+    :header-rows: 1
+
+    * - Typ
+      - BMP085
+      - BMP180
+    * - Bus
+      - I2C
+      - I2C
+    * - Sensor
+      - T, P
+      - T, P
+	* - Bild
+	  - .. image:: ../pics/Modul_BMP085.png
+	  - .. image:: ../pics/Modul_BMP180.png	
+	* - 3.3V
+	  - X
+	  - X
+	* - 5.0V
+	  -
+	  -
+	* - Benutzte Pins
+	  - Vin, SCL, SDA, GND
+	  - Vin, SCL, SDA, GND
