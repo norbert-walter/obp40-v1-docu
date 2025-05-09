@@ -40,7 +40,7 @@ Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 		- 32 GB SD-Card-Speicher
 		- USB-, SMB- und FTP-Share für Filme und Musik von SD-Card
 		- `Dokumentation <../_static/m7450.pdf>`_
-	.. [#f1] Kein gleichzeitiger Dualbetrieb	
+	.. [#f2] Kein gleichzeitiger Dualbetrieb	
 		
 .. image:: ../pics/LTE-Router_RUT360.png
              :scale: 40%	
