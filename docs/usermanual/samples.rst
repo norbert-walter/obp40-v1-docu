@@ -33,13 +33,14 @@ Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 
 	* Leistungsdaten
 		- 4G/LTE Mobilfunkstandard 50 MBit/scale
-		- WiFi Dualband 2.4 GHz **oder** 5 GHz 300 MBit/s
+		- WiFi Dualband 2.4 GHz **oder** 5 GHz 300 MBit/s [#f2]_
 		- 3000 mAh LiPo-Akku
 		- 15 Stunden autarke Laufzeit
 		- 32 WiFi-Geräte einbindbar
 		- 32 GB SD-Card-Speicher
 		- USB-, SMB- und FTP-Share für Filme und Musik von SD-Card
-		- `Dokumentation <../_static/CrowPanel_ESP32_Display-4.2(E)_Inch.pdf>`_
+		- `Dokumentation <../_static/m7450.pdf>`_
+	.. [#f1] Kein gleichzeitiger Dualbetrieb	
 		
 .. image:: ../pics/LTE-Router_RUT360.png
              :scale: 40%	
