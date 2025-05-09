@@ -28,26 +28,26 @@ Als LTE-Router können Sie sowohl mobile Geräte als auch stationäre Geräte ve
 	Achten Sie beim Kauf des LTE-Routers, dass der Router im Dualband-Modus in den zwei WiFi-Frequenzbereichen 2.4 GHz und 5 GHz arbeiten kann und über 4G/5G-Mobilfunk-Standard verfügt. So profitieren sie von einer leistungsfähigen Internet- und WiFi-Verbindung im 5 GHz Bereich und umgehen die meist überfüllten 2.4 GHz Ferquenzbereiche. Solche Router können Daten zwischen beiden Frequenzbereichen problemlos austauschen.
 
 .. image:: ../pics/LTE-Router_TP-Link_M7450.png
-             :scale: 50%	
+             :scale: 30%	
 Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 
 	* Leistungsdaten
 		- 4G/LTE Mobilfunkstandard 50 MBit/scale
-		- WiFi Dualband 2.4 GHz and 5 GHz 300 MBit/s
-		- 1x LAN CAT6 1 GBit/s
+		- WiFi Dualband 2.4 GHz **oder** 5 GHz 300 MBit/s
 		- 3000 mAh LiPo-Akku
 		- 15 Stunden autarke Laufzeit
 		- 32 WiFi-Geräte einbindbar
 		- 32 GB SD-Card-Speicher
+		- USB-, SMB- und FTP-Share für Filme und Musik von SD-Card
 		- `Dokumentation <../_static/CrowPanel_ESP32_Display-4.2(E)_Inch.pdf>`_
 		
 .. image:: ../pics/LTE-Router_RUT360.png
-             :scale: 50%	
+             :scale: 40%	
 Abb.: Stationärer 4G-LTE-Dualband-Router RTU360
 
 	* Leistungsdaten
 		- 4G/LTE Mobilfunkstandard 50 MBit/scale
-		- WiFi Dualband 2.4 GHz and 5 GHz 300 MBit/s
+		- WiFi Dualband 2.4 GHz und 5 GHz 300 MBit/s
 		- 2x LAN CAT6 100 MBit/s
 		- Externe Antennen für LTE und WiFi
 		- 12V Versorgungseingang
