@@ -43,7 +43,7 @@ Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 	.. [#f2] Kein gleichzeitiger Dualbetrieb möglich
 
 .. warning::
-	Da der LTE-Router TP-Link M7450 nicht gleichzeitig in beiden Frequenzbändern arbeitet, müssen Sie den TP-Link M7450 fest auf das Frequenzband 2.4 GHz einstellen, da das OBP40 und die M5Stack CAN Unit nur im 2.4 GHz Bereich arbeiten.
+	Der LTE-Router TP-Link M7450 kann nicht gleichzeitig in beiden Frequenzbändern arbeiten. Daher müssen Sie den TP-Link M7450 fest auf das Frequenzband 2.4 GHz einstellen, da das OBP40 und die M5Stack CAN Unit nur im 2.4 GHz Bereich arbeiten können.
 	
 		
 .. image:: ../pics/LTE-Router_RUT360.png
