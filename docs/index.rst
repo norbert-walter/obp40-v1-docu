@@ -35,6 +35,7 @@ Das Multifunktionsdisplay OBP40 basiert auf dem `Crow Panel 4.2`_ von Elecrow un
    Bedienelemente <usermanual/elements>
    Inbetriebnahme <usermanual/start>
    Konfiguration <usermanual/configuration>
+   Bussysteme <usermanual/bussystems>
    Datenaustausch <usermanual/dataexchange>
    Erweiterte Sensorik <usermanual/sensors>
    Beispielkonfiguration <usermanual/samples>
