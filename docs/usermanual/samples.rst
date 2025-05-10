@@ -282,7 +282,7 @@ Tablett Konfiguration
 ---------------------
 
 .. image:: ../pics/Tablet_AVnav_Charts.png
-             :scale: 30%
+             :scale: 10%
 
 Das Android-Tablett wird in das WiFi-Netzwerk des LTE-Routers hinzugefügt und anschleißend die App AvNav aus dem Play-Sore installiert. Details zur Konfiguration entnehmen Sie dem Handbuch zum Tablett. Die Daten eines GPS-Empfängers im Tablett lassen sich ebenfalls im NMEA0183- und NMEA2000-Netzwerk nutzen.
 
