@@ -4,7 +4,10 @@ Beispielkonfiguration
 OBP40 Yachta M5Stack AvNav
 --------------------------
 
-Im folgenden Beispiel wird gezeigt wie man mit einem **OBP40** eine Datenübertragung zum **Windsensor Yachta** und zu einem **M5Stack CAN Unit** mit `NMEA2000-Gateway`_ aufbauen und die Daten in der Navigationsapp AvNav auf einem Tablett nutzen kann. Die M5Stack CAN Unit dient dabei als zentrale Datenbasis in der alle Daten zusammenlaufen. Die Datenübertragung erfolgt über WiFi-Netzwerkverbindungen, die ein LTE-Router zur Verfügung stellt. Der Vorteil eines LTE-Routers besteht darin, dass sie alle Geräte an Bord mit einer WiFi-Internetverbindung versorgen können und die Geräte im WiFi-Netzwerk untereinander kommunizieren können. Der LTE-Router schottet das eigen WiFi-Netzwerk gegenüber dem Internet ab, so dass von außerhalb niemand auf Ihr internes Netzwerk Zugriff erhält. Somit lassen sich auch Geräte wie Handys, Tabletts oder Laptops an Bord mit dem Internet verbinden und alle Geräte haben Zugriff auf die Daten der Sensoren und können über einen Web-Browser darauf zugreifen. Die Naviationssoftware AvNav wird dabei auf einem Android-Tablett installiert und zur Navigation genutzt.
+Im folgenden Beispiel wird gezeigt wie man mit einem **OBP40** eine Datenübertragung zum **Windsensor Yachta** und zu einem **M5Stack CAN Unit** mit `NMEA2000-Gateway`_ aufbauen und die Daten in der Navigationsapp AvNav auf einem Tablett nutzen kann. Die M5Stack CAN Unit dient dabei als zentrale Datenbasis in der alle Daten zusammenlaufen. Die Datenübertragung erfolgt über WiFi-Netzwerkverbindungen, die ein LTE-Router zur Verfügung stellt. Der Vorteil eines LTE-Routers besteht darin, dass sie alle Geräte an Bord mit einer WiFi-Internetverbindung versorgen können und die Geräte im WiFi-Netzwerk untereinander kommunizieren können. Der LTE-Router schottet das eigene WiFi-Netzwerk gegenüber dem Internet ab, so dass von außerhalb niemand auf Ihr internes Netzwerk Zugriff erhält. Somit lassen sich auch Geräte wie Handys, Tabletts oder Laptops an Bord mit dem Internet verbinden und alle Geräte haben Zugriff auf die Daten der Sensoren und können über einen Web-Browser darauf zugreifen. Die Naviationssoftware AvNav wird dabei auf einem Android-Tablett installiert und zur Navigation genutzt.
+
+.. tip::
+	Grundsätzlich ließe sich der Access Point vom M5Stack auch als zentraler WiFi-Router nutzen. Die Leistungsfähigkeit ist aber deutlich geringer als bei einem LTE-Router. Wir empfehlen ausdrücklich die Verwendung eines dedizierte LTE- oder WiFi-Routers. Sie vermeiden damit Probleme bei der Kommunikation der Geräte untereinander.
 
 .. _NMEA2000-Gateway: https://open-boat-projects.org/de/nmea2000-gateway-mit-m5stack-atom/
 
@@ -25,7 +28,7 @@ LTE-Router einrichten
 Als LTE-Router können Sie sowohl mobile Geräte als auch stationäre Geräte verwenden. Mobile Geräte haben den Vorteil, dass sie autark über eine Batterie über einen längeren Zeitraum funktionieren und auch außerhalb des Bootes an Land bei Ausflügen benutzt werden können. Stationäre Geräte bieten sich an, wenn man maximale Empfangsleistung benötigt und in Küstennähe unterwegs ist und große Entfernungen zur nächsten Mobilfunk-Basisstation überbrücken möchte. In solchen Fällen bietet es sich an, Mobilfunkantennen oben im Mast zu installieren und die Antenne per Kabel mit dem stationären Router zu verbinden.
 
 .. tip::
-	Achten Sie beim Kauf des LTE-Routers, dass der Router im Dualband-Modus in den zwei WiFi-Frequenzbereichen 2.4 GHz und 5 GHz arbeiten kann und über 4G/5G-Mobilfunk-Standard verfügt. So profitieren sie von einer leistungsfähigen Internet- und WiFi-Verbindung im 5 GHz Bereich und umgehen die meist überfüllten 2.4 GHz Ferquenzbereiche. Solche Router können Daten zwischen beiden Frequenzbereichen problemlos austauschen.
+	Achten Sie beim Kauf des LTE-Routers, dass der Router im Dualband-Modus in den zwei WiFi-Frequenzbereichen 2.4 GHz und 5 GHz gleichzeitig arbeiten kann und über 4G/5G-Mobilfunk-Standard verfügt. So profitieren sie von einer leistungsfähigen Internet- und WiFi-Verbindung im 5 GHz Bereich und umgehen die meist überfüllten 2.4 GHz Ferquenzbereiche. Solche Router können Daten zwischen beiden Frequenzbereichen problemlos austauschen. Ein ausgedientes Handy im Hotspot-Mode leistet ähnliches wie ein LTE-Router und kann eine günstige Alternative darstellen.
 
 .. image:: ../pics/LTE-Router_TP-Link_M7450.png
              :scale: 30%	
@@ -43,7 +46,7 @@ Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 	.. [#f2] Kein gleichzeitiger Dualbetrieb möglich
 
 .. warning::
-	Der LTE-Router TP-Link M7450 kann nicht gleichzeitig in beiden Frequenzbändern arbeiten. Daher müssen Sie den TP-Link M7450 fest auf das Frequenzband 2.4 GHz einstellen. Das OBP40 und die M5Stack CAN Unit können nur im 2.4 GHz Bereich arbeiten.
+	Der LTE-Router TP-Link M7450 kann nicht gleichzeitig in beiden Frequenzbändern arbeiten. Daher müssen Sie den TP-Link M7450 fest auf das Frequenzband 2.4 GHz einstellen. Das OBP40 und die M5Stack CAN Unit arbeiten nur im 2.4 GHz Bereich.
 	
 		
 .. image:: ../pics/LTE-Router_RUT360.png
@@ -78,6 +81,15 @@ Für das Konfigurationsbeispiel wird davon ausgegangen, dass die Geräte folgend
 
 .. hint::
 	In Ihrem konkreten Fall können die IP-Adressen abweichen. Verwenden Sie dann die IP-Adressen, die den Geräten vom Router zugewiesen worden sind.
+
+Datenübertragung
+^^^^^^^^^^^^^^^^
+
+Das folgende Schema zeigt die Datenübertragung und welche Geräte Server oder Client bei der Datenübertragung sind.
+
+.. image:: ../pics/Data_Transmission.png
+             :scale: 50%
+Abb.: Schema Datenübertragung
 	
 Konfiguration M5Stack
 ^^^^^^^^^^^^^^^^^^^^^
