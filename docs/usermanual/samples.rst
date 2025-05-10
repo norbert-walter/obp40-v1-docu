@@ -15,8 +15,8 @@ Abb.: Beispielkonfiguration OBP40, Yachta, M5Stack, AvNav
 Die Konfiguration läuft in folgenden Schritten ab:
 
 * LTE-Router einrichten
-* M5Stack mit NMEA2000-Netzwerk und OBP40 verbinden
-* OBP40 mit Windsensor Yachta verbinden
+* M5Stack mit NMEA2000-Netzwerk und Windsensor Yachta verbinden
+* OBP40 mit M5Stack verbinden
 * AvNav mit dem M5Stack verbinden
 
 LTE-Router einrichten
@@ -85,7 +85,7 @@ Konfiguration M5Stack
 .. image:: ../pics/M5Stack_CAN.png
              :scale: 100%
 
-Der M5Stack CAN Unit wird der Systemname M5Stack zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Der TCP-Server ist so konfiguriert, dass zu einem Tablett Daten übertragen werden können. Die TCP-Client-Verbindung dient zur Kommunikation mit dem OBP40. Der M5Stack ist per Kabel über die CAN-Unit mit dem NMEA2000-Netzwerk des Bootes verbunden. Sensordaten die im M5Stack vorliegen, wie z.B. die Windsensor-Daten, werden auch in den NMEA2000-Bus übertragen.
+Der M5Stack CAN Unit wird der Systemname M5Stack zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Der TCP-Server ist so konfiguriert, dass zu einem Tablett Daten übertragen werden können. Die TCP-Client-Verbindung dient zur Kommunikation mit dem Windsensor Yachta. Der M5Stack ist per Kabel über die CAN-Unit mit dem NMEA2000-Netzwerk des Bootes verbunden. Sensordaten die im M5Stack vorliegen, wie z.B. die Windsensor-Daten, werden auch in den NMEA2000-Bus übertragen.
 
 Nehmen Sie folgende Einstellungen vor:
 
@@ -124,28 +124,30 @@ Nehmen Sie folgende Einstellungen vor:
 +---------------------------+---------------------+
 |Enable                     |on                   |
 +---------------------------+---------------------+
-|Remote Port                |10110                |
+|Remote Port                |6666                 |
 +---------------------------+---------------------+
-|Remote Address             |192.168.1.100        |
+|Remote Address             |192.168.1.102        |
 +---------------------------+---------------------+
-|NMEA0183 Out               |on                   |
+|NMEA0183 Out               |off                  |
 +---------------------------+---------------------+
 |To NMEA2000                |on                   |
 +---------------------------+---------------------+
-|SeaSamart Out              |on                   |
+|SeaSamart Out              |off                  |
 +---------------------------+---------------------+
 
-Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Der M5Stack ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.101 zugewiesen bekommen. Der M5Stack ist als TCP-Client mit dem OBP40 verbunden. Über diese Verbindung können NMEA0183- und NMEA2000-Daten ausgetauscht werden. Der NMEA2000-Status wird als Oline angezeigt, wenn Daten mit dem NMEA2000-Bus ausgetauscht werden. Die NMEA2000-Daten werden mit SeaSmart zum OBP40 über die WiFi-Verbindung übertragen. Die Anzahl der ausgetauschten NMEA2000-Telegramme sieht man unter NMEA2000 In/Out. Wenn ein OBP40 oder ein Tablett mit dem M5Stack per TCP verbunden ist, sieht man die Anzahl der ausgetauschten NMEA0183-Telegramme unter TCP In/Out.
+Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Der M5Stack ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.101 zugewiesen bekommen. Der M5Stack ist als TCP-Client mit dem Windsensor Yachta verbunden. Über diese Verbindung können NMEA0183- und NMEA2000-Daten ausgetauscht werden. Unter Clients werden die Anzahl der Geräte angezeigt, die als TCP-Client mit dem M5Stack verbunden sind. Wenn das Tablet ebenfalls mit dem M5Stack verbunden ist, sollten 2 Geräte angebunden sein. Der NMEA2000-Status wird als Oline angezeigt, wenn Daten mit dem NMEA2000-Bus ausgetauscht werden. Die NMEA2000-Daten werden mit SeaSmart zum OBP40 über die WiFi-Verbindung übertragen. Die Anzahl der ausgetauschten NMEA2000-Telegramme sieht man unter NMEA2000 In/Out. Wenn ein OBP40 oder ein Tablett mit dem M5Stack per TCP verbunden ist, sieht man die Anzahl der ausgetauschten NMEA0183-Telegramme unter TCP In/Out.
 
 +---------------------------+---------------------+
-|Statusmeldungen            |OBP40                |
+|Statusmeldungen            |M5Stack              |
 +===========================+=====================+
 |:ref:`Status`              |                     |
 +---------------------------+---------------------+
 |WiFi Client Connected      |true                 |
 +---------------------------+---------------------+
 |WiFi Client IP             |192.168.1.101        |
-+---------------------------+---------------------+	
++---------------------------+---------------------+
+|#Clients                   |2                    |
++---------------------------+---------------------+		
 |NMEA2000 State             |[0] Online           |
 +---------------------------+---------------------+	
 |NMEA2000 In                |Telegrammeanzahl     |
@@ -163,7 +165,7 @@ Konfiguration OBP40
 .. image:: ../pics/OBP40_Side_View_Buttons_2_t.png
              :scale: 30%
 
-Dem Anzeigegerät OBP40 wird der Systemname OBP40V1 zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Der TCP-Server ist so konfiguriert, dass über SeaSmart NMEA2000-Telegramme zur M5Stack CAN Unit übertragen werden können. Die TCP-Client-Verbindung dient zur Kommunikation mit dem Windsensor Yachta. Die Daten des Yachta Windsensors werden über den TCP-Server an die M5Stack CAN Unit übertragen. Über sie selbe Verbindung können auch Daten aus dem NMEA2000-Bus zum OBP40 über SeaSmart übertragen werden.
+Dem Anzeigegerät OBP40 wird der Systemname OBP40V1 zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Die TCP-Client-Verbindung dient zur Kommunikation mit dem M5Stack. Das OBP40 bezieht alle Sensor-Daten über den M5Stack. Die Daten vom Windsensor Yachta werden üebr den M5Stack bereitgestellt.
 
 Folgende Einstellungen sind vorzunehmen:
 
@@ -182,34 +184,22 @@ Folgende Einstellungen sind vorzunehmen:
 +---------------------------+---------------------+
 |WiFi Client Password       |MySecret             |
 +---------------------------+---------------------+
-|:ref:`Config - TCP Server` |                     |
-+---------------------------+---------------------+
-|TCP Port                   |10110                |
-+---------------------------+---------------------+
-|NMEA0183 Out               |on                   |
-+---------------------------+---------------------+
-|NMEA0183 In                |on                   |
-+---------------------------+---------------------+
-|To NMEA2000                |on                   |
-+---------------------------+---------------------+
-|SeaSmart Out               |on                   |
-+---------------------------+---------------------+
 |:ref:`Config - TCP Client` |                     |
 +---------------------------+---------------------+
 |Enable                     |on                   |
 +---------------------------+---------------------+
-|Remote Port                |6666                 |
+|Remote Port                |10110                |
 +---------------------------+---------------------+
-|Remote Address             |192.168.1.102        |
+|Remote Address             |192.168.1.101        |
 +---------------------------+---------------------+
-|NMEA0183 Out               |off                  |
+|NMEA0183 Out               |on                   |
 +---------------------------+---------------------+
-|To NMEA2000                |on                   |
+|To NMEA2000                |off                  |
 +---------------------------+---------------------+
-|SeaSamart Out              |off                  |
+|SeaSamart Out              |on                   |
 +---------------------------+---------------------+
 
-Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Das OBP40 ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.100 zugewiesen bekommen. Der M5Stack ist als TCP-Client mit dem OBP40 verbunden. Über diese Verbindung können NMEA0183- und NMEA2000-Daten ausgetauscht werden. Der NMEA2000-Status wird als Offline angezeigt, weil keine direkte Kabelverbindung zum NMEA2000-Netzwerk existiert. Die NMEA2000-Daten werden mit SeaSmart über die WiFi-Verbindung übertragen.
+Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Das OBP40 ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.100 zugewiesen bekommen. Das OBP40 ist als TCP-Client mit dem M5Stack verbunden. Über diese Verbindung können NMEA0183- und NMEA2000-Daten ausgetauscht werden. Der NMEA2000-Status wird als Offline angezeigt, weil keine direkte Kabelverbindung zum NMEA2000-Netzwerk existiert. Die NMEA2000-Daten werden mit SeaSmart über die WiFi-Verbindung übertragen.
 
 +---------------------------+---------------------+
 |Statusmeldungen            |OBP40                |
@@ -220,7 +210,7 @@ Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. D
 +---------------------------+---------------------+
 |WiFi Client IP             |192.168.1.100        |
 +---------------------------+---------------------+	
-|#Clients                   |1                    |
+|#Clients                   |0                    |
 +---------------------------+---------------------+	
 |NMEA2000 State             |[32] Offline         |
 +---------------------------+---------------------+	
@@ -231,7 +221,7 @@ Konfiguration Yachta
 .. image:: ../pics/Yachta_Wind_Sensor.png
              :scale: 100%
 
-Der Windsensor Yachta ist so konfiguriert, dass er im WiFi-Netzwerk des LTE-Routers eingebucht ist. Der Windsensor stellt über den Port 6666 dem OBP40 Winddaten zur Verfügung. Es werden dabei nur Daten vom Windsensor Yachta zum OBP40 übertragen. 
+Der Windsensor Yachta ist so konfiguriert, dass er im WiFi-Netzwerk des LTE-Routers eingebucht ist. Der Windsensor stellt über den Port 6666 dem M5Stack Winddaten zur Verfügung. Es werden dabei nur Daten vom Windsensor Yachta zum M5Stack übertragen. 
 
 Folgende Einstellungen werden für den Windsensor Yachta vorgenommen:
 
@@ -300,7 +290,7 @@ Das Android-Tablett wird in das WiFi-Netzwerk des LTE-Routers hinzugefügt und a
 |App-Installation           |AvNav                |
 +---------------------------+---------------------+
 
-Nachfolgend wird gezeigt, wie man Busdaten über ein Tablett in AvNav nutzen kann. Die Datenübertragung erfolgt über WiFi. Das Tablett tauscht dabei die Daten mit dem M5Stack über einen TCP-Verbindung aus. Dabei wird das Tablett als TCP-Client an die M5Stack CAN Unit angedockt. Eine TCP-Client-Verbindung wird unter AvNav als TCPReader-Verbindung eingerichtet.
+Nachfolgend wird gezeigt, wie man Busdaten über ein Tablett in AvNav nutzen kann. Die Datenübertragung erfolgt über WiFi. Das Tablett tauscht dabei die Daten mit dem M5Stack über einen TCP-Verbindung aus. Dabei wird das Tablett als TCP-Client an die M5Stack CAN Unit angedockt. Unter AvNav wird die Verbindung als TCPReader eingerichtet.
 
 .. image:: ../pics/Android_Start_Page.jpg
              :scale: 40%	
