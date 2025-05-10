@@ -1,14 +1,14 @@
 Beispielkonfiguration
 =====================
 
-OBP40 mit Yachta und M5Stack
-----------------------------
+OBP40 Yachta M5Stack AvNav
+--------------------------
 
 Im folgenden Beispiel wird gezeigt wie man mit einem **OBP40** eine Datenübertragung zum **Windsensor Yachta** und zu einem **M5Stack CAN Unit** mit `NMEA2000-Gateway`_ aufbauen und die Daten in der Navigationsapp AvNav auf einem Tablett nutzen kann. Die M5Stack CAN Unit dient dabei als zentrale Datenbasis in der alle Daten zusammenlaufen. Die Datenübertragung erfolgt über WiFi-Netzwerkverbindungen, die ein LTE-Router zur Verfügung stellt. Der Vorteil eines LTE-Routers besteht darin, dass sie alle Geräte an Bord mit einer WiFi-Internetverbindung versorgen können und die Geräte im WiFi-Netzwerk untereinander kommunizieren können. Der LTE-Router schottet das eigen WiFi-Netzwerk gegenüber dem Internet ab, so dass von außerhalb niemand auf Ihr internes Netzwerk Zugriff erhält. Somit lassen sich auch Geräte wie Handys, Tabletts oder Laptops an Bord mit dem Internet verbinden und alle Geräte haben Zugriff auf die Daten der Sensoren und können über einen Web-Browser darauf zugreifen. Die Naviationssoftware AvNav wird dabei auf einem Android-Tablett installiert und zur Navigation genutzt.
 
 .. _NMEA2000-Gateway: https://open-boat-projects.org/de/nmea2000-gateway-mit-m5stack-atom/
 
-.. image:: ../pics/SeaSmart2_OBP40.png
+.. image:: ../pics/Use_Case_4.png
              :scale: 60%	
 Abb.: Beispielkonfiguration OBP40, Yachta, M5Stack, AvNav
 
@@ -40,7 +40,11 @@ Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 		- 32 GB SD-Card-Speicher
 		- USB-, SMB- und FTP-Share für Filme und Musik von SD-Card
 		- `Dokumentation <../_static/m7450.pdf>`_
-	.. [#f2] Kein gleichzeitiger Dualbetrieb	
+	.. [#f2] Kein gleichzeitiger Dualbetrieb möglich
+
+.. warning::
+	Da der LTE-Router TP-Link M7450 nicht gleichzeitig in beiden Frequenzbändern arbeitet, müssen Sie den TP-Link M7450 fest auf das Frequenzband 2.4 GHz einstellen, da das OBP40 und die M5Stack CAN Unit nur im 2.4 GHz Bereich arbeiten.
+	
 		
 .. image:: ../pics/LTE-Router_RUT360.png
              :scale: 40%	
@@ -61,7 +65,7 @@ Abb.: Stationärer 4G-LTE-Dualband-Router RTU360
 
 Der verwendete LTE-Router wird entsprechend der Bedienungsanleitung in Betrieb genommen. Für eine Internetverbindung benötigen Sie einen Mobilfunk-Datenvertrag. Die meisten Mobilfunkfirmen bieten preisgünstige Datentarife an. Empfehlenswert sind Volumenverträge, die ein festes Datenvolumen für eine vorgegebene Zeitdauer bieten. Wählen Sie einen Tarif aus, der Ihrem Datenverbrauch entspricht. Das Datenvolumen können Sie ebenfalls in allen Ländern der EU uneingeschränkt nutzen, so wie Sie das in Ihrem Heimatland gewohnt sind.
 
-Für das Konfigurationsbeispiel gehen wir davon aus, dass die Geräte folgende IP-Adressen vom Router zugewiesen bekommen:
+Für das Konfigurationsbeispiel wird davon ausgegangen, dass die Geräte folgende IP-Adressen vom Router zugewiesen bekommen:
 
 	* MyBoat - WiFi-SSID
 	* MySecret - WiFi Passwort
@@ -77,6 +81,9 @@ Für das Konfigurationsbeispiel gehen wir davon aus, dass die Geräte folgende I
 	
 Konfiguration M5Stack
 ---------------------
+
+.. image:: ../pics/M5Stack_CAN.png
+             :scale: 100%
 
 Der M5Stack CAN Unit wird der Systemname M5Stack zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Der TCP-Server ist so konfiguriert, dass zu einem Tablett Daten übertragen werden können. Die TCP-Client-Verbindung dient zur Kommunikation mit dem OBP40. Der M5Stack ist per Kabel über die CAN-Unit mit dem NMEA2000-Netzwerk des Bootes verbunden. Sensordaten die im M5Stack vorliegen, wie z.B. die Windsensor-Daten, werden auch in den NMEA2000-Bus übertragen.
 
@@ -153,6 +160,9 @@ Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. D
 Konfiguration OBP40
 -------------------
 
+.. image:: ../pics/OBP40_Side_View_Buttons_2_t.png
+             :scale: 30%
+
 Dem Anzeigegerät OBP40 wird der Systemname OBP40V1 zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Der TCP-Server ist so konfiguriert, dass über SeaSmart NMEA2000-Telegramme zur M5Stack CAN Unit übertragen werden können. Die TCP-Client-Verbindung dient zur Kommunikation mit dem Windsensor Yachta. Die Daten des Yachta Windsensors werden über den TCP-Server an die M5Stack CAN Unit übertragen. Über sie selbe Verbindung können auch Daten aus dem NMEA2000-Bus zum OBP40 über SeaSmart übertragen werden.
 
 Folgende Einstellungen sind vorzunehmen:
@@ -218,6 +228,9 @@ Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. D
 Konfiguration Yachta
 --------------------
 
+.. image:: ../pics/Yachta_Wind_Sensor.png
+             :scale: 100%
+
 Der Windsensor Yachta ist so konfiguriert, dass er im WiFi-Netzwerk des LTE-Routers eingebucht ist. Der Windsensor stellt über den Port 6666 dem OBP40 Winddaten zur Verfügung. Es werden dabei nur Daten vom Windsensor Yachta zum OBP40 übertragen. 
 
 Folgende Einstellungen werden für den Windsensor Yachta vorgenommen:
@@ -268,7 +281,10 @@ Nach der Konfiguration sollten unter **Device Info** im Windsensor Yachta folgen
 Tablett Konfiguration
 ---------------------
 
-Das Android-Tablett wird in das WiFi-Netzwerk des LTE-Routers hinzugefügt und anschleißend die App AvNav aus dem Play-Sore installiert. Details zur Konfiguration entnehmen Sie dem Handbuch zum Tablett. Die Daten eines GPS-Empfangers im Tablett lassen sich ebenfalls im NMEA0183- und NMEA2000-Netzwerk nutzen.
+.. image:: ../pics/Tablet_AVnav_Charts.png
+             :scale: 30%
+
+Das Android-Tablett wird in das WiFi-Netzwerk des LTE-Routers hinzugefügt und anschleißend die App AvNav aus dem Play-Sore installiert. Details zur Konfiguration entnehmen Sie dem Handbuch zum Tablett. Die Daten eines GPS-Empfängers im Tablett lassen sich ebenfalls im NMEA0183- und NMEA2000-Netzwerk nutzen.
 
 +---------------------------+---------------------+
 |Einstellung                |Android-Tablett      |
@@ -304,7 +320,7 @@ Für die bidirektionale Kommunikation über USB wählen Sie **TCPReader**.
              :scale: 40%	
 Abb.: Verbindungstypen
 
-Unter **IP-Address** tragen Sie die IP-Adresse desM5Stack ein und als **Port** die 10110. Um nicht nur Daten senden, sondern auch empfangen zu können, aktivieren Sie **SendOut**.
+Unter **IP-Address** tragen Sie die IP-Adresse des M5Stack ein und als **Port** die 10110. Um nicht nur Daten senden, sondern auch empfangen zu können, aktivieren Sie **SendOut**.
 
 .. image:: ../pics/Android_Select_Handler_TCPReader.jpg
              :scale: 40%	

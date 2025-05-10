@@ -25,11 +25,11 @@ In der nachfolgenden Tabelle sind einige Sensoren aufgelistet, die am OBP40 und 
 	Die Sensormodule sind für bestimmte Spannungsbereiche ausgelegt. Achten Sie darauf, die richtigen Sensoren zu verwenden. Werden 3.3V-Module in 5V-Systemen benutzt, können die 3.3V-Module beschädigt werden. Es sind in diesem Fall Pegelkonverter notwendig. Die meisten 5V-Module sind auch an 3.3V-Systemen nutzbar, wenn sie mit 3.3V betrieben werden.
 
 .. note::
-	Beachten sie beim Einkauf der BMP280- und BME280-Module, unterschiedlieche Typen gibt die ähnlich aussehen, sich aber unterschiedlich verhalten. Sie erkennen die Typen an der Gehäusegröße und Form des Chips.
+	Beachten sie beim Kauf der BMP280- und BME280-Module, dass es unterschiedlieche Typen gibt die ähnlich aussehen, sich aber unterschiedlich verhalten. Sie erkennen die Typen an der Gehäusegröße und Form des Chips.
 
 .. image:: ../pics/BMP280_BME280_5V_3.3V.png
 	:scale: 50%
-Abb.: Versionen BMP280/BME280	
+Abb.: Versionen BMP280/BME280 für 3.3V und 5V
 
 +------------+-----+---------+-----------------------------------------+------+----+--------------------+
 | Typ        | Bus | Sensor  | Bild                                    | 3.3V | 5V | Benutzte Pins      |
