@@ -31,7 +31,7 @@ Als LTE-Router können Sie sowohl mobile Geräte als auch stationäre Geräte ve
 	Achten Sie beim Kauf des LTE-Routers, dass der Router im Dualband-Modus in den zwei WiFi-Frequenzbereichen 2.4 GHz und 5 GHz gleichzeitig arbeiten kann und über 4G/5G-Mobilfunk-Standard verfügt. So profitieren sie von einer leistungsfähigen Internet- und WiFi-Verbindung im 5 GHz Bereich und umgehen die meist überfüllten 2.4 GHz Ferquenzbereiche. Solche Router können Daten zwischen beiden Frequenzbereichen problemlos austauschen. Ein ausgedientes Handy im Hotspot-Mode leistet ähnliches wie ein LTE-Router und kann eine günstige Alternative darstellen.
 
 .. image:: ../pics/LTE-Router_TP-Link_M7450.png
-             :scale: 30%	
+             :scale: 20%	
 Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 
 	* Leistungsdaten
@@ -88,7 +88,7 @@ Datenübertragung
 Das folgende Schema zeigt die Datenübertragung und welche Geräte Server oder Client bei der Datenübertragung sind.
 
 .. image:: ../pics/Data_Transmission.png
-             :scale: 50%
+             :scale: 80%
 Abb.: Schema Datenübertragung
 	
 Konfiguration M5Stack
