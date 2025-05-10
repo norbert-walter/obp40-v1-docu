@@ -20,7 +20,7 @@ Die Konfiguration läuft in folgenden Schritten ab:
 * AvNav mit dem M5Stack verbinden
 
 LTE-Router einrichten
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Als LTE-Router können Sie sowohl mobile Geräte als auch stationäre Geräte verwenden. Mobile Geräte haben den Vorteil, dass sie autark über eine Batterie über einen längeren Zeitraum funktionieren und auch außerhalb des Bootes an Land bei Ausflügen benutzt werden können. Stationäre Geräte bieten sich an, wenn man maximale Empfangsleistung benötigt und in Küstennähe unterwegs ist und große Entfernungen zur nächsten Mobilfunk-Basisstation überbrücken möchte. In solchen Fällen bietet es sich an, Mobilfunkantennen oben im Mast zu installieren und die Antenne per Kabel mit dem stationären Router zu verbinden.
 
@@ -80,7 +80,7 @@ Für das Konfigurationsbeispiel wird davon ausgegangen, dass die Geräte folgend
 	In Ihrem konkreten Fall können die IP-Adressen abweichen. Verwenden Sie dann die IP-Adressen, die den Geräten vom Router zugewiesen worden sind.
 	
 Konfiguration M5Stack
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../pics/M5Stack_CAN.png
              :scale: 100%
@@ -162,11 +162,11 @@ Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. D
 Die Verbindung des M5Stack mit dem NMEA2000-Netzwerk erfolgt über ein Tail485. Das Tail485 kann am M5Stack angesteckt werden. Es enthält einen Spannungswandler, der die 12V-Versorgungsspannung so aufbereitet, dass damit der M5Stack versorgt werden kann. Die Spannung kann direkt vom NMEA2000-Bus entnommen werden. Zusätzlich haben Sie eine NMEA0183-Schnittstelle mit der Daten ausgetauschet werden können.
 
 .. image:: ../pics/CAN_Connection_Tail.png
-             :scale: 30%
+             :scale: 40%
 Abb. CAN-Bus Anbindung mit Versorgung aus dem Bus (M5Stack mit Tail485)
 
 Konfiguration OBP40
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../pics/OBP40_Side_View_Buttons_2_t.png
              :scale: 30%
@@ -222,7 +222,7 @@ Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. D
 +---------------------------+---------------------+	
 
 Konfiguration Yachta
---------------------
+^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../pics/Yachta_Wind_Sensor.png
              :scale: 100%
