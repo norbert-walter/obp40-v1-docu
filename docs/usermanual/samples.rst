@@ -4,7 +4,7 @@ Beispielkonfiguration
 OBP40 Yachta M5Stack AvNav
 --------------------------
 
-Im folgenden Beispiel wird gezeigt wie man mit einem **OBP40** eine Datenübertragung zum **Windsensor Yachta** und zu einem **M5Stack CAN Unit** mit `NMEA2000-Gateway`_ aufbauen und die Daten in der Navigationsapp AvNav auf einem Tablett nutzen kann. Die M5Stack CAN Unit dient dabei als zentrale Datenbasis in der alle Daten zusammenlaufen. Die Datenübertragung erfolgt über WiFi-Netzwerkverbindungen, die ein LTE-Router zur Verfügung stellt. Der Vorteil eines LTE-Routers besteht darin, dass sie alle Geräte an Bord mit einer WiFi-Internetverbindung versorgen können und die Geräte im WiFi-Netzwerk untereinander kommunizieren können. Der LTE-Router schottet das eigene WiFi-Netzwerk gegenüber dem Internet ab, so dass von außerhalb niemand auf Ihr internes Netzwerk Zugriff erhält. Somit lassen sich auch Geräte wie Handys, Tabletts oder Laptops an Bord mit dem Internet verbinden und alle Geräte haben Zugriff auf die Daten der Sensoren und können über einen Web-Browser darauf zugreifen. Die Naviationssoftware AvNav wird dabei auf einem Android-Tablett installiert und zur Navigation genutzt.
+Im folgenden Beispiel wird gezeigt wie man mit einem **OBP40** eine Datenübertragung zum **Windsensor Yachta** und zu einem **M5Stack CAN Unit** mit `NMEA2000-Gateway`_ aufbauen und die Daten in der Navigationsapp AvNav auf einem Tablett nutzen kann. Die M5Stack CAN Unit dient dabei als zentrale Datenbasis, in der alle Daten zusammenlaufen. Die Datenübertragung erfolgt über WiFi-Netzwerkverbindungen, die ein LTE-Router zur Verfügung stellt. Der Vorteil eines LTE-Routers besteht darin, dass sie alle Geräte an Bord mit einer WiFi-Internetverbindung versorgen können und die Geräte im WiFi-Netzwerk untereinander kommunizieren können. Der LTE-Router schottet das eigene WiFi-Netzwerk gegenüber dem Internet ab, so dass von außerhalb niemand auf Ihr internes Netzwerk Zugriff erhält. Somit lassen sich auch Geräte wie Handys, Tabletts oder Laptops an Bord mit dem Internet verbinden und alle Geräte haben Zugriff auf die Daten der Sensoren und können über einen Web-Browser darauf zugreifen. Die Naviationssoftware AvNav wird dabei auf einem Android-Tablett installiert und zur Navigation genutzt.
 
 .. tip::
 	Grundsätzlich ließe sich der Access Point vom M5Stack auch als zentraler WiFi-Router nutzen. Die Leistungsfähigkeit ist aber deutlich geringer als bei einem LTE-Router. Wir empfehlen ausdrücklich die Verwendung eines dedizierte LTE- oder WiFi-Routers. Sie vermeiden damit Probleme bei der Kommunikation der Geräte untereinander.
@@ -28,14 +28,14 @@ LTE-Router einrichten
 Als LTE-Router können Sie sowohl mobile Geräte als auch stationäre Geräte verwenden. Mobile Geräte haben den Vorteil, dass sie autark über eine Batterie über einen längeren Zeitraum funktionieren und auch außerhalb des Bootes an Land bei Ausflügen benutzt werden können. Stationäre Geräte bieten sich an, wenn man maximale Empfangsleistung benötigt und in Küstennähe unterwegs ist und große Entfernungen zur nächsten Mobilfunk-Basisstation überbrücken möchte. In solchen Fällen bietet es sich an, Mobilfunkantennen oben im Mast zu installieren und die Antenne per Kabel mit dem stationären Router zu verbinden.
 
 .. tip::
-	Achten Sie beim Kauf des LTE-Routers, dass der Router im Dualband-Modus in den zwei WiFi-Frequenzbereichen 2.4 GHz und 5 GHz gleichzeitig arbeiten kann und über 4G/5G-Mobilfunk-Standard verfügt. So profitieren sie von einer leistungsfähigen Internet- und WiFi-Verbindung im 5 GHz Bereich und umgehen die meist überfüllten 2.4 GHz Ferquenzbereiche. Solche Router können Daten zwischen beiden Frequenzbereichen problemlos austauschen. Ein ausgedientes Handy im Hotspot-Mode leistet ähnliches wie ein LTE-Router und kann eine günstige Alternative darstellen.
+	Achten Sie beim Kauf des LTE-Routers, dass der Router im Dualband-Modus in den zwei WiFi-Frequenzbereichen 2.4 GHz und 5 GHz gleichzeitig arbeiten kann und über 4G/5G-Mobilfunk-Standard verfügt. So profitieren sie von einer leistungsfähigen Internet- und WiFi-Verbindung im 5 GHz Bereich und umgehen die meist überfüllten 2.4 GHz Frequenzbereiche. Solche Router können Daten zwischen beiden Frequenzbereichen problemlos austauschen. Ein ausgedientes Handy im Hotspot-Mode leistet ähnliches wie ein LTE-Router und kann eine günstige Alternative darstellen.
 
 .. image:: ../pics/LTE-Router_TP-Link_M7450.png
              :scale: 20%	
 Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 
 	* Leistungsdaten
-		- 4G/LTE Mobilfunkstandard 50 MBit/scale
+		- 4G/LTE Mobilfunkstandard 50 MBit/s
 		- WiFi Dualband 2.4 GHz **oder** 5 GHz 300 MBit/s [#f2]_
 		- 3000 mAh LiPo-Akku
 		- 15 Stunden autarke Laufzeit
@@ -147,7 +147,7 @@ Nehmen Sie folgende Einstellungen vor:
 |SeaSamart Out              |off                  |
 +---------------------------+---------------------+
 
-Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Der M5Stack ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.101 zugewiesen bekommen. Der M5Stack ist als TCP-Client mit dem Windsensor Yachta verbunden. Über diese Verbindung können NMEA0183- und NMEA2000-Daten ausgetauscht werden. Unter Clients werden die Anzahl der Geräte angezeigt, die als TCP-Client mit dem M5Stack verbunden sind. Wenn das Tablet ebenfalls mit dem M5Stack verbunden ist, sollten 2 Geräte angebunden sein. Der NMEA2000-Status wird als Oline angezeigt, wenn Daten mit dem NMEA2000-Bus ausgetauscht werden. Die NMEA2000-Daten werden mit SeaSmart zum OBP40 über die WiFi-Verbindung übertragen. Die Anzahl der ausgetauschten NMEA2000-Telegramme sieht man unter NMEA2000 In/Out. Wenn ein OBP40 oder ein Tablett mit dem M5Stack per TCP verbunden ist, sieht man die Anzahl der ausgetauschten NMEA0183-Telegramme unter TCP In/Out.
+Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Der M5Stack ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.101 zugewiesen bekommen. Der M5Stack ist als TCP-Client mit dem Windsensor Yachta verbunden. Über diese Verbindung können NMEA0183- und NMEA2000-Daten ausgetauscht werden. Unter Clients werden die Anzahl der Geräte angezeigt, die als TCP-Client mit dem M5Stack verbunden sind. Wenn das Tablet ebenfalls mit dem M5Stack verbunden ist, sollten 2 Geräte angebunden sein. Der NMEA2000-Status wird als Online angezeigt, wenn Daten mit dem NMEA2000-Bus ausgetauscht werden. Die NMEA2000-Daten werden mit SeaSmart zum OBP40 über die WiFi-Verbindung übertragen. Die Anzahl der ausgetauschten NMEA2000-Telegramme sieht man unter NMEA2000 In/Out. Wenn ein OBP40 oder ein Tablett mit dem M5Stack per TCP verbunden ist, sieht man die Anzahl der ausgetauschten NMEA0183-Telegramme unter TCP In/Out.
 
 +---------------------------+---------------------+
 |Statusmeldungen            |M5Stack              |
@@ -171,7 +171,7 @@ Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. D
 |TCP Out                    |Telegrammeanzahl     |
 +---------------------------+---------------------+
 
-Die Verbindung des M5Stack mit dem NMEA2000-Netzwerk erfolgt über ein Tail485. Das Tail485 kann am M5Stack angesteckt werden. Es enthält einen Spannungswandler, der die 12V-Versorgungsspannung so aufbereitet, dass damit der M5Stack versorgt werden kann. Die Spannung kann direkt vom NMEA2000-Bus entnommen werden. Zusätzlich haben Sie eine NMEA0183-Schnittstelle mit der Daten ausgetauschet werden können.
+Die Verbindung des M5Stack mit dem NMEA2000-Netzwerk erfolgt über ein Tail485. Das Tail485 kann am M5Stack angesteckt werden. Es enthält einen Spannungswandler, der die 12V-Versorgungsspannung so aufbereitet, dass damit der M5Stack versorgt werden kann. Die Spannung kann direkt vom NMEA2000-Bus entnommen werden. Zusätzlich haben Sie eine NMEA0183-Schnittstelle mit der Daten ausgetauscht werden können.
 
 .. image:: ../pics/CAN_Connection_Tail.png
              :scale: 40%
@@ -183,7 +183,7 @@ Konfiguration OBP40
 .. image:: ../pics/OBP40_Side_View_Buttons_2_t.png
              :scale: 30%
 
-Dem Anzeigegerät OBP40 wird der Systemname OBP40V1 zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Die TCP-Client-Verbindung dient zur Kommunikation mit dem M5Stack. Das OBP40 bezieht alle Sensor-Daten über den M5Stack. Die Daten vom Windsensor Yachta werden üebr den M5Stack bereitgestellt.
+Dem Anzeigegerät OBP40 wird der Systemname OBP40V1 zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Die TCP-Client-Verbindung dient zur Kommunikation mit dem M5Stack. Das OBP40 bezieht alle Sensor-Daten über den M5Stack. Die Daten vom Windsensor Yachta werden über den M5Stack bereitgestellt.
 
 Folgende Einstellungen sind vorzunehmen:
 
@@ -217,7 +217,7 @@ Folgende Einstellungen sind vorzunehmen:
 |SeaSamart Out              |on                   |
 +---------------------------+---------------------+
 
-Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Das OBP40 ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.100 zugewiesen bekommen. Das OBP40 ist als TCP-Client mit dem M5Stack verbunden. Über diese Verbindung können NMEA0183- und NMEA2000-Daten ausgetauscht werden. Der NMEA2000-Status wird als Offline angezeigt, weil keine direkte Kabelverbindung zum NMEA2000-Netzwerk existiert. Die NMEA2000-Daten werden mit SeaSmart über die WiFi-Verbindung übertragen.
+Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Das OBP40 ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.100 zugewiesen bekommen. Das OBP40 ist als TCP-Client mit dem M5Stack verbunden. Über diese Verbindung können NMEA0183- und NMEA2000-Daten ausgetauscht werden. Der NMEA2000-Status wird als offline angezeigt, weil keine direkte Kabelverbindung zum NMEA2000-Netzwerk existiert. Die NMEA2000-Daten werden mit SeaSmart über die WiFi-Verbindung übertragen.
 
 +---------------------------+---------------------+
 |Statusmeldungen            |OBP40                |
@@ -270,7 +270,7 @@ Folgende Einstellungen werden für den Windsensor Yachta vorgenommen:
 +---------------------------+---------------------+
 
 .. tip::
-	Der Windsensor Yachta lässt sich in einen Demo-Mode versetzen. So kann die Funktionalität am Schreibtisch getestet werden. Der Windsensor leifert dann simulierte Winddaten. Über **Server Mode** kann der Simulationsmodus mit der Einstellung ``Demo Mode`` aktiviert werden.
+	Der Windsensor Yachta lässt sich in einen Demo-Mode versetzen. So kann die Funktionalität am Schreibtisch getestet werden. Der Windsensor liefert dann simulierte Winddaten. Über **Server Mode** kann der Simulationsmodus mit der Einstellung ``Demo Mode`` aktiviert werden.
 
 Nach der Konfiguration sollten unter **Device Info** im Windsensor Yachta folgende Statusmeldungen zu sehen sein:
 
@@ -292,7 +292,7 @@ Tablett Konfiguration
 .. image:: ../pics/Tablet_AVnav_Charts.png
              :scale: 10%
 
-Das Android-Tablett wird in das WiFi-Netzwerk des LTE-Routers hinzugefügt und anschleißend die App AvNav aus dem Play-Sore installiert. Details zur Konfiguration entnehmen Sie dem Handbuch zum Tablett. Die Daten eines GPS-Empfängers im Tablett lassen sich ebenfalls im NMEA0183- und NMEA2000-Netzwerk nutzen.
+Das Android-Tablett wird in das WiFi-Netzwerk des LTE-Routers hinzugefügt und anschließend die App AvNav aus dem Play-Sore installiert. Details zur Konfiguration entnehmen Sie dem Handbuch zum Tablett. Die Daten eines GPS-Empfängers im Tablett lassen sich ebenfalls im NMEA0183- und NMEA2000-Netzwerk nutzen.
 
 +---------------------------+---------------------+
 |Einstellung                |Android-Tablett      |
@@ -314,7 +314,7 @@ Nachfolgend wird gezeigt, wie man Busdaten über ein Tablett in AvNav nutzen kan
              :scale: 40%	
 Abb.: Startseite AvNav für Android
 
-Unter AvNav kicken Sie auf der Startseite oben rechts das Symbol mit den 3 Strichen.
+Unter AvNav klicken Sie auf der Startseite oben rechts das Symbol mit den 3 Strichen.
 
 .. image:: ../pics/AVnav_Server_Status_Icon.png
 
