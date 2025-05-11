@@ -963,7 +963,7 @@ Bei der BME-Anzeige werden die 3 Messwerte Lufttemperatur, Luftdruck und Luftfeu
 	
 Ein 5V taugliches BME280-Modul ist das **GYBME** Elektronikmodul:
 
-.. image:: /pics/BME280.png
+.. image:: /pics/Modul_BME280.png
              :scale: 30%
 Abb.: BME280-Modul
 	
