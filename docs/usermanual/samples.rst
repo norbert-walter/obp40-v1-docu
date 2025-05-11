@@ -95,6 +95,7 @@ Konfiguration M5Stack
 
 .. image:: ../pics/M5Stack_CAN.png
              :scale: 100%
+Abb.: M5Stack ATOM CAN mit ATOM Light
 
 Bevor der M5Stack ATOM CAN benutzt werden kann, muss er mit der NMEA2000-Gateway-Firmware geflasht sein. Der M5Stack ist eine Kombination aus `ATOM CAN`_ und einer ATOM-Controllereinheit. Als ATOM-Controller kann ein `ATOM Light`_ oder ein `ATOM-S3 Light`_ verwendet werden. Je nach verwendeter Controllereinheit folgen Sie den Anweisungen zum Flashen der NMEA2000-Gateway-Firmware auf der `Projekt-Homepage`_ des NMEA2000-Gateways.
 
@@ -177,7 +178,9 @@ Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. D
 |TCP Out                    |Telegrammeanzahl     |
 +---------------------------+---------------------+
 
-Die Verbindung des M5Stack mit dem NMEA2000-Netzwerk erfolgt über ein Tail485. Das Tail485 kann am M5Stack angesteckt werden. Es enthält einen Spannungswandler, der die 12V-Versorgungsspannung so aufbereitet, dass damit der M5Stack versorgt werden kann. Die Spannung kann direkt vom NMEA2000-Bus entnommen werden. Zusätzlich haben Sie eine NMEA0183-Schnittstelle mit der Daten ausgetauscht werden können.
+Die Verbindung des M5Stack mit dem NMEA2000-Netzwerk erfolgt über ein `Tail485`_. Das Tail485 kann am M5Stack angesteckt werden. Es enthält einen Spannungswandler, der die 12V-Versorgungsspannung so aufbereitet, dass damit der M5Stack versorgt werden kann. Die Spannung kann direkt vom NMEA2000-Bus entnommen werden. Zusätzlich haben Sie eine NMEA0183-Schnittstelle mit der Daten ausgetauscht werden können.
+
+.. _Tail485: https://docs.m5stack.com/en/atom/tail485
 
 .. image:: ../pics/CAN_Connection_Tail.png
              :scale: 40%
