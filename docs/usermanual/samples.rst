@@ -4,12 +4,12 @@ Beispielkonfiguration
 OBP40 Yachta M5Stack AvNav
 --------------------------
 
-Im folgenden Beispiel wird gezeigt wie man mit einem **OBP40** eine Datenübertragung zum **Windsensor Yachta** und zu einem **M5Stack CAN Unit** mit `NMEA2000-Gateway`_ aufbauen und die Daten in der Navigationsapp AvNav auf einem Tablett nutzen kann. Die M5Stack CAN Unit dient dabei als zentrale Datenbasis, in der alle Daten zusammenlaufen. Die Datenübertragung erfolgt über WiFi-Netzwerkverbindungen, die ein LTE-Router zur Verfügung stellt. Der Vorteil eines LTE-Routers besteht darin, dass sie alle Geräte an Bord mit einer WiFi-Internetverbindung versorgen können und die Geräte im WiFi-Netzwerk untereinander kommunizieren können. Der LTE-Router schottet das eigene WiFi-Netzwerk gegenüber dem Internet ab, so dass von außerhalb niemand auf Ihr internes Netzwerk Zugriff erhält. Somit lassen sich auch Geräte wie Handys, Tabletts oder Laptops an Bord mit dem Internet verbinden und alle Geräte haben Zugriff auf die Daten der Sensoren und können über einen Web-Browser darauf zugreifen. Die Naviationssoftware AvNav wird dabei auf einem Android-Tablett installiert und zur Navigation genutzt.
+Im folgenden Beispiel wird gezeigt wie man mit einem **OBP40** eine Datenübertragung zum **Windsensor Yachta** und zu einem **M5Stack ATOM CAN** mit `NMEA2000-Gateway`_ aufbauen und die Daten in der Navigationsapp AvNav auf einem Tablett nutzen kann. Die M5Stack ATOM CAN dient dabei als zentrale Datenbasis, in der alle Daten zusammenlaufen. Die Datenübertragung erfolgt über WiFi-Netzwerkverbindungen, die ein LTE-Router zur Verfügung stellt. Der Vorteil eines LTE-Routers besteht darin, dass sie alle Geräte an Bord mit einer WiFi-Internetverbindung versorgen können und die Geräte im WiFi-Netzwerk untereinander kommunizieren können. Der LTE-Router schottet das eigene WiFi-Netzwerk gegenüber dem Internet ab, so dass von außerhalb niemand auf Ihr internes Netzwerk Zugriff erhält. Somit lassen sich auch Geräte wie Handys, Tabletts oder Laptops an Bord mit dem Internet verbinden und alle Geräte haben Zugriff auf die Daten der Sensoren und können über einen Web-Browser darauf zugreifen. Die Naviationssoftware AvNav wird dabei auf einem Android-Tablett installiert und zur Navigation genutzt.
+
+.. _NMEA2000-Gateway: https://open-boat-projects.org/de/nmea2000-gateway-mit-m5stack-atom/
 
 .. tip::
 	Grundsätzlich ließe sich der Access Point vom M5Stack auch als zentraler WiFi-Router nutzen. Die Leistungsfähigkeit ist aber deutlich geringer als bei einem LTE-Router. Wir empfehlen ausdrücklich die Verwendung eines dedizierte LTE- oder WiFi-Routers. Sie vermeiden damit Probleme bei der Kommunikation der Geräte untereinander.
-
-.. _NMEA2000-Gateway: https://open-boat-projects.org/de/nmea2000-gateway-mit-m5stack-atom/
 
 .. image:: ../pics/Use_Case_4.png
              :scale: 60%	
@@ -28,7 +28,7 @@ LTE-Router einrichten
 Als LTE-Router können Sie sowohl mobile Geräte als auch stationäre Geräte verwenden. Mobile Geräte haben den Vorteil, dass sie autark über eine Batterie über einen längeren Zeitraum funktionieren und auch außerhalb des Bootes an Land bei Ausflügen benutzt werden können. Stationäre Geräte bieten sich an, wenn man maximale Empfangsleistung benötigt und in Küstennähe unterwegs ist und große Entfernungen zur nächsten Mobilfunk-Basisstation überbrücken möchte. In solchen Fällen bietet es sich an, Mobilfunkantennen oben im Mast zu installieren und die Antenne per Kabel mit dem stationären Router zu verbinden.
 
 .. tip::
-	Achten Sie beim Kauf des LTE-Routers, dass der Router im Dualband-Modus in den zwei WiFi-Frequenzbereichen 2.4 GHz und 5 GHz gleichzeitig arbeiten kann und über 4G/5G-Mobilfunk-Standard verfügt. So profitieren sie von einer leistungsfähigen Internet- und WiFi-Verbindung im 5 GHz Bereich und umgehen die meist überfüllten 2.4 GHz Frequenzbereiche. Solche Router können Daten zwischen beiden Frequenzbereichen problemlos austauschen. Ein ausgedientes Handy im Hotspot-Mode leistet ähnliches wie ein LTE-Router und kann eine günstige Alternative darstellen.
+	Achten Sie beim Kauf des LTE-Routers, dass der Router im Dualband-Modus in den zwei WiFi-Frequenzbereichen 2.4 GHz und 5 GHz **gleichzeitig** arbeiten kann und über 4G/5G-Mobilfunk-Standard verfügt. So profitieren sie von einer leistungsfähigen Internet- und WiFi-Verbindung im 5 GHz Bereich und umgehen die meist überfüllten 2.4 GHz Frequenzbereiche. Solche Router können Daten zwischen beiden Frequenzbereichen problemlos austauschen. Ein ausgedientes Handy im Hotspot-Mode leistet ähnliches wie ein LTE-Router und kann eine günstige Alternative darstellen.
 
 .. image:: ../pics/LTE-Router_TP-Link_M7450.png
              :scale: 20%	
@@ -46,7 +46,7 @@ Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 	.. [#f2] Kein gleichzeitiger Dualbetrieb möglich
 
 .. warning::
-	Der LTE-Router TP-Link M7450 kann nicht gleichzeitig in beiden Frequenzbändern arbeiten. Daher müssen Sie den TP-Link M7450 fest auf das Frequenzband 2.4 GHz einstellen. Das OBP40 und die M5Stack CAN Unit arbeiten nur im 2.4 GHz Bereich.
+	Der LTE-Router TP-Link M7450 kann nicht gleichzeitig in beiden Frequenzbändern arbeiten. Daher müssen Sie den TP-Link M7450 fest auf das Frequenzband 2.4 GHz einstellen. Das OBP40 und die M5Stack ATOM CAN arbeiten nur im 2.4 GHz Bereich.
 	
 		
 .. image:: ../pics/LTE-Router_RUT360.png
@@ -77,7 +77,6 @@ Für das Konfigurationsbeispiel wird davon ausgegangen, dass die Geräte folgend
 	* 192.168.1.101 - M5Stack
 	* 192.168.1.102 - Windsensor Yachta
 	* 192.168.1.103 - Android-Tablett mit AvNav
-	* 192.168.1.104 - Handy
 
 .. hint::
 	In Ihrem konkreten Fall können die IP-Adressen abweichen. Verwenden Sie dann die IP-Adressen, die den Geräten vom Router zugewiesen worden sind.
@@ -97,7 +96,14 @@ Konfiguration M5Stack
 .. image:: ../pics/M5Stack_CAN.png
              :scale: 100%
 
-Der M5Stack CAN Unit wird der Systemname M5Stack zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Der TCP-Server ist so konfiguriert, dass zu einem Tablett Daten übertragen werden können. Die TCP-Client-Verbindung dient zur Kommunikation mit dem Windsensor Yachta. Der M5Stack ist per Kabel über die CAN-Unit mit dem NMEA2000-Netzwerk des Bootes verbunden. Sensordaten die im M5Stack vorliegen, wie z.B. die Windsensor-Daten, werden auch in den NMEA2000-Bus übertragen.
+Bevor der M5Stack ATOM CAN benutzt werden kann, muss er mit der NMEA2000-Gateway-Firmware geflasht sein. Der M5Stack ist eine Kombination aus `ATOM CAN`_ und einer ATOM-Controllereinheit. Als ATOM-Controller kann ein `ATOM Light`_ oder ein `ATOM-S3 Light`_ verwendet werden. Je nach verwendeter Controllereinheit folgen Sie den Anweisungen zum Flashen der NMEA2000-Gateway-Firmware auf der `Projekt-Homepage`_ des NMEA2000-Gateways.
+
+.. _ATOM CAN: https://docs.m5stack.com/en/atom/atom_can
+.. _ATOM Light: https://docs.m5stack.com/en/core/ATOM%20Lite
+.. _ATOM-S3 Light: https://docs.m5stack.com/en/core/AtomS3%20Lite
+.. _Projekt-Homepage: https://www.wellenvogel.net/software/esp32/install.html
+
+Der M5Stack ATOM CAN wird der Systemname M5Stack zugewiesen und mit dem WiFi-Netzwerk des LTE-Routers verbunden. Der TCP-Server ist so konfiguriert, dass zum OBP40 und zum Tablett Daten übertragen werden können. Die TCP-Client-Verbindung dient zur Kommunikation mit dem Windsensor Yachta. Der M5Stack ist per Kabel über die CAN-Unit mit dem NMEA2000-Netzwerk des Bootes verbunden. Sensordaten die im M5Stack vorliegen, wie z.B. die Windsensor-Daten, werden auch in den NMEA2000-Bus übertragen.
 
 Nehmen Sie folgende Einstellungen vor:
 
@@ -147,7 +153,7 @@ Nehmen Sie folgende Einstellungen vor:
 |SeaSamart Out              |off                  |
 +---------------------------+---------------------+
 
-Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Der M5Stack ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.101 zugewiesen bekommen. Der M5Stack ist als TCP-Client mit dem Windsensor Yachta verbunden. Über diese Verbindung können NMEA0183- und NMEA2000-Daten ausgetauscht werden. Unter Clients werden die Anzahl der Geräte angezeigt, die als TCP-Client mit dem M5Stack verbunden sind. Wenn das Tablet ebenfalls mit dem M5Stack verbunden ist, sollten 2 Geräte angebunden sein. Der NMEA2000-Status wird als Online angezeigt, wenn Daten mit dem NMEA2000-Bus ausgetauscht werden. Die NMEA2000-Daten werden mit SeaSmart zum OBP40 über die WiFi-Verbindung übertragen. Die Anzahl der ausgetauschten NMEA2000-Telegramme sieht man unter NMEA2000 In/Out. Wenn ein OBP40 oder ein Tablett mit dem M5Stack per TCP verbunden ist, sieht man die Anzahl der ausgetauschten NMEA0183-Telegramme unter TCP In/Out.
+Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Der M5Stack ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.101 zugewiesen bekommen. Der M5Stack ist als TCP-Client mit dem Windsensor Yachta verbunden. Über diese Verbindung werden Winddaten als NMEA0183-Telegramme empfangen. Unter Clients werden die Anzahl der Geräte angezeigt, die als TCP-Client mit dem M5Stack verbunden sind. Wenn das OBP40 und das Tablet mit dem M5Stack verbunden ist, sollten 2 Geräte angebunden sein. Der NMEA2000-Status wird als Online angezeigt, wenn Daten mit dem NMEA2000-Bus ausgetauscht werden. Die NMEA2000-Daten werden mit SeaSmart zum OBP40 über die WiFi-Verbindung übertragen. Die Anzahl der ausgetauschten NMEA2000-Telegramme sieht man unter NMEA2000 In/Out. Wenn ein OBP40 oder ein Tablett mit dem M5Stack per TCP verbunden ist, sieht man die Anzahl der ausgetauschten NMEA0183-Telegramme unter TCP In/Out.
 
 +---------------------------+---------------------+
 |Statusmeldungen            |M5Stack              |
@@ -308,7 +314,7 @@ Das Android-Tablett wird in das WiFi-Netzwerk des LTE-Routers hinzugefügt und a
 |App-Installation           |AvNav                |
 +---------------------------+---------------------+
 
-Nachfolgend wird gezeigt, wie man Busdaten über ein Tablett in AvNav nutzen kann. Die Datenübertragung erfolgt über WiFi. Das Tablett tauscht dabei die Daten mit dem M5Stack über einen TCP-Verbindung aus. Dabei wird das Tablett als TCP-Client an die M5Stack CAN Unit angedockt. Unter AvNav wird die Verbindung als TCPReader eingerichtet.
+Nachfolgend wird gezeigt, wie man Busdaten über ein Tablett in AvNav nutzen kann. Die Datenübertragung erfolgt über WiFi. Das Tablett tauscht dabei die Daten mit dem M5Stack über einen TCP-Verbindung aus. Dabei wird das Tablett als TCP-Client an die M5Stack ATOM CAN angedockt. Unter AvNav wird die Verbindung als TCPReader eingerichtet.
 
 .. image:: ../pics/Android_Start_Page.jpg
              :scale: 40%	
