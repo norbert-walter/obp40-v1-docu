@@ -50,7 +50,7 @@ Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450
 	
 		
 .. image:: ../pics/LTE-Router_RUT360.png
-             :scale: 40%	
+             :scale: 30%	
 Abb.: Stationärer 4G-LTE-Dualband-Router RTU360
 
 	* Leistungsdaten
@@ -154,7 +154,7 @@ Nehmen Sie folgende Einstellungen vor:
 |SeaSamart Out              |off                  |
 +---------------------------+---------------------+
 
-Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Der M5Stack ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.101 zugewiesen bekommen. Der M5Stack ist als TCP-Client mit dem Windsensor Yachta verbunden. Über diese Verbindung werden Winddaten als NMEA0183-Telegramme empfangen. Unter Clients werden die Anzahl der Geräte angezeigt, die als TCP-Client mit dem M5Stack verbunden sind. Wenn das OBP40 und das Tablet mit dem M5Stack verbunden ist, sollten 2 Geräte angebunden sein. Der NMEA2000-Status wird als Online angezeigt, wenn Daten mit dem NMEA2000-Bus ausgetauscht werden. Die NMEA2000-Daten werden mit SeaSmart zum OBP40 über die WiFi-Verbindung übertragen. Die Anzahl der ausgetauschten NMEA2000-Telegramme sieht man unter NMEA2000 In/Out. Wenn ein OBP40 oder ein Tablett mit dem M5Stack per TCP verbunden ist, sieht man die Anzahl der ausgetauschten NMEA0183-Telegramme unter TCP In/Out.
+Nach der Konfiguration sollten Sie im Status nachfolgende Informationen sehen. Der M5Stack ist als WiFi-Client beim LTE-Router angemeldet und hat die IP-Adresse 192.168.1.101 zugewiesen bekommen. Der M5Stack ist als TCP-Client mit dem Windsensor Yachta verbunden. Über diese Verbindung werden Winddaten als NMEA0183-Telegramme empfangen. Unter Clients werden die Anzahl der Geräte angezeigt, die als TCP-Client mit dem M5Stack verbunden sind. Wenn das OBP40 und das Tablet mit dem M5Stack verbunden ist, sollten 2 Geräte angezeigt werden. Der NMEA2000-Status wird als Online angezeigt, wenn Daten mit dem NMEA2000-Bus ausgetauscht werden. Die NMEA2000-Daten werden mit SeaSmart zum OBP40 über die WiFi-Verbindung übertragen. Die Anzahl der ausgetauschten NMEA2000-Telegramme sieht man unter NMEA2000 In/Out. Wenn ein OBP40 oder ein Tablett mit dem M5Stack per TCP verbunden ist, sieht man die Anzahl der ausgetauschten NMEA0183-Telegramme unter TCP In/Out.
 
 +---------------------------+---------------------+
 |Statusmeldungen            |M5Stack              |
