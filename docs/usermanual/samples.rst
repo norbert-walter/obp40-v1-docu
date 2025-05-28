@@ -279,7 +279,7 @@ Folgende Einstellungen werden für den Windsensor Yachta vorgenommen:
 +---------------------------+---------------------+
 
 .. tip::
-	Der Windsensor Yachta lässt sich in einen Demo-Mode versetzen. So kann die Funktionalität am Schreibtisch getestet werden. Der Windsensor liefert dann simulierte Winddaten. Über **Server Mode** kann der Simulationsmodus mit der Einstellung ``Demo Mode`` aktiviert werden.
+	Der Windsensor Yachta lässt sich in einen Demo-Mode versetzen. So kann die Funktionalität außerhalb des Bootes getestet werden. Der Windsensor liefert dann simulierte Winddaten. Über **Server Mode** kann der Simulationsmodus mit der Einstellung ``Demo Mode`` aktiviert werden.
 
 Nach der Konfiguration sollten unter **Device Info** im Windsensor Yachta folgende Statusmeldungen zu sehen sein:
 
