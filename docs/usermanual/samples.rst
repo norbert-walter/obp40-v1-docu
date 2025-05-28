@@ -296,7 +296,7 @@ Nach der Konfiguration sollten unter **Device Info** im Windsensor Yachta folgen
 +---------------------------+---------------------+	
 
 Tablett Konfiguration
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: ../pics/Tablet_AVnav_Charts.png
              :scale: 10%
