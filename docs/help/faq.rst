@@ -31,7 +31,3 @@ Fragen und Antworten
 	
 	.. image:: ../pics/WiFi_Channels.png
              :scale: 35%
-
-**Das GPS bekommt beim OBP60 keinen Fix. Was kann ich tun?**
-
-	Beim OBP60 befindet sich die GPS-Antenne auf der Rückseite des Displays. Sind direkt hinter dem Display Metallteile oder Metallflächen, so kann der GPS-Empfang behindert oder unmöglich sein. Sorgen Sie dafür, dass sich keine größeren Metallteile oder Metallflächen hinter dem Display befinden. Kann der Empfang nicht verbessert werden, so besteht die Möglichkeit eine externe GPS-Antenne zu verwenden. Sie sollten die GPS-Antenne möglichst an einer Stelle positionieren, bei der die Antenne freie Sicht zum Himmel hat. Damit erzielen Sie die beste GPS-Empfangsleistung und hohe Positionsgenauigkeiten. In einigen Fällen verursachen Stromversorgungsgeräte mit Schaltreglern wie z.B. bei LED-Beleuchtungen unzulässige Störungen, die sich auf die Empfangsleistung von GPS-Signalen auswirken können. Versuchen Sie in solchen Fällen systematisch die Störquelle zu ermitteln, indem sie Geräte zu- und abschalten und die Auswirkungen auf die GPS-Empfangsqualität beobachten. 
