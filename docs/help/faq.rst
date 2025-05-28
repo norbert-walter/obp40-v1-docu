@@ -24,11 +24,6 @@ Fragen und Antworten
 **Welche Möglichkeiten bestehen den Stromverbrauch zu reduzieren?**
 
 	Der Stromverbrauch lässt sich reduzieren, indem der Access Point standardmäßig nach einer vorgegebenen Zeit abgeschaltet wird. Zusätzlich kann der Prozessortakt reduziert werden. Einige Geräte wie das OBP60 verfügen über spezielle Stromsparfunktionen über den Parameter **Power Mode**. Details zu Stromsparfunktionen finden Sie im Kapitel :ref:`Config - OBP Hardware`.
-	
-
-**Warum startet mein OBP60 nicht, wenn ich die Spannung zuschalte?**
-
-	Das Problem liegt am Softstart-Verhalten des StepDown- Wandler, der die 12V Versorgungsspannung in eine 5V-Gerätespannung umwandelt. Die Zeitdauer des Softstarts ist auf 5 ms begrenzt. Beim Start wird kurzzeitig recht viel Strom gezogen, weil die internen Kondensatoren geladen werden. Ist der Leitungswiderstand zu groß, läuft der Startprozess nicht schnell genug ab und der StepDown-Wandler startet nicht. Er hängt dann in einem undefinierten Zustand und kommt aus diesem Zustand nicht mehr heraus. Empfehlenswert sind für Stromversorgungskabel Leiterquerschnitte von 0,5...0,75 mm2. Das Kabel sollte direkt an der Schalttafel angeschlossen sein und so kurz wie möglich sein und keine weiteren Abgänge haben. Überlängen des Kabels hinter der Verkleidung sollten vermieden werden. Ebenso das abgreifen von Strom an anderen Geräten. Hilfsweise kann man hinten am 12V-Eingang einen Elektrolytkondensator von ca. 470...1000 uF parallel anschließen. Damit sollte sich das Problem reduzieren lassen.
 
 **Warum funktionieren WiFi-Verbindungen nicht richtig?**
 
