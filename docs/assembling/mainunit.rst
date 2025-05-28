@@ -137,11 +137,6 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgender Reihenfolge:
 		
 	.. image:: ../pics/OBP40_Assembling_3_t.png
 		:scale: 45%
-	
-	.. note::
-		Damit die Firmware den LiPo-Akku und den Ladezustand anzeigen kann, müssen in der Firmware die entsprechenden Compiler-Flags ``LIPO_ACCU_1200`` und ``VOLTAGE_SENSOR`` in der `platformio.ini`_ gesetzt sein. Sie müssen sich dazu eine angepasste Firmware erstellen und diese Firmware im OBP60 als :ref:`Update` aktivieren . Details zur Firmwareerstellung finden Sie im Kapitel :ref:`Gitpod`. 
-
-	.. _platformio.ini: https://github.com/norbert-walter/esp32-nmea2000-obp60/blob/master/lib/obp60task/platformio.ini	
 
 8. Rückwand auf Frontschale auflegen und mit Schrauben M2.5 verbinden
 	Verwenden Sie die Schrauben, die sie beim Crow Panel 4.2 an der Rückseite abgeschraubt haben. Die Löcher im Kunststoff sind so dimensioniert, dass sie die Schrauben mit etwas Druck einschrauben können. Das Geinde schneidet sich dann selbständig in den Kunststoff.
@@ -151,3 +146,10 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgender Reihenfolge:
 
 9. Firmware flashen
 	Im letzten Punkt wird die Firmware geflasht. Dazu gehen Sie nach der Anleitung im Kapitel :ref:`Web-Flashtool` vor.
+	
+10. Firmware modufizieren
+
+	.. note::
+		Damit die Firmware den LiPo-Akku und den Ladezustand anzeigen kann, müssen in der Firmware die entsprechenden Compiler-Flags ``LIPO_ACCU_1200`` und ``VOLTAGE_SENSOR`` in der `platformio.ini`_ gesetzt sein. Sie müssen sich dazu eine angepasste Firmware erstellen und diese Firmware im OBP60 als :ref:`Update` aktivieren. Details zur Firmwareerstellung finden Sie im Kapitel :ref:`Gitpod`. 
+
+	.. _platformio.ini: https://github.com/norbert-walter/esp32-nmea2000-obp60/blob/master/lib/obp60task/platformio.ini	
