@@ -4,6 +4,10 @@ Fragen und Antworten
 **Warum flackert der Bildschirm in regelmäßigen Abständen?**
 
 	Das Flackern des Bildschirmes dienst zum Auffrischen des Bildschirminhaltes. In regelmäßigen Abständen muss das Display den Bildschirminhalt durch einen Voll-Refresh komplett erneuern, um Geisterbilder zu entfernen und den Kontrast aufzufrischen. Dazu wird der Bildinhalt invertiert, mehrmals gelöscht und wieder vollständig aufgebaut.
+	
+**Ich habe zwei CrowPanel 4.2. Warum flackert der Bildschirm des einen Displays anders als beim anderen?**
+
+	Elecrow verkauft die CrowPanel 4.2 mit ePaper-Displays in zwei Versionen. Das Display der neueren Version hat ein Display verbaut, dass eine sehr schnelle Refresh-Abfolge verwendet. Das Display ist nicht defekt. Es verhält sich nur anders als das Display der ersten Version. Das Verhalten der Refresh-Abfolge kann nicht durch Software geändert werden, da die Funktion fest im Display-Controller verbaut ist. Leider werden die Displays unter der selben Bestellnummer vertrieben und man kann bei der Bestellung nicht herausfinden welches Display man erhält. Wenn das Refresh-Verhalten störend ist, kann es nur durch Austausch des Displays gegen die erste Version beseitigt werden. Besorgen Sie sich dann ein Display des Typs **GDEY042T81** von Good Display. Der Austausch des ePaper-Displays ist nicht ganz einfach, da das Display direkt auf die Platine geklebt ist. Damit das Display einfacher von der Platine abgelöst werden kann, legen Sie vor der Demontage das CrowPanel 4.2 für 20 min bei 70°C in den Backofen. Dadurch wird der Kleber weich und das Display lässt sich besser ablösen. Entfernen Sie alle Kleberreste und kleben Sie das neue Display mit einem neuen doppelseitigen Klebeband wieder an.
 
 **Wie kann ich das flackern des Bildschirms reduzieren?**
 
