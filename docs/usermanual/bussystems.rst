@@ -155,6 +155,10 @@ Um das OBP40 an den NMEA2000-Bus anzuschließen, benötigt man eine CAN-Leitungs
              :scale: 60%	
 Abb.: NMEA2000-Verbindung
 
+**Kompatibilität zu Simnet und SeaTalk NG**
+
+Simnet und SeaTalk GN besitzen eine eingeschränkte Kompatibitität zu NMEA2000. Beide Bussysteme setzen auf eigene Steckersysteme und verwenden teilweise propritäre NMEA2000-Telegramme. Die meisten gängigen NMEA2000-Bustelegramme werden von beiden Systemen unterstützt. Mit speziellen einfachen passiven Adapterkabeln können Simnet und SeaTalk GN Bussysteme mit einem NMEA2000 Bussystem verbunden werden. Das OBP40 kann dann Informationen aus Simnet oder SeaTalk NG über WiFi mit dem SeaSmart-Protokoll verarbeiten und auch Informationen in diese Bussysteme senden. Properitäre Telegramme werden nicht unterstützt, jedoch im Bussystem übertragen und weitergeleitet. 
+
 NMEA0183
 --------
 
