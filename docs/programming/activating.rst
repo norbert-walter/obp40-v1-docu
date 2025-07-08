@@ -221,7 +221,7 @@ Abb.: Hardware-Umgebung auswählen
 Codeänderung und Kompilieren
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Wenn Sie Ihre Code-Änderungen abgeschlossen haben, können Sie den Kompiliervorgang am Symbol mit dem Haken in der untersten Zeile aktivieren. Vergewissern Sie sich vorher, dass die korrekte Hardware-Umgebung **env:obp60_s3(esp32-nmea2000)** ausgewählt worden ist. Der Kompiliervorgang benötigt einiges an Zeit. Am Ende sollten Sie eine Mitteilung im Terminal-Fenster erhalten, die Sie über das Resultat informiert.
+Wenn Sie Ihre Code-Änderungen abgeschlossen haben, können Sie den Kompiliervorgang am Symbol mit dem Haken in der untersten Zeile aktivieren. Vergewissern Sie sich vorher, dass die korrekte Hardware-Umgebung **env:obp40_s3(esp32-nmea2000)** ausgewählt worden ist. Der Kompiliervorgang benötigt einiges an Zeit. Am Ende sollten Sie eine Mitteilung im Terminal-Fenster erhalten, die Sie über das Resultat informiert.
 
 .. image:: ../pics/VSC_Compile.png
    :scale: 40%
