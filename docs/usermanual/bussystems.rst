@@ -149,7 +149,7 @@ Für NMEA2000 wird eine Busstruktur verwendet. Im Hauptstrang sind eine oder meh
              :scale: 60%	
 Abb.: NMEA2000-Bussystem mit Sensoren und Anzeigegeräten
 
-Um das OBP40 an den NMEA2000-Bus anzuschließen, benötigt man eine CAN-Leitungstreiber. Die Anschlüsse CAN-H und CAN-L werden mit dem CAN-Bus verbunden. Die Masseleitung muss nicht aufgelegt werden.
+Um das OBP40 an den NMEA2000-Bus anzuschließen, benötigt man einen CAN-Leitungstreiber. Die Anschlüsse CAN-H und CAN-L werden mit dem CAN-Bus verbunden. Die Masseleitung muss nicht aufgelegt werden.
 
 .. image:: ../pics/OBP60_NMEA2000_Connection.png
              :scale: 60%	
