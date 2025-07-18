@@ -593,7 +593,7 @@ Unter **Hardware** werden alle Einstellungen bezüglich verbauter Hardware oder 
 Tab.: Stromverbrauch OBP40 V1 (AP - Access Point)
     
 **Undervoltage**
-    * Erkennung einer Unterspannung der Stromversorgung. Wenn eine Unterspannung niedriger als 9 V erkannt wird, kann das OBP40 automatisch deaktiviert werden, um eine Tiefentladung der Bordbatterie vermeiden zu helfen. In kritischen Situationen kann das OBP40 trotz Unterspannung bis 7 V funktionsfähig bleiben, wenn der Unterspannungsschutz deaktiviert ist. Als Default-Wert ist der Unterspannungsschutz aktiviert. Wenn im aktivierten Zustand eine Unterspannung auftritt, wird das OBP40 deaktiviert und in den Tiefschlaf versetzt. Im Display erscheint die Meldung **Undervoltage**. Dieser Zustand kann nur verändert werden, wenn die Versorgungsspannung vollständig ausgeschaltet und wieder eingeschaltet wird.
+    * Erkennung einer Unterspannung der Stromversorgung. Wenn eine Unterspannung niedriger als 3,65 V erkannt wird, kann das OBP40 automatisch deaktiviert werden, um eine Tiefentladung des LiPo-Akkus vermeiden zu helfen. In kritischen Situationen kann das OBP40 trotz Unterspannung bis 3,65 V funktionsfähig bleiben, wenn der Unterspannungsschutz deaktiviert ist. Als Default-Wert ist der Unterspannungsschutz aktiviert. Wenn im aktivierten Zustand eine Unterspannung auftritt, wird das OBP40 deaktiviert und in den Tiefschlaf versetzt. Im Display erscheint die Meldung **Undervoltage**. Dieser Zustand kann nur verändert werden, wenn das Auswahlrad gedrückt wird.
     * ``on`` - Der Unterspannungsschutz ist aktiviert
     * ``off`` - Der Unterspannungsschutz ist ausgeschaltet
     
