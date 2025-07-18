@@ -10,7 +10,7 @@ Mit dem Web-Flashtool kann die Firmware für das OBP40 mit einem Webbrowser übe
 	Beachten Sie, dass das Web-Flashtool nur für ein OBP40 V1 verwendet werden kann, das als Prozessor einen **ESP32-S3 N8R8** und als E-Paper-Display ein **GDEY042T81** verwenden. Sofern Sie andere Hardware benutzen, müssen Sie sich eine angepasste Firmwareversion für ihre Hardware kompilieren. Folgen Sie den Anweisungen im Kapitel :ref:`Kompilieren und Download`.  
 	
 Für den Flash-Vorgang benötigt man folgende Dinge:
-	* OBP40 (ESP32-S3 N8R8, E-Paper GDEY042T81)
+	* OBP40 (Crow Panal 4.2 mit ESP32-S3 N8R8, E-Paper GDEY042T81)
 	* USB-C zu USB-A Verbindungskabel < 1,5m
 	* PC mit Chrome- oder Edge-Browser
 
