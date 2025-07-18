@@ -571,25 +571,25 @@ Unter **Hardware** werden alle Einstellungen bezüglich verbauter Hardware oder 
     * ``DS18B20`` - Temperatursensor -10...+85°C (1...8 Sensoren)
     
 **Power Mode**
-    Diese Einstellungen haben keine Relevanz für das OBP40.
+    Diese Einstellungen haben keine Relevanz für das OBP40. Eine Stromeinsparung kann man erreichen, wenn man den CPU-Speed verlansamt und den Access Point nach definierter Zeit automatisch deaktivieren lässt. Das mögliche Einsparpotenzial ist in der nachfolgenden Tabelle zu sehen. 
     
-+----------------------+--------------+
-|Komponenten           |Power [W]     |
-+======================+==============+
-|CPU 240 MHz, WiFi, AP |1.78          |
-+----------------------+--------------+
-|CPU 160 MHz, WiFi, AP |1.68          |
-+----------------------+--------------+
-|CPU 80 MHz, WiFi, AP  |1.58          |
-+----------------------+--------------+
-|CPU 240 MHz, WiFi     |1.16          |
-+----------------------+--------------+
-|CPU 160 MHz, WiFi     |1.07          |
-+----------------------+--------------+
-|CPU 80 MHz, WiFi      |0.96          |
-+----------------------+--------------+
-|Deep Sleep            |0.01          |
-+----------------------+--------------+
++----------------------+----------+----------+
+|Komponenten           |Power [W] |Power [%] | 
++======================+==========+==========+
+|CPU 240 MHz, WiFi, AP |1.78      |100       |
++----------------------+----------+----------+
+|CPU 160 MHz, WiFi, AP |1.68      |94        |
++----------------------+----------+----------+
+|CPU 80 MHz, WiFi, AP  |1.58      |89        |
++----------------------+----------+----------+
+|CPU 240 MHz, WiFi     |1.16      |65        |
++----------------------+----------+----------+
+|CPU 160 MHz, WiFi     |1.07      |60        |
++----------------------+----------+----------+
+|CPU 80 MHz, WiFi      |0.96      |54        |
++----------------------+----------+----------+
+|Deep Sleep            |0.01      |0.006     |
++----------------------+----------+----------+
 Tab.: Stromverbrauch OBP40 V1 (AP - Access Point)
     
 **Undervoltage**
