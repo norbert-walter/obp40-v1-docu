@@ -45,7 +45,7 @@ Melden Sie sich als erstes bei Github an und gehen dann in das `Original-Projekt
 
 .. _Original-Projekt zum OBP60: https://github.com/norbert-walter/esp32-nmea2000-obp60/tree/master
 
-``https://github.com/norbert-walter/esp32-nmea2000-obp60/tree/master``
+``https://github.com/MyAccountName/esp32-nmea2000-obp60/tree/master``
 
 Der Part ``MyAccountName`` wird durch ihren eigenen Accountnamen ersetzt.
 
