@@ -18,7 +18,7 @@ Für den Flash-Vorgang benötigt man folgende Dinge:
 	Als erstes stecken Sie das USB-Kabel in den PC, ohne es mit dem OBP40 zu verbinden. Danach öffnen Sie die Rückseite des OBP40. Auf der Platine befindet sich oben rechts ein Taster mit der Bezeichnung ``BOOT``. Drücken Sie die Taste ``BOOT``. Halten Sie die Taste gedrückt und stecken dann den USB-Stecker an die Platine. Danach können Sie die Taste ``BOOT`` loslassen.
 	
 	.. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
-   :scale: 50%   
+		:scale: 50%   
 	Abb.: Platinen-Anschlussbelegung
 
 	
