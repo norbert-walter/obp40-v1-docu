@@ -147,7 +147,7 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgender Reihenfolge:
 9. Firmware flashen
 	Im letzten Punkt wird die Firmware geflasht. Dazu gehen Sie nach der Anleitung im Kapitel :ref:`Web-Flashtool` vor.
 	
-10. Firmware modufizieren
+10. Firmware modifizieren
 
 	.. note::
 		Damit die Firmware den LiPo-Akku und den Ladezustand anzeigen kann, müssen in der Firmware die entsprechenden Compiler-Flags ``LIPO_ACCU_1200`` und ``VOLTAGE_SENSOR`` in der `platformio.ini`_ gesetzt sein. Sie müssen sich dazu eine angepasste Firmware erstellen und diese Firmware im OBP60 als :ref:`Update` aktivieren. Details zur Firmwareerstellung finden Sie im Kapitel :ref:`Gitpod`. 
