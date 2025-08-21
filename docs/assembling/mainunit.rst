@@ -6,6 +6,7 @@ Zusammenbauzeichnung
 
 .. image:: ../pics/OBP40_Explode_View_Main_Unit_2.png
 	:scale: 45%
+	
 Abb.: Montage OBP40 Main Unit
 
 Stückliste
@@ -59,6 +60,7 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgender Reihenfolge:
 2. Rückseite und Spacer des Crow Panel 4.2 abschrauben
 	.. image:: ../pics/CrowPanel_4.2_Top_Side.png
 		:scale: 45%
+		
 	Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)
 	
 3. Crow Panle 4.2 Platine in Frontschale einlegen
@@ -114,22 +116,27 @@ Die Gehäusemontage erfolgt nach der Montageanleitung in folgender Reihenfolge:
 	
 	.. image:: ../pics/Schematic_USB_LiPo.png
 		:scale: 45%
+		
 	Abb.: Lötpunkte für Anschlusskabel
 	
 	.. image:: ../pics/Voltage_Measurement.png
 		:scale: 50%
+		
 	Abb.: Spannungsteiler für Ladezustandsmessung
 	
 	.. image:: ../pics/OBP40_Assembling_4_t.png
 		:scale: 45%
+		
 	Abb.: Lötpunkt für IO3
 	
 	.. image:: ../pics/OBP40_Assembling_5_t.png
 		:scale: 45%
+		
 	Abb.: Lötpunkte für USB-C GND
 	
 	.. image:: ../pics/OBP40_Assembling_7_t.png
 		:scale: 45%
+		
 	Abb.: Position des LiPo-Akku auf der Platine
 	
 	.. note::

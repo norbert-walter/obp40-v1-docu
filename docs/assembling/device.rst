@@ -66,6 +66,7 @@ Das Crow Panel 4.2 Mainboard enthält alle elektrischen und elektronischen Kompo
 
 .. image:: ../pics/CrowPanel_4.2_ESP32_HMI_E-paper_Display.png
    :scale: 50%
+   
 Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)
 
 
@@ -88,6 +89,7 @@ Nachfolgend sind die Unterlagen für einen Nachbau aufgeführt.
 Die Fertigungsdaten zum Schaltplan und den 3D-Daten für das Crow Panel 4.2 unterliegen dem Urheberrecht der Firma Elecrow. Welche Art des Urheberrechtes zu Grunde liegt ist nicht bekannt. Die Unterlagen sind öffentlich über das Wiki und Github einsehbar und haben Public-Charakter.
 
 .. image:: ../pics/Lizenz_by-nc-sa_eu.png
+
    :scale: 45%
 
 Die 3D-Konstruktionsunterlagen der Mechanikteile zum OBP40 und zur Docking-Station unterliegen der `Common Creative Lizenz (CC) BY BC SA 4.0`_. Das OBP40 darf unter Nennung der Urheber nachgebaut oder modifiziert werden. Es entstehen keinerlei Kosten für eine private Nutzung ohne kommerzielle Absichten. Eine kommerzielle Verwertung wird durch die Lizenz ausgeschlossen. Abgeleitete Werke unterliegen der selben Lizenz. Wenn Sie eine kommerzielle Nutzung des OBP40 beabsichtigen, kontaktieren Sie uns über das `Kontaktformular`_. Es besteht die Möglichkeit, ein nicht exklusives Nutzungsrecht über eine kommerzielle Lizenz zu erwerben. Die Firmware des OBP40 steht unter der Apache 2.0 Lizenz.

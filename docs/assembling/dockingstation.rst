@@ -6,6 +6,7 @@ Zusammenbauzeichnung
 
 .. image:: ../pics/Docking_Station_2.png
 	:scale: 45%
+	
 Abb.: Montage Docking Station
 
 Stückliste
@@ -65,10 +66,12 @@ Die Montage der Docking Station erfolgt nach der Montageanleitung in folgender R
 	
 	.. image:: ../pics/Magnet_Dock_Orientation.png
 		:scale: 100%
+		
 	Abb.: Ausrichtung der beiden Magnet-Dock-Teile
 		
 	.. image:: ../pics/OBP40_Docking_Station_2.png
 		:scale: 45%	
+		
 	Abb.: Magnet-Dock in Halteplatte 
 
 3. Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand einkleben
