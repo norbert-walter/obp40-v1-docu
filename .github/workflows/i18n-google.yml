@@ -1,11 +1,30 @@
 name: i18n MT (Google API key)
 
+permissions:
+  contents: write
+
+concurrency:
+  group: i18n-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
-    # Trigger nur bei Änderungen an den Quellen (nicht locale/**), um Loops zu vermeiden
+    branches: ["**"]
     paths:
-      - "docs/**/*.rst"
-      - "docs/conf.py"
+      - "**/*.rst"
+      - "**/conf.py"
+      - "scripts/mt_po.py"
+      - ".github/workflows/i18n-google.yml"
+    paths-ignore:
+      - "**/locale/**"
+  pull_request:
+    paths:
+      - "**/*.rst"
+      - "**/conf.py"
+      - "scripts/mt_po.py"
+      - ".github/workflows/i18n-google.yml"
+    paths-ignore:
+      - "**/locale/**"
   workflow_dispatch:
 
 jobs:
@@ -14,8 +33,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # <-- Zielsprachen hier pflegen:
-        lang: [en]  # Beispiel: [en, fr, es]
+        lang: [en]   # weitere Sprachen hier hinzufügen
+
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,7 +48,22 @@ jobs:
         run: |
           pip install -U sphinx sphinx-intl polib requests
 
-      # Optionaler Schnelltest, ob der Key da ist / API erreichbar ist
+      - name: Detect Sphinx docs directory
+        id: detect
+        shell: bash
+        run: |
+          set -e
+          for d in docs doc source documentation; do
+            if [ -f "$d/conf.py" ]; then
+              echo "DOCS_DIR=$d" >> $GITHUB_ENV
+              echo "Detected docs dir: $d"
+              exit 0
+            fi
+          done
+          echo "DOCS_DIR=docs" >> $GITHUB_ENV
+          echo "::warning::No conf.py found in common folders; defaulting to 'docs'."
+
+      # Optional: kurzer Key-Check
       - name: Sanity check Google API key (masked)
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
@@ -38,36 +72,55 @@ jobs:
             echo "GOOGLE_API_KEY is NOT set"; exit 1
           fi
           echo "GOOGLE_API_KEY is set (length: ${#GOOGLE_API_KEY})"
-          curl -sS -X GET "https://translation.googleapis.com/language/translate/v2/languages?key=$GOOGLE_API_KEY" | head -c 400 || true
+          curl -sS "https://translation.googleapis.com/language/translate/v2/languages?key=$GOOGLE_API_KEY" | head -c 300 || true
 
-      # 1) gettext-Templates extrahieren
+      # 1) gettext-Templates
       - name: Extract gettext templates
-        working-directory: docs
+        working-directory: ${{ env.DOCS_DIR }}
         run: sphinx-build -b gettext . _build/gettext
 
-      # 2) PO-Dateien anlegen/aktualisieren (legt docs/locale/<lang>/... an)
+      # 2) PO-Dateien erzeugen/aktualisieren – Ziel *im Docs-Ordner* erzwingen
       - name: Update PO files for ${{ matrix.lang }}
-        working-directory: docs
-        run: sphinx-intl update -p _build/gettext -l ${{ matrix.lang }}
+        working-directory: ${{ env.DOCS_DIR }}
+        run: sphinx-intl update -p _build/gettext -l ${{ matrix.lang }} -d locale
 
-      # 3) Machine Translation mit Google v2 (API-Key)
+      # Debug: Wo liegen die POs jetzt?
+      - name: Debug: list created PO files
+        run: |
+          echo ">> PO under ${DOCS_DIR}/locale:"
+          find "${DOCS_DIR}/locale" -type f -name "*.po" -print 2>/dev/null || true
+          echo ">> PO under repo-root locale:"
+          find "locale" -type f -name "*.po" -print 2>/dev/null || true
+          git status --porcelain || true
+
+      # 3) MT
       - name: Machine-translate PO (${{ matrix.lang }})
-        working-directory: docs
+        working-directory: ${{ env.DOCS_DIR }}
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           TARGET_LANG: ${{ matrix.lang }}
           REWRITE_FUZZY: "true"
           REWRITE_FILLED: "false"
-          BATCH_SIZE: "128"         # max. 128 Texte pro Request
-          THROTTLE_SECONDS: "0.2"   # bei Quotenengpässen erhöhen; sonst "0"
-        run: |
-          python ../scripts/mt_po.py
+          BATCH_SIZE: "128"
+          THROTTLE_SECONDS: "0.2"
+        run: python ../scripts/mt_po.py
 
-      # 4) Änderungen committen (nur locale/**)
+      # 4) Commit – erwische den richtigen Pfad
       - name: Commit translation updates
+        shell: bash
         run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/locale || true
+
+          if [ -d "${DOCS_DIR}/locale" ]; then
+            git add "${DOCS_DIR}/locale"
+          elif [ -d "locale" ]; then
+            git add "locale"
+          else
+            echo "No locale directory found to commit."
+          fi
+
+          git status --porcelain
           git commit -m "chore(i18n): update ${{ matrix.lang }} translations [skip ci]" || echo "No changes"
-          git push || true
+          git push
