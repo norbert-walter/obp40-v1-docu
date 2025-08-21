@@ -14,9 +14,6 @@ on:
       - 'docs/conf.py'
       - 'scripts/mt_po.py'
       - '.github/workflows/i18n-google.yml'
-    paths-ignore:
-      - 'docs/locale/**'
-      - 'locale/**'
   workflow_dispatch:
 
 jobs:
@@ -64,7 +61,7 @@ jobs:
         working-directory: ${{ env.DOCS_DIR }}
         run: sphinx-intl update -p _build/gettext -l ${{ matrix.lang }} -d locale
 
-      - name: Debug list created PO files
+      - name: Debug – list created PO files
         shell: bash
         run: |
           echo "PO under ${DOCS_DIR}/locale:"
