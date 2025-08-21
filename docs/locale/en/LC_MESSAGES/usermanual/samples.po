@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OBP40 V1 Dokumentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-21 12:25+0000\n"
+"POT-Creation-Date: 2025-08-21 12:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -20,17 +20,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../usermanual/samples.rst:2 836b8fb8fe0346d3a822b8c9ac24039b
+#: ../../usermanual/samples.rst:2 f9714cba421740f094262450e3512e7b
 #, fuzzy
 msgid "Beispielkonfiguration"
 msgstr "Example configuration"
 
-#: ../../usermanual/samples.rst:5 f92e1983cace43889d96ab3ce5ba3150
+#: ../../usermanual/samples.rst:5 f2efec74ba0d44208b9fb6ea30e755f9
 #, fuzzy
 msgid "OBP40 Yachta M5Stack AvNav"
 msgstr "OBP40 Yachta M5Stack AvNav"
 
-#: ../../usermanual/samples.rst:7 dd9b1ac08dda4006a8334db1a48ada82
+#: ../../usermanual/samples.rst:7 d8b27f81a9c0493d91216612ad3deab4
 #, fuzzy
 msgid ""
 "Im folgenden Beispiel wird gezeigt wie man mit einem **OBP40** eine "
@@ -64,7 +64,7 @@ msgstr ""
 "The AvNav navigation software is installed on an Android tablet and used for"
 " navigation."
 
-#: ../../usermanual/samples.rst:12 2073ae9ca3504ac9af917a1b58cdefb6
+#: ../../usermanual/samples.rst:12 a6d8b2bc1d724b6d952b9529860e4beb
 #, fuzzy
 msgid ""
 "Grundsätzlich ließe sich der Access Point vom M5Stack auch als zentraler "
@@ -78,38 +78,38 @@ msgstr ""
 " router. We strongly recommend using a dedicated LTE or Wi-Fi router. This "
 "will prevent problems with communication between the devices."
 
-#: ../../usermanual/samples.rst:16 68b0714762e84d2eabd85b7d9af57a76
+#: ../../usermanual/samples.rst:16 1d588cdefe40494dba7623f5a32c8823
 #, fuzzy
 msgid "Abb.: Beispielkonfiguration OBP40, Yachta, M5Stack, AvNav"
 msgstr "Fig.: Example configuration OBP40, Yachta, M5Stack, AvNav"
 
-#: ../../usermanual/samples.rst:18 7d5ee831d5c5437086744861bf834469
+#: ../../usermanual/samples.rst:18 ebd449cdec594ca7b5fa008dd28c03a6
 #, fuzzy
 msgid "Die Konfiguration läuft in folgenden Schritten ab:"
 msgstr "The configuration proceeds in the following steps:"
 
 #: ../../usermanual/samples.rst:20 ../../usermanual/samples.rst:26
-#: 5cb0247d16984693877e60205d680d4e 7231361c72aa43e591e0c2f74c020a61
+#: 5fa0671f349c440a9420a28b89570ab8 b7e79082e547415387e131c42f078401
 #, fuzzy
 msgid "LTE-Router einrichten"
 msgstr "Setting up an LTE router"
 
-#: ../../usermanual/samples.rst:21 41a5b0ffafbe4997a79f973f244a42f3
+#: ../../usermanual/samples.rst:21 c8f36a408b1c4a3fb745f5b6b5547978
 #, fuzzy
 msgid "M5Stack mit NMEA2000-Netzwerk und Windsensor Yachta verbinden"
-msgstr "Connect M5Stack to NMEA2000 network and Yachta wind sensor"
+msgstr "Connecting M5Stack to NMEA2000 network and Yachta wind sensor"
 
-#: ../../usermanual/samples.rst:22 19f48373da0e4c49b48c74b2adef28a9
+#: ../../usermanual/samples.rst:22 d39f445da1e3406e8c17a208533746e4
 #, fuzzy
 msgid "OBP40 mit M5Stack verbinden"
 msgstr "Connect OBP40 to M5Stack"
 
-#: ../../usermanual/samples.rst:23 eede033cc14d489ea457516e82b06a37
+#: ../../usermanual/samples.rst:23 7a06118626324e9e8b23128aef3f2ccc
 #, fuzzy
 msgid "AvNav mit dem M5Stack verbinden"
 msgstr "Connecting AvNav to the M5Stack"
 
-#: ../../usermanual/samples.rst:28 f3a3343209824ec3b10bc757a29106b7
+#: ../../usermanual/samples.rst:28 0b674ba2057c49c8abe068b61689a5df
 #, fuzzy
 msgid ""
 "Als LTE-Router können Sie sowohl mobile Geräte als auch stationäre Geräte "
@@ -131,7 +131,7 @@ msgstr ""
 "install mobile phone antennas at the top of the mast and connect the antenna"
 " to the stationary router via cable."
 
-#: ../../usermanual/samples.rst:31 3374d6a373fd42eda1aede7a0f50ffc1
+#: ../../usermanual/samples.rst:31 97cbff1260924c4da3cf5ded9d770f0c
 #, fuzzy
 msgid ""
 "Achten Sie beim Kauf des LTE-Routers, dass der Router im Dualband-Modus in "
@@ -152,63 +152,63 @@ msgstr ""
 "mode performs similarly to an LTE router and can be a cost-effective "
 "alternative."
 
-#: ../../usermanual/samples.rst:35 18e8f35db5854f998fa80abdb43e5bae
+#: ../../usermanual/samples.rst:35 fe6da2cb8392455ba0befcbe9892daac
 #, fuzzy
 msgid "Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450"
 msgstr "Abb.: Mobiler 4G-LTE-Dualband-Router TP-Link M7450"
 
 #: ../../usermanual/samples.rst:37 ../../usermanual/samples.rst:56
-#: cae95d25c9b545248d5dd9b6a6ca9710 e48aebd6e7524e65967039039fbd57fb
+#: 06c3204d583f4ca1ba18008cafbdfe35 8735198bf91b4c65b942225c65fcb835
 #, fuzzy
 msgid "Leistungsdaten"
 msgstr "Performance data"
 
-#: ../../usermanual/samples.rst:38 a9720be3158d4c659b0ca76693f7fd29
+#: ../../usermanual/samples.rst:38 c1075d3e09de4b8e842dc681f248bbfd
 #, fuzzy
 msgid "4G/LTE Mobilfunkstandard 50 MBit/s"
 msgstr "4G/LTE mobile communications standard 50 Mbit/s"
 
-#: ../../usermanual/samples.rst:39 6ea4621fe68a47e6890717f9bcb594b8
+#: ../../usermanual/samples.rst:39 dfea7828660b4c20878b9c8be4e221a6
 #, fuzzy
 msgid "WiFi Dualband 2.4 GHz **oder** 5 GHz 300 MBit/s [#f2]_"
 msgstr "WiFi Dualband 2.4 GHz **oder** 5 GHz 300 MBit/s [#f2]_"
 
-#: ../../usermanual/samples.rst:40 06e52bcc4b9949c9af285b66147d94c6
+#: ../../usermanual/samples.rst:40 df66805608f14e18bb308784361e9f7d
 #, fuzzy
 msgid "3000 mAh LiPo-Akku"
 msgstr "3000 mAh LiPo-Battery"
 
-#: ../../usermanual/samples.rst:41 42b60ac9ba0e4be195f3710c6f22ea68
+#: ../../usermanual/samples.rst:41 81ea8de7893f42468e65f43bff65b313
 #, fuzzy
 msgid "15 Stunden autarke Laufzeit"
 msgstr "15 hours of self-sufficient runtime"
 
-#: ../../usermanual/samples.rst:42 123b7791714645da963a2ad390da57cc
+#: ../../usermanual/samples.rst:42 114ceff984c24bd39562e95af22c68a7
 #, fuzzy
 msgid "32 WiFi-Geräte einbindbar"
 msgstr "32 WiFi devices can be integrated"
 
-#: ../../usermanual/samples.rst:43 58f11acfa35d4ff48be192f601186279
+#: ../../usermanual/samples.rst:43 fcc6325fa4214d1d8f26a1799421a218
 #, fuzzy
 msgid "32 GB SD-Card-Speicher"
 msgstr "32 GB SD card storage"
 
-#: ../../usermanual/samples.rst:44 c8b2cdca441c4011b831698b09304802
+#: ../../usermanual/samples.rst:44 613f52eaef0a46ba9bc64bd9b06a24e4
 #, fuzzy
 msgid "USB-, SMB- und FTP-Share für Filme und Musik von SD-Card"
 msgstr "USB, SMB and FTP sharing for movies and music from SD card"
 
-#: ../../usermanual/samples.rst:45 514d65cd6a5f4a6691a8316f66d79e4f
+#: ../../usermanual/samples.rst:45 0d496c0ef7c04407a72850a1aa23faaa
 #, fuzzy
 msgid "`Dokumentation <../_static/m7450.pdf>`_"
 msgstr "`Dokumentation <../_static/m7450.pdf>`_"
 
-#: ../../usermanual/samples.rst:46 ed50007dae3d4281a40ead5fd41d7c89
+#: ../../usermanual/samples.rst:46 80355da893c941af83ce47e7bf9d9010
 #, fuzzy
 msgid "Kein gleichzeitiger Dualbetrieb möglich"
 msgstr "No simultaneous dual operation possible"
 
-#: ../../usermanual/samples.rst:49 af448e9c315745e8b48329e61244e08d
+#: ../../usermanual/samples.rst:49 9ee5001e16c54fd286b1888c1eddcab4
 #, fuzzy
 msgid ""
 "Der LTE-Router TP-Link M7450 kann nicht gleichzeitig in beiden "
@@ -221,52 +221,52 @@ msgstr ""
 "on the 2.4 GHz frequency band. The OBP40 and the M5Stack ATOM CAN only "
 "operate in the 2.4 GHz range."
 
-#: ../../usermanual/samples.rst:54 1772e32a073e40149b4a530276359d8d
+#: ../../usermanual/samples.rst:54 68765b52ed144823bd9d33081d69d13a
 #, fuzzy
 msgid "Abb.: Stationärer 4G-LTE-Dualband-Router RTU360"
 msgstr "Fig.: Stationary 4G LTE dual-band router RTU360"
 
-#: ../../usermanual/samples.rst:57 a5dd5fe4587f4f8895243fc9a863eb95
+#: ../../usermanual/samples.rst:57 89e80b1524884c20b05c9efabaed3cbd
 #, fuzzy
 msgid "4G/LTE Mobilfunkstandard 50 MBit/scale"
 msgstr "4G/LTE mobile communications standard 50 Mbit/scale"
 
-#: ../../usermanual/samples.rst:58 d23d5d989c6a4cb381c31789da9d4ca9
+#: ../../usermanual/samples.rst:58 8df67920c75d4eea8d0b3111c2105d74
 #, fuzzy
 msgid "WiFi Dualband 2.4 GHz und 5 GHz 300 MBit/s"
 msgstr "WiFi dual band 2.4 GHz and 5 GHz 300 Mbit/s"
 
-#: ../../usermanual/samples.rst:59 0f0538a081fd4924a3e94eef17ebd502
+#: ../../usermanual/samples.rst:59 fc3bee73dad841cf804906e31ff7b435
 #, fuzzy
 msgid "2x LAN CAT6 100 MBit/s"
 msgstr "2x CAT6 LAN 100 MBit/s"
 
-#: ../../usermanual/samples.rst:60 79cd7ddb13d842a7bbde522e0ac2c923
+#: ../../usermanual/samples.rst:60 3f6e4e54bd394040a530f972d0502ab3
 #, fuzzy
 msgid "Externe Antennen für LTE und WiFi"
 msgstr "External antennas for LTE and WiFi"
 
-#: ../../usermanual/samples.rst:61 2c1b047ea50943a6a36614fe4c086d44
+#: ../../usermanual/samples.rst:61 aa5d5fb52b2c47b3af9541d1291c0789
 #, fuzzy
 msgid "12V Versorgungseingang"
 msgstr "12V supply input"
 
-#: ../../usermanual/samples.rst:62 04a2f9bd3662426389d1d43f84fe79b9
+#: ../../usermanual/samples.rst:62 dac6a42e98344199befbdfecdd5736a1
 #, fuzzy
 msgid "230V AC-Netzteil"
 msgstr "230V AC power supply"
 
-#: ../../usermanual/samples.rst:63 4c87de15eedf4c7287fb625032ae3bd2
+#: ../../usermanual/samples.rst:63 43cff0e60c6849ad891df1ed30d6512c
 #, fuzzy
 msgid "`Online-Dokumentation`_"
 msgstr "`Online-Dokumentation`_"
 
-#: ../../usermanual/samples.rst:64 271e2db857c740149ff495e3c44cf1bd
+#: ../../usermanual/samples.rst:64 2876eb1412c849cfa9f1e8e7a0474ba7
 #, fuzzy
 msgid "`Quick-Installation Guide`_"
 msgstr "`Quick-Installation Guide`_"
 
-#: ../../usermanual/samples.rst:69 a87bb4fec04e43e28913aae2580e7f3c
+#: ../../usermanual/samples.rst:69 f2f9308750944bcfa4c37fec339c2e7b
 #, fuzzy
 msgid ""
 "Der verwendete LTE-Router wird entsprechend der Bedienungsanleitung in "
@@ -285,7 +285,7 @@ msgstr ""
 "matches your data usage. You can also use this data volume without "
 "restrictions in all EU countries, just as you would in your home country."
 
-#: ../../usermanual/samples.rst:71 1f8de733d8a2448694c4d1bc1b7d4b22
+#: ../../usermanual/samples.rst:71 05b3ba4e900e427890eefdd92817e2e9
 #, fuzzy
 msgid ""
 "Für das Konfigurationsbeispiel wird davon ausgegangen, dass die Geräte "
@@ -294,42 +294,42 @@ msgstr ""
 "For the configuration example, it is assumed that the devices are assigned "
 "the following IP addresses by the router:"
 
-#: ../../usermanual/samples.rst:73 120805fc35f746f688e7442a1dea4f4b
+#: ../../usermanual/samples.rst:73 c8c72f27b1ff42efb74dccfd46202703
 #, fuzzy
 msgid "MyBoat - WiFi-SSID"
 msgstr "MyBoat - WiFi-SSID"
 
-#: ../../usermanual/samples.rst:74 177f641e5db2452e95828b0f1186836b
+#: ../../usermanual/samples.rst:74 cda662a9266b46988e62f3708588d288
 #, fuzzy
 msgid "MySecret - WiFi Passwort"
 msgstr "MySecret - WiFi Password"
 
-#: ../../usermanual/samples.rst:75 370144c06ec94a4ebbd1fecfe922ee59
+#: ../../usermanual/samples.rst:75 d9ec0ecb55dd49a88b5e0aebdec4268b
 #, fuzzy
 msgid "192.168.1.1   - LTE-Router"
 msgstr "192.168.1.1   - LTE-Router"
 
-#: ../../usermanual/samples.rst:76 a5f47aa724704e3aa25744eb625c1fc3
+#: ../../usermanual/samples.rst:76 b021119a825841f499ada1b023278b0e
 #, fuzzy
 msgid "192.168.1.100 - OBP40"
 msgstr "192.168.1.100 - OBP40"
 
-#: ../../usermanual/samples.rst:77 89fb75861aa84aaab9519daea4a2a87e
+#: ../../usermanual/samples.rst:77 d8afa38a0e3342cf90c729e0f2a3fc0b
 #, fuzzy
 msgid "192.168.1.101 - M5Stack"
 msgstr "192.168.1.101 - M5Stack"
 
-#: ../../usermanual/samples.rst:78 b8e44eced38d42aca15774be143c59d9
+#: ../../usermanual/samples.rst:78 d6d50a7f8ee84e9a8357550b7617e35f
 #, fuzzy
 msgid "192.168.1.102 - Windsensor Yachta"
 msgstr "192.168.1.102 - Windsensor Yachta"
 
-#: ../../usermanual/samples.rst:79 c83eb5df6ac94580ab65225f0efa7da6
+#: ../../usermanual/samples.rst:79 773324509d6c45eeb5fdd45e0d6a4f51
 #, fuzzy
 msgid "192.168.1.103 - Android-Tablett mit AvNav"
 msgstr "192.168.1.103 - Android tablet with AvNav"
 
-#: ../../usermanual/samples.rst:82 d8e600c1ad484059ab3cb5248ab712aa
+#: ../../usermanual/samples.rst:82 d0934ca1f4a64fb38d8e945eefc69db9
 #, fuzzy
 msgid ""
 "In Ihrem konkreten Fall können die IP-Adressen abweichen. Verwenden Sie dann"
@@ -338,12 +338,12 @@ msgstr ""
 "In your specific case, the IP addresses may be different. In this case, use "
 "the IP addresses assigned to the devices by the router."
 
-#: ../../usermanual/samples.rst:85 8a4301fb94a84216851ed2626378e4e1
+#: ../../usermanual/samples.rst:85 f74526d013b6451db67832bfad224501
 #, fuzzy
 msgid "Datenübertragung"
 msgstr "Data transfer"
 
-#: ../../usermanual/samples.rst:87 333e30893a6e46d6b09f6067c82bda5a
+#: ../../usermanual/samples.rst:87 8816f4ae57e74636b32112bb564390df
 #, fuzzy
 msgid ""
 "Das folgende Schema zeigt die Datenübertragung und welche Geräte Server oder"
@@ -352,22 +352,22 @@ msgstr ""
 "The following diagram shows the data transfer and which devices are servers "
 "or clients during data transfer."
 
-#: ../../usermanual/samples.rst:91 580ffe7196264b9da6fadbee974faa8e
+#: ../../usermanual/samples.rst:91 c259d7c8f7db4073862daa8c134ed72f
 #, fuzzy
 msgid "Abb.: Schema Datenübertragung"
 msgstr "Fig.: Data transfer diagram"
 
-#: ../../usermanual/samples.rst:94 0dfe4c8c5f604791850d90c526303b30
+#: ../../usermanual/samples.rst:94 4c440a41790a411798c8b65ab3dc1c78
 #, fuzzy
 msgid "Konfiguration M5Stack"
 msgstr "M5Stack configuration"
 
-#: ../../usermanual/samples.rst:98 903ec7c2407349ab9b7b7490f2c211d9
+#: ../../usermanual/samples.rst:98 265cf2895cd2462cb2678542f1d2a5d5
 #, fuzzy
 msgid "Abb.: M5Stack ATOM CAN mit ATOM Light"
 msgstr "Abb.: M5Stack ATOM CAN mit ATOM Light"
 
-#: ../../usermanual/samples.rst:100 b36d930618a9418ea733d4cb80612adb
+#: ../../usermanual/samples.rst:100 82f46b5c99634c42b1c69acbc59816f0
 #, fuzzy
 msgid ""
 "Bevor der M5Stack ATOM CAN benutzt werden kann, muss er mit der "
@@ -384,7 +384,7 @@ msgstr ""
 "the instructions for flashing the NMEA2000 gateway firmware on the `Projekt-"
 "Homepage`_ of the NMEA2000 gateway."
 
-#: ../../usermanual/samples.rst:107 b4cc68e8d6d4498d9b0a54266e018290
+#: ../../usermanual/samples.rst:107 7b49c55dc061430bb7052528fd2de76d
 #, fuzzy
 msgid ""
 "Der M5Stack ATOM CAN wird der Systemname M5Stack zugewiesen und mit dem "
@@ -403,46 +403,46 @@ msgstr ""
 " the M5Stack, such as wind sensor data, is also transmitted to the NMEA 2000"
 " bus."
 
-#: ../../usermanual/samples.rst:109 7ae5524e687246e38c10ee68cf80de33
+#: ../../usermanual/samples.rst:109 e9be38b01d774acf8dba6fed1c5e979e
 #, fuzzy
 msgid "Nehmen Sie folgende Einstellungen vor:"
 msgstr "Make the following settings:"
 
 #: ../../usermanual/samples.rst:112 ../../usermanual/samples.rst:200
 #: ../../usermanual/samples.rst:256 ../../usermanual/samples.rst:307
-#: 2d5bd437d5854634b1194ead539f6579 831da7b0fbe141009d78b8cc5dabc71b
-#: c68ef9be251e4ff0a3caded21fbdd73c fb229929533648edbb190af338cbc2de
+#: 17e400b89d17405398c4a5bdeb4d437c 373976135ef54af7ab75afd624fecae2
+#: 3e5c5908bbfd4df694da6e6b8b90af58 6f6693a36954450b9c0f49c69eaf0a59
 #, fuzzy
 msgid "Einstellung"
 msgstr "Attitude"
 
 #: ../../usermanual/samples.rst:112 ../../usermanual/samples.rst:116
-#: ../../usermanual/samples.rst:160 6242d132521b49c0a9e68b160c54f006
-#: 754ee4ca0696425b94b9d805fcecd8dc a685a8bfbaa24cce93ec3883e29c669d
+#: ../../usermanual/samples.rst:160 08784a63dc014dfc9749b0a827a7d590
+#: 31d25b34fa074a0a9fd825c9f217413f 7994ce9f825e4e33b5499dd63bdc4fa3
 #, fuzzy
 msgid "M5Stack"
 msgstr "M5Stack"
 
 #: ../../usermanual/samples.rst:114 ../../usermanual/samples.rst:202
-#: 12576c1e547344f3aba0c1782df4a523 82e3e23b07074200841c88bfb0a8efe5
+#: 5a05a8d695fd4624b88493238cc6e08a 7bf6d4a14c0e4114b99921ae43b980d1
 #, fuzzy
 msgid ":ref:`Config - System`"
 msgstr ":ref:`Config - System`"
 
 #: ../../usermanual/samples.rst:116 ../../usermanual/samples.rst:204
-#: 425995ac61c544acad3b96739afeb72f 6e1d7283e2bf43d290a25d8495a0241e
+#: 6e4990dfa8bb4aaf91f2d02bc706e678 8fb26d5582de45d09608a2f3ca34cddb
 #, fuzzy
 msgid "System Name"
 msgstr "System Name"
 
 #: ../../usermanual/samples.rst:118 ../../usermanual/samples.rst:206
-#: 439bb2603bb940e59afad5eda1ac83ef 8bffb9bd91aa44a588137b70ec31caaf
+#: 0da93610ffc34d2bb10bd41c11216ac9 6bd8a1043e61499e90e00aa589dbc038
 #, fuzzy
 msgid ":ref:`Config - WiFi Client`"
 msgstr ":ref:`Config - WiFi Client`"
 
 #: ../../usermanual/samples.rst:120 ../../usermanual/samples.rst:208
-#: d3c7be89e55e4f078c44e7bb606d4d4a e1bc359c22464be997aaef7751d79b75
+#: 47f4b0c3f4de4668b0ddfea6c22bc87f f262fb419bfd4af8911fbf85a5d9d12f
 #, fuzzy
 msgid "WiFi Client"
 msgstr "WiFi Client"
@@ -454,148 +454,148 @@ msgstr "WiFi Client"
 #: ../../usermanual/samples.rst:208 ../../usermanual/samples.rst:216
 #: ../../usermanual/samples.rst:222 ../../usermanual/samples.rst:226
 #: ../../usermanual/samples.rst:274 ../../usermanual/samples.rst:311
-#: 1478fdc987034028ac9ad12588ec15af 2eeb47c5b8114fcc9c4f1fec04e24c51
-#: 337625be27da4b78b6b6273396880242 4acee34e55424a61b32584ed236e5c41
-#: 5070b30ee8474fa999cb96e19baad7fb 6d639c3960124f16aababca4617b3801
-#: 71d34fd9dc1f420ea900ab37309c8bbc 76b48c4886b340149561f9870e8cbb94
-#: 829d39df05e54706a387f31368b4f1ff c5b041e3d49948fda62b8be80163c2b5
-#: c5e8a61d799c4fa2a3ea1f0f3b75af48 d38247cff9584155bfde8c225e4f39ff
-#: e2e3db0fab7c4eba81f7006efd8e429e edcdc5c1336b4eaf84805b719acd5c76
+#: 171d95bcfa4144d9a487cf44dde2e669 1da758a1f9b341718b241248fb246337
+#: 303d9909f3484d35812bfaab39baa5e6 33274e5118de4b5a90433aa4a39436bb
+#: 333d4d9ed87d4501b8239309b0a64512 3b90cc6b0a5c4075a91cb24bc0b8cf25
+#: 533ae6e4a84f48079f0cb0662d1b9ed7 589f74c34a0d4a498fd7594d93b83de3
+#: 637598fd9d374432b9097cddad66f927 82cd10c3d9694673a109de5bc69547d4
+#: 854ee2fe7f6a470ca5a42d971baa861e b7aab473b2e74e13a8fe57f2fcd594c9
+#: ca482fa1b9d84c8195da017df552cf06 f46e01934e4c47d0b74a5e65ef0d750d
 #, fuzzy
 msgid "on"
 msgstr "on"
 
 #: ../../usermanual/samples.rst:122 ../../usermanual/samples.rst:210
-#: ../../usermanual/samples.rst:313 3a951cc0b9ec45758879a277e7f1acd7
-#: f77144ef9c1f43dca1069328a4842929 f77a29ff6bda45fdb149521ecd5f8f38
+#: ../../usermanual/samples.rst:313 1b2c3518ec8347e3baad97335ca2c381
+#: 25b32a05388b43c689cbd2d0e6d4596c b2c675de5e1d41fd81f6cd77ba698608
 #, fuzzy
 msgid "WiFi Client SSID"
 msgstr "WiFi Client SSID"
 
 #: ../../usermanual/samples.rst:122 ../../usermanual/samples.rst:210
 #: ../../usermanual/samples.rst:260 ../../usermanual/samples.rst:291
-#: ../../usermanual/samples.rst:313 1558e2357dc446adb905a6cb6a7048ab
-#: 65bac70e069c4f2d842122a643438d92 781c516d98b44af79767f04d35d901e6
-#: ec9216b3cb7e4b0081b6e4295c53e836 f9b56312dd534c0da6b878061a9c7052
+#: ../../usermanual/samples.rst:313 0474d2031a8742bf8724a5319fd46f24
+#: 090292c2cc66455594e23c8e2aedb9fe 53f05d80096d4baab09c6f080d9ff102
+#: 64224ea1fe5548f79e5087e8d743389b d7a10690142440b690f5b293424c4839
 #, fuzzy
 msgid "MyBoat"
 msgstr "MyBoat"
 
 #: ../../usermanual/samples.rst:124 ../../usermanual/samples.rst:212
-#: ../../usermanual/samples.rst:315 441d063095eb4d9c84ccac4d3fc265e3
-#: d3630fa8fbf9498b9f79b8a82120d0fb ee20f577a8d94d118cb58352212e5a71
+#: ../../usermanual/samples.rst:315 0ba33e6fcb244b36ae523e6ded31c99e
+#: cd2e07e9f0244691a2a881590b5a9026 d64c7ca2eba04176b69093a5b04057d8
 #, fuzzy
 msgid "WiFi Client Password"
 msgstr "WiFi Client Password"
 
 #: ../../usermanual/samples.rst:124 ../../usermanual/samples.rst:212
 #: ../../usermanual/samples.rst:262 ../../usermanual/samples.rst:315
-#: 186b2523786e4302b72c4cb09eca5226 67e41248f1dc4679bc24835a336368b3
-#: 783ec8086a3c4806aaeb9d4e5e5533a9 b9816137827d49988e7257457af8f500
+#: 0ba3347a84644315b59bcea8155b9c92 45ff305458774d31a7cd895bdc37baf8
+#: 65dceae3439c4e8ca014058d9ae02ac9 c5e57a7e739b4927a1facd9851a51db5
 #, fuzzy
 msgid "MySecret"
 msgstr "MySecret"
 
-#: ../../usermanual/samples.rst:126 96e9c6d31e1f46fdb27ee62a978903cc
+#: ../../usermanual/samples.rst:126 5bdfac27bb874c4cb227a65d36f1ef0d
 #, fuzzy
 msgid ":ref:`Config - Converter"
 msgstr ":ref:`Config - Converter"
 
 #: ../../usermanual/samples.rst:128 ../../usermanual/samples.rst:174
-#: 04ed1442d8dd4003a9d75f1e36427797 27e5500dbf4d4b258bd32a0540c4034e
+#: 5c5f469b7a5146788b66755d31caf70f 7c6c8d3e96614363879b1d23e669728c
 #, fuzzy
 msgid "NMEA2000 Out"
 msgstr "NMEA2000 Out"
 
-#: ../../usermanual/samples.rst:130 65214dcd75be4b43ba1b12dfba04efba
+#: ../../usermanual/samples.rst:130 b04bb76a3bc24597abaa260d4e095590
 #, fuzzy
 msgid ":ref:`Config - TCP Server`"
 msgstr ":ref:`Config - TCP Server`"
 
-#: ../../usermanual/samples.rst:132 0b4546bd0a434afda13ae1caf015e300
+#: ../../usermanual/samples.rst:132 fcbb606c7e934848a6f451145fe25c7f
 #, fuzzy
 msgid "TCP Port"
 msgstr "TCP Port"
 
 #: ../../usermanual/samples.rst:132 ../../usermanual/samples.rst:218
-#: 2bb843c943444388825ba3959987f852 e2ca77988b8f4cb18bab8abf77001183
+#: 66fd328d22ac4bbc915951bb8a4a1347 932ceea7841540de8c8f21a2e36edca2
 #, fuzzy
 msgid "10110"
 msgstr "10110"
 
 #: ../../usermanual/samples.rst:134 ../../usermanual/samples.rst:150
-#: ../../usermanual/samples.rst:222 45f81596588b4cce9919e39ae5546597
-#: cf90ff612615447dad69926397627ea1 f35fb9c399e54012b52462df6aaf339f
+#: ../../usermanual/samples.rst:222 5d202a98288b4e77975e2d3c515178fe
+#: 86187663c9054ca082cf4358da0dedca c45ccac9d9ef41d4a5d9a3ff005c70b5
 #, fuzzy
 msgid "NMEA0183 Out"
 msgstr "NMEA0183 Out"
 
-#: ../../usermanual/samples.rst:136 f1e3001cc88e4438a73e6d23ecec703a
+#: ../../usermanual/samples.rst:136 21829666ef0b460da9245f1fbd4f5bb6
 #, fuzzy
 msgid "NMEA0183 In"
 msgstr "NMEA0183 In"
 
 #: ../../usermanual/samples.rst:138 ../../usermanual/samples.rst:152
-#: ../../usermanual/samples.rst:224 06d43683b8fe4284852259eb6e51f7e2
-#: 1678e48bc3fb43afaef0d352a6d64d21 c04d888cd966413daba5c62aa2d398ff
+#: ../../usermanual/samples.rst:224 74bb51978d6f41c89f986b558c625e03
+#: dfb3eea411fe411f96fcde9dd02cd6dd f9812131e1d34865826bfff6c5756e3d
 #, fuzzy
 msgid "To NMEA2000"
 msgstr "To NMEA2000"
 
-#: ../../usermanual/samples.rst:140 0072d3417a714a019746e289c17afe00
+#: ../../usermanual/samples.rst:140 e8a10e12a7ec4ac0af7f95e6108ff7b5
 #, fuzzy
 msgid "SeaSmart Out"
 msgstr "SeaSmart Out"
 
 #: ../../usermanual/samples.rst:142 ../../usermanual/samples.rst:214
-#: 16bcc66ae17e4045b22e009f3e67d31c 57a98fe8ce7c49ef889fdaef8378363a
+#: 8bb53c2da1344ed2b5c209d530bf3ea6 ad8bb5b39890478da09cce202d50e6b9
 #, fuzzy
 msgid ":ref:`Config - TCP Client`"
 msgstr ":ref:`Config - TCP Client`"
 
 #: ../../usermanual/samples.rst:144 ../../usermanual/samples.rst:216
-#: d8291d195a5e46ee835f07720851c2d0 edb33724f11244978c7e818b24f3e801
+#: 179cd0ab126f42fea655a53e35dce4b3 ad5983ac2bf0482faec6a780e80201a9
 #, fuzzy
 msgid "Enable"
 msgstr "Enable"
 
 #: ../../usermanual/samples.rst:146 ../../usermanual/samples.rst:218
-#: 05c21491bf2448e0abffa3e13a83cbee e36376a82a8944329b5977809af9ccbe
+#: 161ade371eec45808939d74b3ac5d8d7 5b3e5d9bb5b34d038832e082b445b14e
 #, fuzzy
 msgid "Remote Port"
 msgstr "Remote Port"
 
-#: ../../usermanual/samples.rst:146 aa6a2a046f0549308403ffe0755b8ee2
+#: ../../usermanual/samples.rst:146 5fe68d9efc0246b7b6bf825d09ba8427
 #, fuzzy
 msgid "6666"
 msgstr "6666"
 
 #: ../../usermanual/samples.rst:148 ../../usermanual/samples.rst:220
-#: 639c66cf44494a7ea36a4631a4537cce 7a19958bc1cb4285a1c82da94ec4b336
+#: 3f6460e887a448298b704450a9288a3c 832c92b616e0433ba2988d80edd1fe76
 #, fuzzy
 msgid "Remote Address"
 msgstr "Remote Address"
 
 #: ../../usermanual/samples.rst:148 ../../usermanual/samples.rst:293
-#: 85a9ef8ea2d4471db3360755f1fa47fa ca22467d23e0455b987a7f2d8538976e
+#: 918d585483c0461ba1dfc73c499ca261 e1d49fd09bee4fa7b8990d41c342e4fc
 #, fuzzy
 msgid "192.168.1.102"
 msgstr "192.168.1.102"
 
 #: ../../usermanual/samples.rst:150 ../../usermanual/samples.rst:154
-#: ../../usermanual/samples.rst:224 00a3ec612127422ca0f69ef6d9ed899a
-#: 442d18eb282a4a9dbd00017597c6d777 6b1eb77c3b664ca0a397cbdbab12157e
+#: ../../usermanual/samples.rst:224 60fc000bc52a4b9bbc16b4b50544c00b
+#: df6776730d784a0b9de7880e08f5cdd2 f465334cb9404cc2b4f6863caed73404
 #, fuzzy
 msgid "off"
 msgstr "off"
 
 #: ../../usermanual/samples.rst:154 ../../usermanual/samples.rst:226
-#: 4bec6f9550a440608ac87dc71eee256c d1aca87d3a1f4ac3988fc0881912f8cf
+#: 8101f992ae154e969546015bc2137839 94596d804c1542e182e39bccd55b886c
 #, fuzzy
 msgid "SeaSamart Out"
 msgstr "SeaSmart Out"
 
-#: ../../usermanual/samples.rst:157 1a76c8227bfb4c78b6c1f87ba8a749a4
+#: ../../usermanual/samples.rst:157 6370592a3e44492d8bea5222b0f28e78
 #, fuzzy
 msgid ""
 "Nach der Konfiguration sollten Sie im Status nachfolgende Informationen "
@@ -627,88 +627,88 @@ msgstr ""
 "under TCP In/Out."
 
 #: ../../usermanual/samples.rst:160 ../../usermanual/samples.rst:232
-#: ../../usermanual/samples.rst:287 c185d529acf743329131358ecd97e008
-#: e76b9c83eab24da88696ed713cef6556 f46e4b8fc8554608af7fc9eb629bbdf5
+#: ../../usermanual/samples.rst:287 3936cbeacca74a50ac1e1576e854b718
+#: f51192a8f4bf4404a6e9beb34d7e702b faebfd4ca6a04281bf4de613d2733c5a
 #, fuzzy
 msgid "Statusmeldungen"
 msgstr "Status messages"
 
 #: ../../usermanual/samples.rst:162 ../../usermanual/samples.rst:234
-#: 6c317e8cb94c434896a5823bd04e66b1 873bf99bed08416a978f8269ed2034e2
+#: 744d17e87ff74d779b56256e7064047a d6f4f95b9edc4295806e279978d2574e
 #, fuzzy
 msgid ":ref:`Status`"
 msgstr ":ref:`Status`"
 
 #: ../../usermanual/samples.rst:164 ../../usermanual/samples.rst:236
-#: 8995e4ba55b2410d9c21d673940a4ce9 c06d6e73d0ef443e909a30942449327f
+#: 466ee72dab774d7099e961b606b4ed9a cc8e04bcf3b445329c2bfe944de59c29
 #, fuzzy
 msgid "WiFi Client Connected"
 msgstr "WiFi Client Connected"
 
 #: ../../usermanual/samples.rst:164 ../../usermanual/samples.rst:236
-#: 61af34910ca144caa79cf57a6c2d451a c423a82e60d242b18d0439b537b34cb0
+#: 32249c1024784bc594c52321f1d803c8 ff25c3060fa34b9e901d9eccc7bbff88
 #, fuzzy
 msgid "true"
 msgstr "true"
 
 #: ../../usermanual/samples.rst:166 ../../usermanual/samples.rst:238
-#: 3c57eabe4b75459784ec57ea19daf74c 63fe4fb9e97f481caccb7ea01200d97d
+#: 1e3b31e26cd2454a9140f2af05d7d296 8a3c0a6aadb64cbdbbf59a9d5702d496
 #, fuzzy
 msgid "WiFi Client IP"
 msgstr "WiFi Client IP"
 
 #: ../../usermanual/samples.rst:166 ../../usermanual/samples.rst:220
-#: 1188fe87fc4b43b9a8b91c629481c0c5 dd2cefeb9d264828937842e64081b434
+#: 3226e1cb343642a491171b020a022650 49b495d4304d4d408f77dac65a8ffff8
 #, fuzzy
 msgid "192.168.1.101"
 msgstr "192.168.1.101"
 
 #: ../../usermanual/samples.rst:168 ../../usermanual/samples.rst:240
-#: 0be5a0c379a24e29956e015ffdbe5311 9463fb59fd644ba4896770955c1d2a32
+#: 2852c7f582bf4a68989932788266d028 a0a6a966adfa4ec7b23e6790bee6731e
 #, fuzzy
 msgid "#Clients"
 msgstr "#Clients"
 
-#: ../../usermanual/samples.rst:168 db8942ec8f874e3680235ea2430c8265
+#: ../../usermanual/samples.rst:168 618fc45c89ce449985c64ba8179aefe3
 #, fuzzy
 msgid "2"
 msgstr "2"
 
 #: ../../usermanual/samples.rst:170 ../../usermanual/samples.rst:242
-#: 63f1d0f7313d4a9b8f9b7ec98c814788 93e8b54ef1fb40a0adbf8df9dc3a1530
+#: 2f7e40b56acf4d79877e57405b58e761 66532a31761c4953b3cb5b94bb7b67f6
 #, fuzzy
 msgid "NMEA2000 State"
 msgstr "NMEA2000 State"
 
-#: ../../usermanual/samples.rst:170 7b6898079fd249a98d80a0ad3b91cfe1
+#: ../../usermanual/samples.rst:170 1c83f3ae30064a73899f739662abc6f2
 #, fuzzy
 msgid "[0] Online"
 msgstr "[0] Online"
 
-#: ../../usermanual/samples.rst:172 0a9cf9c357b945d2829ae4518fa9f7be
+#: ../../usermanual/samples.rst:172 9020c6fad1b84de593e20fce44dc85af
 #, fuzzy
 msgid "NMEA2000 In"
 msgstr "NMEA2000 In"
 
 #: ../../usermanual/samples.rst:172 ../../usermanual/samples.rst:174
 #: ../../usermanual/samples.rst:176 ../../usermanual/samples.rst:178
-#: 0cb70d26e979459eb12f60d35e6a5e6c 6526b49c15e749d899f9cfedf4c64161
-#: 96cb50123f0442a889d162a6fdbe042d b642fb055e2246dba36fcce560c49f80
+#: 2ebfd0936d544b26908e1b596ec01d1c 65a6a709a7634985a4f51bc1870235e8
+#: e42647d15c84413c9b0d095f2d89ddd2 fc26001c438d4d919bbef785a0d812e4
 #, fuzzy
 msgid "Telegrammeanzahl"
 msgstr "Number of telegrams"
 
-#: ../../usermanual/samples.rst:176 6fa4626531324a1eae8d62b9740c0f75
+#: ../../usermanual/samples.rst:176 61746ffef0f34d92a53a670fc5947e79
 #, fuzzy
 msgid "TCP In"
 msgstr "TCP In"
 
-#: ../../usermanual/samples.rst:178 56a21b0189b04e3a920d4c3bbcb90454
+#: ../../usermanual/samples.rst:178 7f6963ce392940e9a3ca6ebe97966cc2
 #, fuzzy
 msgid "TCP Out"
 msgstr "TCP Out"
 
-#: ../../usermanual/samples.rst:181 00d8678ca1e14632ac0932b315918363
+#: ../../usermanual/samples.rst:181 7c74fe32100445deb90a7146e54f58b4
 #, fuzzy
 msgid ""
 "Die Verbindung des M5Stack mit dem NMEA2000-Netzwerk erfolgt über ein "
@@ -724,19 +724,19 @@ msgstr ""
 "be taken directly from the NMEA 2000 bus. Additionally, there is an NMEA "
 "0183 interface for data exchange."
 
-#: ../../usermanual/samples.rst:187 65e881056cbe4736a941ad388fc608e0
+#: ../../usermanual/samples.rst:187 e99aa974f73a4fb5970fae799e0a472e
 #, fuzzy
 msgid ""
 "Abb. CAN-Bus Anbindung mit Versorgung aus dem Bus (M5Stack mit Tail485)"
 msgstr ""
 "Fig. CAN bus connection with supply from the bus (M5Stack with Tail485)"
 
-#: ../../usermanual/samples.rst:190 87e7eae7ead6459faf0583b1fc185ffd
+#: ../../usermanual/samples.rst:190 7d0a263fb7354ae7b9e192759579a8f5
 #, fuzzy
 msgid "Konfiguration OBP40"
 msgstr "Configuration OBP40"
 
-#: ../../usermanual/samples.rst:195 0ed8fc6aac8049ffa3fcadc8fa4aaea9
+#: ../../usermanual/samples.rst:195 e750abca11954bb2997a222ae12d9f45
 #, fuzzy
 msgid ""
 "Dem Anzeigegerät OBP40 wird der Systemname OBP40V1 zugewiesen und mit dem "
@@ -750,23 +750,23 @@ msgstr ""
 "communicate with the M5Stack. The OBP40 obtains all sensor data via the "
 "M5Stack. The data from the Yachta wind sensor is provided via the M5Stack."
 
-#: ../../usermanual/samples.rst:197 dede1b3787574618ae99a2f77970157b
+#: ../../usermanual/samples.rst:197 cd1cc2fcb4fd4ce4b0b91b8d796a995d
 #, fuzzy
 msgid "Folgende Einstellungen sind vorzunehmen:"
 msgstr "The following settings must be made:"
 
 #: ../../usermanual/samples.rst:200 ../../usermanual/samples.rst:232
-#: 3935297c007743cabc0aae8720013b44 5a5e89bd94ab4642a3a707b05e580a15
+#: 238b86de20ac4f1285dc73aa1afda2dc 8ee88e4857a146a0aaf9eebf79095956
 #, fuzzy
 msgid "OBP40"
 msgstr "OBP40"
 
-#: ../../usermanual/samples.rst:204 b87738f82cf64c6fa69da7518b3cbca7
+#: ../../usermanual/samples.rst:204 af0b9016b14a4409962e2ab6218076e5
 #, fuzzy
 msgid "OBP40V1"
 msgstr "OBP40V1"
 
-#: ../../usermanual/samples.rst:229 5492d2fd2efb40aab212862371f2f8e5
+#: ../../usermanual/samples.rst:229 b10e9a7107f04925a219e6ef574f658c
 #, fuzzy
 msgid ""
 "Nach der Konfiguration sollten Sie im Status nachfolgende Informationen "
@@ -786,27 +786,27 @@ msgstr ""
 " direct cable connection to the NMEA 2000 network. The NMEA 2000 data is "
 "transmitted with SeaSmart via the WiFi connection."
 
-#: ../../usermanual/samples.rst:238 59bbabfcb82c4ba7aab89f7901522524
+#: ../../usermanual/samples.rst:238 32349375208147c39bc8a496a8ee718c
 #, fuzzy
 msgid "192.168.1.100"
 msgstr "192.168.1.100"
 
-#: ../../usermanual/samples.rst:240 348f61683d694852b31c67c37bc5d2d6
+#: ../../usermanual/samples.rst:240 30fc8dc27eb14ad89f125f0f6d352f05
 #, fuzzy
 msgid "0"
 msgstr "0"
 
-#: ../../usermanual/samples.rst:242 f5110772d161402198367542a9fd987f
+#: ../../usermanual/samples.rst:242 278cd0f0ff74472692bc4ae8bd7c9bab
 #, fuzzy
 msgid "[32] Offline"
 msgstr "[32] Offline"
 
-#: ../../usermanual/samples.rst:246 92ec9892c7fd488aa68ad885d92b738f
+#: ../../usermanual/samples.rst:246 171926f0328a4355b92efd388ec27d99
 #, fuzzy
 msgid "Konfiguration Yachta"
 msgstr "Yachta configuration"
 
-#: ../../usermanual/samples.rst:251 740b0a1e38d242b88eff6a422888af54
+#: ../../usermanual/samples.rst:251 13b04e0e8f21406db8676c695e689442
 #, fuzzy
 msgid ""
 "Der Windsensor Yachta ist so konfiguriert, dass er im WiFi-Netzwerk des LTE-"
@@ -818,96 +818,101 @@ msgstr ""
 "network. The wind sensor provides wind data to the M5Stack via port 6666. "
 "Only data from the Yachta wind sensor is transferred to the M5Stack."
 
-#: ../../usermanual/samples.rst:253 c9b8ef6219c0446882d86fa57b5dd136
+#: ../../usermanual/samples.rst:253 7906bd97df664c438fc33370ec24ba2d
 #, fuzzy
 msgid "Folgende Einstellungen werden für den Windsensor Yachta vorgenommen:"
 msgstr "The following settings are made for the Yachta wind sensor:"
 
 #: ../../usermanual/samples.rst:256 ../../usermanual/samples.rst:266
-#: ../../usermanual/samples.rst:287 1a16b775b7ec4b59aace5003626b281d
-#: 6ffe42157bf74be9b84d0e7269a43381 90b1cb8e39c2419da58499ecb189a73d
+#: ../../usermanual/samples.rst:287 1974bef1966142e1a276ed16cc3efa06
+#: 6ec23c79a45144b1b5d3fddeb61a2143 eba12c8fd8534bf49a15ae572ac3f4b7
 #, fuzzy
 msgid "Yachta"
 msgstr "Yacht"
 
-#: ../../usermanual/samples.rst:258 721944e23e0345ff968f781491bfbfc9
+#: ../../usermanual/samples.rst:258 d2f7b102bf3042a282b92266c864f3be
 #, fuzzy
 msgid "**Network Settings**"
 msgstr "**Network Settings**"
 
 #: ../../usermanual/samples.rst:260 ../../usermanual/samples.rst:291
-#: 1074732dbd244293970656cb42f09637 3722a7938d7b41cbb9e5eebd20fed9a7
+#: 1049d49c2d994d71ab8fc495ce2bbda5 863fc1127b194319b10ac791b01077c5
 #, fuzzy
 msgid "WLAN Client SSID"
 msgstr "WLAN Client SSID"
 
 #: ../../usermanual/samples.rst:262 ../../usermanual/samples.rst:293
-#: 3f1f89c9d1be4240978762d1e5d7a71e f7c99f14cdca4e16a9ba23910da8528a
+#: 6e342e69950b4d8582d978e4590965a5 fa62e645b40f4c9885917a2bef915bf0
 #, fuzzy
 msgid "WLAN Client IP"
 msgstr "WLAN Client IP"
 
-#: ../../usermanual/samples.rst:264 297fa0e6bf4e41239f827abea9ce7d7c
+#: ../../usermanual/samples.rst:264 9d4fc048df3f48c2b5c9ab88901ae417
 #, fuzzy
 msgid "Connection Timeout"
 msgstr "Connection Timeout"
 
-#: ../../usermanual/samples.rst:264 77fd73c65fbe4adf9106c5b9c271ced1
+#: ../../usermanual/samples.rst:264 61b96b1c869a414c869dbd8416cfb2ec
 #, fuzzy
 msgid "30s"
 msgstr "30s"
 
-#: ../../usermanual/samples.rst:266 620a0b7cbb064d3098b2d37bcafffb95
+#: ../../usermanual/samples.rst:266 5de5af492fc14e8e928ac14384e05fcd
 #, fuzzy
 msgid "WLAN Sever SSID"
 msgstr "WLAN Sever SSID"
 
-#: ../../usermanual/samples.rst:268 e82c7cb6ae6242dfa214062352e73c68
+#: ../../usermanual/samples.rst:268 e20cf4cd5a8f4ea3a9d8c2e656dfa843
 #, fuzzy
 msgid "WLAN Server Password"
 msgstr "WLAN Server Password"
 
-#: ../../usermanual/samples.rst:270 fd151868c6e149edaf1f5cff93288cfd
+#: ../../usermanual/samples.rst:268 1b11a4cb57ce4a69b8b02cc565cd1641
+#, fuzzy
+msgid "xxxxxxxx"
+msgstr "xxxxxxxxx"
+
+#: ../../usermanual/samples.rst:270 17abe39d363b480e8f5a88e60359b44b
 #, fuzzy
 msgid "AP Channel"
 msgstr "AP Channel"
 
-#: ../../usermanual/samples.rst:270 46ffc77826be4d518bb2ddb66057a681
+#: ../../usermanual/samples.rst:270 7aeb88c600654250a4e1f11acc6c2f7b
 #, fuzzy
 msgid "1"
 msgstr "1"
 
-#: ../../usermanual/samples.rst:272 31201f0c9d7147c0a96cc9f4d700e55c
+#: ../../usermanual/samples.rst:272 8a6980ea1ba14a668f8d6b3b3e4b9888
 #, fuzzy
 msgid "Server Mode"
 msgstr "Server Mode"
 
-#: ../../usermanual/samples.rst:272 bff4b817dea5419c874dbc7aa864d61f
+#: ../../usermanual/samples.rst:272 88fedf9dcbda44fc88344a30b0ec9c98
 #, fuzzy
 msgid "HTTP (JSON/NMEA)"
 msgstr "HTTP (JSON/NMEA)"
 
-#: ../../usermanual/samples.rst:274 2f6cbd15c338488a9830c4bca70eb0ff
+#: ../../usermanual/samples.rst:274 0bbe17272d9c410eb81207b2fd1cc775
 #, fuzzy
 msgid "mDNS Service"
 msgstr "mDNS Service"
 
-#: ../../usermanual/samples.rst:276 894bfc68eb8e4a908857cdb8d2f10d2c
+#: ../../usermanual/samples.rst:276 b8efc64f4c254a11832f01b65bd19631
 #, fuzzy
 msgid "**Device Settings**"
 msgstr "**Device Settings**"
 
-#: ../../usermanual/samples.rst:278 06314089f41d47c582685342a5c451d9
+#: ../../usermanual/samples.rst:278 d712d7c2de804fdabca896a8071129e8
 #, fuzzy
 msgid "Wind Sensor Type"
 msgstr "Wind Sensor Type"
 
-#: ../../usermanual/samples.rst:278 afbd1003fa1a4c8495927f2d4cb6abad
+#: ../../usermanual/samples.rst:278 e7122574e00b49d2a02be9f7ef3d1084
 #, fuzzy
 msgid "Yachta 2.0"
 msgstr "Yacht 2.0"
 
-#: ../../usermanual/samples.rst:282 07db90e67bf14af8b5def5dcb497681a
+#: ../../usermanual/samples.rst:282 64bfc83b1fa14243a8f6f3a8a21a8261
 #, fuzzy
 msgid ""
 "Der Windsensor Yachta lässt sich in einen Demo-Mode versetzen. So kann die "
@@ -920,7 +925,7 @@ msgstr ""
 "wind data. Simulation mode can be activated via **Server Mode** with the "
 "setting ``Demo Mode``."
 
-#: ../../usermanual/samples.rst:284 577f9e94a42f48d39d73a7a59674d4e4
+#: ../../usermanual/samples.rst:284 9f7341551b0f42888399bdcc7ace25b6
 #, fuzzy
 msgid ""
 "Nach der Konfiguration sollten unter **Device Info** im Windsensor Yachta "
@@ -929,27 +934,27 @@ msgstr ""
 "After configuration, the following status messages should be visible under "
 "**Device Info** in the Yachta wind sensor:"
 
-#: ../../usermanual/samples.rst:289 2af19a096d9c442f8128d224984f4279
+#: ../../usermanual/samples.rst:289 2cccbef73a8f4b5289008c95c00b9950
 #, fuzzy
 msgid "**Network Parameter**"
 msgstr "**Network Parameter**"
 
-#: ../../usermanual/samples.rst:295 8d9caf69e3ae4157bd97ed1f7df71939
+#: ../../usermanual/samples.rst:295 6649ebf5f8ff453db099a18807623ecf
 #, fuzzy
 msgid "Connection Quality"
 msgstr "Connection Quality"
 
-#: ../../usermanual/samples.rst:295 2e80fea6c5074bf7aef26d9985d40940
+#: ../../usermanual/samples.rst:295 dda267f068794546970c1dde53f753d4
 #, fuzzy
 msgid ">50%"
 msgstr ">50%"
 
-#: ../../usermanual/samples.rst:299 9eb2c3a47c624f56b4826659d606fef0
+#: ../../usermanual/samples.rst:299 000b4b5942ee4f269140a7700d44418e
 #, fuzzy
 msgid "Tablett Konfiguration"
 msgstr "Tablet configuration"
 
-#: ../../usermanual/samples.rst:304 d9f040fa9f0840d89a101a2ec3bf9ff5
+#: ../../usermanual/samples.rst:304 2cdacd35c50d40dbab8cdea2898a58b3
 #, fuzzy
 msgid ""
 "Das Android-Tablett wird in das WiFi-Netzwerk des LTE-Routers hinzugefügt "
@@ -963,32 +968,32 @@ msgstr ""
 "found in the tablet's manual. Data from a GPS receiver in the tablet can "
 "also be used in the NMEA 0183 and NMEA 2000 network."
 
-#: ../../usermanual/samples.rst:307 e861f867947743cabd336289d9eab2b9
+#: ../../usermanual/samples.rst:307 96394030aa3440bab4aff71c771d8379
 #, fuzzy
 msgid "Android-Tablett"
 msgstr "Android-Tablett"
 
-#: ../../usermanual/samples.rst:309 b4b1acb4ea4d44638bbde2a0a38ae28c
+#: ../../usermanual/samples.rst:309 4efb6e93dcee43d8997a3c5a771a46ed
 #, fuzzy
 msgid "**Einstellungen WiFi**"
 msgstr "**Wi-Fi Settings**"
 
-#: ../../usermanual/samples.rst:311 aed56e42ec084411bbd29ca248c0e1aa
+#: ../../usermanual/samples.rst:311 642c28019d98465996bb000781183214
 #, fuzzy
 msgid "WiFi"
 msgstr "WiFi"
 
-#: ../../usermanual/samples.rst:317 167ca6a92255461aa96497a852778f49
+#: ../../usermanual/samples.rst:317 9d8c066e0bcf450ab300017b20dd1e19
 #, fuzzy
 msgid "App-Installation"
 msgstr "App-Installation"
 
-#: ../../usermanual/samples.rst:317 4eeabbc158d14bbeaa914aa8991f1bac
+#: ../../usermanual/samples.rst:317 683c2f83afde449198182070bbb15e94
 #, fuzzy
 msgid "AvNav"
 msgstr "AvNav"
 
-#: ../../usermanual/samples.rst:320 69cd55bc8da84fbbb7893d06db93abda
+#: ../../usermanual/samples.rst:320 5353ea81f34940ffafe50dcde14e499a
 #, fuzzy
 msgid ""
 "Nachfolgend wird gezeigt, wie man Busdaten über ein Tablett in AvNav nutzen "
@@ -1002,12 +1007,12 @@ msgstr ""
 "TCP connection. The tablet is docked to the M5Stack ATOM CAN as a TCP "
 "client. In AvNav, the connection is configured as a TCPReader."
 
-#: ../../usermanual/samples.rst:324 f8c49ae9afd040ef97463346ec800400
+#: ../../usermanual/samples.rst:324 7b7d397148574439b9994ff716ccf7e9
 #, fuzzy
 msgid "Abb.: Startseite AvNav für Android"
 msgstr "Fig.: AvNav homepage for Android"
 
-#: ../../usermanual/samples.rst:326 4d7bf05cc5804f04b4b55f6c807c29ab
+#: ../../usermanual/samples.rst:326 22e932a28c784508881b46bdea6a5085
 #, fuzzy
 msgid ""
 "Unter AvNav klicken Sie auf der Startseite oben rechts das Symbol mit den 3 "
@@ -1016,7 +1021,7 @@ msgstr ""
 "Under AvNav, click the icon with the three lines in the top right corner of "
 "the home page."
 
-#: ../../usermanual/samples.rst:330 daf9023433e14c42aa496c0e51214b19
+#: ../../usermanual/samples.rst:330 2338a34002d446bab559292408aa5312
 #, fuzzy
 msgid ""
 "Sie gelangen dann auf die Seite zum Serverstatus. Dort können Sie über das "
@@ -1025,18 +1030,18 @@ msgstr ""
 "You will then be taken to the server status page. There, you can set up "
 "additional connections to the AvNavServer using the plus symbol."
 
-#: ../../usermanual/samples.rst:334 6d3d6ed4e6ca4e558b05a55e49941e86
+#: ../../usermanual/samples.rst:334 a26b1b84940641a7b1f2e2b3b889e748
 #, fuzzy
 msgid ""
 "Für die bidirektionale Kommunikation über USB wählen Sie **TCPReader**."
 msgstr "For bidirectional communication via USB, select **TCPReader**."
 
-#: ../../usermanual/samples.rst:338 7c407f5c269a476488464c826b8642f8
+#: ../../usermanual/samples.rst:338 994d5e4636e44a798b72fd498a66e3d5
 #, fuzzy
 msgid "Abb.: Verbindungstypen"
 msgstr "Fig.: Connection types"
 
-#: ../../usermanual/samples.rst:340 1715c0316f6747d2a742e6fd21d9ea02
+#: ../../usermanual/samples.rst:340 d2f9a1254aba40b3a8c06991cdf95663
 #, fuzzy
 msgid ""
 "Unter **IP-Address** tragen Sie die IP-Adresse des M5Stack ein und als "
@@ -1047,12 +1052,12 @@ msgstr ""
 "enter 10110. To be able to not only send but also receive data, activate "
 "**SendOut**."
 
-#: ../../usermanual/samples.rst:344 a9df34cf349d483bbafce2750311139e
+#: ../../usermanual/samples.rst:344 df991c60ed044c41a6c3e379d4c8ae2b
 #, fuzzy
 msgid "Abb.: Einstellungen zur TCPReader-Verbindung"
 msgstr "Fig.: Settings for the TCPReader connection"
 
-#: ../../usermanual/samples.rst:346 f847fa0b6ce04ee5ab6cf1d6b4767d86
+#: ../../usermanual/samples.rst:346 1d1013adbe7a4179a3c98649cdd45d78
 #, fuzzy
 msgid ""
 "Nach der Übernahme aller Daten ist die neue Verbindung im Server-Status als "
@@ -1061,7 +1066,7 @@ msgstr ""
 "After all data has been transferred, the new connection can be seen in the "
 "server status as a TCPReader connection."
 
-#: ../../usermanual/samples.rst:350 93c3685bcf31452cacdc10be38d5b683
+#: ../../usermanual/samples.rst:350 08ecd4f4884a47d68f515fa8a1c15b2e
 #, fuzzy
 msgid "Abb.: Server-Status"
 msgstr "Abb.: Server-Status"
