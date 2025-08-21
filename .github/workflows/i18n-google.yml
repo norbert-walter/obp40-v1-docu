@@ -85,17 +85,37 @@ jobs:
         shell: bash
         run: |
           set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git fetch origin
-          git pull --rebase
+
+          # Änderungen STAGEN (je nach Pfad)
           if [ -d "${DOCS_DIR}/locale" ]; then
             git add "${DOCS_DIR}/locale"
           elif [ -d "locale" ]; then
             git add "locale"
-          else
-            echo "No locale directory found to commit."
           fi
-          git status --porcelain
-          git commit -m "chore(i18n): update ${{ matrix.lang }} translations [skip ci]" || echo "No changes"
-          git push
+
+          # Nichts zu committen? -> sauber beenden
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          # Erst committen, damit der Arbeitsbaum sauber ist
+          git commit -m "chore(i18n): update ${{ matrix.lang }} translations [skip ci]"
+
+          # Danach rebasen & pushen (mit kleinem Retry, falls race)
+          for attempt in 1 2 3; do
+            git fetch origin
+            git pull --rebase --autostash || true
+            if git push; then
+              echo "Pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt), retrying…"
+            sleep 2
+          done
+
+          echo "Push failed after retries"
+          exit 1
