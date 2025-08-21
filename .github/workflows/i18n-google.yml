@@ -64,7 +64,11 @@ jobs:
         working-directory: ${{ env.DOCS_DIR }}
         run: sphinx-intl update -p _build/gettext -l ${{ matrix.lang }} -d locale
 
+<<<<<<< HEAD
       - name: Debug list created PO files
+=======
+      - name: Debug: list created PO files
+>>>>>>> origin/main
         shell: bash
         run: |
           echo "PO under ${DOCS_DIR}/locale:"
