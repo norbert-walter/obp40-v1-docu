@@ -195,7 +195,7 @@ Config - USB Port
 **USB Mode**
 	* legt das Format fest, wie Daten am USB-Port verarbeitet werden. Mit dem Actisense-Format können NMEA2000-Telegramme von externer Software empfangen und verarbeitet werden. Actisense-Daten werden innerhalb des Geräts in NMEA2000-Daten und in NMEA0183-Daten  übersetzt. So kann z.B. die `Simulations- und Diagnosesoftware`_ der Fa. Actisense zur Analyse der Busdaten verwendet werden.
 	
-.. _Simulations- und Diagnosefirmware: https://actisense.com/de/software/
+.. _Simulations- und Diagnosesoftware: https://actisense.com/de/software/
 	
 		* ``nmea0183`` - Verarbeitung im NMEA0183-Format
 		* ``actisense`` - Verarbeitung im Actisense-Format
@@ -778,7 +778,7 @@ Die Konfiguration der möglichen Anzeigeseiten des OPB60 erfolgt auf der Seite *
     * ``Portable Bitmap (PBM)`` - Binäres Bildformat ohne Header (kann nicht im Browser angezeigt werden)
     * ``Windows Bitmap (BMP)`` - Binäres Bildformat mit Header
     * Ein Screenshot kann erstellt werden, indem folgende Webseite aufgerufen wird:
-    * `http://192.168.15.1/api/user/OBP40Task/screenshot`_
+    * `http://192.168.15.1/api/user/OBP60Task/screenshot`_
 
 .. _http://192.168.15.1/api/user/OBP60Task/screenshot: http://192.168.15.1/api/user/OBP60Task/screenshot
     

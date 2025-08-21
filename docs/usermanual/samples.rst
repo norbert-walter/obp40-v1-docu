@@ -265,7 +265,7 @@ Folgende Einstellungen werden für den Windsensor Yachta vorgenommen:
 +---------------------------+---------------------+
 |WLAN Sever SSID            |Yachta               |
 +---------------------------+---------------------+
-|WLAN Server Password       |********             |
+|WLAN Server Password       |xxxxxxxx             |
 +---------------------------+---------------------+
 |AP Channel                 |1                    |
 +---------------------------+---------------------+
