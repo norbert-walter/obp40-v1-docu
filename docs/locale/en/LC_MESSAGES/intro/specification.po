@@ -1,0 +1,862 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Open Boat Projects
+# This file is distributed under the same license as the OBP40 V1
+# Dokumentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OBP40 V1 Dokumentation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-21 12:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../intro/specification.rst:2 4b0e7b1604d847d390c83d94e18324df
+#, fuzzy
+msgid "Technische Daten"
+msgstr "Technical data"
+
+#: ../../intro/specification.rst:8 653ce80e9868435ebcac5bf7d4b965cd
+#, fuzzy
+msgid "Funktionen"
+msgstr "Functions"
+
+#: ../../intro/specification.rst:10 786e56db89d44b6a84035cd73221f95c
+#, fuzzy
+msgid "Mobiles E-Paper Display (tageslichttauglich)"
+msgstr "Mobile e-paper display (suitable for daylight)"
+
+#: ../../intro/specification.rst:11 881a3636e812410b9814e6c83f8d6fb1
+#, fuzzy
+msgid "Numerische Anzeigeseiten für 1, 2, 3 und 4 Werte (Werte frei wählbar)"
+msgstr ""
+"Numerical display pages for 1, 2, 3 and 4 values (values freely selectable)"
+
+#: ../../intro/specification.rst:12 c4083b0610544d5ca1be565b4629e645
+#, fuzzy
+msgid "Grafische Anzeigeseiten (feste Werte)"
+msgstr "Graphic display pages (fixed values)"
+
+#: ../../intro/specification.rst:13 5c6659cf189a48b6a179268101c91d2b
+#, fuzzy
+msgid "Trendanzeige für Werte"
+msgstr "Trend display for values"
+
+#: ../../intro/specification.rst:14 17e3a820156f42bdb3c2425b05ec12f9
+#, fuzzy
+msgid "1 Auswahlrad mit Drucktaster und 2 Auswahltasten"
+msgstr "1 selection wheel with push button and 2 selection buttons"
+
+#: ../../intro/specification.rst:15 35cdee54a65d46e8a2b73aebf34479fe
+#, fuzzy
+msgid "Magnet-Dock für Stromversorgung über Pogo-Pins"
+msgstr "Magnetic dock for power supply via pogo pins"
+
+#: ../../intro/specification.rst:16 4f2d6fceb1e24edaaef89f1cfdd298ce
+#, fuzzy
+msgid "Magnet- und Kletthalterung"
+msgstr "Magnetic and Velcro holder"
+
+#: ../../intro/specification.rst:17 004ae75bd3534db1b349fdb83b18eeac
+#, fuzzy
+msgid "USB-Dockingstation zum Laden und zum Datenaustausch"
+msgstr "USB docking station for charging and data exchange"
+
+#: ../../intro/specification.rst:18 2cd65cf9bbf24438bc17a9109c88b4f1
+#, fuzzy
+msgid "NMEA2000 (über Hardwareerweiterung)"
+msgstr "NMEA2000 (via hardware extension)"
+
+#: ../../intro/specification.rst:19 7fd5a1b6cb7740fe9b839c0cffab6eca
+#, fuzzy
+msgid "NMEA0183 (über WiFi oder über Hardwareerweiterung)"
+msgstr "NMEA0183 (via WiFi or hardware extension)"
+
+#: ../../intro/specification.rst:20 8392ad4496e44c62b07a4e18e631e71a
+#, fuzzy
+msgid "NMEA2000/NMEA0183 Gateway (bidirektional)"
+msgstr "NMEA2000/NMEA0183 Gateway (bidirektional)"
+
+#: ../../intro/specification.rst:21 e2d3e57f0a2043ebb9bd07e7caa940eb
+#, fuzzy
+msgid "I2C (über Erweiterungsport)"
+msgstr "I2C (via expansion port)"
+
+#: ../../intro/specification.rst:22 fb1608787c2a42d891c0b1e6f9650172
+#, fuzzy
+msgid "1Wire (über Erweiterungsport)"
+msgstr "1Wire (via expansion port)"
+
+#: ../../intro/specification.rst:23 133c604575904d508516a87d8a8a67f9
+#, fuzzy
+msgid "USB-C (OTG, Debug, NMEA0183)"
+msgstr "USB-C (OTG, Debug, NMEA0183)"
+
+#: ../../intro/specification.rst:24 e0f317ee1889493f9c6523e05b2016fe
+#, fuzzy
+msgid "WiFi 2.4GHz (HTTP, TCP, UDP)"
+msgstr "WiFi 2.4GHz (HTTP, TCP, UDP)"
+
+#: ../../intro/specification.rst:25 8128aac4f79e4ea09ccf981f392bc1c7
+#, fuzzy
+msgid "Bluetooth (aktuell ungenutzt)"
+msgstr "Bluetooth (currently unused)"
+
+#: ../../intro/specification.rst:26 24e68355ff0648c0863442a932ccf871
+#, fuzzy
+msgid "LiPo-Akku-Tiefentladeschutz < 3,65V (erfordert LiPo-Akku)"
+msgstr ""
+"LiPo battery deep discharge protection < 3.65V (requires LiPo battery)"
+
+#: ../../intro/specification.rst:27 8b1c9e0bf30a42fca889ca1051d0dd3e
+#, fuzzy
+msgid "Low Power Modus (Deep Sleep)"
+msgstr "Low Power Modus (Deep Sleep)"
+
+#: ../../intro/specification.rst:30 5ffa85d2613340d18d98be5fd042310a
+#, fuzzy
+msgid "Vergleich OBP40 / OBP60"
+msgstr "Comparison OBP40 / OBP60"
+
+#: ../../intro/specification.rst:32 ../../intro/specification.rst:160
+#: 286a1c9680d84694993f1a8cea483c24 4d6a8668a73c4c50bcd1673d383f3afc
+#: 858c20714e68408a996c7c6a21b41fbc
+#, fuzzy
+msgid "Funktion"
+msgstr "function"
+
+#: ../../intro/specification.rst:32 552e307e09fe4d03a365c1901006c586
+#, fuzzy
+msgid "OBP40"
+msgstr "OBP40"
+
+#: ../../intro/specification.rst:32 3e6474c65c1f4b2dbafc6ad861e1ebb4
+#, fuzzy
+msgid "OBP60"
+msgstr "OBP60"
+
+#: ../../intro/specification.rst:34 f4343ed7565d4bd28783714a7bcf673e
+#, fuzzy
+msgid "e-Paper-Display"
+msgstr "e-Paper-Display"
+
+#: ../../intro/specification.rst:34 ../../intro/specification.rst:38
+#: ../../intro/specification.rst:40 ../../intro/specification.rst:42
+#: ../../intro/specification.rst:44 ../../intro/specification.rst:46
+#: ../../intro/specification.rst:48 ../../intro/specification.rst:50
+#: ../../intro/specification.rst:52 ../../intro/specification.rst:54
+#: ../../intro/specification.rst:56 ../../intro/specification.rst:58
+#: ../../intro/specification.rst:60 ../../intro/specification.rst:62
+#: ../../intro/specification.rst:64 ../../intro/specification.rst:68
+#: ../../intro/specification.rst:70 ../../intro/specification.rst:72
+#: ../../intro/specification.rst:74 ../../intro/specification.rst:76
+#: ../../intro/specification.rst:78 ../../intro/specification.rst:80
+#: ../../intro/specification.rst:82 ../../intro/specification.rst:84
+#: ../../intro/specification.rst:86 ../../intro/specification.rst:90
+#: 014bd780fbf4403f9cd29a4e08a6c1e2 087d54de48484cfdb293e40f7a20072b
+#: 0a148725b2a44300ba1dce7323f72665 0eff9a6f70d943c9b333f3612fb635f5
+#: 1e9c5412ca4b4b45bd9d61f78bc9461c 25d57523f6f846e386067fce8bddee1b
+#: 287f459f265e4449a0bd7ec28856e72a 2fae289440e1464c8e064c1bae957ed4
+#: 427eadc845484721a386cd0eeb7091a4 4d20f35b048747e192608c9bfffc4d07
+#: 4fb29492b82d4d3b8353cd324f409663 58187bd05e18493ca10126f621dad7a1
+#: 5a02a40732494de0bf75ec849db9adab 60fe5e4087384b02896fec35badab4b2
+#: 6ffb94a593164bc9967127063beace92 7c785837ea9d4a8c83102beb1353bb33
+#: 7d5ad95b074a42878956b49a21a7eb70 800b1a78f4274b91a9e381157cd1df68
+#: 856ceb0bc9f644b1bc3748ccd3b8fbf6 86b9c19587a948d5beefbdb2d2dcb86a
+#: 8fcb44d75b56470283ad0bc3a469706c 93ae76638f584f7dbad412159c6e8108
+#: 9e73d200733d4489ad143a66a9f8cffb a3a5d0da608348c98cf4e9854eaa8a82
+#: bcb8dfd8967448a1ab0d0511d1f69afb ca98165de1f04a1f80dc47367caa9eaf
+#: cbd90166b7414709b895edcc0e01d2d6 d17455f83b9d4deeacb7fa5275d30444
+#: db6dd315436b46cbbd61f1bc66fe4bcd de7d46aa2e2c4a2b86c486810e4a3fc8
+#: e3b51b536e214a71adc7a8afc0b3fe3b ecc1c5e1dbfd47f2b08bc284a4a41a87
+#, fuzzy
+msgid "**X**"
+msgstr "**X**"
+
+#: ../../intro/specification.rst:36 3527c1758890472f9cea4c96cc9fe9f9
+#, fuzzy
+msgid "Flash-Speicher [MB]"
+msgstr "Flash memory [MB]"
+
+#: ../../intro/specification.rst:36 276db5b948744b70b33b9d347183e74f
+#, fuzzy
+msgid "**8**"
+msgstr "**8**"
+
+#: ../../intro/specification.rst:36 2747a87e2e8f466db217d1bf0464f9de
+#, fuzzy
+msgid "**16**"
+msgstr "**16**"
+
+#: ../../intro/specification.rst:38 1bf50125eb9a49908189bfc9c98ecf7e
+#, fuzzy
+msgid "12V-Stromversorgung"
+msgstr "12V power supply"
+
+#: ../../intro/specification.rst:40 9d8b4585d084424bb8a37e915367294a
+#, fuzzy
+msgid "LiPo-Akku"
+msgstr "LiPo-Battery"
+
+#: ../../intro/specification.rst:42 9a88165815324246ab3aacdd35485490
+#, fuzzy
+msgid "Backup-Batterie"
+msgstr "Backup Battery"
+
+#: ../../intro/specification.rst:44 3a88744cbc794f8e9550f57cc9785be4
+#, fuzzy
+msgid "USB-Stromversorgung"
+msgstr "USB power supply"
+
+#: ../../intro/specification.rst:46 cec3ec1599ce4f7bb8e1ce88c721f279
+#, fuzzy
+msgid "Wasserdichtes Gehäuse"
+msgstr "Waterproof housing"
+
+#: ../../intro/specification.rst:48 9d7e219112044e01995546f4cfbfbca0
+#, fuzzy
+msgid "Außenanwendung möglich"
+msgstr "Outdoor use possible"
+
+#: ../../intro/specification.rst:50 5603c35cbe6344ed84d25b1616a53cca
+#, fuzzy
+msgid "Display-Schutzscheibe"
+msgstr "Display protective screen"
+
+#: ../../intro/specification.rst:52 3614f06adac1484d913e319d83239f6e
+#, fuzzy
+msgid "Display-Beleuchtung"
+msgstr "Display lighting"
+
+#: ../../intro/specification.rst:54 c65d7afaf0174fb2b2b30d66f7fed0ee
+#, fuzzy
+msgid "Display-Schutzfilter"
+msgstr "Screen protection filter"
+
+#: ../../intro/specification.rst:56 117cb2d3b6f74dfcaf14248b1cd0a68a
+#, fuzzy
+msgid "Flash-LED"
+msgstr "Flash-LED"
+
+#: ../../intro/specification.rst:58 ../../intro/specification.rst:168
+#: a00940d75c6d49b8a338d0bb450d7c7a d5ddecb3328d4007b396b8f055e40758
+#, fuzzy
+msgid "Buzzer"
+msgstr "Buzzer"
+
+#: ../../intro/specification.rst:60 445982268d274e3c81ed1cd1b2de064f
+#, fuzzy
+msgid "Echtzeituhr"
+msgstr "Real-time clock"
+
+#: ../../intro/specification.rst:62 d0eaec490b26478687d8ea2dac597b6e
+#, fuzzy
+msgid "GPS-Empfänger"
+msgstr "GPS receiver"
+
+#: ../../intro/specification.rst:64 bc9b9537b0e24cf49057103121a13af1
+#, fuzzy
+msgid "Umweltsensor"
+msgstr "environmental sensor"
+
+#: ../../intro/specification.rst:66 94485cb5c7ad4d8b83630f79029f77a0
+#, fuzzy
+msgid "Tastenanzahl"
+msgstr "Number of keys"
+
+#: ../../intro/specification.rst:66 6b84315fee1c4b2190c1418a49b29df7
+#, fuzzy
+msgid "**3**"
+msgstr "**3**"
+
+#: ../../intro/specification.rst:66 3aad9c05b541416d96327965a30ee6a7
+#, fuzzy
+msgid "**6**"
+msgstr "**6**"
+
+#: ../../intro/specification.rst:68 aec7035ebf294f4e9f2798c3c579b981
+#, fuzzy
+msgid "Wischgesten"
+msgstr "Swipe gestures"
+
+#: ../../intro/specification.rst:70 8c1e63929480479f99097e7aeca8a27c
+#, fuzzy
+msgid "Auswahlrad"
+msgstr "Selection wheel"
+
+#: ../../intro/specification.rst:72 b1155c2a6c244094be5d9abc6880df54
+#, fuzzy
+msgid "Reset-Taster"
+msgstr "Reset-Taster"
+
+#: ../../intro/specification.rst:74 39da890aeb614ec6a100b686c8299c3c
+#, fuzzy
+msgid "Flash-Taster"
+msgstr "Flash-Taster"
+
+#: ../../intro/specification.rst:76 b27a97a1cc6240308d4bc1146981184c
+#, fuzzy
+msgid "WiFi 2.4 GHz"
+msgstr "WiFi 2.4 GHz"
+
+#: ../../intro/specification.rst:78 044b29aaf8384da6aac969f8d662ff3f
+#, fuzzy
+msgid "Bluetooth 4.0"
+msgstr "Bluetooth 4.0"
+
+#: ../../intro/specification.rst:80 ca4c0707d68a4ae2be2a744dbff9aa12
+#, fuzzy
+msgid "NMEA0183 isoliert"
+msgstr "NMEA0183 isolated"
+
+#: ../../intro/specification.rst:82 d065742f37644415b2c134ea59f2c8a1
+#, fuzzy
+msgid "NMEA2000 isoliert"
+msgstr "NMEA2000 isolated"
+
+#: ../../intro/specification.rst:84 b929d8874c704f898b70d56ac40013a2
+#, fuzzy
+msgid "I2C isoliert"
+msgstr "I2C isolated"
+
+#: ../../intro/specification.rst:84 f5aa5b32906d4ca88660c44b3fb189b7
+#, fuzzy
+msgid "**O**"
+msgstr "**THE**"
+
+#: ../../intro/specification.rst:86 ../../intro/specification.rst:168
+#: a16b6ddd1ed7423f910d467486614a8f df3cfef09843427ab5e91ea85b21206b
+#, fuzzy
+msgid "1Wire"
+msgstr "1Wire"
+
+#: ../../intro/specification.rst:88 3fb9c24035d443b0887d86a8320efa6f
+#, fuzzy
+msgid "Schutzklasse"
+msgstr "Protection class"
+
+#: ../../intro/specification.rst:88 426c5538ca884ddf8575926e10d1e864
+#, fuzzy
+msgid "**IP20**"
+msgstr "**IP20**"
+
+#: ../../intro/specification.rst:88 15f6f85494a0442e99c647f4267b6060
+#, fuzzy
+msgid "**IP65**"
+msgstr "**IP65**"
+
+#: ../../intro/specification.rst:90 cd3d1f2f7e7e49de94c48bfc7a694b82
+#, fuzzy
+msgid "CE-Zertifizierung"
+msgstr "CE certification"
+
+#: ../../intro/specification.rst:92 17fe345d8cdb46e8af0727133b451300
+#, fuzzy
+msgid "**O**: nicht isoliert"
+msgstr "**O**: not isolated"
+
+#: ../../intro/specification.rst:96 338b85005d5d4b838e3af0f5fccaf577
+#, fuzzy
+msgid "Aufbau"
+msgstr "Construction"
+
+#: ../../intro/specification.rst:103 6111cf09d73747a3bc515747d82d2a30
+#, fuzzy
+msgid "Spezifikation"
+msgstr "specification"
+
+#: ../../intro/specification.rst:106 50090273b77c4732b44fa900488fb221
+#, fuzzy
+msgid "Versorgungsspannung"
+msgstr "Supply voltage"
+
+#: ../../intro/specification.rst:106 d27beb8387ea42829adf17a8c2038908
+#, fuzzy
+msgid "5 V, 1 A, USB-C, Magnet Dock"
+msgstr "5 V, 1 A, USB-C, Magnet Dock"
+
+#: ../../intro/specification.rst:108 fbc52033ddd247a6a5674ecfd0a82271
+#, fuzzy
+msgid "Stromverbrauch"
+msgstr "Power consumption"
+
+#: ../../intro/specification.rst:108 a720ca93c3684673855eecdefe9f100f
+#, fuzzy
+msgid "0.5...3.5 W, typisch 0,5 W"
+msgstr "0.5...3.5 W, typisch 0,5 W"
+
+#: ../../intro/specification.rst:110 3d2e443e3c61429497606512e3b5200b
+#, fuzzy
+msgid "Prozessor"
+msgstr "processor"
+
+#: ../../intro/specification.rst:110 29232f459da148ae9664b108f63342a6
+#, fuzzy
+msgid "ESP32-S3, Dual Core"
+msgstr "ESP32-S3, Dual Core"
+
+#: ../../intro/specification.rst:112 b1fa5c2d011c490eb0d786154a52aaa0
+#, fuzzy
+msgid "Clock Speed"
+msgstr "Clock Speed"
+
+#: ../../intro/specification.rst:112 8e244669828342abb789da20bf0670fb
+#, fuzzy
+msgid "80, 160, 240 MHz"
+msgstr "80, 160, 240 MHz"
+
+#: ../../intro/specification.rst:114 0fc7153e254d4fdb9cd2dd3772bb1189
+#, fuzzy
+msgid "RAM"
+msgstr "RAM"
+
+#: ../../intro/specification.rst:114 36ae72490dc846df8dc63346fc25cb3d
+#, fuzzy
+msgid "512 kB"
+msgstr "512 kB"
+
+#: ../../intro/specification.rst:116 9bae33cd54684192a915631b1f89d2db
+#, fuzzy
+msgid "Flash"
+msgstr "Flash"
+
+#: ../../intro/specification.rst:116 ../../intro/specification.rst:118
+#: 7200f41abddc43e99fe91b9e9b0ba1d4 b19a3e9fb8f74ebe86d538ac4048d690
+#, fuzzy
+msgid "8 MB"
+msgstr "8 MB"
+
+#: ../../intro/specification.rst:118 1772b4281a42420a8e8e7e2c821abdd1
+#, fuzzy
+msgid "PSRAM"
+msgstr "PSRAM"
+
+#: ../../intro/specification.rst:120 0a2815db97aa44e7b1eb1359c867e19f
+#, fuzzy
+msgid "Displaygröße"
+msgstr "Display size"
+
+#: ../../intro/specification.rst:120 e0d3437dc0864d2daffbd9855abac473
+#, fuzzy
+msgid "400 x 300 pix, 120 dpi"
+msgstr "400 x 300 pix, 120 dpi"
+
+#: ../../intro/specification.rst:122 78ea98dfd03245068f8cf4e7608f8be9
+#, fuzzy
+msgid "Refreshrate"
+msgstr "Refreshrate"
+
+#: ../../intro/specification.rst:122 8135dfcb413544cc866943d1369c2e70
+#, fuzzy
+msgid "1 Hz"
+msgstr "1 Hz"
+
+#: ../../intro/specification.rst:124 7ee85538707f43b9a42ef5f0f30176c8
+#, fuzzy
+msgid "Tasten"
+msgstr "Keys"
+
+#: ../../intro/specification.rst:124 b01a6a70904f45f19763360a771b2424
+#, fuzzy
+msgid "mechan. Springfedertaster"
+msgstr "mechan. Springfedertaster"
+
+#: ../../intro/specification.rst:126 93affce2642949e0b4343b47f8d71010
+#, fuzzy
+msgid "Akkutyp (optional)"
+msgstr "Battery type (optional)"
+
+#: ../../intro/specification.rst:126 b3543e71527348eaa0ce4586d6b22e2b
+#, fuzzy
+msgid "LiPo, 3,7V, 1200 mAh"
+msgstr "LiPo, 3.7V, 1200mAh"
+
+#: ../../intro/specification.rst:128 4f07c20b0a054e57936b127307fabf06
+#, fuzzy
+msgid "Ladezeit über USB"
+msgstr "Charging time via USB"
+
+#: ../../intro/specification.rst:128 ad1da176cb8b453b9a44a68e8a8780e4
+#, fuzzy
+msgid "ca. 2,5 h bei 600 mA"
+msgstr "approx. 2.5 h at 600 mA"
+
+#: ../../intro/specification.rst:130 7005929c87e84780852c09b7910cf40f
+#, fuzzy
+msgid "Nutzungsdauer"
+msgstr "Useful life"
+
+#: ../../intro/specification.rst:130 17835ba4e3574b459150cd82722a0146
+#, fuzzy
+msgid "ca. 8,8 h bei Volllast"
+msgstr "approx. 8.8 hours at full load"
+
+#: ../../intro/specification.rst:132 49f225301788421490e5111e29dd4352
+#, fuzzy
+msgid "Sleepdauer"
+msgstr "Sleep duration"
+
+#: ../../intro/specification.rst:132 9604d59a05aa4989bfad6f7a24abdeee
+#, fuzzy
+msgid "ca. 1,3 Jahre bei 1200 mAh"
+msgstr "approx. 1.3 years at 1200 mAh"
+
+#: ../../intro/specification.rst:134 7bc08f660d934f2195afac96a017673d
+#, fuzzy
+msgid "Schutzgrad"
+msgstr "Degree of protection"
+
+#: ../../intro/specification.rst:134 ac2ab4f38d0a49e596d4c3deb618a1d9
+#, fuzzy
+msgid "IP20"
+msgstr "IP20"
+
+#: ../../intro/specification.rst:136 e68e07997e5c4f868c012a2996cdd5f0
+#, fuzzy
+msgid "Abmessungen"
+msgstr "Dimensions"
+
+#: ../../intro/specification.rst:136 e516e691e5f44891af7982ca4cdb47b5
+#, fuzzy
+msgid "110 x 112 x 22 mm"
+msgstr "110 x 112 x 22 mm"
+
+#: ../../intro/specification.rst:138 e2863fe10b9648ea92d405f5ab8d71ae
+#, fuzzy
+msgid "Gewicht"
+msgstr "Weight"
+
+#: ../../intro/specification.rst:138 415fe6c6a8484cce897cf901fd8be2ac
+#, fuzzy
+msgid "110 g"
+msgstr "110 g"
+
+#: ../../intro/specification.rst:142 f3464879367842338e6176f4475b0aa3
+#, fuzzy
+msgid "Anschlussbelegung"
+msgstr "Pin assignment"
+
+#: ../../intro/specification.rst:149 1e71559f69b14c579087e1a30fb125b0
+#, fuzzy
+msgid "Abb.: USB-Port"
+msgstr "Abb.: USB-Port"
+
+#: ../../intro/specification.rst:154 7435fc9b8616491bbadcee6929a0877e
+#, fuzzy
+msgid "Abb.: Platinen-Anschlussbelegung CrowPanel 4.2 (Elecrow)"
+msgstr "Fig.: Circuit board pin assignment CrowPanel 4.2 (Elecrow)"
+
+#: ../../intro/specification.rst:157 d513bf56a75f44e2ab8ab9098567e6e9
+#, fuzzy
+msgid "GPIO-Erweiterungsport"
+msgstr "GPIO expansion port"
+
+#: ../../intro/specification.rst:160 838ddda0bfcf46c8852e67d9c01b12be
+#, fuzzy
+msgid "Oben"
+msgstr "Above"
+
+#: ../../intro/specification.rst:160 3b54d687cdcb41c1a43524d552dc6766
+#, fuzzy
+msgid "Unten"
+msgstr "Below"
+
+#: ../../intro/specification.rst:162 087f34c323a5403ca0b9c48c9b1bdf4d
+#, fuzzy
+msgid "**GPOI8**"
+msgstr "**GPOI8**"
+
+#: ../../intro/specification.rst:162 b762de2b94ad4bf2bd4d0f8fdd53bc13
+#, fuzzy
+msgid "0183 Dir"
+msgstr "0183 You"
+
+#: ../../intro/specification.rst:162 816b4eeacc4a45d2a18fdaa2074961d7
+#, fuzzy
+msgid "**GPIO3**"
+msgstr "**GPIO3**"
+
+#: ../../intro/specification.rst:162 b2d64a20e239438e98884c899bf490f7
+#, fuzzy
+msgid "Analog In"
+msgstr "Analog In"
+
+#: ../../intro/specification.rst:164 16a875a6a0074f57af18455696b1ce58
+#, fuzzy
+msgid "**GPOI14**"
+msgstr "**GPOI14**"
+
+#: ../../intro/specification.rst:164 d158204218474ae5ac0fb32b9925107b
+#, fuzzy
+msgid "0183 RX"
+msgstr "0183 RX"
+
+#: ../../intro/specification.rst:164 72768b795e494ae98dd3dc2e3f52f0a4
+#, fuzzy
+msgid "**GPIO9**"
+msgstr "**GPIO9**"
+
+#: ../../intro/specification.rst:164 f7a23decb802474db1f77c592c0e1fba
+#, fuzzy
+msgid "0183 TX"
+msgstr "0183 TX"
+
+#: ../../intro/specification.rst:166 77d02d06aa94464094aab9787add1f65
+#, fuzzy
+msgid "**GPOI16**"
+msgstr "**GPOI16**"
+
+#: ../../intro/specification.rst:166 e9b06efaf42249969cb08f7c6eb63d2e
+#, fuzzy
+msgid "CAN RX"
+msgstr "CAN RX"
+
+#: ../../intro/specification.rst:166 e4280ee114f145c0ab8a46c013168646
+#, fuzzy
+msgid "**GPIO15**"
+msgstr "**GPIO15**"
+
+#: ../../intro/specification.rst:166 ebebdfd6802c4fa39469141622c5aa34
+#, fuzzy
+msgid "CAN TX"
+msgstr "CAN TX"
+
+#: ../../intro/specification.rst:168 8c8e39ede8b845448ef40c8975390bbf
+#, fuzzy
+msgid "**GPOI18**"
+msgstr "**GPOI18**"
+
+#: ../../intro/specification.rst:168 00ecf83c39244582a211cd30026af39f
+#, fuzzy
+msgid "**GPIO17**"
+msgstr "**GPIO17**"
+
+#: ../../intro/specification.rst:170 74a814907bdd47ddb740408926ba83b4
+#, fuzzy
+msgid "**GPOI20**"
+msgstr "**GPOI20**"
+
+#: ../../intro/specification.rst:170 48d4da5c955a4713aa8c1db91ef64be1
+#, fuzzy
+msgid "GPS TX"
+msgstr "GPS TX"
+
+#: ../../intro/specification.rst:170 747b0630098b4b06bb4238b2d8314a07
+#, fuzzy
+msgid "**GPIO19**"
+msgstr "**GPIO19**"
+
+#: ../../intro/specification.rst:170 d6caefe2e7854964b4fade6b11437473
+#, fuzzy
+msgid "GPS RX"
+msgstr "GPS RX"
+
+#: ../../intro/specification.rst:172 68f8da9b981a49c4885a7515ea816fa0
+#, fuzzy
+msgid "**GPOI38**"
+msgstr "**GPOI38**"
+
+#: ../../intro/specification.rst:172 1b689242dbf84736a854a91702f029fa
+#, fuzzy
+msgid "I2C SCL"
+msgstr "I2C SCL"
+
+#: ../../intro/specification.rst:172 1a4a6f961a1d4b92a4b7b1c50a25593b
+#, fuzzy
+msgid "**GPIO21**"
+msgstr "**GPIO21**"
+
+#: ../../intro/specification.rst:172 adccf1b05063459dba6a5e86453f47da
+#, fuzzy
+msgid "I2C SDA"
+msgstr "I2C SDA"
+
+#: ../../intro/specification.rst:174 ../../intro/specification.rst:176
+#: ../../intro/specification.rst:178 ../../intro/specification.rst:180
+#: 9cf31b2346e54db6aad441cb67a5cda6 b0446adf8d084808b482107e7b41cb36
+#: b2d23f9f8f8c4842aeaff13eaaa64582 c14dc690758147178f0a4dbf1846e1e5
+#, fuzzy
+msgid "**3V3**"
+msgstr "**3V3**"
+
+#: ../../intro/specification.rst:174 ../../intro/specification.rst:176
+#: ../../intro/specification.rst:178 ../../intro/specification.rst:180
+#: 2ce3106efd23404fbb0934c69932c358 82483da806484b68b883c0d71c627821
+#: 9f476696a3de42eebf987265b297607e af068dadfddb48fc8c401de0df1552d3
+#, fuzzy
+msgid "3.3V"
+msgstr "3.3V"
+
+#: ../../intro/specification.rst:174 ../../intro/specification.rst:176
+#: ../../intro/specification.rst:178 ../../intro/specification.rst:180
+#: 17d732e4c35f49ac89382304847e1529 40276235b6dd44579c0229d80ed7713c
+#: 9aa645804abb44b38ec0534aef906fd0 b9c33ea7a5864ad3823c41de44a3e012
+#, fuzzy
+msgid "**GND**"
+msgstr "**GND**"
+
+#: ../../intro/specification.rst:174 ../../intro/specification.rst:176
+#: ../../intro/specification.rst:178 ../../intro/specification.rst:180
+#: 9ac59f01d815494f842235bc74993be0 bf0a31466cb044d9b88d2fe449bc6041
+#: e07cb9fb2cae4b2d919d42d1b43f5c1d fa9df3bedd474d9fb6e48c94e071c42e
+#, fuzzy
+msgid "Masse"
+msgstr "Lot"
+
+#: ../../intro/specification.rst:184 64739395a3b4437d80e5a20ebeabfd8f
+#, fuzzy
+msgid ""
+"Die Anschlüsse des Erweiterungsports sind nicht geschützt. Spannungen keiner"
+" 0 V und größer 3.3V können den Prozessor bei Nichtbeachtung der zulässigen "
+"Grenzwerte irreparabel beschädigen. Konsultieren Sie das technische Handbuch"
+" zum `ESP32-S3 <../_static/files/esp32-s3_datasheet_en.pdf>`_ und zum "
+"`ESP32-S3 WROOM "
+"<../_static/files/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf>`_, bevor Sie "
+"Zusatzhardware am Erweiterungsport anschließen."
+msgstr ""
+"The expansion port connectors are not protected. Voltages below 0 V and "
+"above 3.3 V can cause irreparable damage to the processor if the permissible"
+" limits are not observed. Consult the technical manual for the `ESP32-S3 "
+"<../_static/files/esp32-s3_datasheet_en.pdf>`_ and `ESP32-S3 WROOM "
+"<../_static/files/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf>`_ before "
+"connecting additional hardware to the expansion port."
+
+#: ../../intro/specification.rst:190 70caad65999745729f5624e19cb8f508
+#, fuzzy
+msgid "Schaltplan"
+msgstr "Circuit diagram"
+
+#: ../../intro/specification.rst:192 917e4f4c69c44a3b96762a94ff84afb6
+#, fuzzy
+msgid ""
+"`Schaltplan V1.0 [PDF] "
+"<../_static/files/CrowPanel_ESP32_Display-4.2(E)_Inch.pdf>`_"
+msgstr ""
+"`Schaltplan V1.0 [PDF] "
+"<../_static/files/CrowPanel_ESP32_Display-4.2(E)_Inch.pdf>`_"
+
+#: ../../intro/specification.rst:196 8b7d2ac4f0434009aba7980321b18beb
+#, fuzzy
+msgid "Maßbilder"
+msgstr "Dimensional drawings"
+
+#: ../../intro/specification.rst:198 cf803c07a5fe41cebbb39255612ccf73
+#, fuzzy
+msgid "`Maßbild [PDF] <../_static/files/Drawing_OBP40_V2.pdf>`_"
+msgstr "`Maßbild [PDF] <../_static/files/Drawing_OBP40_V2.pdf>`_"
+
+#: ../../intro/specification.rst:202 01d73ce6011648c3ab94b8f4c13dedac
+#, fuzzy
+msgid "Nutzbare und konvertierbare Telegramme"
+msgstr "Usable and convertible telegrams"
+
+#: ../../intro/specification.rst:204 c823e49a9a6b46d4b432568dbf21f58f
+#, fuzzy
+msgid "**NMEA0183**"
+msgstr "**NMEA0183**"
+
+#: ../../intro/specification.rst:205 96714e93116c46c19f2cf7ea37fc51c8
+#, fuzzy
+msgid ""
+"AIVDM, AIVDO, DBK, DBS, DBT, DPT, GGA, GLL, GSA, GSV, HDG, HDM, HDT, MTW, "
+"MWD, MWV, RMB, RMC, ROT, RSA, VHW, VTG, VWR, XDR, XTE, ZDA"
+msgstr ""
+"AIVDM, AIVDO, DBK, DBS, DBT, DPT, GGA, GLL, GSA, GSV, HDG, HDM, HDT, MTW, "
+"MWD, MWV, RMB, RMC, ROT, RSA, VHW, VTG, VWR, XDR, XTE, ZDA"
+
+#: ../../intro/specification.rst:207 ef178b4db1064357ae0fad53f7987023
+#, fuzzy
+msgid "**NMEA2000**"
+msgstr "**NMEA2000**"
+
+#: ../../intro/specification.rst:208 26e373cc9415480e916265f15b1ffc15
+#, fuzzy
+msgid ""
+"126992, 127245, 127250, 127251, 127257, 127258, 127488, 127489, 127505, "
+"127508, 128259, 128267, 128275, 129025, 129026, 129029, 129033, 129038, "
+"129039, 129283, 129284, 129539, 129540, 129794, 129809, 129810, 130306, "
+"130310, 130311, 130312, 130313, 130314, 130316"
+msgstr ""
+"126992, 127245, 127250, 127251, 127257, 127258, 127488, 127489, 127505, "
+"127508, 128259, 128267, 128275, 129025, 129026, 129029, 129033, 129038, "
+"129039, 129283, 129284, 129539, 129540, 129794, 129809, 129810, 130306, "
+"130310, 130311, 130312, 130313, 130314, 130316"
+
+#: ../../intro/specification.rst:211 a70848a95f4e49f1b2321c9816131ea9
+#, fuzzy
+msgid "Nutzbare I2C-Sensorik"
+msgstr "Usable I2C sensors"
+
+#: ../../intro/specification.rst:213 1825034a421749bb8edaf0e7a21bfa82
+#, fuzzy
+msgid "**Umgebungssensoren**"
+msgstr "**Environmental sensors**"
+
+#: ../../intro/specification.rst:214 c2a409b1464245f9b493a6f31ee288ff
+#, fuzzy
+msgid "BMP085, BMP180, BMP280, BME280, SHT20, HTU21"
+msgstr "BMP085, BMP180, BMP280, BME280, SHT20, HTU21"
+
+#: ../../intro/specification.rst:216 d54c56606dc84054949e35e967fc5b24
+#, fuzzy
+msgid "**Spannungs- und Stromsensoren**"
+msgstr "**Voltage and current sensors**"
+
+#: ../../intro/specification.rst:217 e4f6772e25834b2880c6350d2ac67577
+#, fuzzy
+msgid "INA226, INA219 (in Vorbereitung)"
+msgstr "INA226, INA219 (in preparation)"
+
+#: ../../intro/specification.rst:219 26290ef5044341ef8a6fa9ffb8ba248f
+#, fuzzy
+msgid "**Winkelsensoren**"
+msgstr "**Shop sensors**"
+
+#: ../../intro/specification.rst:220 ebb2c325c4ae495ea89fbb40ed09c655
+#, fuzzy
+msgid "AS5600, MT6701 (in Vorbereitung)"
+msgstr "AS5600, MT6701 (in preparation)"
+
+#: ../../intro/specification.rst:222 bb8e4ed256754fa3bdd6aff72b56cc7c
+#, fuzzy
+msgid "**Port-Erweiterungen**"
+msgstr "**Port extensions**"
+
+#: ../../intro/specification.rst:223 2ffaa77b3d944a7f9950814be029fd8b
+#, fuzzy
+msgid "PCF8574 (in Vorbereitung)"
+msgstr "PCF8574 (in preparation)"
+
+#: ../../intro/specification.rst:225 b9f43abeb42447ffbdaef22aec30cb0b
+#, fuzzy
+msgid "**Echtzeit-Uhren**"
+msgstr "**Real-time clocks**"
+
+#: ../../intro/specification.rst:226 73e09ebd90544b44bfe11e56b8909d8e
+#, fuzzy
+msgid "DS1388"
+msgstr "DS1388"
+
+#: ../../intro/specification.rst:229 8e52927af662420d979697de6fa81cb3
+#, fuzzy
+msgid "Nutzbare 1Wire-Sensorik"
+msgstr "Usable 1Wire sensors"
+
+#: ../../intro/specification.rst:231 2b72237098a64bf5832dda7fedbfe942
+#, fuzzy
+msgid "**Temperatursensoren**"
+msgstr "**Temperature sensors**"
+
+#: ../../intro/specification.rst:232 29c57bb25d284995ab24f9a6fc78e323
+#, fuzzy
+msgid "DS18B20"
+msgstr "DS18B20"

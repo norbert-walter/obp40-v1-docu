@@ -1,0 +1,213 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Open Boat Projects
+# This file is distributed under the same license as the OBP40 V1
+# Dokumentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OBP40 V1 Dokumentation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-21 12:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../programming/webflashtool.rst:2 d119b72bfb4b4f4797558e361ebe6001
+#, fuzzy
+msgid "Web-Flashtool"
+msgstr "Web-Flashtool"
+
+#: ../../programming/webflashtool.rst:4 befd372b2bb643e7ba9892ec309cc58c
+#, fuzzy
+msgid ""
+"Mit dem Web-Flashtool kann die Firmware für das OBP40 mit einem Webbrowser "
+"über eine USB-Verbindung in das Gerät übertragen werden. Dazu wird das OBP40"
+" über die USB-C-Buchse mit einem PC oder Laptop verbunden und der "
+"**Chrome-** oder **Edge-Webbrowser** gestartet. Im OBP40 ist ein USB-"
+"Seriell-Konverter integriert, über den die Datenübertragung durchgeführt "
+"wird. Mit dem USB-C-Kabel lässt sich nur die Firmware übertragen."
+msgstr ""
+"The web flash tool allows you to transfer the firmware for the OBP40 to the "
+"device using a web browser via a USB connection. To do this, connect the "
+"OBP40 to a PC or laptop via the USB-C port and launch the Chrome or Edge web"
+" browser. The OBP40 has a built-in USB-to-serial converter for data "
+"transfer. Only the firmware can be transferred using the USB-C cable."
+
+#: ../../programming/webflashtool.rst:7 944ec3a99d8c44c5ba960e0c6db37cc6
+#, fuzzy
+msgid ""
+"Andere Webbrowser als **Chrome** oder **Edge** werden derzeit nicht "
+"unterstützt, da die Funktionalität für den Zugriff auf eine serielle "
+"Schnittstelle in anderen Webbrowsern nicht implementiert ist."
+msgstr ""
+"Web browsers other than **Chrome** or **Edge** are not currently supported "
+"because the functionality for accessing a serial port is not implemented in "
+"other web browsers."
+
+#: ../../programming/webflashtool.rst:10 ea162f29a82b4b98832e0ccf442be49a
+#, fuzzy
+msgid ""
+"Beachten Sie, dass das Web-Flashtool nur für ein OBP40 V1 mit einem Crow "
+"Panel 4.2 verwendet werden kann, das als Prozessor einen **ESP32-S3 N8R8** "
+"und als E-Paper-Display ein **GDEY042T81** verwenden. Sofern Sie andere "
+"Hardware benutzen, müssen Sie sich eine angepasste Firmwareversion für ihre "
+"Hardware kompilieren. Folgen Sie den Anweisungen im Kapitel "
+":ref:`Kompilieren und Download`."
+msgstr ""
+"Please note that the web flash tool can only be used with an OBP40 V1 with a"
+" Crow Panel 4.2 that uses an **ESP32-S3 N8R8** processor and a "
+"**GDEY042T81** e-paper display. If you use other hardware, you will need to "
+"compile a customized firmware version for your hardware. Follow the "
+"instructions in chapter :ref:`Kompilieren und Download`."
+
+#: ../../programming/webflashtool.rst:12 ebe8723bdf4f49acb459ffc937c488ee
+#, fuzzy
+msgid "Für den Flash-Vorgang benötigt man folgende Dinge:"
+msgstr "For the flashing process you need the following things:"
+
+#: ../../programming/webflashtool.rst:13 f2acd627a35b47e1a80e18c98623b2bf
+#, fuzzy
+msgid "OBP40 (Crow Panal 4.2 mit ESP32-S3 N8R8, E-Paper GDEY042T81)"
+msgstr "OBP40 (Crow Panal 4.2 with ESP32-S3 N8R8, E-Paper GDEY042T81)"
+
+#: ../../programming/webflashtool.rst:14 aa3148134a0a4c719e15669897798705
+#, fuzzy
+msgid "USB-C zu USB-A Verbindungskabel < 1,5m"
+msgstr "USB-C to USB-A connection cable < 1.5m"
+
+#: ../../programming/webflashtool.rst:15 ea55bcc74bdb48adaf8bb315246962ae
+#, fuzzy
+msgid "PC mit Chrome- oder Edge-Browser"
+msgstr "PC with Chrome or Edge browser"
+
+#: ../../programming/webflashtool.rst:17 e6769683d4c64fefaeb32e3c8ba3b3e3
+#, fuzzy
+msgid "**1. OBP40 in den Flash-Modus setzen**"
+msgstr "**1. Put OBP40 into flash mode**"
+
+#: ../../programming/webflashtool.rst:18 63ded9d6194e494198c1ee071783ded5
+#, fuzzy
+msgid ""
+"Als erstes stecken Sie das USB-Kabel in den PC, ohne es mit dem OBP40 zu "
+"verbinden. Danach öffnen Sie die Rückseite des OBP40. Auf der Platine "
+"befindet sich oben rechts ein Taster mit der Bezeichnung ``BOOT``. Drücken "
+"Sie die Taste ``BOOT``. Halten Sie die Taste gedrückt und stecken dann den "
+"USB-Stecker an die Platine. Danach können Sie die Taste ``BOOT`` loslassen."
+msgstr ""
+"First, plug the USB cable into the PC without connecting it to the OBP40. "
+"Then, open the back of the OBP40. On the circuit board, there's a button "
+"labeled ``BOOT``. Press the [[[[M1]]] button. Hold the button down and then "
+"plug the USB connector into the board. After that, release the ``BOOT`` "
+"button."
+
+#: ../../programming/webflashtool.rst:22 7a0040f8c1714f3b8e55f22aa74bd487
+#, fuzzy
+msgid "Abb.: Platinen-Anschlussbelegung"
+msgstr "Fig.: Board pin assignment"
+
+#: ../../programming/webflashtool.rst:26 1b3213cf48374f66bed2f13354051369
+#, fuzzy
+msgid "**2. Flashtool starten**"
+msgstr "**2. Launch Flashtool**"
+
+#: ../../programming/webflashtool.rst:28 55f9fd967d21474d8f98300770aa4066
+#, fuzzy
+msgid "Rufen Sie als nächstes die Webseite des `Online-Flashtools`_ auf."
+msgstr "Next, go to the `Online-Flashtools`_ website."
+
+#: ../../programming/webflashtool.rst:34 c47cb651fc0a42a991e5825fae36ea9f
+#, fuzzy
+msgid "Abb.: Startseite Web-Flashtool"
+msgstr "Fig.: Home page Web Flashtool"
+
+#: ../../programming/webflashtool.rst:36 a762adc1326b443d959820e66f54ffd0
+#, fuzzy
+msgid ""
+"Drücken Sie dann auf **Connect** und wählen die entsprechende serielle "
+"Schnittstelle aus. Je nachdem, welches Betriebssystem Sie verwenden, sind "
+"die Schnittstellen verschieden bezeichnet."
+msgstr ""
+"Then press **Connect** and select the appropriate serial port. Depending on "
+"the operating system you're using, the ports are labeled differently."
+
+#: ../../programming/webflashtool.rst:38 1a71735f8ae9450d932e642e0ae08647
+#, fuzzy
+msgid "**Windows:** USB JTAG/serial debug unit COMx"
+msgstr "**Windows:** USB JTAG/serial debug unit COMx"
+
+#: ../../programming/webflashtool.rst:39 ef0309743ec347ba935c6956f06377c0
+#, fuzzy
+msgid "**Linux:** /dev/ttyACMx"
+msgstr "**Linux:** /dev/ttyACMx"
+
+#: ../../programming/webflashtool.rst:43 180b47c8ecb441cf8ce42bab8d97f8a3
+#, fuzzy
+msgid "Abb.: Auswahl der Schnittstelle"
+msgstr "Fig.: Selecting the interface"
+
+#: ../../programming/webflashtool.rst:46 f4b9a02a2980454887f160762739a7bd
+#, fuzzy
+msgid ""
+"Beachten Sie, dass durchaus noch andere serielle Schnittstellen im System "
+"benutzt werden. Wählen Sie die Schnittstelle aus, die nach dem Anstecken des"
+" OBP40 an den USB-Port im System neu auftaucht. Bereits bestehende "
+"Schnittstellen dürfen Sie nicht nutzen, sie werden bereits anderweitig "
+"verwendet."
+msgstr ""
+"Please note that other serial ports may still be in use in the system. "
+"Select the port that appears after connecting the OBP40 to the USB port. Do "
+"not use existing ports; they are already in use for another device."
+
+#: ../../programming/webflashtool.rst:48 0515288fb5e1438e9e17fb49552a6909
+#, fuzzy
+msgid "**3. Firmware übertragen**"
+msgstr "**3. Transfer firmware**"
+
+#: ../../programming/webflashtool.rst:51 f66fc09056564f4cb8aef81c32992e6e
+#, fuzzy
+msgid "Abb.: Start Flashvorgang"
+msgstr "Fig.: Start flashing process"
+
+#: ../../programming/webflashtool.rst:53 547190d94ffb48b8845a696225e8cc23
+#, fuzzy
+msgid ""
+"Starten Sie den Installationsvorgang über ``INSTALL OBP40 V2 FIRMWARE``. "
+"Nach erfolgreicher Übertragung wird eine Meldung ausgeben."
+msgstr ""
+"Start the installation process via ``INSTALL OBP40 V2 FIRMWARE``. A message "
+"will appear after the transfer is successful."
+
+#: ../../programming/webflashtool.rst:57 ee5319d7f6224be7b7afba2db2cfcbb5
+#, fuzzy
+msgid "Abb.: Übertragung der Firmware"
+msgstr "Fig.: Transferring the firmware"
+
+#: ../../programming/webflashtool.rst:60 071398547c7f4f1aa11fa86965d7e011
+#, fuzzy
+msgid "**4. OBP40 starten**"
+msgstr "**4. OBP40 starten**"
+
+#: ../../programming/webflashtool.rst:61 9c431cd9419c430caad44924c8a83715
+#, fuzzy
+msgid ""
+"Entfernen Sie das USB-Verbindungskabel zurzzeitig von der Platine und "
+"stecken es wieder an. Nach kurzer Zeit sollte eine Anzeigeseite zu sehen "
+"sein. Je nach Einstellung wird vorher noch das OBP-Logo und der QR-Code für "
+"den WiFi-Zugang angezeigt."
+msgstr ""
+"Temporarily unplug the USB cable from the board and plug it back in. After a"
+" short while, a display page should appear. Depending on your settings, the "
+"OBP logo and the QR code for Wi-Fi access may also be displayed."
+
+#: ../../programming/webflashtool.rst:65 d2ea810b041b4bba947aa13c62f3a338
+#, fuzzy
+msgid "Abb.: Anzeigeseite"
+msgstr "Fig.: Display page"

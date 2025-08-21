@@ -1,0 +1,622 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Open Boat Projects
+# This file is distributed under the same license as the OBP40 V1
+# Dokumentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OBP40 V1 Dokumentation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-21 12:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../assembling/mainunit.rst:2 8b1dbe76a38e429f92c671063ed1d2f2
+#, fuzzy
+msgid "Montage OBP40"
+msgstr "Montage OBP40"
+
+#: ../../assembling/mainunit.rst:5 9eb5c58ec7ef48f58c2ade4b9bd6dad4
+#, fuzzy
+msgid "Zusammenbauzeichnung"
+msgstr "Assembly drawing"
+
+#: ../../assembling/mainunit.rst:10 28998b5b3224414383e4897963f7312c
+#, fuzzy
+msgid "Abb.: Montage OBP40 Main Unit"
+msgstr "Abb.: Montage OBP40 Main Unit"
+
+#: ../../assembling/mainunit.rst:13 b27e22408e2a4ad0972c19aa49f412b0
+#, fuzzy
+msgid "Stückliste"
+msgstr "Parts list"
+
+#: ../../assembling/mainunit.rst:16 70098da86a5647cf9db90320bee56826
+#, fuzzy
+msgid "Pos."
+msgstr "Pos."
+
+#: ../../assembling/mainunit.rst:16 b34cdc70924c43d7aab796636f3d318e
+#, fuzzy
+msgid "Anzahl"
+msgstr "Number"
+
+#: ../../assembling/mainunit.rst:16 b81a4e64f3ab482ca9ab15a38a16c640
+#, fuzzy
+msgid "Bezeichnung"
+msgstr "Designation"
+
+#: ../../assembling/mainunit.rst:16 e51eaf9e65e34322a6c931c8a2fcfa81
+#, fuzzy
+msgid "Material"
+msgstr "Material"
+
+#: ../../assembling/mainunit.rst:16 583591e37bb74f3a8b5957e71044d3a4
+#, fuzzy
+msgid "Bezugsquelle"
+msgstr "Source"
+
+#: ../../assembling/mainunit.rst:18 ../../assembling/mainunit.rst:20
+#: ../../assembling/mainunit.rst:22 ../../assembling/mainunit.rst:24
+#: ../../assembling/mainunit.rst:26 ../../assembling/mainunit.rst:30
+#: 2788c5b9c5b3466799aa3b63c411afce 28e4091ea6c344fa947e8db11f08f638
+#: 3ec9bdff33604a0ba5a3442d6d027997 5804813b2ef643f8acffc8a2561f2291
+#: 583aa58cf86b4bffb8a840ab9b313be2 880963ef9d7d4f3e8da69d3dd9cdd28c
+#: bad0e85dbbdd4204a184f068075594c2
+#, fuzzy
+msgid "1"
+msgstr "1"
+
+#: ../../assembling/mainunit.rst:18 20ffd3743fc3486baf84f0f725efd382
+#, fuzzy
+msgid "Front Case"
+msgstr "Front Case"
+
+#: ../../assembling/mainunit.rst:18 ../../assembling/mainunit.rst:20
+#: 8b997b0a47b64c948f9ccf6b9a30086d 98b0b12929bd4b56bb70ae5e893a147c
+#, fuzzy
+msgid "ABS / ASA"
+msgstr "ABS / ASA"
+
+#: ../../assembling/mainunit.rst:18 ../../assembling/mainunit.rst:20
+#: 216acda11c30427a90172a096c8b4c4f f71263a36d3d4767afb21dc45e1b3c88
+#, fuzzy
+msgid "`Filamentworld`_"
+msgstr "`Filamentworld`_"
+
+#: ../../assembling/mainunit.rst:20 a519ede17d364869a879bb59fbbf647b
+#, fuzzy
+msgid "2"
+msgstr "2"
+
+#: ../../assembling/mainunit.rst:20 162460881b5b4329829638b862f7e48e
+#, fuzzy
+msgid "Backside Case"
+msgstr "Backside Case"
+
+#: ../../assembling/mainunit.rst:22 a9b91edb0fc448de98d35655066a032c
+#, fuzzy
+msgid "3"
+msgstr "3"
+
+#: ../../assembling/mainunit.rst:22 2e5aefd54fb9493a9298e640d867e93a
+#, fuzzy
+msgid "Crow Panel 4.2"
+msgstr "Crow Panel 4.2"
+
+#: ../../assembling/mainunit.rst:22 cf30876b3dc347898e55fe9bb56ed1fd
+#, fuzzy
+msgid "FR4"
+msgstr "FR4"
+
+#: ../../assembling/mainunit.rst:22 8aa2986abc0f48249d8ced58b6a5de8e
+#, fuzzy
+msgid "`Elecrow`_"
+msgstr "`Elecrow`_"
+
+#: ../../assembling/mainunit.rst:24 ../../assembling/mainunit.rst:28
+#: ../../assembling/mainunit.rst:32 27ee52e50292435ea0e3240a8be32146
+#: 29fc8198970e4c33a4bc70faefb0d744 713ead213f1f46a9bf55eb1399ce58eb
+#, fuzzy
+msgid "4"
+msgstr "4"
+
+#: ../../assembling/mainunit.rst:24 11d92fe9e1da4abd9a12899ff7fed50f
+#, fuzzy
+msgid "LiPo-Akku [#f1]_"
+msgstr "LiPo-Battery [#f1]_"
+
+#: ../../assembling/mainunit.rst:24 640f76ffed354eb9b59a802ac186bc22
+#, fuzzy
+msgid "3.7V, 1200mA"
+msgstr "3.7V, 1200mA"
+
+#: ../../assembling/mainunit.rst:24 1440f1be36504fcd9176fcbc7b34f01a
+#, fuzzy
+msgid "`Ebay 1`_"
+msgstr "`Ebay 1`_"
+
+#: ../../assembling/mainunit.rst:26 c44daf124060471f86f9c02902e300e2
+#, fuzzy
+msgid "5"
+msgstr "5"
+
+#: ../../assembling/mainunit.rst:26 ../../assembling/mainunit.rst:102
+#: ../../assembling/mainunit.rst:104 ../../assembling/mainunit.rst:106
+#: ../../assembling/mainunit.rst:108 033d0ab79af24f329a48b1a38f38a982
+#: 2d01a828c5f34e9db8a5ddfa36433156 3602f97cfac34142b39f10719a932276
+#: bc01ea65254c408a9fdea9e724cbfab0 e6889ecc293043baa04a94cf94e3ce8b
+#, fuzzy
+msgid "Magnet Dock"
+msgstr "Magnet Dock"
+
+#: ../../assembling/mainunit.rst:26 3ebbfb128cb64619964e6fc456c9270c
+#, fuzzy
+msgid "4 pol."
+msgstr "4 pol."
+
+#: ../../assembling/mainunit.rst:26 18b127425cb94587ab82c43bf307f76f
+#, fuzzy
+msgid "`Aliexpress`_"
+msgstr "`Aliexpress`_"
+
+#: ../../assembling/mainunit.rst:28 8c7b088d22374cf99e484a06364db7a5
+#, fuzzy
+msgid "6"
+msgstr "6"
+
+#: ../../assembling/mainunit.rst:28 5828584f5395427c9cdfe9f09d0d8e53
+#, fuzzy
+msgid "Magnete D5x3"
+msgstr "Magnets D5x3"
+
+#: ../../assembling/mainunit.rst:28 3588d08b1c444f479c9eb310d6a1b3d2
+#, fuzzy
+msgid "Neodym"
+msgstr "Neodym"
+
+#: ../../assembling/mainunit.rst:28 18dab7ed82634c2bbafe1015c16f8646
+#, fuzzy
+msgid "`Ebay 2`_"
+msgstr "`Ebay 2`_"
+
+#: ../../assembling/mainunit.rst:30 3bce3864199f4ee5b44696100adba1c2
+#, fuzzy
+msgid "7"
+msgstr "7"
+
+#: ../../assembling/mainunit.rst:30 ef0bfc6fbf464d8e9415965794b65536
+#, fuzzy
+msgid "Velcro D 3 mm"
+msgstr "Velcro D 3 mm"
+
+#: ../../assembling/mainunit.rst:30 8c8d5c094b1545688f1f9fb8855a28d1
+#, fuzzy
+msgid "50 x 40 mm"
+msgstr "50 x 40 mm"
+
+#: ../../assembling/mainunit.rst:30 855405df7a5242c59d465b822884900d
+#, fuzzy
+msgid "`Ebay 3`_"
+msgstr "`Ebay 3`_"
+
+#: ../../assembling/mainunit.rst:32 389144a3ea64427b862c77dfd3b87f86
+#, fuzzy
+msgid "8"
+msgstr "8"
+
+#: ../../assembling/mainunit.rst:32 20352c402d804073ad164c9a088a5d7b
+#, fuzzy
+msgid "M2.5x4"
+msgstr "M2.5x4"
+
+#: ../../assembling/mainunit.rst:32 195672e6295342d4b343dffac09ea24d
+#, fuzzy
+msgid "Stahl/Nickel"
+msgstr "Steel/Nickel"
+
+#: ../../assembling/mainunit.rst:34 1b1271e1fe7b48d2ab548f11d30e4360
+#, fuzzy
+msgid "LiPo-Akku: 52 x 43 x 6 mm"
+msgstr "LiPo battery: 52 x 43 x 6 mm"
+
+#: ../../assembling/mainunit.rst:44 e426b30f2f6849b88b5911f3604b1fd5
+#, fuzzy
+msgid "Montageanleitung"
+msgstr "Assembly instructions"
+
+#: ../../assembling/mainunit.rst:46 6d45d223fe4441069c02e54989d28d91
+#, fuzzy
+msgid ""
+"Die Gehäusemontage erfolgt nach der Montageanleitung in folgender "
+"Reihenfolge:"
+msgstr ""
+"The housing is assembled according to the assembly instructions in the "
+"following order:"
+
+#: ../../assembling/mainunit.rst:48 f8440c075ede48e388ccc501dce51d8c
+#, fuzzy
+msgid "Gehäuseteile drucken"
+msgstr "Printing housing parts"
+
+#: ../../assembling/mainunit.rst:49 780d2b9aa4714d87ac9fdcf199847ea6
+#, fuzzy
+msgid ""
+"Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. "
+"Verwenden Sie folgende Einstellungen:"
+msgstr ""
+"The housing parts can be printed using a standard 3D printer. Use the "
+"following settings:"
+
+#: ../../assembling/mainunit.rst:51 ca740148ad7b4c9182419336901fa07f
+#, fuzzy
+msgid "0.4 mm Düse"
+msgstr "0.4 mm nozzle"
+
+#: ../../assembling/mainunit.rst:52 69ea61ee60274112a47bb9e9534e8ff3
+#, fuzzy
+msgid "Wanddicke 1 mm"
+msgstr "Wall thickness 1 mm"
+
+#: ../../assembling/mainunit.rst:53 c2ec23adf03440e1a8ec76500d0a5a20
+#, fuzzy
+msgid "Wanddicke der Ober- und Unterseite 1 mm"
+msgstr "Wall thickness of the top and bottom 1 mm"
+
+#: ../../assembling/mainunit.rst:54 9242b0fdbfbc49e58c06299793f28a5c
+#, fuzzy
+msgid "Füllgrad 30 %"
+msgstr "Fill level 30%"
+
+#: ../../assembling/mainunit.rst:55 bed88489de674f56a8dc72f0a6010846
+#, fuzzy
+msgid "Support eingeschaltet"
+msgstr "Support activated"
+
+#: ../../assembling/mainunit.rst:58 7d412d97fd5a4157b41f4901a33ee094
+#, fuzzy
+msgid ""
+"Die Frontschale ist als zweifarbiger Druck ausgelegt. Die schwarzen Flächen "
+"sind als 0.2 mm dicke Einlagen realisiert. Konsultieren Sie die "
+"Dokumentation des Druckers für einen zweifarbigen Ausdruck. Wenn Ihr Drucker"
+" keinen zweifarbigen Ausdruck zulässt, können Sie die Frontschale auch in "
+"einer durchgängigen Farbe drucken. Benutzen Sie dazu einfach die STL-Datei."
+msgstr ""
+"The front panel is designed as a two-color print. The black areas are "
+"implemented as 0.2 mm thick inlays. Consult your printer's documentation for"
+" a two-color print. If your printer doesn't support two-color printing, you "
+"can also print the front panel in a solid color. Simply use the STL file."
+
+#: ../../assembling/mainunit.rst:60 773b1d984e8b4a03aea4ce004f8eb880
+#, fuzzy
+msgid "Rückseite und Spacer des Crow Panel 4.2 abschrauben"
+msgstr "Unscrew the back and spacer of the Crow Panel 4.2"
+
+#: ../../assembling/mainunit.rst:64 01cce1539f1d4bee94725e43847414e4
+#, fuzzy
+msgid "Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)"
+msgstr "Fig.: Crow Panel 4.2 mainboard top (Elecrow)"
+
+#: ../../assembling/mainunit.rst:66 46ec71c173ca42568605b3b991950763
+#, fuzzy
+msgid "Crow Panle 4.2 Platine in Frontschale einlegen"
+msgstr "Crow Panle 4.2 board inserted into front shell"
+
+#: ../../assembling/mainunit.rst:67 4426aa0062d74e418285604b100e2bfe
+#, fuzzy
+msgid ""
+"Platine seitlich beginnend mit den Tastern in die Frontschale einlegen."
+msgstr ""
+"Insert the circuit board into the front shell starting from the side with "
+"the buttons."
+
+#: ../../assembling/mainunit.rst:72 666edc8fab124c7b92525a8c181bb1f6
+#, fuzzy
+msgid "Magnet Dock mit Heißkleber in Rückwand einkleben"
+msgstr "Glue the magnet dock into the back wall with hot glue"
+
+#: ../../assembling/mainunit.rst:73 8932fee699464c6f8c13f8435c554fc2
+#, fuzzy
+msgid ""
+"Darauf achten, dass der Magnet Dock mittig sitzt und mit reichlich "
+"Heißkleber umschlossen ist, Darauf achten, dass kein Heißkleber nach außen "
+"dringt. Gegebenenfalls überschüssigen Heißkleber entfernen."
+msgstr ""
+"Make sure the magnet dock is centered and encased with plenty of hot glue. "
+"Make sure no hot glue seeps out. Remove any excess hot glue if necessary."
+
+#: ../../assembling/mainunit.rst:78 dcf9d46f47a44bf392574376f5c2f8e7
+#, fuzzy
+msgid "Magnete mit Heißkleber in Rückwand einkleben"
+msgstr "Glue magnets to the back wall with hot glue"
+
+#: ../../assembling/mainunit.rst:79 df01ebe08e8b40bbb485d2f93d7feea2
+#, fuzzy
+msgid ""
+"Vor dem Einlegen der Magnete einen Klecks Heißkleber in die Vertiefung geben"
+" und zügig den Magneten einlegen, damit der Kleber nicht frühzeitig "
+"erstarrt. Darauf achten, dass nicht zu viel Heißkleber in der Vertiefung "
+"verwendet wird."
+msgstr ""
+"Before inserting the magnets, add a dab of hot glue to the recess and insert"
+" the magnet quickly to prevent the glue from setting prematurely. Be careful"
+" not to use too much hot glue in the recess."
+
+#: ../../assembling/mainunit.rst:81 85d29300c5cb4e0190c494ad1dac09ed
+#, fuzzy
+msgid ""
+"Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand "
+"einkleben"
+msgstr ""
+"Cut the Velcro strip to 50 x 40 mm and glue it into the recess of the back "
+"wall"
+
+#: ../../assembling/mainunit.rst:82 a924c3f999e84b7b9d81124e789366ed
+#, fuzzy
+msgid ""
+"Das Klettband so einkleben, dass es nicht an den Kanten übersteht und "
+"vollständig in der Vertiefung ist."
+msgstr ""
+"Glue the Velcro strip in such a way that it does not protrude at the edges "
+"and is completely in the recess."
+
+#: ../../assembling/mainunit.rst:87 eca770bb956b4c8a8790adf069b3435f
+#, fuzzy
+msgid "LiPo-Akku, Magnet Dock und Spannungsteiler einbauen und Kabel anlöten"
+msgstr ""
+"Install LiPo battery, magnet dock and voltage divider and solder cables"
+
+#: ../../assembling/mainunit.rst:89 32b8c71e24a24dcaa975724fd4aa2e88
+#, fuzzy
+msgid ""
+"Das Anlöten der Kabel erfordert gute Lötkenntnisse und qualitativ "
+"hochwertiges Lötwerkzeug, da die Anschlüsse sehr klein sind. Verwenden Sie "
+"einen regelbaren Lötkolben mit einer feinen Spitze und Lötzinn mit 0.5 mm "
+"Durchmesser. Flussmittel und Kupferband zum Aufnehmen von überschüssigem "
+"Lötzinn vereinfachen die Arbeiten. Wenn Sie sich die Arbeiten nicht "
+"zutrauen, kontaktieren Sie eine Fachkraft, die ihnen behilflich ist."
+msgstr ""
+"Soldering the cables requires good soldering skills and high-quality "
+"soldering tools, as the connections are very small. Use an adjustable "
+"soldering iron with a fine tip and 0.5 mm diameter solder. Flux and copper "
+"tape to absorb excess solder will simplify the process. If you don't feel "
+"confident enough to do this yourself, contact a professional for assistance."
+
+#: ../../assembling/mainunit.rst:91 9d562f8b44374160a31a3808dcfa594c
+#, fuzzy
+msgid ""
+"Achten Sie darauf, dass sie keine Kurzschlüsse auf der Platine mit anderen "
+"Bauelementen verursachen. Löten sie nicht zu lange an den betreffenden "
+"Stellen, da sie sonst u.U. Bauelemente entlöten oder Leiterbahnen "
+"beschädigen. Kontrollieren Sie alle Lötstellen bevor Sie die Platine wieder "
+"in Betrieb nehmen. Prüfen Sie mit einem Digitalvoltmeter auf Kurzschlüsse an"
+" den Lötungen. Bedenken sie, dass Sie durch die Lötarbeiten die Garantie des"
+" Herstellers verlieren."
+msgstr ""
+"Be careful not to cause short circuits between other components on the "
+"board. Do not solder for too long at the affected points, as this could "
+"cause components to become desoldered or the circuit boards to become "
+"damaged. Check all solder joints before putting the board back into "
+"operation. Use a digital voltmeter to check for short circuits in the solder"
+" joints. Remember that soldering will void the manufacturer's warranty."
+
+#: ../../assembling/mainunit.rst:93 7e11e465e08348e39651f9bfa9a33123
+#, fuzzy
+msgid "Löten Sie die Kabel entsprechend der Tabelle und der Bilder an."
+msgstr "Solder the cables according to the table and pictures."
+
+#: ../../assembling/mainunit.rst:96 436b114e27474033b8f219ef16d8261e
+#, fuzzy
+msgid "Lötpunkt"
+msgstr "Soldering point"
+
+#: ../../assembling/mainunit.rst:96 d2a1a62bae0441b2945a36c3d8bbf7bb
+#, fuzzy
+msgid "Aderfarbe"
+msgstr "Aderfarbe"
+
+#: ../../assembling/mainunit.rst:96 ced38f833363414cb2e8258f259c7c08
+#, fuzzy
+msgid "Bauteil"
+msgstr "component"
+
+#: ../../assembling/mainunit.rst:98 ../../assembling/mainunit.rst:110
+#: 3bd8961eb44d435fb025aafbace25103 e2b67a3d2a1944bb82c9b32dca4fe668
+#, fuzzy
+msgid "C5 oben"
+msgstr "C5 top"
+
+#: ../../assembling/mainunit.rst:98 fa0f0753985e477b9dc00e9cef2b8fcb
+#, fuzzy
+msgid "rot, 3.7V"
+msgstr "red, 3.7V"
+
+#: ../../assembling/mainunit.rst:98 ../../assembling/mainunit.rst:100
+#: 3192eba94fe34e128e58878a0045cfd6 f964a2660a03429181a2a6a7f34542fa
+#, fuzzy
+msgid "LiPo Akku"
+msgstr "LiPo Battery"
+
+#: ../../assembling/mainunit.rst:100 34f42b1404244e129cc15cd5bdb2dace
+#, fuzzy
+msgid "C5 unten"
+msgstr "C5 below"
+
+#: ../../assembling/mainunit.rst:100 ../../assembling/mainunit.rst:108
+#: ../../assembling/mainunit.rst:114 a044a45fb81840e98ec59045671187de
+#: c1f1c926c37543739dcec5561a418f5c f6ee0064c14b4bd9a122a816060a1d1f
+#, fuzzy
+msgid "schwarz"
+msgstr "black"
+
+#: ../../assembling/mainunit.rst:102 bc4f49bb6f654709b7a8a41e79ba06fb
+#, fuzzy
+msgid "C4 links"
+msgstr "C4 links"
+
+#: ../../assembling/mainunit.rst:102 31179185453c4ebe9de9474a989efca6
+#, fuzzy
+msgid "rot, 5 V"
+msgstr "Rot, 5 V"
+
+#: ../../assembling/mainunit.rst:104 337381996b704e55bb041485a4442542
+#, fuzzy
+msgid "R2 links"
+msgstr "R2 links"
+
+#: ../../assembling/mainunit.rst:104 87cb44e9778441608cc1164fe099e5b9
+#, fuzzy
+msgid "weiß, D-"
+msgstr "white, D-"
+
+#: ../../assembling/mainunit.rst:106 522d5275ee8d4eceb8765b260ac70e95
+#, fuzzy
+msgid "U1 Pin 5"
+msgstr "U1 Pin 5"
+
+#: ../../assembling/mainunit.rst:106 c4c619da76954ae2a281ea3518ca58d2
+#, fuzzy
+msgid "gelb, D+"
+msgstr "gelb, D+"
+
+#: ../../assembling/mainunit.rst:108 e51061e0972f41a893f31319a6a83e65
+#, fuzzy
+msgid "C4 rechts"
+msgstr "C4 right"
+
+#: ../../assembling/mainunit.rst:110 af755a8cd6e04273968bdc65d4645c66
+#, fuzzy
+msgid "rot"
+msgstr "rot"
+
+#: ../../assembling/mainunit.rst:110 ../../assembling/mainunit.rst:112
+#: ../../assembling/mainunit.rst:114 2d9d2dfd926d4ba881675c1e302dfa63
+#: 6d3ea8fa5ba94201bb1a10208da87288 abfc861b4da84e21bea999c212c8c8d2
+#, fuzzy
+msgid "V-Teiler"
+msgstr "V-splitter"
+
+#: ../../assembling/mainunit.rst:112 46e5c5dfba6d4b0597fbb1fdadaeae33
+#, fuzzy
+msgid "IO3"
+msgstr "IO3"
+
+#: ../../assembling/mainunit.rst:112 9cf5d2ef49b542a5be3ea7930313066b
+#, fuzzy
+msgid "grün"
+msgstr "green"
+
+#: ../../assembling/mainunit.rst:114 3677b03513af4d78ab81baacd52ffc6d
+#, fuzzy
+msgid "USB-C, GND"
+msgstr "USB-C, GND"
+
+#: ../../assembling/mainunit.rst:120 20e60d22266f404dacd3eeceb838fc1e
+#, fuzzy
+msgid "Abb.: Lötpunkte für Anschlusskabel"
+msgstr "Fig.: Soldering points for connection cables"
+
+#: ../../assembling/mainunit.rst:125 79595194fbe54b6ebe329628f7005612
+#, fuzzy
+msgid "Abb.: Spannungsteiler für Ladezustandsmessung"
+msgstr "Fig.: Voltage divider for state of charge measurement"
+
+#: ../../assembling/mainunit.rst:130 77bc9ec42dda44429659ac36193a11e9
+#, fuzzy
+msgid "Abb.: Lötpunkt für IO3"
+msgstr "Fig.: Soldering point for IO3"
+
+#: ../../assembling/mainunit.rst:135 552015f5a2b3459d97803dfad97cbc29
+#, fuzzy
+msgid "Abb.: Lötpunkte für USB-C GND"
+msgstr "Fig.: Soldering points for USB-C GND"
+
+#: ../../assembling/mainunit.rst:140 64a664fdac1046c2b580d773bb3ab2ce
+#, fuzzy
+msgid "Abb.: Position des LiPo-Akku auf der Platine"
+msgstr "Fig.: Position of the LiPo battery on the circuit board"
+
+#: ../../assembling/mainunit.rst:143 fb94e68a21e34c8ab8163fdbab78c500
+#, fuzzy
+msgid ""
+"Achten Sie darauf, die Anschlusskabel am Magnet Dock mit 3 mm "
+"Schrumpfschlauch zu isolieren. So vermeiden Sie Kurzschlüsse mit der "
+"Platine."
+msgstr ""
+"Be sure to insulate the connection cables on the Magnet Dock with 3 mm heat "
+"shrink tubing. This will prevent short circuits with the circuit board."
+
+#: ../../assembling/mainunit.rst:148 6be570354b4c4782b2bbb1ff31a4baf5
+#, fuzzy
+msgid "Rückwand auf Frontschale auflegen und mit Schrauben M2.5 verbinden"
+msgstr ""
+"Place the rear panel on the front panel and connect it with M2.5 screws"
+
+#: ../../assembling/mainunit.rst:149 4de7d54f37cb41f6be042efd7fa07b5c
+#, fuzzy
+msgid ""
+"Verwenden Sie die Schrauben, die sie beim Crow Panel 4.2 an der Rückseite "
+"abgeschraubt haben. Die Löcher im Kunststoff sind so dimensioniert, dass sie"
+" die Schrauben mit etwas Druck einschrauben können. Das Geinde schneidet "
+"sich dann selbständig in den Kunststoff."
+msgstr ""
+"Use the screws you removed from the back of the Crow Panel 4.2. The holes in"
+" the plastic are sized so that you can screw the screws in with a little "
+"pressure. The thread will then cut itself into the plastic."
+
+#: ../../assembling/mainunit.rst:152 a439170e1ab341f08a8e17546e2912dd
+#, fuzzy
+msgid ""
+"Wenn Sie die Schrauben erneut hereinschrauben wollen, drehen sie die "
+"Schrauben zuerst nach links bis das Gewinde spürbar einrastet und ziehen "
+"erst danach die Schraube rechts herum an. So vermeiden Sie eine Beschädigung"
+" des Gewindes."
+msgstr ""
+"If you want to reinstall the screws, first turn them counterclockwise until "
+"you feel the thread click into place, and then tighten them clockwise. This "
+"will prevent damaging the thread."
+
+#: ../../assembling/mainunit.rst:154 6fef085f77e94920bccce77a8cdeb33f
+#, fuzzy
+msgid "Firmware flashen"
+msgstr "Flash firmware"
+
+#: ../../assembling/mainunit.rst:155 6dc24a92dc674fa9a4105fbcf9573a16
+#, fuzzy
+msgid ""
+"Im letzten Punkt wird die Firmware geflasht. Dazu gehen Sie nach der "
+"Anleitung im Kapitel :ref:`Web-Flashtool` vor."
+msgstr ""
+"The last step involves flashing the firmware. To do so, follow the "
+"instructions in chapter :ref:`Web-Flashtool`."
+
+#: ../../assembling/mainunit.rst:157 1dc5b573ac404370b2e43f4b0c741e5e
+#, fuzzy
+msgid "Firmware modifizieren"
+msgstr "Modify firmware"
+
+#: ../../assembling/mainunit.rst:160 4e3cefa24d3142f79a661be0d9406d9e
+#, fuzzy
+msgid ""
+"Damit die Firmware den LiPo-Akku und den Ladezustand anzeigen kann, müssen "
+"in der Firmware die entsprechenden Compiler-Flags ``LIPO_ACCU_1200`` und "
+"``VOLTAGE_SENSOR`` in der `platformio.ini`_ gesetzt sein. Sie müssen sich "
+"dazu eine angepasste Firmware erstellen und diese Firmware im OBP60 als "
+":ref:`Update` aktivieren. Details zur Firmwareerstellung finden Sie im "
+"Kapitel :ref:`Gitpod`."
+msgstr ""
+"In order for the firmware to display the LiPo battery and its charge level, "
+"the corresponding compiler flags ``LIPO_ACCU_1200`` and ``VOLTAGE_SENSOR`` "
+"must be set in the `platformio.ini`_ file. To do this, you must create a "
+"customized firmware file and activate this firmware in the OBP60 as "
+":ref:`Update`. Details on creating the firmware can be found in the "
+":ref:`Gitpod` chapter."

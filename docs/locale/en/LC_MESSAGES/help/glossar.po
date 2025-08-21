@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Open Boat Projects
+# This file is distributed under the same license as the OBP40 V1
+# Dokumentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OBP40 V1 Dokumentation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-21 12:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../help/glossar.rst:2 9257791251b840009804f6b36a05d0aa
+#, fuzzy
+msgid "Glossar"
+msgstr "glossary"
+
+#: ../../help/glossar.rst:4 2ebf935cb1eb4f80b61ca5867007a260
+#, fuzzy
+msgid ""
+"An dieser Stelle sind Hervorhebungen und deren Bedeutung gezeigt, die in den"
+" Texten verwendet werden. Die Hervorhebungen werden in farbigen Kästen "
+"dargestellt. Die Farben folgen dem Ampelprinzip. Grüne Farben entsprechen "
+"Hinweisen und Empfehlungen, während gelbe und rote Farben wichtige und "
+"gefährliche Vorgehensweisen kennzeichnen, die vermieden werden sollten."
+msgstr ""
+"Here, the highlights used in the text and their meaning are shown. The "
+"highlights are shown in colored boxes. The colors follow the traffic light "
+"principle. Green colors correspond to notes and recommendations, while "
+"yellow and red colors indicate important and dangerous practices that should"
+" be avoided."
+
+#: ../../help/glossar.rst:7 9199dd7e409242e292a9a399e88e2acf
+#, fuzzy
+msgid "Eine Bemerkung hebt einen bestimmten Sachverhalt hervor."
+msgstr "A remark highlights a particular fact."
+
+#: ../../help/glossar.rst:10 7d9ce82cb6f845068b0dbc438870cc5a
+#, fuzzy
+msgid "Ein Hinweis dient als Hilfestellung."
+msgstr "A note serves as an aid."
+
+#: ../../help/glossar.rst:13 3d54a3aea02547118e9c792c55e59870
+#, fuzzy
+msgid "Mit Wichtig gekennzeichnete Stellen sollten besonders beachtet werden."
+msgstr "Sections marked as Important should be given special attention."
+
+#: ../../help/glossar.rst:16 c7d36996236047a18e1c6bc7a2c587d8
+#, fuzzy
+msgid "Ein Tipp vereinfacht den Umgang mit einem Sachverhalt."
+msgstr "A tip makes it easier to deal with a situation."
+
+#: ../../help/glossar.rst:19 27415c001ce24e34bd35b707185dfc8f
+#, fuzzy
+msgid ""
+"Achtung weist auf einen bestimmten Sachverhalt hin, der eintreten kann."
+msgstr "Caution indicates a specific situation that may occur."
+
+#: ../../help/glossar.rst:22 a58bb895a81a48f3ab0ec530fdbcd658
+#, fuzzy
+msgid ""
+"Vorsicht kennzeichnet Vorgehensweisen, die vermieden werden sollen und "
+"kritisch werden können."
+msgstr ""
+"Caution indicates procedures that should be avoided and could become "
+"critical."
+
+#: ../../help/glossar.rst:25 46aeebbc1d4b4642bffbd99ef11f72e6
+#, fuzzy
+msgid ""
+"Warnung kennzeichnet Vorgehensweisen oder Sachverhalte die nicht "
+"durchgeführt werden dürfen. Warnungen haben den Character einer Empfehlung."
+msgstr ""
+"A warning indicates a procedure or situation that should not be performed. "
+"Warnings have the character of a recommendation."
+
+#: ../../help/glossar.rst:28 8997eb7acdde40c59111ec64f667500e
+#, fuzzy
+msgid ""
+"Als gefährlich ausgewiesene Bereiche können Schaden verursachen. Sie sollten"
+" unbedingt den Anweisungen folgen."
+msgstr ""
+"Areas designated as hazardous can cause harm. You should strictly follow the"
+" instructions."
+
+#: ../../help/glossar.rst:31 1b0970323bfc49d89668b0b8011d0dcd
+#, fuzzy
+msgid ""
+"Mit Fehler gekennzeichnete Stellen zeigen, wie Fehler entstehen und "
+"vermieden werden können."
+msgstr ""
+"Places marked with errors show how errors occur and how they can be avoided."

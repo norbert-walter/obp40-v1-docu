@@ -1,0 +1,368 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Open Boat Projects
+# This file is distributed under the same license as the OBP40 V1
+# Dokumentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OBP40 V1 Dokumentation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-21 12:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../assembling/dockingstation.rst:2 05c0f3410b764dda872419d503775893
+#, fuzzy
+msgid "Montage Docking Station"
+msgstr "Montage Docking Station"
+
+#: ../../assembling/dockingstation.rst:5 6d91eab4207b422f9865e7f00e32977d
+#, fuzzy
+msgid "Zusammenbauzeichnung"
+msgstr "Assembly drawing"
+
+#: ../../assembling/dockingstation.rst:10 e02143921fdc4456b596281c66cf24fc
+#, fuzzy
+msgid "Abb.: Montage Docking Station"
+msgstr "Abb.: Montage Docking Station"
+
+#: ../../assembling/dockingstation.rst:13 f0a1f9ef7e3e44d49ddbc887e3f9c44e
+#, fuzzy
+msgid "Stückliste"
+msgstr "Parts list"
+
+#: ../../assembling/dockingstation.rst:16 9dd3662885e44443a6c7e2ddf7d77ce5
+#, fuzzy
+msgid "Pos."
+msgstr "Pos."
+
+#: ../../assembling/dockingstation.rst:16 5e66b612d2e8488388e782a77a731805
+#, fuzzy
+msgid "Anzahl"
+msgstr "Number"
+
+#: ../../assembling/dockingstation.rst:16 0ca4186e4ef54791bb4d89dd7bb9d8a5
+#, fuzzy
+msgid "Bezeichnung"
+msgstr "Designation"
+
+#: ../../assembling/dockingstation.rst:16 d63aba109d9d4c33bd5c07233d0fcb60
+#, fuzzy
+msgid "Material"
+msgstr "Material"
+
+#: ../../assembling/dockingstation.rst:16 036ae39ee47b4dd29c938f99f6c05812
+#, fuzzy
+msgid "Bezugsquelle"
+msgstr "Source"
+
+#: ../../assembling/dockingstation.rst:18
+#: ../../assembling/dockingstation.rst:20
+#: ../../assembling/dockingstation.rst:22
+#: ../../assembling/dockingstation.rst:24
+#: ../../assembling/dockingstation.rst:26 1c2108245d5241a3b3f49f9f98c698ea
+#: 1d58d19f33ba4f87b3ce723c802f7579 344952e2e1bf4d40973ab3e2c00652f2
+#: 51e90283640b4219b22eac1af8f63bdb e135a3670dd842379bd4a727b01d7d02
+#: fd1ad65016a04a66b7c31a24487f5908
+#, fuzzy
+msgid "1"
+msgstr "1"
+
+#: ../../assembling/dockingstation.rst:18 8292869428e1449ca4ef41ec9d69d321
+#, fuzzy
+msgid "Adapter Palte"
+msgstr "Adapter Plate"
+
+#: ../../assembling/dockingstation.rst:18
+#: ../../assembling/dockingstation.rst:20
+#: ../../assembling/dockingstation.rst:22 56cc69bc2b5842c588bab90dc43eb9a0
+#: 5b6923bc1d384d8b9d9781dd24cd5386 83ae56018ab24e10aede8479170f5afc
+#, fuzzy
+msgid "ABS / ASA"
+msgstr "ABS / ASA"
+
+#: ../../assembling/dockingstation.rst:18
+#: ../../assembling/dockingstation.rst:20
+#: ../../assembling/dockingstation.rst:22 469ccfd5d25a43578f7fec0e5b2b9718
+#: 5e76a6acccfd49e6aba4c3a64a18b2e2 cd0555821a054bcda063f800dcf9977b
+#, fuzzy
+msgid "`Filamentworld`_"
+msgstr "`Filamentworld`_"
+
+#: ../../assembling/dockingstation.rst:20 9add86b3600a4921848cf4a0fd065236
+#, fuzzy
+msgid "2"
+msgstr "2"
+
+#: ../../assembling/dockingstation.rst:20 9131940bfada4bdaaf955b2a3304f363
+#, fuzzy
+msgid "Backside Case"
+msgstr "Backside Case"
+
+#: ../../assembling/dockingstation.rst:22 8a4a908b497f4164a89848166759a1ef
+#, fuzzy
+msgid "3"
+msgstr "3"
+
+#: ../../assembling/dockingstation.rst:22 7cf7b393cee4414da24bf0d6c9e98bd6
+#, fuzzy
+msgid "Stand"
+msgstr "Stand"
+
+#: ../../assembling/dockingstation.rst:24 d2bb5229ce424d03949d64c6a40202e5
+#, fuzzy
+msgid "5"
+msgstr "5"
+
+#: ../../assembling/dockingstation.rst:24
+#: ../../assembling/dockingstation.rst:55
+#: ../../assembling/dockingstation.rst:57
+#: ../../assembling/dockingstation.rst:59
+#: ../../assembling/dockingstation.rst:61 2e560a6dcd474f02a1a3ffac4f7e7d69
+#: 4011a9e8095e440d83a2435e08c6d545 46d3bbdefc5c41c1baf86ea5ead2a178
+#: 6f56a552d4094e1d9baabad3bf42f373 e7e37ee22bed486d986800849baed40b
+#, fuzzy
+msgid "Magnet Dock"
+msgstr "Magnet Dock"
+
+#: ../../assembling/dockingstation.rst:24 9e19d37b328749deb93c58306b5046cd
+#, fuzzy
+msgid "4 pol."
+msgstr "4 pol."
+
+#: ../../assembling/dockingstation.rst:24 5cfc61a91d894834899bd9663ecd7ade
+#, fuzzy
+msgid "`Aliexpress`_"
+msgstr "`Aliexpress`_"
+
+#: ../../assembling/dockingstation.rst:26 1e9e5e0704b848b89fd528ab774c356e
+#, fuzzy
+msgid "7"
+msgstr "7"
+
+#: ../../assembling/dockingstation.rst:26 8b0737da95964e6480871ba05877fb40
+#, fuzzy
+msgid "Velcro D 3 mm"
+msgstr "Velcro D 3 mm"
+
+#: ../../assembling/dockingstation.rst:26 cc1bdfa96f8c4e788532a0da0f9ba3ab
+#, fuzzy
+msgid "50 x 40 mm"
+msgstr "50 x 40 mm"
+
+#: ../../assembling/dockingstation.rst:26 fed49d892a89492087baf975073052ca
+#, fuzzy
+msgid "`Ebay`_"
+msgstr "`Ebay`_"
+
+#: ../../assembling/dockingstation.rst:28 e47933fe92694353bd158016ab48a8a7
+#, fuzzy
+msgid "8"
+msgstr "8"
+
+#: ../../assembling/dockingstation.rst:28 5c4ac98239b04c63a796a1bfd7e118a6
+#, fuzzy
+msgid "6"
+msgstr "6"
+
+#: ../../assembling/dockingstation.rst:28 66e63dc09cec4d9e84af9b17a0bdf04c
+#, fuzzy
+msgid "M3x6"
+msgstr "M3x6"
+
+#: ../../assembling/dockingstation.rst:28 ec3713506f6f4a0286af4dbb53b6bb2e
+#, fuzzy
+msgid "Stahl/Nickel"
+msgstr "Steel/Nickel"
+
+#: ../../assembling/dockingstation.rst:36 d82f633fd3944356917da32337472724
+#, fuzzy
+msgid "Montageanleitung"
+msgstr "Assembly instructions"
+
+#: ../../assembling/dockingstation.rst:38 93f4f2a54abe44d1b45fde7301868ad1
+#, fuzzy
+msgid ""
+"Die Montage der Docking Station erfolgt nach der Montageanleitung in "
+"folgender Reihenfolge:"
+msgstr ""
+"The docking station is assembled according to the assembly instructions in "
+"the following order:"
+
+#: ../../assembling/dockingstation.rst:40 e66696b577014352bb31b4ba13987776
+#, fuzzy
+msgid "Gehäuseteile drucken"
+msgstr "Printing housing parts"
+
+#: ../../assembling/dockingstation.rst:41 f636a13204bd47e3a3f0d60a628a228c
+#, fuzzy
+msgid ""
+"Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. "
+"Verwenden Sie folgende Einstellungen:"
+msgstr ""
+"The housing parts can be printed using a standard 3D printer. Use the "
+"following settings:"
+
+#: ../../assembling/dockingstation.rst:43 d92c185d297548f08408c918eebf4b27
+#, fuzzy
+msgid "0.4 mm Düse"
+msgstr "0.4 mm nozzle"
+
+#: ../../assembling/dockingstation.rst:44 2996fe6efe5148c08c571b83be8afd64
+#, fuzzy
+msgid "Wanddicke 1 mm"
+msgstr "Wall thickness 1 mm"
+
+#: ../../assembling/dockingstation.rst:45 39dbcd7a6d74457487666c69a48d243e
+#, fuzzy
+msgid "Wanddicke der Ober- und Unterseite 1 mm"
+msgstr "Wall thickness of the top and bottom 1 mm"
+
+#: ../../assembling/dockingstation.rst:46 a72b4b64e77643f289e04fe10d2ae128
+#, fuzzy
+msgid "Füllgrad 30 %"
+msgstr "Fill level 30%"
+
+#: ../../assembling/dockingstation.rst:47 f113bde7460b4b3ea2a7cb3bb0b27965
+#, fuzzy
+msgid "Support eingeschaltet"
+msgstr "Support activated"
+
+#: ../../assembling/dockingstation.rst:49 2222c9468a4b40cd8e72c60a68a3eac9
+#, fuzzy
+msgid "Magnet Dock mit Heißkleber in Rückwand einkleben"
+msgstr "Glue the magnet dock into the back wall with hot glue"
+
+#: ../../assembling/dockingstation.rst:50 c5e07736bb0d4dc9a69c32afac70baee
+#, fuzzy
+msgid ""
+"Darauf achten, dass der Magnet Dock mittig sitzt und mit reichlich "
+"Heißkleber umschlossen ist, Darauf achten, dass kein Heißkleber nach außen "
+"dringt. Gegebenenfalls überschüssigen Heißkleber entfernen."
+msgstr ""
+"Make sure the magnet dock is centered and encased with plenty of hot glue. "
+"Make sure no hot glue seeps out. Remove any excess hot glue if necessary."
+
+#: ../../assembling/dockingstation.rst:53 77ab985b9c104c1a866e41256458f393
+#, fuzzy
+msgid "Lötpunkt"
+msgstr "Soldering point"
+
+#: ../../assembling/dockingstation.rst:53 e889976b18f94ec4bc004c812b49cbc1
+#, fuzzy
+msgid "Aderfarbe"
+msgstr "Aderfarbe"
+
+#: ../../assembling/dockingstation.rst:53 e5743cf006b94a168a763c1ce3190754
+#, fuzzy
+msgid "Bauteil"
+msgstr "component"
+
+#: ../../assembling/dockingstation.rst:55 4e4c3e0d7e834ab1892aec15bcb93bc7
+#, fuzzy
+msgid "Pin 1"
+msgstr "Pin 1"
+
+#: ../../assembling/dockingstation.rst:55 cd251dbb9a884d1ca2a02f479c20eea3
+#, fuzzy
+msgid "rot, 5 V"
+msgstr "Rot, 5 V"
+
+#: ../../assembling/dockingstation.rst:57 c7cfd9d8af174de5845c9a6502925911
+#, fuzzy
+msgid "Pin 2"
+msgstr "Pin 2"
+
+#: ../../assembling/dockingstation.rst:57 4284823cb7ac4687bcf8606751662df9
+#, fuzzy
+msgid "weiß, D-"
+msgstr "white, D-"
+
+#: ../../assembling/dockingstation.rst:59 f5bccdbe0ca84468b8552511263188d5
+#, fuzzy
+msgid "Pin 3"
+msgstr "Pin 3"
+
+#: ../../assembling/dockingstation.rst:59 6fbc774b621048128f4cbd084b6c136b
+#, fuzzy
+msgid "gelb, D+"
+msgstr "gelb, D+"
+
+#: ../../assembling/dockingstation.rst:61 922781c591db431589758429f895b7d9
+#, fuzzy
+msgid "Pin 4"
+msgstr "Pin 4"
+
+#: ../../assembling/dockingstation.rst:61 2650bd616beb4683a9788405b56d129c
+#, fuzzy
+msgid "schwarz"
+msgstr "black"
+
+#: ../../assembling/dockingstation.rst:65 4c9c2321ed5c471d8a981292be4784cc
+#, fuzzy
+msgid ""
+"Achten Sie beim Einkleben des Magnet Docks auf die richtige Orientierung. "
+"Sie muss passig zum Gegenstück im OBP40 sein. Wenn Sie mehrere OBP40 mit "
+"Docking-Station nutzen möchten, müssen alle Kontakte in der selben "
+"Orientierung eingebaut sein, damit die unterschiedlichen Geräte alle in der "
+"Docking-Station geladen werden können."
+msgstr ""
+"When attaching the magnetic dock, ensure it is oriented correctly. It must "
+"align with the counterpart in the OBP40. If you plan to use multiple OBP40s "
+"with a docking station, all contacts must be installed in the same "
+"orientation so that the different devices can all be charged in the docking "
+"station."
+
+#: ../../assembling/dockingstation.rst:70 fa3c02c179b54a8b8e3e76446e89284c
+#, fuzzy
+msgid "Abb.: Ausrichtung der beiden Magnet-Dock-Teile"
+msgstr "Fig.: Alignment of the two magnetic dock parts"
+
+#: ../../assembling/dockingstation.rst:75 83228385ba8a4d1db9fdafacf76d0b3e
+#, fuzzy
+msgid "Abb.: Magnet-Dock in Halteplatte"
+msgstr "Fig.: Magnetic dock in holding plate"
+
+#: ../../assembling/dockingstation.rst:77 456825a660684a58bbb1f7cc77496700
+#, fuzzy
+msgid ""
+"Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand "
+"einkleben"
+msgstr ""
+"Cut the Velcro strip to 50 x 40 mm and glue it into the recess of the back "
+"wall"
+
+#: ../../assembling/dockingstation.rst:78 b39e8ef5ec4f45c59e816b4309dbc2f2
+#, fuzzy
+msgid ""
+"Das Klettband so einkleben, dass es nicht an den Kanten übersteht und "
+"vollständig in der Vertiefung ist."
+msgstr ""
+"Glue the Velcro strip in such a way that it does not protrude at the edges "
+"and is completely in the recess."
+
+#: ../../assembling/dockingstation.rst:80 3288571643594a33a850248028b8c3cc
+#, fuzzy
+msgid "Kunststoffteile mit Schrauben M3 verbinden"
+msgstr "Connect plastic parts with M3 screws"
+
+#: ../../assembling/dockingstation.rst:82 5ae544110a1746818d65fe90637ca6a6
+#, fuzzy
+msgid ""
+"Wenn Sie die Schrauben erneut hereinschrauben wollen, drehen sie die "
+"Schrauben zuerst nach links bis das Gewinde spürbar einrastet und ziehen "
+"erst danach die Schraube rechts herum an. So vermeiden Sie eine Beschädigung"
+" des Gewindes."
+msgstr ""
+"If you want to reinstall the screws, first turn them counterclockwise until "
+"you feel the thread click into place, and then tighten them clockwise. This "
+"will prevent damaging the thread."

@@ -1,0 +1,174 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Open Boat Projects
+# This file is distributed under the same license as the OBP40 V1
+# Dokumentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OBP40 V1 Dokumentation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-21 12:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../help/errors.rst:2 5c7246fe4f9646608793c4adb5bf4105
+#, fuzzy
+msgid "Bekannte Fehler"
+msgstr "Known bugs"
+
+#: ../../help/errors.rst:4 5f8741efed7043119355ff1891c5b034
+#, fuzzy
+msgid ""
+"An dieser Stelle werden bekannte Fehler aufgeführt, die noch nicht behoben "
+"wurden. Darüber hinaus gibt es für die Firmware und Hardware eine "
+"`Projektseite`_ bei Github, in der ein System zur Fehlerverfolgung "
+"implementiert ist. Wenn Sie gemeldete und behobene Fehler einsehen wollen, "
+"so gehen Sie in die Rubrik **Issues** oder schauen Sie unten in die "
+"jeweiligen Bereiche."
+msgstr ""
+"Known bugs that have not yet been fixed are listed here. There is also a "
+"`Projektseite`_ for the firmware and hardware on Github, which implements a "
+"bug tracking system. If you want to see reported and fixed bugs, go to the "
+"**Issues** section or look in the respective sections below."
+
+#: ../../help/errors.rst:8 2c2fb24ecdc04c34a828daa0c7021793
+#, fuzzy
+msgid "https://github.com/norbert-walter/esp32-nmea2000-obp60/issues"
+msgstr "https://github.com/norbert-walter/esp32-nmea2000-obp60/issues"
+
+#: ../../help/errors.rst:10 666d659f02564a529fd6b36004a1694c
+#, fuzzy
+msgid ""
+"Dort können Sie nach Fehlern suchen und die Fehlerbeschreibungen und deren "
+"Lösungen einsehen. Sie können über die Rubrik **Issues** aber auch selbst "
+"Fehler melden, die noch nicht im System enthalten sind. Beschreiben Sie dann"
+" möglichst genau in englischer Sprache, unter welchen Umständen der Fehler "
+"auftritt. Der Fehler muss für uns nachvollziehbar sein, nur dann kann er "
+"behoben werden. Wenn Sie Tipps haben, wie man Dinge verbessern kann, oder "
+"wenn Sie bestimmte Funktionen vermissen, möchten wir Sie bitten, diese "
+"ebenfalls zu melden."
+msgstr ""
+"There you can search for errors and view error descriptions and solutions. "
+"You can also report errors that aren't yet included in the system via the "
+"**Issues** section. Please describe the circumstances under which the error "
+"occurs in English as precisely as possible. The error must be understandable"
+" for us to fix it. If you have any tips on how to improve things or if "
+"you're missing certain features, please let us know."
+
+#: ../../help/errors.rst:12 d51f87202b674bbe8d1e34ab56e70bea
+#, fuzzy
+msgid ""
+"Wir bevorzugen diese Art der Fehlerverfolgung, da wir so strukturiert und "
+"zügig Fehler beheben können. Dieses System erlaubt uns, mit mehreren "
+"Mitarbeitenden an weltweit verteilten Standorten an der Behebung von Fehlern"
+" arbeiten zu können. Mit Ihrer Unterstützung werden wir auf diese Weise in "
+"die Lage versetzt, eine qualitativ hochwertige Software und Hardware zur "
+"Verfügung zu stellen."
+msgstr ""
+"We prefer this type of bug tracking because it allows us to resolve bugs in "
+"a structured and timely manner. This system allows us to collaborate with "
+"multiple employees at locations around the world to resolve bugs. With your "
+"support, we are able to provide high-quality software and hardware."
+
+#: ../../help/errors.rst:15 577ff4d921744c34a888c5ed345114df
+#, fuzzy
+msgid "Kritische Fehler"
+msgstr "Critical errors"
+
+#: ../../help/errors.rst:17 91df3385a3d0477887ff9cb00548cd38
+#, fuzzy
+msgid ""
+"`Kritische Fehler`_ sind schwerwiegende Fehler, die die Funktion des Gerätes"
+" deutlich beeinträchtigen oder die Ausführung einer wichtigen Funktion "
+"verhindern."
+msgstr ""
+"`Kritische Fehler`_ are serious errors that significantly impair the "
+"function of the device or prevent the execution of an important function."
+
+#: ../../help/errors.rst:22 2d2f2ee6c31040f7b13cf97ea24d9e4f
+#, fuzzy
+msgid "Software-Fehler"
+msgstr "Software error"
+
+#: ../../help/errors.rst:24 4579918fd2824b5986701ec2457851ea
+#, fuzzy
+msgid ""
+"`Software-Fehler`_ sind Fehler innerhalb der Software. Eine Funktion ist "
+"unter bestimmten Umständen fehlerhaft oder fehlt insgesamt. Die Fehler sind "
+"nicht kritisch."
+msgstr ""
+"`Software-Fehler`_ are errors within the software. A function is faulty "
+"under certain circumstances or is missing altogether. The errors are not "
+"critical."
+
+#: ../../help/errors.rst:29 f25ba6c2efad43f99643acb546a5cfd8
+#, fuzzy
+msgid "Hardware-Fehler"
+msgstr "Hardware error"
+
+#: ../../help/errors.rst:31 6c51aba83a384d35bf697256d30c3d17
+#, fuzzy
+msgid ""
+"`Hardware-Fehler`_ werden durch die Hardware verursacht. Das können zum "
+"Beispiel Design-Fehler einer Platine oder in Einzelfällen falsch bestückte "
+"Platinen sein. Die Konstruktion des Gerätes oder die Materialauswahl "
+"einzelner Komponenten kann auch davon betroffen sein. Die Fehler sind nicht "
+"kritisch."
+msgstr ""
+"`Hardware-Fehler`_ are caused by hardware. These can be, for example, design"
+" errors on a circuit board or, in isolated cases, incorrectly populated "
+"circuit boards. The device's construction or the material selection of "
+"individual components can also be affected. The errors are not critical."
+
+#: ../../help/errors.rst:36 97eade24fe914b0badac9d2c8f2180ea
+#, fuzzy
+msgid "Behobene Fehler"
+msgstr "Fixed bugs"
+
+#: ../../help/errors.rst:38 01b2fc2358b44affa1cb2dfa07b779a2
+#, fuzzy
+msgid ""
+"`Behobene Fehler`_ wurden gelöst. Es lohnt sich beim Auftreten von Fehlern, "
+"auch die behobenen Fehler anzusehen, da teilweise Workarounds zur "
+"Beseitigung der Fehler zur Verfügung gestellt werden."
+msgstr ""
+"`Behobene Fehler`_ have been resolved. If errors occur, it's worth checking "
+"out the resolved errors, as some workarounds are available to resolve the "
+"errors."
+
+#: ../../help/errors.rst:43 7411b3ec864b4028aed270dcbb80f59b
+#, fuzzy
+msgid "Software-Erweiterungen"
+msgstr "Software extensions"
+
+#: ../../help/errors.rst:45 146cbd98010e47a3a18ca1736e808aa8
+#, fuzzy
+msgid ""
+"`Software-Erweiterungen`_ sind Vorschläge zur Verbesserung der Software oder"
+" zur Erweiterung der Funktionalität des Geräts."
+msgstr ""
+"`Software-Erweiterungen`_ are suggestions for improving the software or "
+"extending the functionality of the device."
+
+#: ../../help/errors.rst:50 c08cab2e1ad4402fa6fb9c817b6709f8
+#, fuzzy
+msgid "Neue Anzeigeseiten"
+msgstr "New display pages"
+
+#: ../../help/errors.rst:52 f1fe1ab36ade410ca7a56030f0679e09
+#, fuzzy
+msgid ""
+"`Neue Anzeigeseiten`_ dienen zur Erweiterung der Funktionalität und werden "
+"in der Regel von Anwendern vorgeschlagen."
+msgstr ""
+"`Neue Anzeigeseiten`_ are used to extend functionality and are usually "
+"suggested by users."

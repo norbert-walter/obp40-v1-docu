@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Open Boat Projects
+# This file is distributed under the same license as the OBP40 V1
+# Dokumentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OBP40 V1 Dokumentation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-21 12:25+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../index.rst:22
+#, fuzzy
+msgid "Technische Daten"
+msgstr "Technical data"
+
+#: ../../index.rst:22
+#, fuzzy
+msgid "Einführung"
+msgstr "introduction"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Funktionsweise"
+msgstr "How it works"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Bedienelemente"
+msgstr "Controls"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Inbetriebnahme"
+msgstr "Commissioning"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Konfiguration"
+msgstr "configuration"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Bussysteme"
+msgstr "Bus systems"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Datenaustausch"
+msgstr "Data exchange"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Erweiterte Sensorik"
+msgstr "Advanced sensor technology"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Beispielkonfiguration"
+msgstr "Example configuration"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Sicherheitshinweise"
+msgstr "Safety instructions"
+
+#: ../../index.rst:29
+#, fuzzy
+msgid "Bedienung"
+msgstr "Operation"
+
+#: ../../index.rst:44
+#, fuzzy
+msgid "Geräteaufbau"
+msgstr "Device structure"
+
+#: ../../index.rst:44
+#, fuzzy
+msgid "Montage OBP40"
+msgstr "Montage OBP40"
+
+#: ../../index.rst:44
+#, fuzzy
+msgid "Montage Docking Station"
+msgstr "Montage Docking Station"
+
+#: ../../index.rst:44
+#, fuzzy
+msgid "Zusammenbau"
+msgstr "assembly"
+
+#: ../../index.rst:54
+#, fuzzy
+msgid "Programmierumgebung"
+msgstr "programming environment"
+
+#: ../../index.rst:54
+#, fuzzy
+msgid "Seitenerstellung"
+msgstr "Page creation"
+
+#: ../../index.rst:54
+#, fuzzy
+msgid "Kompilieren und Download"
+msgstr "Compile and download"
+
+#: ../../index.rst:54
+#, fuzzy
+msgid "Web-Flashtool"
+msgstr "Web-Flashtool"
+
+#: ../../index.rst:54
+#, fuzzy
+msgid "Programmierung"
+msgstr "programming"
+
+#: ../../index.rst:64
+#, fuzzy
+msgid "Fragen und Antworten"
+msgstr "questions and answers"
+
+#: ../../index.rst:64
+#, fuzzy
+msgid "Meinungen und Tipps"
+msgstr "Opinions and tips"
+
+#: ../../index.rst:64
+#, fuzzy
+msgid "Bekannte Fehler"
+msgstr "Known bugs"
+
+#: ../../index.rst:64
+#, fuzzy
+msgid "Technische Unterstützung"
+msgstr "Technical support"
+
+#: ../../index.rst:64
+#, fuzzy
+msgid "Service"
+msgstr "Service"
+
+#: ../../index.rst:64
+#, fuzzy
+msgid "Mitarbeit"
+msgstr "cooperation"
+
+#: ../../index.rst:64
+#, fuzzy
+msgid "Spenden"
+msgstr "Donate"
+
+#: ../../index.rst:64
+#, fuzzy
+msgid "Glossar"
+msgstr "glossary"
+
+#: ../../index.rst:64
+#, fuzzy
+msgid "Hilfe"
+msgstr "Help"
+
+#: ../../index.rst:3 7219cd4db8364b3787254dc1f2462909
+#, fuzzy
+msgid "OBP40 V1 Dokumentation"
+msgstr "OBP40 V1 Documentation"
+
+#: ../../index.rst:4 1e52ce4633b14647bf3d84c68860c104
+#, fuzzy
+msgid "Letzte Aktualisierung |today|"
+msgstr "Last updated |today|"
+
+#: ../../index.rst:6 6e80f897b1e54e31b3628699d5bcd276
+#, fuzzy
+msgid "Documentation Status"
+msgstr "Documentation Status"
+
+#: ../../index.rst:11 b6f54f7636144518a225589e7a721b63
+#, fuzzy
+msgid "Diese Seiten sind noch in Bearbeitung."
+msgstr "These pages are still under construction."
+
+#: ../../index.rst:16 4bbd4bcf630f49759385da95d485ea40
+#, fuzzy
+msgid ""
+"Das Multifunktionsdisplay OBP40 basiert auf dem `Crow Panel 4.2`_ von "
+"Elecrow und dient zur Anzeige von Daten aus Boots-Netzen wie NMEA0183, "
+"NMEA2000. Es ist primär als günstige Einstiegslösung zum `OBP60`_ gedacht, "
+"unterliegt aber einigen Einschränkungen in der Benutzung. Ohne Hardware-"
+"Modifikationen am Crow Panel 4.2 kann das Display zu einem OBP40 mit "
+"entsprechender Firmware umgebaut werden. Open Boat Projects stellt mit dem "
+"`Web-Flashtool`_ eine einfache Möglichkeit zum Flashen der Firmware bereit. "
+"Es wird lediglich ein Web-Browser und ein USB-Kabel benötigt. Mit optionaler"
+" Zusatzhardware können Daten aus dem 1Wire-Bus und dem I2C-Bus ausgelesen "
+"werden. Das OBP40 enthält ein Gateway, das Daten bidirektional zwischen "
+"NMEA0183 und NMEA2000 austauschen kann. Über WiFi lassen sich die Daten "
+"importieren oder exportieren und können auf anderen Geräten oder in "
+"Drittanbietersoftware verwendet werden. Die Konfiguration erfolgt über eine "
+"Webseite. Darüber lassen sich vordefinierte Anzeigeseiten auswählen, und es "
+"können dessen Anzeigeinhalte festgelegt werden. Das OBP40 basiert auf Open "
+"Hardware, Open Software und Open Data. Das Gerät lässt sich durch die "
+"Offenheit an beliebige Anforderungen über die Software anpassen."
+msgstr ""
+"The OBP40 multifunction display is based on the `Crow Panel 4.2`_ from "
+"Elecrow and is used to display data from boat networks such as NMEA0183 and "
+"NMEA2000. It is primarily intended as an inexpensive entry-level solution "
+"for the `OBP60`_, but is subject to some limitations in use. Without any "
+"hardware modifications to the Crow Panel 4.2, the display can be converted "
+"to an OBP40 with the appropriate firmware. Open Boat Projects provides a "
+"simple way to flash the firmware with the `Web-Flashtool`_. All that is "
+"required is a web browser and a USB cable. With optional additional "
+"hardware, data can be read from the 1Wire bus and the I2C bus. The OBP40 "
+"contains a gateway that can exchange data bidirectionally between NMEA0183 "
+"and NMEA2000. The data can be imported or exported via WiFi and can be used "
+"on other devices or in third-party software. Configuration is done via a "
+"website. Predefined display pages can be selected and their display content "
+"can be defined. The OBP40 is based on open hardware, open software, and open"
+" data. This openness allows the device to be adapted to any requirements via"
+" the software."
