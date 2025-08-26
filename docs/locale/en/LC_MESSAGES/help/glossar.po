@@ -23,7 +23,7 @@ msgstr ""
 #: ../../help/glossar.rst:2 9257791251b840009804f6b36a05d0aa
 #, fuzzy
 msgid "Glossar"
-msgstr "glossary"
+msgstr "Glossary"
 
 #: ../../help/glossar.rst:4 2ebf935cb1eb4f80b61ca5867007a260
 #, fuzzy

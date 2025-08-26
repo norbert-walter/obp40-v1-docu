@@ -304,7 +304,7 @@ msgstr "Display control"
 #: ../../assembling/device.rst:60 8171635325ae4562b4fde0547c36df91
 #, fuzzy
 msgid "e-Paper-Display"
-msgstr "e-Paper-Display"
+msgstr "E-Paper-Display"
 
 #: ../../assembling/device.rst:61 5b11ebcefd2047f3a56544f2f391e47a
 #, fuzzy

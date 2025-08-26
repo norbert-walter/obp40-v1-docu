@@ -432,27 +432,27 @@ msgstr "Field number:"
 #: ../../usermanual/dataexchange.rst:101 d440d016e94a45f59aa5f0a8e9d7baa1
 #, fuzzy
 msgid "a - PGN im Binärform"
-msgstr "a - PGN im Binärform"
+msgstr "A - PGN im Binärform"
 
 #: ../../usermanual/dataexchange.rst:102 62f17e79daba4538ab75426ba04b96aa
 #, fuzzy
 msgid "b - Zeitstempel im Binärform"
-msgstr "b - timestamp in binary form"
+msgstr "B - timestamp in binary form"
 
 #: ../../usermanual/dataexchange.rst:103 c1661da050ac490e8c761ef70023a875
 #, fuzzy
 msgid "c - Source-ID"
-msgstr "c - Source-ID"
+msgstr "C - Source-ID"
 
 #: ../../usermanual/dataexchange.rst:104 cc0943b906164df380b1f3fe0efe625a
 #, fuzzy
 msgid "d - PGN-Daten im Binärform"
-msgstr "d - PGN data in binary form"
+msgstr "D - PGN data in binary form"
 
 #: ../../usermanual/dataexchange.rst:105 089d40044fa94948a704a22f7882b212
 #, fuzzy
 msgid "hh - Checksumme"
-msgstr "hh - Checksumme"
+msgstr "Hh - Checksumme"
 
 #: ../../usermanual/dataexchange.rst:107 ff8a114865cf450eae9901aac0310373
 #, fuzzy
@@ -541,7 +541,7 @@ msgstr "Device 2"
 #: 225e4d0dadb54356994d3cd4374095d1 6b93873fcad74c6f82bdf4f778a857a2
 #, fuzzy
 msgid ":ref:`Config - System`"
-msgstr ":ref:`Config - System`"
+msgstr ":Ref:`Config - System`"
 
 #: ../../usermanual/dataexchange.rst:132 5b70fc9700104af1bdb029df3b115a19
 #, fuzzy
@@ -594,7 +594,7 @@ msgstr "192.168.16.1"
 #: ../../usermanual/dataexchange.rst:138 037921c5161844d4b05f0fd7e36afe0e
 #, fuzzy
 msgid ":ref:`Config - TCP Server`"
-msgstr ":ref:`Config - TCP Server`"
+msgstr ":Ref:`Config - TCP Server`"
 
 #: ../../usermanual/dataexchange.rst:140 5f2dd4e5698d48fb8c37941b24b8e059
 #, fuzzy
@@ -612,7 +612,7 @@ msgstr "SeaSmart Out"
 #: cb90dbc86e804107a66661abc47357a8 f2b760150bd147ff9fd116fd9db8fbc3
 #, fuzzy
 msgid "on"
-msgstr "on"
+msgstr "On"
 
 #: ../../usermanual/dataexchange.rst:140 ../../usermanual/dataexchange.rst:144
 #: ../../usermanual/dataexchange.rst:148 ../../usermanual/dataexchange.rst:152
@@ -621,12 +621,12 @@ msgstr "on"
 #: b2875547c69e498bb5b99acf32e7e619 e96b987bb8214aeeb042f7c8c214caf4
 #, fuzzy
 msgid "off"
-msgstr "off"
+msgstr "Off"
 
 #: ../../usermanual/dataexchange.rst:142 6bfec03c7f1c4d91be7516a6794777a7
 #, fuzzy
 msgid ":ref:`Config - TCP Client`"
-msgstr ":ref:`Config - TCP Client`"
+msgstr ":Ref:`Config - TCP Client`"
 
 #: ../../usermanual/dataexchange.rst:144 0951dbdb9c6b4ed7ac27d83feb59c27b
 #, fuzzy
@@ -654,7 +654,7 @@ msgstr "SeaSmart Out"
 #: ../../usermanual/dataexchange.rst:150 00d5427a8af7438196d0aac07f0a45c5
 #, fuzzy
 msgid ":ref:`Config - WiFi Client`"
-msgstr ":ref:`Config - WiFi Client`"
+msgstr ":Ref:`Config - WiFi Client`"
 
 #: ../../usermanual/dataexchange.rst:152 78535f31c41142a094f9b9ebc76fa8e2
 #, fuzzy
@@ -734,7 +734,7 @@ msgstr "OBP60"
 #: 21266c4581374d3d9fb885e64652747b 42bacdb7c39c4ecda63b8b828e622c0e
 #, fuzzy
 msgid ":ref:`Config - Serial Port`"
-msgstr ":ref:`Config - Serial Port`"
+msgstr ":Ref:`Config - Serial Port`"
 
 #: ../../usermanual/dataexchange.rst:179 ../../usermanual/dataexchange.rst:197
 #: 1b68d662a9a346549664da694d82b8e1 a20c271c4ebe420f80febffaf510d95a
@@ -745,7 +745,7 @@ msgstr "Serial Direction"
 #: ../../usermanual/dataexchange.rst:179 767a741ecaee432889625cf5658ee451
 #, fuzzy
 msgid "receive"
-msgstr "receive"
+msgstr "Receive"
 
 #: ../../usermanual/dataexchange.rst:181 ../../usermanual/dataexchange.rst:199
 #: 46614a6eb42a4801948caab44befe694 99c262b149764e5f92a7e5c867fecaa9
@@ -792,7 +792,7 @@ msgstr "Fig.: NMEA0183 connection of an OBP60 to an autopilot (send)"
 #: ../../usermanual/dataexchange.rst:197 bd9ec0e97aed4d9f8240b1c8494680f7
 #, fuzzy
 msgid "send"
-msgstr "send"
+msgstr "Send"
 
 #: ../../usermanual/dataexchange.rst:199 8ebcfe5c5c9843c9a0490ddc75c30cab
 #, fuzzy
@@ -923,7 +923,7 @@ msgstr "SignalK"
 #: ../../usermanual/dataexchange.rst:234 3320674df1ef49a8bd9cda1af1131751
 #, fuzzy
 msgid "qtVlm"
-msgstr "qtVlm"
+msgstr "QtVlm"
 
 #: ../../usermanual/dataexchange.rst:235 4dc85b46c6784c10a0f3c25bedd10138
 #, fuzzy
@@ -964,7 +964,7 @@ msgstr "Log Level"
 #: ../../usermanual/dataexchange.rst:248 c5273f4f86194d0d979ae5625ff20f88
 #, fuzzy
 msgid ":ref:`Config - USB Port`"
-msgstr ":ref:`Config - USB Port`"
+msgstr ":Ref:`Config - USB Port`"
 
 #: ../../usermanual/dataexchange.rst:250 333cdce04bf64a7abde033befcda2b9d
 #, fuzzy
@@ -974,7 +974,7 @@ msgstr "USB Mode"
 #: ../../usermanual/dataexchange.rst:250 040fcc8f2e404605872b973f47095d3b
 #, fuzzy
 msgid "nmea0183"
-msgstr "nmea0183"
+msgstr "Nmea0183"
 
 #: ../../usermanual/dataexchange.rst:252 081d6c2f6e7947ab894d28d296b717ea
 #, fuzzy
@@ -1597,7 +1597,7 @@ msgstr "The following settings must be made in the OBP60."
 #: 0aac91e89c1c40dfabf433e4110bda2a c490240dfa4d440a893218d1f9a56016
 #, fuzzy
 msgid ":ref:`Config - OBP Hardware`"
-msgstr ":ref:`Config - OBP Hardware`"
+msgstr ":Ref:`Config - OBP Hardware`"
 
 #: ../../usermanual/dataexchange.rst:467 4e59f33c53d84cb4b1cee134302d585e
 #, fuzzy

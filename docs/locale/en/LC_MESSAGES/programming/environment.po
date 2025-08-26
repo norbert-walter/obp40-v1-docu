@@ -23,7 +23,7 @@ msgstr ""
 #: ../../programming/environment.rst:2 6f11e3e5171e432c8e0851445e997d35
 #, fuzzy
 msgid "Programmierumgebung"
-msgstr "programming environment"
+msgstr "Programming environment"
 
 #: ../../programming/environment.rst:4 8c02e7009d7c4d83ab035a58693fa538
 #, fuzzy

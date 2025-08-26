@@ -97,7 +97,7 @@ msgstr "Setting up an LTE router"
 #: ../../usermanual/samples.rst:21 c8f36a408b1c4a3fb745f5b6b5547978
 #, fuzzy
 msgid "M5Stack mit NMEA2000-Netzwerk und Windsensor Yachta verbinden"
-msgstr "Connecting M5Stack to NMEA2000 network and Yachta wind sensor"
+msgstr "Connect M5Stack to NMEA2000 network and Yachta wind sensor"
 
 #: ../../usermanual/samples.rst:22 d39f445da1e3406e8c17a208533746e4
 #, fuzzy
@@ -176,12 +176,12 @@ msgstr "WiFi Dualband 2.4 GHz **oder** 5 GHz 300 MBit/s [#f2]_"
 #: ../../usermanual/samples.rst:40 df66805608f14e18bb308784361e9f7d
 #, fuzzy
 msgid "3000 mAh LiPo-Akku"
-msgstr "3000 mAh LiPo-Battery"
+msgstr "3000 MAh LiPo-Battery"
 
 #: ../../usermanual/samples.rst:41 81ea8de7893f42468e65f43bff65b313
 #, fuzzy
 msgid "15 Stunden autarke Laufzeit"
-msgstr "15 hours of self-sufficient runtime"
+msgstr "15 Hours of self-sufficient runtime"
 
 #: ../../usermanual/samples.rst:42 114ceff984c24bd39562e95af22c68a7
 #, fuzzy
@@ -239,7 +239,7 @@ msgstr "WiFi dual band 2.4 GHz and 5 GHz 300 Mbit/s"
 #: ../../usermanual/samples.rst:59 fc3bee73dad841cf804906e31ff7b435
 #, fuzzy
 msgid "2x LAN CAT6 100 MBit/s"
-msgstr "2x CAT6 LAN 100 MBit/s"
+msgstr "2X CAT6 LAN 100 MBit/s"
 
 #: ../../usermanual/samples.rst:60 3f6e4e54bd394040a530f972d0502ab3
 #, fuzzy
@@ -427,7 +427,7 @@ msgstr "M5Stack"
 #: 5a05a8d695fd4624b88493238cc6e08a 7bf6d4a14c0e4114b99921ae43b980d1
 #, fuzzy
 msgid ":ref:`Config - System`"
-msgstr ":ref:`Config - System`"
+msgstr ":Ref:`Config - System`"
 
 #: ../../usermanual/samples.rst:116 ../../usermanual/samples.rst:204
 #: 6e4990dfa8bb4aaf91f2d02bc706e678 8fb26d5582de45d09608a2f3ca34cddb
@@ -439,7 +439,7 @@ msgstr "System Name"
 #: 0da93610ffc34d2bb10bd41c11216ac9 6bd8a1043e61499e90e00aa589dbc038
 #, fuzzy
 msgid ":ref:`Config - WiFi Client`"
-msgstr ":ref:`Config - WiFi Client`"
+msgstr ":Ref:`Config - WiFi Client`"
 
 #: ../../usermanual/samples.rst:120 ../../usermanual/samples.rst:208
 #: 47f4b0c3f4de4668b0ddfea6c22bc87f f262fb419bfd4af8911fbf85a5d9d12f
@@ -463,7 +463,7 @@ msgstr "WiFi Client"
 #: ca482fa1b9d84c8195da017df552cf06 f46e01934e4c47d0b74a5e65ef0d750d
 #, fuzzy
 msgid "on"
-msgstr "on"
+msgstr "On"
 
 #: ../../usermanual/samples.rst:122 ../../usermanual/samples.rst:210
 #: ../../usermanual/samples.rst:313 1b2c3518ec8347e3baad97335ca2c381
@@ -499,7 +499,7 @@ msgstr "MySecret"
 #: ../../usermanual/samples.rst:126 5bdfac27bb874c4cb227a65d36f1ef0d
 #, fuzzy
 msgid ":ref:`Config - Converter"
-msgstr ":ref:`Config - Converter"
+msgstr ":Ref:`Config - Converter"
 
 #: ../../usermanual/samples.rst:128 ../../usermanual/samples.rst:174
 #: 5c5f469b7a5146788b66755d31caf70f 7c6c8d3e96614363879b1d23e669728c
@@ -510,7 +510,7 @@ msgstr "NMEA2000 Out"
 #: ../../usermanual/samples.rst:130 b04bb76a3bc24597abaa260d4e095590
 #, fuzzy
 msgid ":ref:`Config - TCP Server`"
-msgstr ":ref:`Config - TCP Server`"
+msgstr ":Ref:`Config - TCP Server`"
 
 #: ../../usermanual/samples.rst:132 fcbb606c7e934848a6f451145fe25c7f
 #, fuzzy
@@ -551,7 +551,7 @@ msgstr "SeaSmart Out"
 #: 8bb53c2da1344ed2b5c209d530bf3ea6 ad8bb5b39890478da09cce202d50e6b9
 #, fuzzy
 msgid ":ref:`Config - TCP Client`"
-msgstr ":ref:`Config - TCP Client`"
+msgstr ":Ref:`Config - TCP Client`"
 
 #: ../../usermanual/samples.rst:144 ../../usermanual/samples.rst:216
 #: 179cd0ab126f42fea655a53e35dce4b3 ad5983ac2bf0482faec6a780e80201a9
@@ -587,7 +587,7 @@ msgstr "192.168.1.102"
 #: df6776730d784a0b9de7880e08f5cdd2 f465334cb9404cc2b4f6863caed73404
 #, fuzzy
 msgid "off"
-msgstr "off"
+msgstr "Off"
 
 #: ../../usermanual/samples.rst:154 ../../usermanual/samples.rst:226
 #: 8101f992ae154e969546015bc2137839 94596d804c1542e182e39bccd55b886c
@@ -637,7 +637,7 @@ msgstr "Status messages"
 #: 744d17e87ff74d779b56256e7064047a d6f4f95b9edc4295806e279978d2574e
 #, fuzzy
 msgid ":ref:`Status`"
-msgstr ":ref:`Status`"
+msgstr ":Ref:`Status`"
 
 #: ../../usermanual/samples.rst:164 ../../usermanual/samples.rst:236
 #: 466ee72dab774d7099e961b606b4ed9a cc8e04bcf3b445329c2bfe944de59c29
@@ -649,7 +649,7 @@ msgstr "WiFi Client Connected"
 #: 32249c1024784bc594c52321f1d803c8 ff25c3060fa34b9e901d9eccc7bbff88
 #, fuzzy
 msgid "true"
-msgstr "true"
+msgstr "True"
 
 #: ../../usermanual/samples.rst:166 ../../usermanual/samples.rst:238
 #: 1e3b31e26cd2454a9140f2af05d7d296 8a3c0a6aadb64cbdbbf59a9d5702d496
@@ -855,7 +855,7 @@ msgstr "Connection Timeout"
 #: ../../usermanual/samples.rst:264 61b96b1c869a414c869dbd8416cfb2ec
 #, fuzzy
 msgid "30s"
-msgstr "30s"
+msgstr "30S"
 
 #: ../../usermanual/samples.rst:266 5de5af492fc14e8e928ac14384e05fcd
 #, fuzzy
@@ -870,7 +870,7 @@ msgstr "WLAN Server Password"
 #: ../../usermanual/samples.rst:268 1b11a4cb57ce4a69b8b02cc565cd1641
 #, fuzzy
 msgid "xxxxxxxx"
-msgstr "xxxxxxxxx"
+msgstr "Xxxxxxxxx"
 
 #: ../../usermanual/samples.rst:270 17abe39d363b480e8f5a88e60359b44b
 #, fuzzy
@@ -895,7 +895,7 @@ msgstr "HTTP (JSON/NMEA)"
 #: ../../usermanual/samples.rst:274 0bbe17272d9c410eb81207b2fd1cc775
 #, fuzzy
 msgid "mDNS Service"
-msgstr "mDNS Service"
+msgstr "MDNS Service"
 
 #: ../../usermanual/samples.rst:276 b8efc64f4c254a11832f01b65bd19631
 #, fuzzy

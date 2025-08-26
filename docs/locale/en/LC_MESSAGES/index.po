@@ -28,7 +28,7 @@ msgstr "Technical data"
 #: ../../index.rst:22
 #, fuzzy
 msgid "Einführung"
-msgstr "introduction"
+msgstr "Introduction"
 
 #: ../../index.rst:29
 #, fuzzy
@@ -48,7 +48,7 @@ msgstr "Commissioning"
 #: ../../index.rst:29
 #, fuzzy
 msgid "Konfiguration"
-msgstr "configuration"
+msgstr "Configuration"
 
 #: ../../index.rst:29
 #, fuzzy
@@ -98,12 +98,12 @@ msgstr "Montage Docking Station"
 #: ../../index.rst:44
 #, fuzzy
 msgid "Zusammenbau"
-msgstr "assembly"
+msgstr "Assembly"
 
 #: ../../index.rst:54
 #, fuzzy
 msgid "Programmierumgebung"
-msgstr "programming environment"
+msgstr "Programming environment"
 
 #: ../../index.rst:54
 #, fuzzy
@@ -123,12 +123,12 @@ msgstr "Web-Flashtool"
 #: ../../index.rst:54
 #, fuzzy
 msgid "Programmierung"
-msgstr "programming"
+msgstr "Programming"
 
 #: ../../index.rst:64
 #, fuzzy
 msgid "Fragen und Antworten"
-msgstr "questions and answers"
+msgstr "Questions and answers"
 
 #: ../../index.rst:64
 #, fuzzy
@@ -153,7 +153,7 @@ msgstr "Service"
 #: ../../index.rst:64
 #, fuzzy
 msgid "Mitarbeit"
-msgstr "cooperation"
+msgstr "Cooperation"
 
 #: ../../index.rst:64
 #, fuzzy
@@ -163,7 +163,7 @@ msgstr "Donate"
 #: ../../index.rst:64
 #, fuzzy
 msgid "Glossar"
-msgstr "glossary"
+msgstr "Glossary"
 
 #: ../../index.rst:64
 #, fuzzy

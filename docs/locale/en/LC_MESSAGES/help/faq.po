@@ -23,7 +23,7 @@ msgstr ""
 #: ../../help/faq.rst:2 eb735ff8dd0343f1a60ea4e340279aba
 #, fuzzy
 msgid "Fragen und Antworten"
-msgstr "questions and answers"
+msgstr "Questions and answers"
 
 #: ../../help/faq.rst:4 34d8db79aa4f40e7819cd7cb6ae94ce0
 #, fuzzy

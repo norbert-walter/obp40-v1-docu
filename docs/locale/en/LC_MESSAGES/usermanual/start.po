@@ -145,7 +145,7 @@ msgstr ""
 #: ../../usermanual/start.rst:32 ed9d475d63e74339a447d4cb0cd50183
 #, fuzzy
 msgid "Benutzung"
-msgstr "use"
+msgstr "Use"
 
 #: ../../usermanual/start.rst:34 fb4eb44195194a459f803533cb2abc9c
 #, fuzzy

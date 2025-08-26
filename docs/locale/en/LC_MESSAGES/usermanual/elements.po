@@ -200,7 +200,7 @@ msgstr ""
 #: ../../usermanual/elements.rst:50 59c410bbeda643e080cd31101ff8c11e
 #, fuzzy
 msgid "Fußzeile"
-msgstr "footer"
+msgstr "Footer"
 
 #: ../../usermanual/elements.rst:54 205390882ea54321950c212d09422a91
 #, fuzzy

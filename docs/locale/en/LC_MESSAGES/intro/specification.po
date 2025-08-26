@@ -54,7 +54,7 @@ msgstr "Trend display for values"
 #: ../../intro/specification.rst:14 17e3a820156f42bdb3c2425b05ec12f9
 #, fuzzy
 msgid "1 Auswahlrad mit Drucktaster und 2 Auswahltasten"
-msgstr "1 selection wheel with push button and 2 selection buttons"
+msgstr "1 Selection wheel with push button and 2 selection buttons"
 
 #: ../../intro/specification.rst:15 35cdee54a65d46e8a2b73aebf34479fe
 #, fuzzy
@@ -132,7 +132,7 @@ msgstr "Comparison OBP40 / OBP60"
 #: 858c20714e68408a996c7c6a21b41fbc
 #, fuzzy
 msgid "Funktion"
-msgstr "function"
+msgstr "Function"
 
 #: ../../intro/specification.rst:32 552e307e09fe4d03a365c1901006c586
 #, fuzzy
@@ -147,7 +147,7 @@ msgstr "OBP60"
 #: ../../intro/specification.rst:34 f4343ed7565d4bd28783714a7bcf673e
 #, fuzzy
 msgid "e-Paper-Display"
-msgstr "e-Paper-Display"
+msgstr "E-Paper-Display"
 
 #: ../../intro/specification.rst:34 ../../intro/specification.rst:38
 #: ../../intro/specification.rst:40 ../../intro/specification.rst:42
@@ -266,7 +266,7 @@ msgstr "GPS receiver"
 #: ../../intro/specification.rst:64 bc9b9537b0e24cf49057103121a13af1
 #, fuzzy
 msgid "Umweltsensor"
-msgstr "environmental sensor"
+msgstr "Environmental sensor"
 
 #: ../../intro/specification.rst:66 94485cb5c7ad4d8b83630f79029f77a0
 #, fuzzy
@@ -372,7 +372,7 @@ msgstr "Construction"
 #: ../../intro/specification.rst:103 6111cf09d73747a3bc515747d82d2a30
 #, fuzzy
 msgid "Spezifikation"
-msgstr "specification"
+msgstr "Specification"
 
 #: ../../intro/specification.rst:106 50090273b77c4732b44fa900488fb221
 #, fuzzy
@@ -397,7 +397,7 @@ msgstr "0.5...3.5 W, typisch 0,5 W"
 #: ../../intro/specification.rst:110 3d2e443e3c61429497606512e3b5200b
 #, fuzzy
 msgid "Prozessor"
-msgstr "processor"
+msgstr "Processor"
 
 #: ../../intro/specification.rst:110 29232f459da148ae9664b108f63342a6
 #, fuzzy
@@ -422,7 +422,7 @@ msgstr "RAM"
 #: ../../intro/specification.rst:114 36ae72490dc846df8dc63346fc25cb3d
 #, fuzzy
 msgid "512 kB"
-msgstr "512 kB"
+msgstr "512 KB"
 
 #: ../../intro/specification.rst:116 9bae33cd54684192a915631b1f89d2db
 #, fuzzy
@@ -448,7 +448,7 @@ msgstr "Display size"
 #: ../../intro/specification.rst:120 e0d3437dc0864d2daffbd9855abac473
 #, fuzzy
 msgid "400 x 300 pix, 120 dpi"
-msgstr "400 x 300 pix, 120 dpi"
+msgstr "400 X 300 pix, 120 dpi"
 
 #: ../../intro/specification.rst:122 78ea98dfd03245068f8cf4e7608f8be9
 #, fuzzy
@@ -468,7 +468,7 @@ msgstr "Keys"
 #: ../../intro/specification.rst:124 b01a6a70904f45f19763360a771b2424
 #, fuzzy
 msgid "mechan. Springfedertaster"
-msgstr "mechan. Springfedertaster"
+msgstr "Mechan. Springfedertaster"
 
 #: ../../intro/specification.rst:126 93affce2642949e0b4343b47f8d71010
 #, fuzzy
@@ -488,7 +488,7 @@ msgstr "Charging time via USB"
 #: ../../intro/specification.rst:128 ad1da176cb8b453b9a44a68e8a8780e4
 #, fuzzy
 msgid "ca. 2,5 h bei 600 mA"
-msgstr "approx. 2.5 h at 600 mA"
+msgstr "Approx. 2.5 h at 600 mA"
 
 #: ../../intro/specification.rst:130 7005929c87e84780852c09b7910cf40f
 #, fuzzy
@@ -498,7 +498,7 @@ msgstr "Useful life"
 #: ../../intro/specification.rst:130 17835ba4e3574b459150cd82722a0146
 #, fuzzy
 msgid "ca. 8,8 h bei Volllast"
-msgstr "approx. 8.8 hours at full load"
+msgstr "Approx. 8.8 hours at full load"
 
 #: ../../intro/specification.rst:132 49f225301788421490e5111e29dd4352
 #, fuzzy
@@ -508,7 +508,7 @@ msgstr "Sleep duration"
 #: ../../intro/specification.rst:132 9604d59a05aa4989bfad6f7a24abdeee
 #, fuzzy
 msgid "ca. 1,3 Jahre bei 1200 mAh"
-msgstr "approx. 1.3 years at 1200 mAh"
+msgstr "Approx. 1.3 years at 1200 mAh"
 
 #: ../../intro/specification.rst:134 7bc08f660d934f2195afac96a017673d
 #, fuzzy
@@ -528,7 +528,7 @@ msgstr "Dimensions"
 #: ../../intro/specification.rst:136 e516e691e5f44891af7982ca4cdb47b5
 #, fuzzy
 msgid "110 x 112 x 22 mm"
-msgstr "110 x 112 x 22 mm"
+msgstr "110 X 112 x 22 mm"
 
 #: ../../intro/specification.rst:138 e2863fe10b9648ea92d405f5ab8d71ae
 #, fuzzy
@@ -538,7 +538,7 @@ msgstr "Weight"
 #: ../../intro/specification.rst:138 415fe6c6a8484cce897cf901fd8be2ac
 #, fuzzy
 msgid "110 g"
-msgstr "110 g"
+msgstr "110 G"
 
 #: ../../intro/specification.rst:142 f3464879367842338e6176f4475b0aa3
 #, fuzzy

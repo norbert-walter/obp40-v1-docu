@@ -137,7 +137,7 @@ msgstr "Magnet Dock"
 #: ../../assembling/dockingstation.rst:24 9e19d37b328749deb93c58306b5046cd
 #, fuzzy
 msgid "4 pol."
-msgstr "4 pol."
+msgstr "4 Pol."
 
 #: ../../assembling/dockingstation.rst:24 5cfc61a91d894834899bd9663ecd7ade
 #, fuzzy
@@ -157,7 +157,7 @@ msgstr "Velcro D 3 mm"
 #: ../../assembling/dockingstation.rst:26 cc1bdfa96f8c4e788532a0da0f9ba3ab
 #, fuzzy
 msgid "50 x 40 mm"
-msgstr "50 x 40 mm"
+msgstr "50 X 40 mm"
 
 #: ../../assembling/dockingstation.rst:26 fed49d892a89492087baf975073052ca
 #, fuzzy
@@ -215,7 +215,7 @@ msgstr ""
 #: ../../assembling/dockingstation.rst:43 d92c185d297548f08408c918eebf4b27
 #, fuzzy
 msgid "0.4 mm Düse"
-msgstr "0.4 mm nozzle"
+msgstr "0.4 Mm nozzle"
 
 #: ../../assembling/dockingstation.rst:44 2996fe6efe5148c08c571b83be8afd64
 #, fuzzy
@@ -265,7 +265,7 @@ msgstr "Aderfarbe"
 #: ../../assembling/dockingstation.rst:53 e5743cf006b94a168a763c1ce3190754
 #, fuzzy
 msgid "Bauteil"
-msgstr "component"
+msgstr "Component"
 
 #: ../../assembling/dockingstation.rst:55 4e4c3e0d7e834ab1892aec15bcb93bc7
 #, fuzzy
@@ -285,7 +285,7 @@ msgstr "Pin 2"
 #: ../../assembling/dockingstation.rst:57 4284823cb7ac4687bcf8606751662df9
 #, fuzzy
 msgid "weiß, D-"
-msgstr "white, D-"
+msgstr "White, D-"
 
 #: ../../assembling/dockingstation.rst:59 f5bccdbe0ca84468b8552511263188d5
 #, fuzzy
@@ -295,7 +295,7 @@ msgstr "Pin 3"
 #: ../../assembling/dockingstation.rst:59 6fbc774b621048128f4cbd084b6c136b
 #, fuzzy
 msgid "gelb, D+"
-msgstr "gelb, D+"
+msgstr "Gelb, D+"
 
 #: ../../assembling/dockingstation.rst:61 922781c591db431589758429f895b7d9
 #, fuzzy
@@ -305,7 +305,7 @@ msgstr "Pin 4"
 #: ../../assembling/dockingstation.rst:61 2650bd616beb4683a9788405b56d129c
 #, fuzzy
 msgid "schwarz"
-msgstr "black"
+msgstr "Black"
 
 #: ../../assembling/dockingstation.rst:65 4c9c2321ed5c471d8a981292be4784cc
 #, fuzzy
@@ -316,9 +316,9 @@ msgid ""
 "Orientierung eingebaut sein, damit die unterschiedlichen Geräte alle in der "
 "Docking-Station geladen werden können."
 msgstr ""
-"When attaching the magnetic dock, ensure it is oriented correctly. It must "
-"align with the counterpart in the OBP40. If you plan to use multiple OBP40s "
-"with a docking station, all contacts must be installed in the same "
+"When attaching the magnetic dock, make sure it's oriented correctly. It must"
+" align with the counterpart in the OBP40. If you want to use multiple OBP40s"
+" with a docking station, all contacts must be installed in the same "
 "orientation so that the different devices can all be charged in the docking "
 "station."
 

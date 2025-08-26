@@ -28,7 +28,7 @@ msgstr "How it works"
 #: ../../usermanual/functionality.rst:5 b6223c31aa9a415b90ec444390ca9e2f
 #, fuzzy
 msgid "Nutzung"
-msgstr "use"
+msgstr "Use"
 
 #: ../../usermanual/functionality.rst:9 da38198ae3e04d16aad028afb2f05f6d
 #, fuzzy
@@ -203,7 +203,7 @@ msgstr ""
 #: ../../usermanual/functionality.rst:58 6f0de7f051534086bb1980a3a273809a
 #, fuzzy
 msgid "Konfiguration"
-msgstr "configuration"
+msgstr "Configuration"
 
 #: ../../usermanual/functionality.rst:60 b6a221b5fb024b0599dd0f8066e10395
 #, fuzzy

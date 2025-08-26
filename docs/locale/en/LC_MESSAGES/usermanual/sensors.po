@@ -102,7 +102,7 @@ msgstr "3.3V TTL"
 #: 4e105203b9d54743a343318a28a5cbc7 a416e6d066be4daea67787543ea03c08
 #, fuzzy
 msgid "nein"
-msgstr "no"
+msgstr "No"
 
 #: ../../usermanual/sensors.rst:11 ../../usermanual/sensors.rst:19
 #: ../../usermanual/sensors.rst:65 26f1b64491de447ea09f5e4f120fd61e
@@ -125,7 +125,7 @@ msgstr "5.0V TTL"
 #: ../../usermanual/sensors.rst:17 8e116ccfb2e44de2a4e3663eef859144
 #, fuzzy
 msgid "ja"
-msgstr "and"
+msgstr "And"
 
 #: ../../usermanual/sensors.rst:22 9d0958638b9e41e094939c0ecfbab5a1
 #, fuzzy

@@ -77,7 +77,7 @@ msgstr "Above"
 #: d4ca39ddbdf347fb9a7fc22593e874bc
 #, fuzzy
 msgid "Funktion"
-msgstr "function"
+msgstr "Function"
 
 #: ../../usermanual/bussystems.rst:22 242dfed8c6be4ecdbfd098ba1f93d07d
 #, fuzzy
@@ -561,7 +561,7 @@ msgstr "Shielding"
 #: ../../usermanual/bussystems.rst:112 86a413c58ccc410b964616ec91c1dacd
 #, fuzzy
 msgid "ohne"
-msgstr "without"
+msgstr "Without"
 
 #: ../../usermanual/bussystems.rst:112 0a63a87803484b3ab7ac65b622561d16
 #, fuzzy
@@ -582,7 +582,7 @@ msgstr "+12V"
 #: ../../usermanual/bussystems.rst:114 62bd4e1b7eea47dfb9c725eac6cf8016
 #, fuzzy
 msgid "rot"
-msgstr "rot"
+msgstr "Rot"
 
 #: ../../usermanual/bussystems.rst:114 ../../usermanual/bussystems.rst:318
 #: 8e24913234904014a4059fab3db3ac46 b81aee577a4f4385ba3f90369e2a8da0
@@ -605,7 +605,7 @@ msgstr "GND"
 #: ../../usermanual/bussystems.rst:116 8a01c877682a4a0d974cc712dbb73f6d
 #, fuzzy
 msgid "schwarz"
-msgstr "black"
+msgstr "Black"
 
 #: ../../usermanual/bussystems.rst:116 4ff5c39656f9472ea2d2c6b7c299c5e4
 #, fuzzy
@@ -625,7 +625,7 @@ msgstr "CAN-H"
 #: ../../usermanual/bussystems.rst:118 59a757d4ad374ce8833e7d4820429759
 #, fuzzy
 msgid "weiß"
-msgstr "white"
+msgstr "White"
 
 #: ../../usermanual/bussystems.rst:118 a422397ee6bd40969f5915596c3f728e
 #, fuzzy
@@ -646,7 +646,7 @@ msgstr "CAN-L"
 #: ../../usermanual/bussystems.rst:120 c83c0a193b4a426fbbf10b43ad5bc43a
 #, fuzzy
 msgid "blau"
-msgstr "blue"
+msgstr "Blue"
 
 #: ../../usermanual/bussystems.rst:120 d06d59358d834cc096bee396a5ab34e3
 #, fuzzy
@@ -982,7 +982,7 @@ msgstr "Transmission rate [Bd]"
 #: ../../usermanual/bussystems.rst:207 f00918027b9644ecbb14b0f8e534991e
 #, fuzzy
 msgid "zul. Leitungslänge [m]"
-msgstr "permissible cable length [m]"
+msgstr "Permissible cable length [m]"
 
 #: ../../usermanual/bussystems.rst:210 d1cb6ed250c24a9097ef40f22741e9d8
 #, fuzzy
@@ -1167,37 +1167,37 @@ msgstr "Field number:"
 #: ../../usermanual/bussystems.rst:256 aedafa08ec8f46c69433e3087628183e
 #, fuzzy
 msgid "a.a - Tiefe in Fuß"
-msgstr "a.a - Depth in feet"
+msgstr "A.a - Depth in feet"
 
 #: ../../usermanual/bussystems.rst:257 9baa4f47724f4f879b1c0c7437b1f95d
 #, fuzzy
 msgid "b - f = Fuß"
-msgstr "b - f = foot"
+msgstr "B - f = foot"
 
 #: ../../usermanual/bussystems.rst:258 5afee389f44b4dda9d98a453c6a96584
 #, fuzzy
 msgid "c.c - Tiefe in Metern"
-msgstr "c.c - depth in meters"
+msgstr "C.c - depth in meters"
 
 #: ../../usermanual/bussystems.rst:259 e100a47e9d124b6fb812e9ee9291323a
 #, fuzzy
 msgid "d - M = Meter"
-msgstr "d - M = Meter"
+msgstr "D - M = Meter"
 
 #: ../../usermanual/bussystems.rst:260 39a5b315c875423d9e5458f2bc0af9c9
 #, fuzzy
 msgid "e.e - Tiefe in Fathoms"
-msgstr "e.e - Depth in Fathoms"
+msgstr "E.e - Depth in Fathoms"
 
 #: ../../usermanual/bussystems.rst:261 70bf3dd3fa4b4713a5bb602acaf320c2
 #, fuzzy
 msgid "f - F = Fathoms"
-msgstr "f - F = Fathoms"
+msgstr "F - F = Fathoms"
 
 #: ../../usermanual/bussystems.rst:262 99e965b5f0e44fc2bf2127fa3e775c0a
 #, fuzzy
 msgid "hh - Checksumme"
-msgstr "hh - Checksumme"
+msgstr "Hh - Checksumme"
 
 #: ../../usermanual/bussystems.rst:264 2ad1e9b45fcc4a50ac5ed9f9c3a28d6d
 #, fuzzy
@@ -1431,7 +1431,7 @@ msgstr "SDA"
 #: 356574ee1aad4850923e2be24e006e97 c6f95c9c9ff14e7f90dd890a0b9cdf92
 #, fuzzy
 msgid "Datenleitung"
-msgstr "data line"
+msgstr "Data line"
 
 #: ../../usermanual/bussystems.rst:329 959c5604c55542f2bbc29ccd76820215
 #, fuzzy
@@ -1647,12 +1647,12 @@ msgstr "Temperature sensor"
 #: ../../usermanual/bussystems.rst:392 e97383125cc14465ac418042d33c4a72
 #, fuzzy
 msgid "gelb, Datenleitung"
-msgstr "yellow, data line"
+msgstr "Yellow, data line"
 
 #: ../../usermanual/bussystems.rst:394 bca4cfbd99804d9c884ee0efcfadf845
 #, fuzzy
 msgid "schwarz + rot"
-msgstr "black + red"
+msgstr "Black + red"
 
 #: ../../usermanual/bussystems.rst:396 be8dc25fbe2548a99f129f171c4d1505
 #, fuzzy
@@ -1662,7 +1662,7 @@ msgstr "GNDS"
 #: ../../usermanual/bussystems.rst:396 e149c6141f104c938eb889d169b30d66
 #, fuzzy
 msgid "Schirm"
-msgstr "screen"
+msgstr "Screen"
 
 #: ../../usermanual/bussystems.rst:400 84515afba0974a59bf0665263716552b
 #, fuzzy

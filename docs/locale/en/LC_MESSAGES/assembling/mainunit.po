@@ -162,7 +162,7 @@ msgstr "Magnet Dock"
 #: ../../assembling/mainunit.rst:26 3ebbfb128cb64619964e6fc456c9270c
 #, fuzzy
 msgid "4 pol."
-msgstr "4 pol."
+msgstr "4 Pol."
 
 #: ../../assembling/mainunit.rst:26 18b127425cb94587ab82c43bf307f76f
 #, fuzzy
@@ -202,7 +202,7 @@ msgstr "Velcro D 3 mm"
 #: ../../assembling/mainunit.rst:30 8c8d5c094b1545688f1f9fb8855a28d1
 #, fuzzy
 msgid "50 x 40 mm"
-msgstr "50 x 40 mm"
+msgstr "50 X 40 mm"
 
 #: ../../assembling/mainunit.rst:30 855405df7a5242c59d465b822884900d
 #, fuzzy
@@ -260,7 +260,7 @@ msgstr ""
 #: ../../assembling/mainunit.rst:51 ca740148ad7b4c9182419336901fa07f
 #, fuzzy
 msgid "0.4 mm Düse"
-msgstr "0.4 mm nozzle"
+msgstr "0.4 Mm nozzle"
 
 #: ../../assembling/mainunit.rst:52 69ea61ee60274112a47bb9e9534e8ff3
 #, fuzzy
@@ -427,7 +427,7 @@ msgstr "Aderfarbe"
 #: ../../assembling/mainunit.rst:96 ced38f833363414cb2e8258f259c7c08
 #, fuzzy
 msgid "Bauteil"
-msgstr "component"
+msgstr "Component"
 
 #: ../../assembling/mainunit.rst:98 ../../assembling/mainunit.rst:110
 #: 3bd8961eb44d435fb025aafbace25103 e2b67a3d2a1944bb82c9b32dca4fe668
@@ -438,7 +438,7 @@ msgstr "C5 top"
 #: ../../assembling/mainunit.rst:98 fa0f0753985e477b9dc00e9cef2b8fcb
 #, fuzzy
 msgid "rot, 3.7V"
-msgstr "red, 3.7V"
+msgstr "Red, 3.7V"
 
 #: ../../assembling/mainunit.rst:98 ../../assembling/mainunit.rst:100
 #: 3192eba94fe34e128e58878a0045cfd6 f964a2660a03429181a2a6a7f34542fa
@@ -456,7 +456,7 @@ msgstr "C5 below"
 #: c1f1c926c37543739dcec5561a418f5c f6ee0064c14b4bd9a122a816060a1d1f
 #, fuzzy
 msgid "schwarz"
-msgstr "black"
+msgstr "Black"
 
 #: ../../assembling/mainunit.rst:102 bc4f49bb6f654709b7a8a41e79ba06fb
 #, fuzzy
@@ -476,7 +476,7 @@ msgstr "R2 links"
 #: ../../assembling/mainunit.rst:104 87cb44e9778441608cc1164fe099e5b9
 #, fuzzy
 msgid "weiß, D-"
-msgstr "white, D-"
+msgstr "White, D-"
 
 #: ../../assembling/mainunit.rst:106 522d5275ee8d4eceb8765b260ac70e95
 #, fuzzy
@@ -486,7 +486,7 @@ msgstr "U1 Pin 5"
 #: ../../assembling/mainunit.rst:106 c4c619da76954ae2a281ea3518ca58d2
 #, fuzzy
 msgid "gelb, D+"
-msgstr "gelb, D+"
+msgstr "Gelb, D+"
 
 #: ../../assembling/mainunit.rst:108 e51061e0972f41a893f31319a6a83e65
 #, fuzzy
@@ -496,7 +496,7 @@ msgstr "C4 right"
 #: ../../assembling/mainunit.rst:110 af755a8cd6e04273968bdc65d4645c66
 #, fuzzy
 msgid "rot"
-msgstr "rot"
+msgstr "Rot"
 
 #: ../../assembling/mainunit.rst:110 ../../assembling/mainunit.rst:112
 #: ../../assembling/mainunit.rst:114 2d9d2dfd926d4ba881675c1e302dfa63
@@ -513,7 +513,7 @@ msgstr "IO3"
 #: ../../assembling/mainunit.rst:112 9cf5d2ef49b542a5be3ea7930313066b
 #, fuzzy
 msgid "grün"
-msgstr "green"
+msgstr "Green"
 
 #: ../../assembling/mainunit.rst:114 3677b03513af4d78ab81baacd52ffc6d
 #, fuzzy

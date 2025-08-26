@@ -116,7 +116,7 @@ msgstr "Fig.: Board pin assignment"
 #: ../../programming/webflashtool.rst:26 1b3213cf48374f66bed2f13354051369
 #, fuzzy
 msgid "**2. Flashtool starten**"
-msgstr "**2. Launch Flashtool**"
+msgstr "**2. Start Flashtool**"
 
 #: ../../programming/webflashtool.rst:28 55f9fd967d21474d8f98300770aa4066
 #, fuzzy

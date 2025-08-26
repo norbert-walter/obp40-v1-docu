@@ -23,7 +23,7 @@ msgstr ""
 #: ../../help/cooperation.rst:2 ae8e670098fa4ad280c75137b78ab792
 #, fuzzy
 msgid "Mitarbeit"
-msgstr "cooperation"
+msgstr "Cooperation"
 
 #: ../../help/cooperation.rst:4 ca3c1bbbeeb6407889b89163bc78e72c
 #, fuzzy
@@ -37,12 +37,12 @@ msgstr ""
 #: ../../help/cooperation.rst:6 70c12673f1334fd6a6bfd7fcde1e4f45
 #, fuzzy
 msgid "https://www.segeln-forum.de/board/195-open-boat-projects-org/"
-msgstr "https://www.segeln-forum.de/board/195-open-boat-projects-org/"
+msgstr "Https://www.segeln-forum.de/board/195-open-boat-projects-org/"
 
 #: ../../help/cooperation.rst:7 6912d10bb2e546988099d20844d94b5f
 #, fuzzy
 msgid "https://open-boat-projects.org"
-msgstr "https://open-boat-projects.org"
+msgstr "Https://open-boat-projects.org"
 
 #: ../../help/cooperation.rst:9 b947bf822aa14f54ab81d433d7598b30
 #, fuzzy
@@ -93,7 +93,7 @@ msgstr "Translations"
 #: ../../help/cooperation.rst:18 d394b6a77a594594b70e3b5ef60e0b8e
 #, fuzzy
 msgid "Korrekturen"
-msgstr "corrections"
+msgstr "Corrections"
 
 #: ../../help/cooperation.rst:19 b7fe6655ce444ca1955df72141817d0a
 #, fuzzy

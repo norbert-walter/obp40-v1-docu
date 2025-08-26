@@ -186,7 +186,7 @@ msgstr "Only with a fork is it possible to save your own code changes."
 #: 1c0dec676f2e4e229760ee8f2fe66b48 8b7f55667ea04ce280a80684130cb5a5
 #, fuzzy
 msgid "Abb.: Fork erstellen"
-msgstr "Fig.: Create fork"
+msgstr "Fig.: Create a fork"
 
 #: ../../programming/activating.rst:44 19d7686055004abf8c88de34424e2ef8
 #, fuzzy
@@ -207,7 +207,7 @@ msgstr ""
 #: ../../programming/activating.rst:48 d6225f67129d484ab6110fb67c6f6b8f
 #, fuzzy
 msgid "``https://github.com/MyAccountName/esp32-nmea2000-obp60/tree/master``"
-msgstr "``https://github.com/MyAccountName/esp32-nmea2000-obp60/tree/master``"
+msgstr "``Https://github.com/MyAccountName/esp32-nmea2000-obp60/tree/master``"
 
 #: ../../programming/activating.rst:50 e5a84889565645de8de30aed45320c6d
 #, fuzzy
@@ -235,7 +235,7 @@ msgid ""
 "``https://gitpod.io/#https://github.com/norbert-"
 "walter/esp32-nmea2000-obp60/tree/master``"
 msgstr ""
-"``https://gitpod.io/#https://github.com/norbert-"
+"``Https://gitpod.io/#https://github.com/norbert-"
 "walter/esp32-nmea2000-obp60/tree/master``"
 
 #: ../../programming/activating.rst:61 c6c4d5b86423426b942dcbecdd71be03
@@ -356,19 +356,19 @@ msgstr ""
 #: ../../programming/activating.rst:94 a5865ea5b4bb4efab4de10b4afb79984
 #, fuzzy
 msgid "``cd /workspace/esp32-nmea2000-obp60``"
-msgstr "``cd /workspace/esp32-nmea2000-obp60``"
+msgstr "``Cd /workspace/esp32-nmea2000-obp60``"
 
 #: ../../programming/activating.rst:95 01e1c597156a4f97927f51645524437a
 #, fuzzy
 msgid ""
 "``bash /workspace/esp32-nmea2000-obp60/lib/obp60task/run_install_tools``"
 msgstr ""
-"``bash /workspace/esp32-nmea2000-obp60/lib/obp60task/run_install_tools``"
+"``Bash /workspace/esp32-nmea2000-obp60/lib/obp60task/run_install_tools``"
 
 #: ../../programming/activating.rst:96 b9755d2e3b504917a3abaa1a0d0c05f8
 #, fuzzy
 msgid "``bash /workspace/esp32-nmea2000-obp60/lib/obp60task/run_obp40_s3``"
-msgstr "``bash /workspace/esp32-nmea2000-obp60/lib/obp60task/run_obp40_s3``"
+msgstr "``Bash /workspace/esp32-nmea2000-obp60/lib/obp60task/run_obp40_s3``"
 
 #: ../../programming/activating.rst:98 538ac46f25234e81bfd38d79ead5bc30
 #, fuzzy
@@ -437,24 +437,24 @@ msgstr "The files have the following meaning:"
 #: 719d774239504e2ea8813343dc85f501 801dcdfe00bb48b68b4f05ff48d49f10
 #, fuzzy
 msgid "bootloader.bin - ESP32-S3 Bootloader für Firmware"
-msgstr "bootloader.bin - ESP32-S3 bootloader for firmware"
+msgstr "Bootloader.bin - ESP32-S3 bootloader for firmware"
 
 #: ../../programming/activating.rst:124 a2019e5cfeb74742969484790fac17a0
 #, fuzzy
 msgid "partitions.bin - Partitionstabelle für den Flash Speicher"
-msgstr "partitions.bin - Partition table for the flash memory"
+msgstr "Partitions.bin - Partition table for the flash memory"
 
 #: ../../programming/activating.rst:125 ../../programming/activating.rst:234
 #: 6192435cd7684c34ae3d80663395d204 85f13b6965404a858838491ce8c3b2a1
 #, fuzzy
 msgid "firmware.bin - Binärfile als Update (nur Firmware)"
-msgstr "firmware.bin - Binary file as update (firmware only)"
+msgstr "Firmware.bin - Binary file as update (firmware only)"
 
 #: ../../programming/activating.rst:126 ../../programming/activating.rst:235
 #: 8a4a9437565143aaa83d30918c238c08 e19c394a76ec44b1804218dba50068c8
 #, fuzzy
 msgid "firmware.elf - ELF-File für Fehlerverfolgung"
-msgstr "firmware.elf - ELF file for bug tracking"
+msgstr "Firmware.elf - ELF file for bug tracking"
 
 #: ../../programming/activating.rst:127 ../../programming/activating.rst:236
 #: bcaa5079cfb5489d896c873699e739e9 d8ffe4be08ea473bb36382a1dc15d801
@@ -463,14 +463,14 @@ msgid ""
 "obp40_s3-all.bin - Binärfile mit allen Bestandteilen (Bootloader, "
 "Partitionstabelle, Firmware, Default-Settings)"
 msgstr ""
-"obp40_s3-all.bin - Binary file with all components (bootloader, partition "
+"Obp40_s3-all.bin - Binary file with all components (bootloader, partition "
 "table, firmware, default settings)"
 
 #: ../../programming/activating.rst:128 ../../programming/activating.rst:237
 #: 4af9e23b87d84f9699ca95f34f90f2ec bfeae3f0e6ea40baae866ffd0b98c911
 #, fuzzy
 msgid "**obp40_s3-dev20240820-all.bin** - wie obp40_s3-all.bin"
-msgstr "**obp40_s3-dev20240820-all.bin** - like obp40_s3-all.bin"
+msgstr "**Obp40_s3-dev20240820-all.bin** - like obp40_s3-all.bin"
 
 #: ../../programming/activating.rst:129 ../../programming/activating.rst:238
 #: c58e5c806d8b4fcc9714dea6e7bd6ab0 f9708da9264a4bceb560011e43bed77a
@@ -478,7 +478,7 @@ msgstr "**obp40_s3-dev20240820-all.bin** - like obp40_s3-all.bin"
 msgid ""
 "**obp40_s3-dev20240820-update.bin** - Binärfile als Update (nur Firmware)"
 msgstr ""
-"**obp40_s3-dev20240820-update.bin** - Binary file as update (firmware only)"
+"**Obp40_s3-dev20240820-update.bin** - Binary file as update (firmware only)"
 
 #: ../../programming/activating.rst:131 f52cfd6bb5eb48299a04882ec08ec10d
 #, fuzzy
@@ -656,7 +656,7 @@ msgstr ""
 #: ../../programming/activating.rst:180 0f7d7893a6a84561bd9aedb50be9be47
 #, fuzzy
 msgid "``https://github.com/MyAccountName/esp32-nmea2000-obp60``"
-msgstr "``https://github.com/MyAccountName/esp32-nmea2000-obp60``"
+msgstr "``Https://github.com/MyAccountName/esp32-nmea2000-obp60``"
 
 #: ../../programming/activating.rst:182 97f1ed736c674df096361fc0acb26c07
 #, fuzzy
@@ -806,7 +806,7 @@ msgstr "The files have the following meaning:"
 #: ../../programming/activating.rst:233 0704a7039819426e9b62cc44606e40fa
 #, fuzzy
 msgid "partitions.bin - Partitionstabelle für den Flash-Speicher"
-msgstr "partitions.bin - Partition table for the flash memory"
+msgstr "Partitions.bin - Partition table for the flash memory"
 
 #: ../../programming/activating.rst:241 a86b9fc0847b4a2bb9374d54b05d59ec
 #, fuzzy
