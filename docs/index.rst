@@ -7,6 +7,10 @@ Letzte Aktualisierung |today|
     :target: https://obp40-v1-docu.readthedocs.io/de/latest/?badge=latest
     :alt: Documentation Status
 
+Frage `ChatGPT`_ über diese Seite
+
+.. _ChatGPT: https://chat.openai.com/?q=Lese%20https://obp60-v2-docu.readthedocs.io/en/latest/index.html%20und%20beantworte%20Fragen%20zum%20Inhalt.
+
 .. note::
    Diese Seiten sind noch in Bearbeitung.
 

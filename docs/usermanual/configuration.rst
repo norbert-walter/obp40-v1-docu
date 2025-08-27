@@ -969,10 +969,10 @@ Abb.: Anzeige Clock
 
 Bei der Clock-Anzeige werden die Uhrzeit, das Datum, die Sonnenaufgangszeit und die Sonnenuntergangszeit angezeigt. Die Anzeigewerte werden primär aus den GPS-Daten gewonnen. Die Auf- und Untergangszeit der Sonne wird abhängig vom geografischen Ort berechnet und entspricht der astronomischen Sonnenaufgangs- und Untergangszeit. Als Zeitanzeige kann die globale Weltzeit **UTC** oder die lokale Ortszeit **LOT** angezeigt werden. Die Auswahl der Zeitzone kann über die Konfigurationsseite **Config - OBP Settings** eingestellt werden.
 
-Die Einstellung der Uhrzeit erfolgt automatisch über die GPS-Zeit. Stellen Sie vor der Benutzung des OBP40 sicher, dass ein GPS-Empfang möglich ist, damit sich die Zeit einstellen kann. In regelmäßigen Abständen wird die RTC-Zeit mit der GPS-Zeit synchronisiert, so dass Sie auch über Zeitinformationen verfügen, wenn kein GPS-Empfang möglich ist.
+Die Einstellung der Uhrzeit erfolgt automatisch über die GPS-Zeit. Die GPS-Zeit muss extern über NMEA0183-Telegramme bereitgestellt werden oder ein GPS-Empfänger mit dem OBP40 verbunden werden. Stellen Sie vor der Benutzung des OBP40 sicher, dass ein GPS-Empfang möglich ist, damit sich die Zeit einstellen kann. Das OBP40 verfügt über keine RTC. Nach dem Ausschalten des Gerätes wird die Uhrezeit nicht im Gerät gespeichert und geht verloren. Nach dem Einschalten benötigt das Gerät eine Gewisse Zeit bis sich das System mit einer externen Zeitquelle synchronisiert hat.
 
 .. note::
-	Stehen keine GPS-Daten zur Verfügung, so wird die Zeit und das Datum aus der RTC benutzt. In dem Fall stehen keine Sonnenaufgangszeit und Sonnenuntergangszeit zur Verfügung, da die geografischen Ortsdaten fehlen.
+	Stehen keine GPS-Daten zur Verfügung, so wird keine Zeit angezeigt. In dem Fall stehen keine Sonnenaufgangszeit und Sonnenuntergangszeit nicht zur Verfügung.
 	
 Die Anzeigeseite benötigt folgende Messwerte: **GPST, GPSD**
 
