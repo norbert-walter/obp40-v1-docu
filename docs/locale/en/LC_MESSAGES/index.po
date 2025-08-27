@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OBP40 V1 Dokumentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-21 12:25+0000\n"
+"POT-Creation-Date: 2025-08-27 08:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -20,177 +20,182 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../index.rst:22
+#: ../../index.rst:26
 #, fuzzy
 msgid "Technische Daten"
 msgstr "Technical data"
 
-#: ../../index.rst:22
+#: ../../index.rst:26
 #, fuzzy
 msgid "Einführung"
 msgstr "Introduction"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Funktionsweise"
 msgstr "How it works"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Bedienelemente"
 msgstr "Controls"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Inbetriebnahme"
 msgstr "Commissioning"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Konfiguration"
 msgstr "Configuration"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Bussysteme"
 msgstr "Bus systems"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Datenaustausch"
 msgstr "Data exchange"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Erweiterte Sensorik"
 msgstr "Advanced sensor technology"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Beispielkonfiguration"
 msgstr "Example configuration"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Sicherheitshinweise"
 msgstr "Safety instructions"
 
-#: ../../index.rst:29
+#: ../../index.rst:33
 #, fuzzy
 msgid "Bedienung"
 msgstr "Operation"
 
-#: ../../index.rst:44
+#: ../../index.rst:48
 #, fuzzy
 msgid "Geräteaufbau"
 msgstr "Device structure"
 
-#: ../../index.rst:44
+#: ../../index.rst:48
 #, fuzzy
 msgid "Montage OBP40"
 msgstr "Montage OBP40"
 
-#: ../../index.rst:44
+#: ../../index.rst:48
 #, fuzzy
 msgid "Montage Docking Station"
 msgstr "Montage Docking Station"
 
-#: ../../index.rst:44
+#: ../../index.rst:48
 #, fuzzy
 msgid "Zusammenbau"
 msgstr "Assembly"
 
-#: ../../index.rst:54
+#: ../../index.rst:58
 #, fuzzy
 msgid "Programmierumgebung"
 msgstr "Programming environment"
 
-#: ../../index.rst:54
+#: ../../index.rst:58
 #, fuzzy
 msgid "Seitenerstellung"
 msgstr "Page creation"
 
-#: ../../index.rst:54
+#: ../../index.rst:58
 #, fuzzy
 msgid "Kompilieren und Download"
 msgstr "Compile and download"
 
-#: ../../index.rst:54
+#: ../../index.rst:58
 #, fuzzy
 msgid "Web-Flashtool"
 msgstr "Web-Flashtool"
 
-#: ../../index.rst:54
+#: ../../index.rst:58
 #, fuzzy
 msgid "Programmierung"
 msgstr "Programming"
 
-#: ../../index.rst:64
+#: ../../index.rst:68
 #, fuzzy
 msgid "Fragen und Antworten"
 msgstr "Questions and answers"
 
-#: ../../index.rst:64
+#: ../../index.rst:68
 #, fuzzy
 msgid "Meinungen und Tipps"
 msgstr "Opinions and tips"
 
-#: ../../index.rst:64
+#: ../../index.rst:68
 #, fuzzy
 msgid "Bekannte Fehler"
 msgstr "Known bugs"
 
-#: ../../index.rst:64
+#: ../../index.rst:68
 #, fuzzy
 msgid "Technische Unterstützung"
 msgstr "Technical support"
 
-#: ../../index.rst:64
+#: ../../index.rst:68
 #, fuzzy
 msgid "Service"
 msgstr "Service"
 
-#: ../../index.rst:64
+#: ../../index.rst:68
 #, fuzzy
 msgid "Mitarbeit"
 msgstr "Cooperation"
 
-#: ../../index.rst:64
+#: ../../index.rst:68
 #, fuzzy
 msgid "Spenden"
 msgstr "Donate"
 
-#: ../../index.rst:64
+#: ../../index.rst:68
 #, fuzzy
 msgid "Glossar"
 msgstr "Glossary"
 
-#: ../../index.rst:64
+#: ../../index.rst:68
 #, fuzzy
 msgid "Hilfe"
 msgstr "Help"
 
-#: ../../index.rst:3 7219cd4db8364b3787254dc1f2462909
+#: ../../index.rst:3 0a162529373d4a369c1162081c99dd74
 #, fuzzy
 msgid "OBP40 V1 Dokumentation"
 msgstr "OBP40 V1 Documentation"
 
-#: ../../index.rst:4 1e52ce4633b14647bf3d84c68860c104
+#: ../../index.rst:4 d810584e8fc84855a450bff42f944727
 #, fuzzy
 msgid "Letzte Aktualisierung |today|"
 msgstr "Last updated |today|"
 
-#: ../../index.rst:6 6e80f897b1e54e31b3628699d5bcd276
+#: ../../index.rst:6 e6e1d029eab747469ef658be049dce32
 #, fuzzy
 msgid "Documentation Status"
 msgstr "Documentation Status"
 
-#: ../../index.rst:11 b6f54f7636144518a225589e7a721b63
+#: ../../index.rst:10 cf5f8405a9ce4fc792c9919ebaf42850
+#, fuzzy
+msgid "Frage `ChatGPT`_ über diese Seite"
+msgstr "Question `ChatGPT`_ about this page"
+
+#: ../../index.rst:15 e4dfc6fc628e41ab84cec04eebf4ab48
 #, fuzzy
 msgid "Diese Seiten sind noch in Bearbeitung."
 msgstr "These pages are still under construction."
 
-#: ../../index.rst:16 4bbd4bcf630f49759385da95d485ea40
+#: ../../index.rst:20 b6e2cb0d92f14228b81b28c52c3d3d39
 #, fuzzy
 msgid ""
 "Das Multifunktionsdisplay OBP40 basiert auf dem `Crow Panel 4.2`_ von "
