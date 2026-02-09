@@ -43,7 +43,7 @@ msgstr ""
 "the forum where such questions can be asked. You can communicate with us in "
 "German or English. Forum members who also use an OBP40 and have experience "
 "with it will answer you. The core development team for hardware and software"
-" can also be found there and will provide answers."
+" can also be found there and will provide you with answers."
 
 #: ../../help/support.rst:11 08ceffbf8db44abb8385832fdf7311c7
 #, fuzzy

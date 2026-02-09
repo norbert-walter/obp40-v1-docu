@@ -41,7 +41,7 @@ msgstr ""
 #: ../../usermanual/bussystems.rst:11 f6752a9657634a1198952d0c53b17c42
 #, fuzzy
 msgid "**NMEA2000** über CAN-Bus (erfordert Leitungstreiber)"
-msgstr "**NMEA2000** via CAN bus (requires line driver)"
+msgstr "**NMEA2000** via CAN bus (requires line drivers)"
 
 #: ../../usermanual/bussystems.rst:12 44ec982fbb5c4b3c9aec835141cae2fa
 #, fuzzy

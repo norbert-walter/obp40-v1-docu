@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OBP40 V1 Dokumentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-09 15:33+0000\n"
+"POT-Creation-Date: 2026-02-09 15:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -20,12 +20,12 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.18.0\n"
 
-#: ../../programming/activating.rst:4 3797f0d8e3e64e5e9d4d1e1bbc39813f
+#: ../../programming/activating.rst:4 171bd5dce9b3401696d6257cb45f42b4
 #, fuzzy
 msgid "Kompilieren und Download"
 msgstr "Compile and download"
 
-#: ../../programming/activating.rst:6 44703e5dd3a640d4ab8cbd003cfe2bb2
+#: ../../programming/activating.rst:6 2b44e408ca554b8aa274f46a79ab4b9c
 #, fuzzy
 msgid ""
 "Die Firmware zum OBP40 kann recht einfach an eigene Bedürfnisse angepasst "
@@ -42,17 +42,17 @@ msgstr ""
 "and macOS are supported operating systems. There are two methods for "
 "compiling the firmware."
 
-#: ../../programming/activating.rst:8 a889a7c281e740cc9fc86ceb2f28e063
+#: ../../programming/activating.rst:8 ba36a1e2fafc4e1eac4841bb08ec2553
 #, fuzzy
 msgid "Verwendung von **Github Codespaces** (webbasiert in Cloud)"
 msgstr "Using **Github Codespaces** (web-based in the cloud)"
 
-#: ../../programming/activating.rst:9 5399a812e9c7477eb99f81533ecaa94b
+#: ../../programming/activating.rst:9 11c9993e0b6c4f1eafdc70887b31fc56
 #, fuzzy
 msgid "**Visual Studio Code** mit **PlatformIO** Plugin (lokal auf dem PC)"
 msgstr "**Visual Studio Code** with **PlatformIO** plugin (local on the PC)"
 
-#: ../../programming/activating.rst:12 5b6c62e0a93c44ee87951bab9cc8ac70
+#: ../../programming/activating.rst:12 c1bd0572e6ba492bac316c1ec3707c81
 #, fuzzy
 msgid ""
 "Die Arduino IDE wird nicht als Programmier-Entwicklungsumgebung verwendet, "
@@ -66,12 +66,12 @@ msgstr ""
 "referencing function. Necessary toolchains and libraries are linked in the "
 "correct version in PlatformIO, enabling error-free compilation."
 
-#: ../../programming/activating.rst:15 ba12f3339e834e0e8c1fbed9e511f5ad
+#: ../../programming/activating.rst:15 e72e9ea0010d4933b7411aa8df0865d6
 #, fuzzy
 msgid "Github Codespaces"
 msgstr "GitHub Codespaces"
 
-#: ../../programming/activating.rst:17 813a75b128594711bb81dc4c3ac50ca2
+#: ../../programming/activating.rst:17 91f5c21c422e4eb4a475e39eb71b9f0c
 #, fuzzy
 msgid ""
 "Github Codespaces ist eine standartisierte Entwicklungsumgebung, die "
@@ -107,45 +107,45 @@ msgstr ""
 "Codespaces' paid service. Further details can be found on the `Webseite von "
 "Github Codespaces`_."
 
-#: ../../programming/activating.rst:22 4bec65996fcd406087e35eaca1ea0139
+#: ../../programming/activating.rst:22 13044820bb0f41c9aa034fcaa5bf6f39
 #, fuzzy
 msgid "**Der Workflow bei Github Codespaces sieht folgendermaßen aus:**"
 msgstr "**The workflow at Github Codespaces looks like this:**"
 
-#: ../../programming/activating.rst:24 094988a827e7476e8e2c733ef4492136
+#: ../../programming/activating.rst:24 b68bbcc738264188a921d8b2996e5d6d
 #, fuzzy
 msgid "OBP60-Github-Projekt in eigenes Github-Repository forken"
 msgstr "Fork the OBP60 GitHub project into its own GitHub repository"
 
-#: ../../programming/activating.rst:25 c3bfb2f0f9ab42e3b97105a916234bc0
+#: ../../programming/activating.rst:25 7f3d1c67ef824306971dcb0d09c26c45
 #, fuzzy
 msgid "Github Codespaces-Link zum Projekt öffnen"
 msgstr "Open the GitHub Codespaces link to the project"
 
 #: ../../programming/activating.rst:26 ../../programming/activating.rst:147
-#: f5731384df854ed0b3d21c8247f19abc fd154cd9ea8b4faf888fcc7e2c4c0e40
+#: dc8831ad50994a6694f6fc14cd7b8e5f ebfa4683ebef476687d62f72470eaff5
 #, fuzzy
 msgid "Source-Code in der Entwicklungsumgebung ändern und kompilieren"
 msgstr "Modify and compile source code in the development environment"
 
-#: ../../programming/activating.rst:27 d83638b727ff429ca2cd64c1665202c8
+#: ../../programming/activating.rst:27 385b9cec81094f65881c2f2de6feab49
 #, fuzzy
 msgid "Download des Binary-Files"
 msgstr "Download des Binary-Files"
 
 #: ../../programming/activating.rst:28 ../../programming/activating.rst:150
-#: 284b093524924ed4b0357233d453ae85 d0f0a28e5f8c477ea82064036e0c2f3b
+#: b12c4eaf3ab1443f9d6b542285884321 c828e56bbaa54c539326241530a74ce5
 #, fuzzy
 msgid "Aktualisierung der Änderungen im eigenen Github-Repository"
 msgstr "Update the changes in your own GitHub repository"
 
 #: ../../programming/activating.rst:32 ../../programming/activating.rst:153
-#: c57a7a6cbb774af195be2cdae5b33057 e673ac7f545d4362ad2baa1081d0c562
+#: c5394be345e24b988b164d01cc30f80d d90160b0b45044f3b555eea63c381a18
 #, fuzzy
 msgid "Github-Projekt forken"
 msgstr "Github project forking"
 
-#: ../../programming/activating.rst:34 ffbbb2001e6a4b96b9273758d4db5c78
+#: ../../programming/activating.rst:34 a0ded6b18eb04ad1b6963c7d26f22991
 #, fuzzy
 msgid ""
 "Als erstes wird das Original-Projekt zum OBP60 in das eigene private "
@@ -164,18 +164,18 @@ msgstr ""
 "modification of the original project."
 
 #: ../../programming/activating.rst:37 ../../programming/activating.rst:158
-#: 8e49f0973abb47d6b3dfe698998e37e9 d86e5ba3f0c64e0aa50e0cf51c3e96df
+#: 15a516cf2df54d9d8ce380178243f718 38522cdc8495417099b7fad24a764a49
 #, fuzzy
 msgid "Nur mit einem Fork ist es möglich, eigene Code-Änderungen zu sichern."
 msgstr "Only by creating a fork is it possible to save your own code changes."
 
 #: ../../programming/activating.rst:41 ../../programming/activating.rst:162
-#: 3d45b89db327429898b7303dd8a9cc08 e59ba8e4dab843d4964461c613d28194
+#: 341cab4030dc492e96fbf34496d7d212 831273779ff8408facc36722ca992ac5
 #, fuzzy
 msgid "Abb.: Fork erstellen"
 msgstr "Fig.: Creating a fork"
 
-#: ../../programming/activating.rst:43 6fb1887ad4254379944106d0ac1e8f07
+#: ../../programming/activating.rst:43 b76cc8f9586547f59b3a58513fdf0e43
 #, fuzzy
 msgid ""
 "Melden Sie sich als erstes bei Github an und gehen dann in das `Original-"
@@ -191,24 +191,24 @@ msgstr ""
 " original project name. Next, copy the link to your GitHub project from the "
 "browser's address bar. You should then have a link similar to this:"
 
-#: ../../programming/activating.rst:45 642a2162e04f401d8e75703798eeb8e7
+#: ../../programming/activating.rst:45 bb1ce1dd1755429387dc1c17278c0485
 #, fuzzy
 msgid "``https://github.com/MyAccountName/esp32-nmea2000-obp60/tree/master``"
 msgstr "``Https://github.com/MyAccountName/esp32-nmea2000-obp60/tree/master``"
 
-#: ../../programming/activating.rst:47 edafb7e008484991bd772b6929375732
+#: ../../programming/activating.rst:47 153cc8a3627f4a479775095e592a2033
 #, fuzzy
 msgid ""
 "Der Part ``MyAccountName`` wird durch ihren eigenen Accountnamen ersetzt."
 msgstr ""
 "The part ``MyAccountName`` will be replaced by their own account name."
 
-#: ../../programming/activating.rst:51 0c1bc1a5dd374971962ee8780a26a150
+#: ../../programming/activating.rst:51 4195e6dd78cb440091aea6ca87d4c1b7
 #, fuzzy
 msgid "Github Codespaces-Link öffnen"
 msgstr "Open GitHub Codespaces link"
 
-#: ../../programming/activating.rst:53 1de2cd91796947d0b28dafcc1427d61e
+#: ../../programming/activating.rst:53 670c91c8f4fc49cd863322ca60d0e8f2
 #, fuzzy
 msgid ""
 "Das Github Codespaces -Projekt wird von der  Repository-Seite des eigenen "
@@ -219,17 +219,17 @@ msgstr ""
 "own GitHub project via the button **Code -> Codespaces -> Create "
 "codespace**:"
 
-#: ../../programming/activating.rst:58 f6173587f2b6436ba8e5fd47b945472a
+#: ../../programming/activating.rst:58 f3e6ae5787b6445d8e18efa6fe5c0cba
 #, fuzzy
 msgid "Sie gelangen dann auf die Startseite von Github Codespaces."
 msgstr "You will then be taken to the Github Codespaces homepage."
 
-#: ../../programming/activating.rst:62 5c510c5824534ac296c3ce48ad2a6207
+#: ../../programming/activating.rst:62 14cf5c0c9ed84458913c8ef090c7c1f6
 #, fuzzy
 msgid "Container-Start"
 msgstr "Container-Start"
 
-#: ../../programming/activating.rst:64 52eb76508fdc46ea8e00518fc8537ce7
+#: ../../programming/activating.rst:64 a70954da75b1438fbc440fce819e8603
 #, fuzzy
 msgid ""
 "Beim Starten von Github Codespaces wird ein neuer Docker-Container "
@@ -248,18 +248,18 @@ msgstr ""
 "from within the workspace. Downloading the binary to the target hardware "
 "requires external tools."
 
-#: ../../programming/activating.rst:68 456da3118fc2479f916d008f02ffa5ac
+#: ../../programming/activating.rst:68 62ab764ea82c4fc38a716542ec3f8375
 #, fuzzy
 msgid "Abb.: Fertiger Workplace"
 msgstr "Fig.: Finished Workplace"
 
 #: ../../programming/activating.rst:71 ../../programming/activating.rst:206
-#: a33276a1a2694dd0aee3e4e7ffdbb6e0 d18e907ac364463d804ac12625f415cb
+#: 4f2f774415d640a4a680eeee1b114b14 d80446256f84477690c078d16d738690
 #, fuzzy
 msgid "Codeänderung und Kompilieren"
 msgstr "Code modification and compilation"
 
-#: ../../programming/activating.rst:73 9ee19c5b378d4f1c980e7f38589ffc16
+#: ../../programming/activating.rst:73 649656fd50e44031a273ce861e8e8c97
 #, fuzzy
 msgid ""
 "Der Code zum OBP40 befindet sich im Ordner: "
@@ -272,7 +272,7 @@ msgstr ""
 "*platformio.ini*, some hardware adjustments can be made for the ESP32-S3 "
 "variant and the e-paper display."
 
-#: ../../programming/activating.rst:75 a24a1fec75c245e6be7b5167dc406bff
+#: ../../programming/activating.rst:75 58c13d388222462fb31fd256bf4b51c6
 #, fuzzy
 msgid ""
 "Um den Code kompilieren zu können, müssen Sie folgende Befehle nacheinander "
@@ -283,24 +283,24 @@ msgstr ""
 "other into the terminal window in the bottom right corner. You can use the "
 "copy and paste function for this."
 
-#: ../../programming/activating.rst:77 05ec4e4d26544f8ba37e812bbb078249
+#: ../../programming/activating.rst:77 51f6176790e3441e9fcbff4fbb3b5512
 #, fuzzy
 msgid "``cd /workspaces/esp32-nmea2000-obp60``"
 msgstr "``Cd /workspaces/esp32-nmea2000-obp60``"
 
-#: ../../programming/activating.rst:78 8799475ce8ee46da9fd57ed8fece7e7a
+#: ../../programming/activating.rst:78 8ffb3fa6127d4a66b70b3ddd114c985c
 #, fuzzy
 msgid ""
 "``bash /workspaces/esp32-nmea2000-obp60/lib/obp60task/run_install_tools``"
 msgstr ""
 "``Bash /workspaces/esp32-nmea2000-obp60/lib/obp60task/run_install_tools``"
 
-#: ../../programming/activating.rst:79 f422021a263d407da1d94e32f653e9a7
+#: ../../programming/activating.rst:79 442eb5ec3dce44bc9d6ece41bc0cef5f
 #, fuzzy
 msgid "``bash /workspaces/esp32-nmea2000-obp60/lib/obp60task/run_obp40_s3``"
 msgstr "``Bash /workspaces/esp32-nmea2000-obp60/lib/obp60task/run_obp40_s3``"
 
-#: ../../programming/activating.rst:81 18c364fdd3b34bb19db931c8aaabd1d8
+#: ../../programming/activating.rst:81 be18644704684a4f8ac52293f69ae489
 #, fuzzy
 msgid ""
 "Nach dem zweiten Befehl werden alle notwendigen Tool-Chains und Bibliotheken"
@@ -315,12 +315,12 @@ msgstr ""
 "time. If you later modify the code and want to recompile, simply use the "
 "last command again."
 
-#: ../../programming/activating.rst:85 d0acd32d54ab40e9a0bad873d79a79e4
+#: ../../programming/activating.rst:85 53cc98f1c6cf49a3b7da719a67cca13a
 #, fuzzy
 msgid "Abb.: Source-Code kompilieren"
 msgstr "Fig.: Compiling source code"
 
-#: ../../programming/activating.rst:87 039170baf0da49718acb06602d9c35bd
+#: ../../programming/activating.rst:87 5ec559af39e74c7399828e3c47df95d0
 #, fuzzy
 msgid ""
 "Wenn der Kompiliervorgang erfolgreich abgeschlossen ist, sollten Sie die "
@@ -329,17 +329,17 @@ msgstr ""
 "If the compilation process is successful, you should see the following "
 "message:"
 
-#: ../../programming/activating.rst:91 634c5a762db14a3a9e257a6e5633e8d0
+#: ../../programming/activating.rst:91 42ce2abef5354df7a03b7221e5c9a8c0
 #, fuzzy
 msgid "Abb.: Kompilierung beendet"
 msgstr "Fig.: Compilation complete"
 
-#: ../../programming/activating.rst:94 ef77f60c52be46a0b2cd081b2ee45e0d
+#: ../../programming/activating.rst:94 36b3b3b9d8db4ff9a5afd56394d87540
 #, fuzzy
 msgid "Binary-Download"
 msgstr "Binary-Download"
 
-#: ../../programming/activating.rst:96 d24b07ab567d418ead90c9c851d0c4d7
+#: ../../programming/activating.rst:96 0c86dfb6e92b4001a015a687cc9b842b
 #, fuzzy
 msgid ""
 "Der Binary-Code zur Firmware befindet sich nach dem Kompilieren im "
@@ -348,57 +348,57 @@ msgstr ""
 "The binary code for the firmware is located in the following directory after"
 " compilation:"
 
-#: ../../programming/activating.rst:98 e843e85a06014f74aa345a1d0e2d33b9
+#: ../../programming/activating.rst:98 b1d4664f1e9246cda0a0e2dd00d8375a
 #, fuzzy
 msgid "*/ESP32-NMEA2000-OBP60/.pio/build/obp40_s3* (für OBP40)"
 msgstr "*/ESP32-NMEA2000-OBP60/.pio/build/obp40_s3* (for OBP40)"
 
-#: ../../programming/activating.rst:102 38bae2fa85ec4fba885ff92a5e882381
+#: ../../programming/activating.rst:102 b2da7543b3144413836d2738ed3988ce
 #, fuzzy
 msgid "Abb.: Datei-Download"
 msgstr "Image: File download"
 
-#: ../../programming/activating.rst:105 8e83e8924ace4695a81858ebaa3e5cbb
+#: ../../programming/activating.rst:105 a82ab0f5705b4b1582c3c59345e2544d
 #, fuzzy
 msgid ""
-"Falls sie nur 'Einfügen' im Auswahlmenü sehen und 'Herunterladen' vermissen,"
-" drücken Sie einfach auf 'Einfügen'. Sie erhalten dann das vollständige Menü"
-" mit allen Auswhlmöglichkeiten."
+"Falls sie nur ``Einfügen`` im Auswahlmenü sehen und ``Herunterladen`` "
+"vermissen, drücken Sie einfach auf ``Einfügen``. Sie erhalten dann das "
+"vollständige Menü mit allen Auswhlmöglichkeiten."
 msgstr ""
-"If you only see 'Insert' in the selection menu and 'Download' is missing, "
-"simply press 'Insert'. You will then see the full menu with all available "
-"options."
+"If you only see ``Einfügen`` in the selection menu and ``Herunterladen`` is "
+"missing, simply press ``Einfügen``. You will then get the full menu with all"
+" selection options."
 
-#: ../../programming/activating.rst:107 0a654f95e3494db6b9bb179f1eb7f285
+#: ../../programming/activating.rst:107 df0794e6c4c641a1b16776ba0c48c49b
 #, fuzzy
 msgid "Dabei haben die Files folgende Bedeutung:"
 msgstr "The files have the following meaning:"
 
 #: ../../programming/activating.rst:109 ../../programming/activating.rst:218
-#: 783fc8f2110d4f418e510159b4cef596 e8a016445f364e689360c0380e8cbff1
+#: 61d31c9ea3c94993913ee1985375f220 ddfeaa29859b48ecafda19cc3a1399cb
 #, fuzzy
 msgid "bootloader.bin - ESP32-S3 Bootloader für Firmware"
 msgstr "Bootloader.bin - ESP32-S3 Bootloader for Firmware"
 
-#: ../../programming/activating.rst:110 4b0b58fba700467fa4d00eac6317dfac
+#: ../../programming/activating.rst:110 1f497209210741fcab61dbadec90e4e3
 #, fuzzy
 msgid "partitions.bin - Partitionstabelle für den Flash Speicher"
-msgstr "Partitions.bin - Partition table for the flash memory"
+msgstr "Partitions.bin - Partition table for flash memory"
 
 #: ../../programming/activating.rst:111 ../../programming/activating.rst:220
-#: 43668040a39d422997e4e72a72ca00db d9990094abc64729b22911c87248f24f
+#: 440fde6286f6400aaaf61404e0ac2353 7ffae1b4eee047218c441e05dc37cc2d
 #, fuzzy
 msgid "firmware.bin - Binärfile als Update (nur Firmware)"
 msgstr "Firmware.bin - Binary file as an update (firmware only)"
 
 #: ../../programming/activating.rst:112 ../../programming/activating.rst:221
-#: 44bd9d57fbd848ce8802143e2dd3e43c 8be87efd65f3415eab3dbadaee2f57c4
+#: 02ea5034f90348838a6f2f4e93f94119 5446c2eb05d14379baa43542a50e8928
 #, fuzzy
 msgid "firmware.elf - ELF-File für Fehlerverfolgung"
 msgstr "Firmware.elf - ELF file for error tracking"
 
 #: ../../programming/activating.rst:113 ../../programming/activating.rst:222
-#: 4da1d36274a348da8ff4f6c826cdd382 dbe871e9d44e42628e0af185c2c8a169
+#: b99f4b18ae614e1284523073f6093e14 d8a769521d09475387817cc17dea1eb1
 #, fuzzy
 msgid ""
 "obp40_s3-all.bin - Binärfile mit allen Bestandteilen (Bootloader, "
@@ -408,20 +408,20 @@ msgstr ""
 "partition table, firmware, default settings)"
 
 #: ../../programming/activating.rst:114 ../../programming/activating.rst:223
-#: 58a192dc61e14d1fb90b455cc4268ebd 79eeb27b4578456b9c509dce8f23ec4e
+#: 44782086beef4c79b3e431ed99cb7e2f 7fc99b10ab03413d9e26ee3532c89892
 #, fuzzy
 msgid "**obp40_s3-dev20240820-all.bin** - wie obp40_s3-all.bin"
 msgstr "**Obp40_s3-dev20240820-all.bin** - like obp40_s3-all.bin"
 
 #: ../../programming/activating.rst:115 ../../programming/activating.rst:224
-#: 77d3fd350fbe4ca4ae0b994bd8cfb782 eabf43a4cf684bc9bf46e5295ae846b7
+#: 711d07a9ff444f84b298bb978dc83aef f781cb0046624b288cf401a0a7a1b216
 #, fuzzy
 msgid ""
 "**obp40_s3-dev20240820-update.bin** - Binärfile als Update (nur Firmware)"
 msgstr ""
 "**Obp40_s3-dev20240820-update.bin** - Binary file as update (firmware only)"
 
-#: ../../programming/activating.rst:117 204046457b52400ca78a37ccb19d4fe1
+#: ../../programming/activating.rst:117 a0079ff8f5e04603a4ab071d3c14dca5
 #, fuzzy
 msgid ""
 "Je nachdem, ob man mit Default-Einstellungen starten oder mit den alten "
@@ -441,12 +441,12 @@ msgstr ""
 "USB."
 
 #: ../../programming/activating.rst:120 ../../programming/activating.rst:255
-#: 696510d5715e49bab5aecd561bb4ad89 f19b6ffdb73242c68a63572b9fec0e49
+#: 7c037a26088242b48ebcfc569d302d25 8351b36f3426413c847cf9190989439c
 #, fuzzy
 msgid "Source-Code Aktualisierung"
 msgstr "Source code update"
 
-#: ../../programming/activating.rst:122 c46f8e709b374a319caeefd547dd485e
+#: ../../programming/activating.rst:122 9d09d8b24b59465b93676b2f6692c58e
 #, fuzzy
 msgid ""
 "Wer die Source-Code-Änderungen in seinem Github-Repository speichern möchte,"
@@ -471,28 +471,28 @@ msgstr ""
 "want to continue working where you left off, you can follow the steps from "
 "point 2 onwards and open the GitHub Codespaces link to your project."
 
-#: ../../programming/activating.rst:125 b79c01de18cc4a8999b561c0aa771214
+#: ../../programming/activating.rst:125 e45fdae1c6b8471d8ca3808ad022f70a
 #, fuzzy
 msgid ""
 "Nur mit einem Beschreibungstext zur Codeänderung können Sie die Änderungen "
 "committen und nach Github hochladen."
 msgstr ""
 "You can only commit and upload changes to Github if you include a "
-"description text for the code change."
+"description of the code change."
 
 #: ../../programming/activating.rst:129 ../../programming/activating.rst:264
-#: ../../programming/activating.rst:273 3e15e275040443f5927237fd062f9040
-#: 65d7f742de7145e88e5600e39fe5f8b8 6f41732ff26c4f3882cf3728b86ac382
+#: ../../programming/activating.rst:273 98f8b5bd6f334beab0e4934b9ef5306d
+#: c9c507b1ba2b4110ab52202d8605d0f3 fd22e03c25d642b9af0f39fb73cf851d
 #, fuzzy
 msgid "Abb.: Source Code auf Github sichern"
 msgstr "Fig.: Saving the source code to GitHub"
 
-#: ../../programming/activating.rst:132 72cc207952d54752923a95905e7568f8
+#: ../../programming/activating.rst:132 f7fc8fb5d9c04cf6934336890d3cd4c2
 #, fuzzy
 msgid "Visual Studio Code / PlatformIO"
 msgstr "Visual Studio Code / PlatformIO"
 
-#: ../../programming/activating.rst:134 7b706524fe6e4210a5f71252aa8b3649
+#: ../../programming/activating.rst:134 4e6f4d38c39b47cd960ef6f996fe3e87
 #, fuzzy
 msgid ""
 "**Visual Studio Code** (VSC) ist eine weit verbreitete Software-"
@@ -517,7 +517,7 @@ msgstr ""
 "software libraries are automatically added to a project based on the "
 "hardware board, eliminating the need to worry about the details."
 
-#: ../../programming/activating.rst:137 a0c67eb4a3d940a989a40307d5d9b5cd
+#: ../../programming/activating.rst:137 8eb80acac6c541a2bb084f469867c05d
 #, fuzzy
 msgid ""
 "Wer an einer Weiterentwicklung der Firmware zum OBP40 interessiert ist, "
@@ -529,43 +529,43 @@ msgstr ""
 " Studio Code / PlatformIO. Visual Studio Code has mechanisms that allow "
 "software changes to be implemented and tracked via GitHub."
 
-#: ../../programming/activating.rst:139 73ed38b4a8fd4b259d9a548e6ff101e4
+#: ../../programming/activating.rst:139 c83f7cf7d0234825a93cd0aa3705a2a6
 #, fuzzy
 msgid ""
 "Wie man Visual Studio Code installiert und danach das Plugin PlatformIO "
 "einrichtet, ist in dieser `Anleitung`_ beschrieben. Sie finden im Internet "
 "auch weitere Beschreibungen zu diesem Thema."
 msgstr ""
-"This document describes how to install Visual Studio Code and then set up "
-"the PlatformIO plugin. You can also find further descriptions on this topic "
-"online."
+"This document `Anleitung`_ describes how to install Visual Studio Code and "
+"then set up the PlatformIO plugin. You can also find further descriptions on"
+" this topic online."
 
-#: ../../programming/activating.rst:143 343a2ff8747947d6a0e87ca06f86ed03
+#: ../../programming/activating.rst:143 e959c293606e4e429cd568d7b5bfe046
 #, fuzzy
 msgid "**Der Workflow für Visual Studio Code sieht folgendermaßen aus:**"
 msgstr "**The workflow for Visual Studio Code looks like this:**"
 
-#: ../../programming/activating.rst:145 60825e57324a49e48d9794483ec74f93
+#: ../../programming/activating.rst:145 3e82055e105f4374958262563a7cacec
 #, fuzzy
 msgid "OBP40-Github-Projekt in eigenes Github-Repository forken"
 msgstr "Fork the OBP40 GitHub project into its own GitHub repository"
 
-#: ../../programming/activating.rst:146 46d13d5695714fa2b1303b05230b5fc4
+#: ../../programming/activating.rst:146 b9e6281979f7485485fdd657ed326395
 #, fuzzy
 msgid "Projekt in Visual Studio Code importieren"
 msgstr "Import project into Visual Studio Code"
 
-#: ../../programming/activating.rst:148 e7489ff5f9654468ab744ab63094c88b
+#: ../../programming/activating.rst:148 1460c11efac74d5ba6f2f046d54ee7ba
 #, fuzzy
 msgid "Flashen der Firmware auf die Zielhardware"
 msgstr "Flashing the firmware onto the target hardware"
 
-#: ../../programming/activating.rst:149 2b7a47460b3d42dd996ba1d09e340d43
+#: ../../programming/activating.rst:149 d5652d80850a4907912ab9e3938cddd3
 #, fuzzy
 msgid "Debuggen der Firmware über serielle USB-Verbindung"
 msgstr "Debugging the firmware via serial USB connection"
 
-#: ../../programming/activating.rst:155 9dfc90480332457db5b4cc0e8d76d1fd
+#: ../../programming/activating.rst:155 b776357fc73c47ff8f9d6a42c3d0a5e0
 #, fuzzy
 msgid ""
 "Als erstes wird das Original-Projekt zum OBP40 in das eigene private "
@@ -583,7 +583,7 @@ msgstr ""
 "save them in your repository. The resulting code is then an extension or "
 "modification of the original project."
 
-#: ../../programming/activating.rst:164 ebfcc3f763aa4ec5a8f3741e9ec42eb3
+#: ../../programming/activating.rst:164 fb38cab07d884e429571e4c713b72445
 #, fuzzy
 msgid ""
 "Melden Sie sich als erstes bei Github an, gehen dann in das `Original-"
@@ -599,23 +599,23 @@ msgstr ""
 "original project name. Next, copy the link to your GitHub project from the "
 "browser's address bar. You should then have a link similar to this:"
 
-#: ../../programming/activating.rst:166 914678433db840718b951d04bb216be5
+#: ../../programming/activating.rst:166 aa647213e19d4f15bb0a5dacc362075e
 #, fuzzy
 msgid "``https://github.com/MyAccountName/esp32-nmea2000-obp60``"
 msgstr "``Https://github.com/MyAccountName/esp32-nmea2000-obp60``"
 
-#: ../../programming/activating.rst:168 bf231272b5814b8b8c3010610616b67d
+#: ../../programming/activating.rst:168 7a8bf9cd79d54cceada278eb0491cc3f
 #, fuzzy
 msgid ""
 "Der Part ``MyAccountName`` wird durch Ihren eigenen Accountnamen ersetzt."
 msgstr "The part ``MyAccountName`` will be replaced by your own account name."
 
-#: ../../programming/activating.rst:171 034daaf5ccbf4805852c7f84acc15b91
+#: ../../programming/activating.rst:171 16f279adaeb3492fb45caaba37e775d9
 #, fuzzy
 msgid "Projekt in VSC importieren"
 msgstr "Import project into VSC"
 
-#: ../../programming/activating.rst:173 e45d5abbf5d84c68bab8e3769cb8d44d
+#: ../../programming/activating.rst:173 873de87cfe0345879cacecc60bf6e5f4
 #, fuzzy
 msgid ""
 "Zu Beginn finden Sie einen leeren Workplace vor. Drücken Sie auf den Button "
@@ -627,12 +627,12 @@ msgstr ""
 "button and enter the link to your GitHub project in the top line. Then click"
 " the **Clone from GitHub** line below."
 
-#: ../../programming/activating.rst:177 4b359710be774495ab81598eb089a397
+#: ../../programming/activating.rst:177 3075d2cc770a40159384e298e5acd912
 #, fuzzy
 msgid "Abb.: Projekt clonen"
 msgstr "Fig.: Cloning a project"
 
-#: ../../programming/activating.rst:179 d2b2b807d52d4c9a80e00a890c8f36f9
+#: ../../programming/activating.rst:179 c31edc9194c343a4a93652613030f543
 #, fuzzy
 msgid ""
 "Damit beginnt der Download des Projektes und im Workplace erscheint auf der "
@@ -649,12 +649,12 @@ msgstr ""
 "configuration file for the NMEA2000 gateway, which we don't need in this "
 "case."
 
-#: ../../programming/activating.rst:183 d4b35a7c6ede430b965af744b3da6d24
+#: ../../programming/activating.rst:183 ff058fe595724bb5be4924ade75dc415
 #, fuzzy
 msgid "Abb.: Konfigurationsdatei schließen"
 msgstr "Fig.: Close configuration file"
 
-#: ../../programming/activating.rst:185 6c5010cb1ce5476ea294af358a00afec
+#: ../../programming/activating.rst:185 5fa3369c82254f6d94ab60a09e16c5f0
 #, fuzzy
 msgid ""
 "Gehen Sie dann in den Dateibaum und öffnen den Pfad: "
@@ -670,17 +670,17 @@ msgstr ""
 "the serial interface to the port to which you have connected the OBP40. The "
 "interface names differ between Windows and Linux."
 
-#: ../../programming/activating.rst:187 9ca2a79134e74a1ca2f9655f5e4f7f1a
+#: ../../programming/activating.rst:187 c1247a7295704475938a417e96b63780
 #, fuzzy
 msgid "Windows: COMx"
 msgstr "Windows: COMx"
 
-#: ../../programming/activating.rst:188 6ab15d9b926d4a24b89fce4b42892d13
+#: ../../programming/activating.rst:188 f79e4b82256d4f4b8fd737bccc5e117e
 #, fuzzy
 msgid "Linux: /dev/ttyACM0"
 msgstr "Linux: /dev/ttyACM0"
 
-#: ../../programming/activating.rst:191 bb00d383fafd4c52844a1d775c56aeb1
+#: ../../programming/activating.rst:191 d0348fbe98a14026ae386e4d0139d893
 #, fuzzy
 msgid ""
 "Für Linux und Win10/11 sind entsprechende USB-Treiber im Betriebssystem "
@@ -691,12 +691,12 @@ msgstr ""
 "the operating system. For older Windows 7/8 versions, you need `zusätzliche "
 "Treiber`_ to use your computer's USB interface."
 
-#: ../../programming/activating.rst:197 7d5bbcdd89004552aa836188311db0fe
+#: ../../programming/activating.rst:197 93bb8ab770f5439bb661ce8967b47cb4
 #, fuzzy
 msgid "Abb.: Konfigurationsdatei schließen und seriellen Port einstellen"
 msgstr "Fig.: Close configuration file and set serial port"
 
-#: ../../programming/activating.rst:199 cce741b6ab7a4b2d9c1b7bbe5bd1c8e0
+#: ../../programming/activating.rst:199 314efd0afb5c4b738c13a3bf20c53891
 #, fuzzy
 msgid ""
 "Wählen Sie danach die zu benutzende Hardware-Umgebung aus, indem Sie auf die"
@@ -709,12 +709,12 @@ msgstr ""
 "**env:obp40_s3**. This ensures that the firmware is created for the OBP40 "
 "hardware."
 
-#: ../../programming/activating.rst:203 5b056c4930304da9ab8b579e6cdebbc9
+#: ../../programming/activating.rst:203 9f9619102bf147e9ba93046505991b11
 #, fuzzy
 msgid "Abb.: Hardware-Umgebung auswählen"
 msgstr "Fig.: Select hardware environment"
 
-#: ../../programming/activating.rst:208 9ce90ce94ff64b6e93af1e81a12a424a
+#: ../../programming/activating.rst:208 499e2cffbc21465985ff14241269446b
 #, fuzzy
 msgid ""
 "Wenn Sie Ihre Code-Änderungen abgeschlossen haben, können Sie den "
@@ -731,36 +731,36 @@ msgstr ""
 "take some time. At the end, you should receive a message in the terminal "
 "window informing you of the result."
 
-#: ../../programming/activating.rst:212 e7e4360c09264ff1b891a2c6d8fa969e
+#: ../../programming/activating.rst:212 7503183bbd6d4364a26ea49048de009b
 #, fuzzy
 msgid "Abb.: Kompilierung"
 msgstr "Fig.: Compilation"
 
-#: ../../programming/activating.rst:214 652f6a16871c48e58e3575ca6dfc540b
+#: ../../programming/activating.rst:214 c118a01f82734150b429386c4b353092
 #, fuzzy
 msgid ""
 "Der Binary-Code zur Firmware befindet sich nach dem Kompilieren im "
 "Verzeichnis: */esp32-nmea2000-obp60/.pio/build/obp40_s3*"
 msgstr ""
-"The binary code for the firmware, after compilation, is located in the "
-"directory: */esp32-nmea2000-obp60/.pio/build/obp40_s3*"
+"The firmware binary code, after compilation, is located in the directory: "
+"*/esp32-nmea2000-obp60/.pio/build/obp40_s3*"
 
-#: ../../programming/activating.rst:216 0a3bcfd09a004fe390b81db675b576d3
+#: ../../programming/activating.rst:216 cda1f9196db540d08daf1e64fd4a7dbf
 #, fuzzy
 msgid "Dabei haben die Dateien folgende Bedeutung:"
 msgstr "The files have the following meaning:"
 
-#: ../../programming/activating.rst:219 f022912ddf0c46558deb55fab65de156
+#: ../../programming/activating.rst:219 ffb3306788c24af0ab9a56a99cecca82
 #, fuzzy
 msgid "partitions.bin - Partitionstabelle für den Flash-Speicher"
 msgstr "Partitions.bin - Partition table for the flash memory"
 
-#: ../../programming/activating.rst:227 2e7e7a95274546e695ff1c5efe6eae61
+#: ../../programming/activating.rst:227 6d9fc8711a0d437cbef5c92ba427f780
 #, fuzzy
 msgid "Flashen der Firmware"
 msgstr "Flashing the firmware"
 
-#: ../../programming/activating.rst:229 483f069785184b84a0877137892aaf6a
+#: ../../programming/activating.rst:229 60f71d01467543168b7dc91316816838
 #, fuzzy
 msgid ""
 "Wenn Sie die Firmware auf das OBP40 flashen möchten, dann verbinden Sie das "
@@ -774,12 +774,12 @@ msgstr ""
 "first be compiled and then transferred to the OBP40. The terminal window "
 "will show the progress of each step."
 
-#: ../../programming/activating.rst:233 c575c57b488d4116b2d9fdd03e8af8c5
+#: ../../programming/activating.rst:233 05a9f718783241168c2e6638bc2f9d2c
 #, fuzzy
 msgid "Abb.: Flashen der Firmware"
 msgstr "Fig.: Flashing the firmware"
 
-#: ../../programming/activating.rst:236 cd037f7b091b46c0a0048d129b508ea3
+#: ../../programming/activating.rst:236 94129e61620b4011874accf8990e926d
 #, fuzzy
 msgid ""
 "Falls keine Verbindung mit dem OBP40 über die USB-Schnittstelle zustande "
@@ -801,17 +801,17 @@ msgstr ""
 "mode. Afterward, start another flashing process using the arrow icon, as "
 "shown above."
 
-#: ../../programming/activating.rst:240 d82dec40487d4673bb340817ae85ddb7
+#: ../../programming/activating.rst:240 b11223aa82034d9bbea7361c3605124b
 #, fuzzy
 msgid "Abb.: Platinenrückseite CrowPanel 4.2"
 msgstr "Fig.: Circuit board back of CrowPanel 4.2"
 
-#: ../../programming/activating.rst:243 2c13988481854655971cb626ce67285c
+#: ../../programming/activating.rst:243 f005584e1dc04b5db7a614d58b79acd9
 #, fuzzy
 msgid "Debuggen der Firmware"
 msgstr "Debugging the firmware"
 
-#: ../../programming/activating.rst:245 2b302a144fbc429db5dcba7a442f25f8
+#: ../../programming/activating.rst:245 421c33b682a047fd81d05e96d9eedf99
 #, fuzzy
 msgid ""
 "Eine einfache Möglichkeit zur Fehlersuche besteht darin, dass man Debugging-"
@@ -832,7 +832,7 @@ msgstr ""
 "\"Terminal\" area in the lower right corner. To stop logging, right-click on"
 " the currently running task and end it by clicking the trash can icon."
 
-#: ../../programming/activating.rst:248 3ef91bc1d31e49d88c0975da542bfe5d
+#: ../../programming/activating.rst:248 84f2a6f4127842d59da538c263d7269c
 #, fuzzy
 msgid ""
 "Beachten Sie, dass die Schnittstellengeschwindigkeit standardmäßig auf "
@@ -844,12 +844,12 @@ msgstr ""
 "serial USB interface speed can be changed in platformio.ini under "
 "**monitor_speed** if needed."
 
-#: ../../programming/activating.rst:252 f3cc51ac57f94f5fabf89807493d11aa
+#: ../../programming/activating.rst:252 702c9a4f0f0a499b9aa2cb9658909869
 #, fuzzy
 msgid "Abb.: Debugging über Serial Monitor"
 msgstr "Fig.: Debugging via Serial Monitor"
 
-#: ../../programming/activating.rst:257 f7ba3c7712654324b7b0173b878f77af
+#: ../../programming/activating.rst:257 0361576348fe41a0bdd282791648a36e
 #, fuzzy
 msgid ""
 "Wenn man die Source-Code-Änderungen in seinem Github-Repository speichern "
@@ -870,7 +870,7 @@ msgstr ""
 "to the right of the blue Commit button, you can click **Commit and Push**. "
 "This will upload and save the code changes to your GitHub repository."
 
-#: ../../programming/activating.rst:260 aa11fc9f05dd4e38b77c666b94fdd894
+#: ../../programming/activating.rst:260 2fa6c3a46894460e97de2c4b16e5b43d
 #, fuzzy
 msgid ""
 "Nur mit einem Beschreibungstext zur Codeänderung können Sie die Änderungen "
@@ -879,7 +879,7 @@ msgstr ""
 "You can only commit and upload changes to Github if you include a "
 "description text for the code change."
 
-#: ../../programming/activating.rst:266 2b7d9b8618bb43399a315d363e221dad
+#: ../../programming/activating.rst:266 c9ec99dce54e48188f975a30c4e70db3
 #, fuzzy
 msgid ""
 "Wer später dort weitermachen möchte, wo er zuletzt aufgehört hat, kann sich "
@@ -893,7 +893,7 @@ msgstr ""
 "path icon on the left and then the three dots at the top of the same window."
 " You can then update your project by clicking **Pull**."
 
-#: ../../programming/activating.rst:269 583d9d64ff3240c0a188a8709652baf7
+#: ../../programming/activating.rst:269 26ce91aca6294e41825fd584f52737f5
 #, fuzzy
 msgid ""
 "Es ist empfehlenswert, vor Beginn jeder Codeänderung einen **Pull** "

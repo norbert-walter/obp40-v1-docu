@@ -238,7 +238,7 @@ msgstr "WiFi Dual Band 2.4 GHz and 5 GHz 300 Mbps"
 #: ../../usermanual/samples.rst:59 fc3bee73dad841cf804906e31ff7b435
 #, fuzzy
 msgid "2x LAN CAT6 100 MBit/s"
-msgstr "2X CAT6 LAN 100 MBit/s"
+msgstr "2X LAN CAT6 100 MBit/s"
 
 #: ../../usermanual/samples.rst:60 3f6e4e54bd394040a530f972d0502ab3
 #, fuzzy
