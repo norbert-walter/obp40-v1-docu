@@ -83,7 +83,7 @@ msgstr "Operation"
 #: ../../index.rst:48
 #, fuzzy
 msgid "Geräteaufbau"
-msgstr "Device structure"
+msgstr "Device setup"
 
 #: ../../index.rst:48
 #, fuzzy
@@ -138,7 +138,7 @@ msgstr "Opinions and tips"
 #: ../../index.rst:68
 #, fuzzy
 msgid "Bekannte Fehler"
-msgstr "Known bugs"
+msgstr "Known errors"
 
 #: ../../index.rst:68
 #, fuzzy
@@ -216,19 +216,18 @@ msgid ""
 "Hardware, Open Software und Open Data. Das Gerät lässt sich durch die "
 "Offenheit an beliebige Anforderungen über die Software anpassen."
 msgstr ""
-"The OBP40 multifunction display is based on the `Crow Panel 4.2`_ from "
-"Elecrow and is used to display data from boat networks such as NMEA0183 and "
-"NMEA2000. It is primarily intended as an inexpensive entry-level solution "
-"for the `OBP60`_, but is subject to some limitations in use. Without any "
+"The OBP40 multifunction display is based on the Elecrow `Crow Panel 4.2`_ "
+"and is used to display data from boat networks such as NMEA0183 and "
+"NMEA2000. It is primarily intended as an affordable entry-level solution for"
+" the `OBP60`_, but its use is subject to some limitations. Without any "
 "hardware modifications to the Crow Panel 4.2, the display can be converted "
-"to an OBP40 with the appropriate firmware. Open Boat Projects provides a "
-"simple way to flash the firmware with the `Web-Flashtool`_. All that is "
-"required is a web browser and a USB cable. With optional additional "
-"hardware, data can be read from the 1Wire bus and the I2C bus. The OBP40 "
-"contains a gateway that can exchange data bidirectionally between NMEA0183 "
-"and NMEA2000. The data can be imported or exported via WiFi and can be used "
-"on other devices or in third-party software. Configuration is done via a "
-"website. Predefined display pages can be selected and their display content "
-"can be defined. The OBP40 is based on open hardware, open software, and open"
-" data. This openness allows the device to be adapted to any requirements via"
-" the software."
+"into an OBP40 with the appropriate firmware. Open Boat Projects provides a "
+"simple way to flash the firmware with the `Web-Flashtool`_, requiring only a"
+" web browser and a USB cable. With optional additional hardware, data can be"
+" read from the 1-Wire bus and the I2C bus. The OBP40 includes a gateway that"
+" can exchange data bidirectionally between NMEA0183 and NMEA2000. Data can "
+"be imported and exported via Wi-Fi and used on other devices or in third-"
+"party software. Configuration is done via a web page. This allows users to "
+"select predefined display pages and define their display content. The OBP40 "
+"is based on open hardware, open software, and open data. This openness "
+"allows the device to be adapted to any requirement via the software."

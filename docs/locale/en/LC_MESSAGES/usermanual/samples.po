@@ -49,20 +49,19 @@ msgid ""
 "einen Web-Browser darauf zugreifen. Die Naviationssoftware AvNav wird dabei "
 "auf einem Android-Tablett installiert und zur Navigation genutzt."
 msgstr ""
-"The following example shows how to set up data transmission to the **Yachta "
-"wind sensor** and to an **M5Stack ATOM CAN** with `NMEA2000-Gateway`_ using "
-"an **OBP40** and how to use the data in the AvNav navigation app on a "
-"tablet. The M5Stack ATOM CAN serves as a central database where all data "
-"converges. Data is transmitted via WiFi network connections provided by an "
-"LTE router. The advantage of an LTE router is that it can provide all "
-"devices on board with a WiFi internet connection, and the devices in the "
-"WiFi network can communicate with each other. The LTE router isolates its "
-"own WiFi network from the internet, ensuring that no one from outside can "
-"access your internal network. This means that devices such as cell phones, "
-"tablets, or laptops on board can also be connected to the internet, and all "
-"devices have access to the sensor data and can access it via a web browser. "
-"The AvNav navigation software is installed on an Android tablet and used for"
-" navigation."
+"The following example demonstrates how to establish data transmission from "
+"an **OBP40** to the **Yachta** wind sensor and an **M5Stack ATOM CAN** with "
+"`NMEA2000-Gateway`_ and how to use the data in the AvNav navigation app on a"
+" tablet. The M5Stack ATOM CAN serves as the central data repository where "
+"all data converges. Data transmission occurs via Wi-Fi network connections "
+"provided by an LTE router. The advantage of an LTE router is that it can "
+"provide all devices on board with a Wi-Fi internet connection, allowing "
+"devices within the Wi-Fi network to communicate with each other. The LTE "
+"router isolates the Wi-Fi network from the internet, preventing external "
+"access to your internal network. This allows devices such as mobile phones, "
+"tablets, and laptops on board to connect to the internet, and all devices "
+"have access to the sensor data via a web browser. The AvNav navigation "
+"software is installed on an Android tablet and used for navigation."
 
 #: ../../usermanual/samples.rst:12 a6d8b2bc1d724b6d952b9529860e4beb
 #, fuzzy
@@ -73,10 +72,10 @@ msgid ""
 "dedizierte LTE- oder WiFi-Routers. Sie vermeiden damit Probleme bei der "
 "Kommunikation der Geräte untereinander."
 msgstr ""
-"In principle, the M5Stack access point could also be used as a central Wi-Fi"
-" router. However, its performance is significantly lower than that of an LTE"
-" router. We strongly recommend using a dedicated LTE or Wi-Fi router. This "
-"will prevent problems with communication between the devices."
+"In principle, the M5Stack access point could also be used as a central WiFi "
+"router. However, its performance is significantly lower than that of an LTE "
+"router. We strongly recommend using a dedicated LTE or WiFi router. This "
+"will prevent communication problems between devices."
 
 #: ../../usermanual/samples.rst:16 1d588cdefe40494dba7623f5a32c8823
 #, fuzzy
@@ -86,7 +85,7 @@ msgstr "Fig.: Example configuration OBP40, Yachta, M5Stack, AvNav"
 #: ../../usermanual/samples.rst:18 ebd449cdec594ca7b5fa008dd28c03a6
 #, fuzzy
 msgid "Die Konfiguration läuft in folgenden Schritten ab:"
-msgstr "The configuration proceeds in the following steps:"
+msgstr "The configuration process consists of the following steps:"
 
 #: ../../usermanual/samples.rst:20 ../../usermanual/samples.rst:26
 #: 5fa0671f349c440a9420a28b89570ab8 b7e79082e547415387e131c42f078401
@@ -97,12 +96,12 @@ msgstr "Setting up an LTE router"
 #: ../../usermanual/samples.rst:21 c8f36a408b1c4a3fb745f5b6b5547978
 #, fuzzy
 msgid "M5Stack mit NMEA2000-Netzwerk und Windsensor Yachta verbinden"
-msgstr "Connect M5Stack to NMEA2000 network and Yachta wind sensor"
+msgstr "Connecting M5Stack with NMEA2000 network and Yachta wind sensor"
 
 #: ../../usermanual/samples.rst:22 d39f445da1e3406e8c17a208533746e4
 #, fuzzy
 msgid "OBP40 mit M5Stack verbinden"
-msgstr "Connect OBP40 to M5Stack"
+msgstr "Connecting OBP40 to M5Stack"
 
 #: ../../usermanual/samples.rst:23 7a06118626324e9e8b23128aef3f2ccc
 #, fuzzy
@@ -122,14 +121,14 @@ msgid ""
 "oben im Mast zu installieren und die Antenne per Kabel mit dem stationären "
 "Router zu verbinden."
 msgstr ""
-"You can use both mobile and stationary devices as LTE routers. Mobile "
-"devices have the advantage of operating independently via a battery for "
-"extended periods and can also be used off the boat on land during "
-"excursions. Stationary devices are ideal when you need maximum reception "
-"performance and are traveling near the coast, bridging long distances to the"
-" nearest mobile phone base station. In such cases, it's a good idea to "
-"install mobile phone antennas at the top of the mast and connect the antenna"
-" to the stationary router via cable."
+"You can use either mobile or stationary devices as LTE routers. Mobile "
+"devices have the advantage of operating independently on a battery for "
+"extended periods and can also be used on land during excursions. Stationary "
+"devices are suitable when maximum reception is required, especially when "
+"traveling near the coast and needing to bridge long distances to the nearest"
+" mobile network base station. In such cases, it's advisable to install "
+"mobile antennas at the top of the mast and connect them to the stationary "
+"router via cable."
 
 #: ../../usermanual/samples.rst:31 97cbff1260924c4da3cf5ded9d770f0c
 #, fuzzy
@@ -143,14 +142,14 @@ msgid ""
 "Handy im Hotspot-Mode leistet ähnliches wie ein LTE-Router und kann eine "
 "günstige Alternative darstellen."
 msgstr ""
-"When purchasing an LTE router, make sure it can operate in dual-band mode in"
-" both the 2.4 GHz and 5 GHz Wi-Fi frequency ranges **simultaneously** and "
-"supports the 4G/5G mobile network standard. This way, you'll benefit from a "
-"high-performance internet and Wi-Fi connection in the 5 GHz range, bypassing"
-" the often overcrowded 2.4 GHz frequency range. Such routers can easily "
-"exchange data between both frequency ranges. An old cell phone in hotspot "
-"mode performs similarly to an LTE router and can be a cost-effective "
-"alternative."
+"When buying an LTE router, make sure it can operate in dual-band mode on "
+"both the 2.4 GHz and 5 GHz Wi-Fi frequency bands **simultaneously** and "
+"supports the 4G/5G mobile network standard. This way, you benefit from a "
+"high-performance internet and Wi-Fi connection in the 5 GHz band and avoid "
+"the often congested 2.4 GHz frequency bands. Such routers can seamlessly "
+"exchange data between the two frequency bands. An old mobile phone in "
+"hotspot mode performs similarly to an LTE router and can be a cost-effective"
+" alternative."
 
 #: ../../usermanual/samples.rst:35 fe6da2cb8392455ba0befcbe9892daac
 #, fuzzy
@@ -166,7 +165,7 @@ msgstr "Performance data"
 #: ../../usermanual/samples.rst:38 c1075d3e09de4b8e842dc681f248bbfd
 #, fuzzy
 msgid "4G/LTE Mobilfunkstandard 50 MBit/s"
-msgstr "4G/LTE mobile communications standard 50 Mbit/s"
+msgstr "4G/LTE mobile communication standard 50 Mbps"
 
 #: ../../usermanual/samples.rst:39 dfea7828660b4c20878b9c8be4e221a6
 #, fuzzy
@@ -181,12 +180,12 @@ msgstr "3000 MAh LiPo-Battery"
 #: ../../usermanual/samples.rst:41 81ea8de7893f42468e65f43bff65b313
 #, fuzzy
 msgid "15 Stunden autarke Laufzeit"
-msgstr "15 Hours of self-sufficient runtime"
+msgstr "15 Hours of stand-alone runtime"
 
 #: ../../usermanual/samples.rst:42 114ceff984c24bd39562e95af22c68a7
 #, fuzzy
 msgid "32 WiFi-Geräte einbindbar"
-msgstr "32 WiFi devices can be integrated"
+msgstr "Up to 32 WiFi devices can be connected."
 
 #: ../../usermanual/samples.rst:43 fcc6325fa4214d1d8f26a1799421a218
 #, fuzzy
@@ -196,7 +195,7 @@ msgstr "32 GB SD card storage"
 #: ../../usermanual/samples.rst:44 613f52eaef0a46ba9bc64bd9b06a24e4
 #, fuzzy
 msgid "USB-, SMB- und FTP-Share für Filme und Musik von SD-Card"
-msgstr "USB, SMB and FTP sharing for movies and music from SD card"
+msgstr "USB, SMB and FTP share for movies and music from SD card"
 
 #: ../../usermanual/samples.rst:45 0d496c0ef7c04407a72850a1aa23faaa
 #, fuzzy
@@ -206,7 +205,7 @@ msgstr "`Dokumentation <../_static/m7450.pdf>`_"
 #: ../../usermanual/samples.rst:46 80355da893c941af83ce47e7bf9d9010
 #, fuzzy
 msgid "Kein gleichzeitiger Dualbetrieb möglich"
-msgstr "No simultaneous dual operation possible"
+msgstr "Simultaneous dual operation is not possible"
 
 #: ../../usermanual/samples.rst:49 9ee5001e16c54fd286b1888c1eddcab4
 #, fuzzy
@@ -216,10 +215,10 @@ msgid ""
 "Frequenzband 2.4 GHz einstellen. Das OBP40 und der M5Stack ATOM CAN arbeiten"
 " nur im 2.4 GHz Bereich."
 msgstr ""
-"The TP-Link M7450 LTE router cannot operate in both frequency bands "
-"simultaneously. Therefore, you must configure the TP-Link M7450 to operate "
-"on the 2.4 GHz frequency band. The OBP40 and the M5Stack ATOM CAN only "
-"operate in the 2.4 GHz range."
+"The TP-Link M7450 LTE router cannot operate on both frequency bands "
+"simultaneously. Therefore, you must permanently set the TP-Link M7450 to the"
+" 2.4 GHz frequency band. The OBP40 and the M5Stack ATOM CAN only operate in "
+"the 2.4 GHz range."
 
 #: ../../usermanual/samples.rst:54 68765b52ed144823bd9d33081d69d13a
 #, fuzzy
@@ -229,17 +228,17 @@ msgstr "Fig.: Stationary 4G LTE dual-band router RTU360"
 #: ../../usermanual/samples.rst:57 89e80b1524884c20b05c9efabaed3cbd
 #, fuzzy
 msgid "4G/LTE Mobilfunkstandard 50 MBit/scale"
-msgstr "4G/LTE mobile communications standard 50 Mbit/scale"
+msgstr "4G/LTE mobile communication standard 50 Mbps/scale"
 
 #: ../../usermanual/samples.rst:58 8df67920c75d4eea8d0b3111c2105d74
 #, fuzzy
 msgid "WiFi Dualband 2.4 GHz und 5 GHz 300 MBit/s"
-msgstr "WiFi dual band 2.4 GHz and 5 GHz 300 Mbit/s"
+msgstr "WiFi Dual Band 2.4 GHz and 5 GHz 300 Mbps"
 
 #: ../../usermanual/samples.rst:59 fc3bee73dad841cf804906e31ff7b435
 #, fuzzy
 msgid "2x LAN CAT6 100 MBit/s"
-msgstr "2X CAT6 LAN 100 MBit/s"
+msgstr "2X LAN CAT6 100 MBit/s"
 
 #: ../../usermanual/samples.rst:60 3f6e4e54bd394040a530f972d0502ab3
 #, fuzzy
@@ -249,7 +248,7 @@ msgstr "External antennas for LTE and WiFi"
 #: ../../usermanual/samples.rst:61 aa5d5fb52b2c47b3af9541d1291c0789
 #, fuzzy
 msgid "12V Versorgungseingang"
-msgstr "12V supply input"
+msgstr "12V power supply input"
 
 #: ../../usermanual/samples.rst:62 dac6a42e98344199befbdfecdd5736a1
 #, fuzzy
@@ -278,12 +277,12 @@ msgid ""
 "Ländern der EU uneingeschränkt nutzen, so wie Sie das in Ihrem Heimatland "
 "gewohnt sind."
 msgstr ""
-"The LTE router used is set up according to the user manual. You will need a "
-"mobile data plan for an internet connection. Most mobile phone companies "
-"offer affordable data plans. Volume contracts, which provide a fixed data "
-"volume for a specified period of time, are recommended. Choose a plan that "
-"matches your data usage. You can also use this data volume without "
-"restrictions in all EU countries, just as you would in your home country."
+"The LTE router is set up according to the user manual. You will need a "
+"mobile data plan for an internet connection. Most mobile providers offer "
+"affordable data plans. Data plans with a fixed data allowance for a "
+"specified period are recommended. Choose a plan that matches your data "
+"usage. You can use this data allowance without restrictions in all EU "
+"countries, just as you would in your home country."
 
 #: ../../usermanual/samples.rst:71 05b3ba4e900e427890eefdd92817e2e9
 #, fuzzy
@@ -291,7 +290,7 @@ msgid ""
 "Für das Konfigurationsbeispiel wird davon ausgegangen, dass die Geräte "
 "folgende IP-Adressen vom Router zugewiesen bekommen:"
 msgstr ""
-"For the configuration example, it is assumed that the devices are assigned "
+"For this configuration example, it is assumed that the devices are assigned "
 "the following IP addresses by the router:"
 
 #: ../../usermanual/samples.rst:73 c8c72f27b1ff42efb74dccfd46202703
@@ -335,13 +334,13 @@ msgid ""
 "In Ihrem konkreten Fall können die IP-Adressen abweichen. Verwenden Sie dann"
 " die IP-Adressen, die den Geräten vom Router zugewiesen worden sind."
 msgstr ""
-"In your specific case, the IP addresses may be different. In this case, use "
-"the IP addresses assigned to the devices by the router."
+"In your specific case, the IP addresses may differ. In that case, use the IP"
+" addresses assigned to the devices by the router."
 
 #: ../../usermanual/samples.rst:85 f74526d013b6451db67832bfad224501
 #, fuzzy
 msgid "Datenübertragung"
-msgstr "Data transfer"
+msgstr "Data transmission"
 
 #: ../../usermanual/samples.rst:87 8816f4ae57e74636b32112bb564390df
 #, fuzzy
@@ -355,7 +354,7 @@ msgstr ""
 #: ../../usermanual/samples.rst:91 c259d7c8f7db4073862daa8c134ed72f
 #, fuzzy
 msgid "Abb.: Schema Datenübertragung"
-msgstr "Fig.: Data transfer diagram"
+msgstr "Fig.: Schematic of data transmission"
 
 #: ../../usermanual/samples.rst:94 4c440a41790a411798c8b65ab3dc1c78
 #, fuzzy
@@ -378,10 +377,10 @@ msgid ""
 "NMEA2000-Gateway-Firmware auf der `Projekt-Homepage`_ des NMEA2000-Gateways."
 msgstr ""
 "Before the M5Stack ATOM CAN can be used, it must be flashed with the "
-"NMEA2000 gateway firmware. The M5Stack is a combination of the `ATOM CAN`_ "
-"and an ATOM controller unit. An `ATOM Light`_ or a `ATOM-S3 Light`_ can be "
-"used as the ATOM controller. Depending on the controller unit used, follow "
-"the instructions for flashing the NMEA2000 gateway firmware on the `Projekt-"
+"NMEA2000 gateway firmware. The M5Stack is a combination of `ATOM CAN`_ and "
+"an ATOM controller unit. An `ATOM Light`_ or an `ATOM-S3 Light`_ can be used"
+" as the ATOM controller. Depending on the controller unit used, follow the "
+"instructions for flashing the NMEA2000 gateway firmware on the `Projekt-"
 "Homepage`_ of the NMEA2000 gateway."
 
 #: ../../usermanual/samples.rst:107 7b49c55dc061430bb7052528fd2de76d
@@ -399,14 +398,14 @@ msgstr ""
 "the LTE router's Wi-Fi network. The TCP server is configured to transmit "
 "data to the OBP40 and the tablet. The TCP client connection is used for "
 "communication with the Yachta wind sensor. The M5Stack is connected to the "
-"boat's NMEA 2000 network via a cable via the CAN unit. Sensor data stored in"
-" the M5Stack, such as wind sensor data, is also transmitted to the NMEA 2000"
-" bus."
+"boat's NMEA2000 network via cable through the CAN unit. Sensor data stored "
+"in the M5Stack, such as wind sensor data, is also transmitted to the "
+"NMEA2000 bus."
 
 #: ../../usermanual/samples.rst:109 e9be38b01d774acf8dba6fed1c5e979e
 #, fuzzy
 msgid "Nehmen Sie folgende Einstellungen vor:"
-msgstr "Make the following settings:"
+msgstr "Make the following adjustments:"
 
 #: ../../usermanual/samples.rst:112 ../../usermanual/samples.rst:200
 #: ../../usermanual/samples.rst:256 ../../usermanual/samples.rst:307
@@ -615,16 +614,16 @@ msgstr ""
 "After configuration, you should see the following information in the status."
 " The M5Stack is registered as a WiFi client with the LTE router and has been"
 " assigned the IP address 192.168.1.101. The M5Stack is connected to the "
-"Yachta wind sensor as a TCP client. Wind data is received via this "
-"connection as NMEA 0183 telegrams. The number of devices connected to the "
-"M5Stack as TCP clients is displayed under Clients. If the OBP40 and the "
+"Yachta wind sensor as a TCP client. Wind data is received as NMEA0183 "
+"telegrams via this connection. The number of devices connected to the "
+"M5Stack as TCP clients is displayed under \"Clients.\" If the OBP40 and the "
 "tablet are connected to the M5Stack, two devices should be displayed. The "
-"NMEA 2000 status is displayed as Online if data is being exchanged via the "
-"NMEA 2000 bus. The NMEA 2000 data is being transmitted to the OBP40 via the "
-"WiFi connection using SeaSmart. The number of exchanged NMEA 2000 telegrams "
-"can be seen under NMEA 2000 In/Out. If an OBP40 or a tablet is connected to "
-"the M5Stack via TCP, you can see the number of NMEA0183 telegrams exchanged "
-"under TCP In/Out."
+"NMEA2000 status is displayed as \"Online\" when data is being exchanged via "
+"the NMEA2000 bus. The NMEA2000 data is transmitted to the OBP40 via the WiFi"
+" connection using SeaSmart. The number of exchanged NMEA2000 telegrams can "
+"be seen under \"NMEA2000 In/Out.\" When an OBP40 or a tablet is connected to"
+" the M5Stack via TCP, the number of exchanged NMEA0183 telegrams can be seen"
+" under TCP In/Out."
 
 #: ../../usermanual/samples.rst:160 ../../usermanual/samples.rst:232
 #: ../../usermanual/samples.rst:287 3936cbeacca74a50ac1e1576e854b718
@@ -718,23 +717,24 @@ msgid ""
 " entnommen werden. Zusätzlich haben Sie eine NMEA0183-Schnittstelle mit der "
 "Daten ausgetauscht werden können."
 msgstr ""
-"The M5Stack is connected to the NMEA 2000 network via a `Tail485`_. The "
-"Tail485 can be connected to the M5Stack. It contains a voltage converter "
-"that converts the 12V supply voltage to power the M5Stack. The voltage can "
-"be taken directly from the NMEA 2000 bus. Additionally, there is an NMEA "
-"0183 interface for data exchange."
+"The M5Stack connects to the NMEA2000 network via an M0 connector. The "
+"Tail485 can be plugged into the M5Stack. It contains a voltage converter "
+"that conditions the 12V supply voltage so that it can power the M5Stack. The"
+" voltage can be taken directly from the NMEA2000 bus. Additionally, it has "
+"an NMEA0183 interface for data exchange."
 
 #: ../../usermanual/samples.rst:187 e99aa974f73a4fb5970fae799e0a472e
 #, fuzzy
 msgid ""
 "Abb. CAN-Bus Anbindung mit Versorgung aus dem Bus (M5Stack mit Tail485)"
 msgstr ""
-"Fig. CAN bus connection with supply from the bus (M5Stack with Tail485)"
+"Fig. CAN bus connection with power supply from the bus (M5Stack with "
+"Tail485)"
 
 #: ../../usermanual/samples.rst:190 7d0a263fb7354ae7b9e192759579a8f5
 #, fuzzy
 msgid "Konfiguration OBP40"
-msgstr "Configuration OBP40"
+msgstr "OBP40 configuration"
 
 #: ../../usermanual/samples.rst:195 e750abca11954bb2997a222ae12d9f45
 #, fuzzy
@@ -745,15 +745,15 @@ msgid ""
 " M5Stack. Die Daten vom Windsensor Yachta werden über den M5Stack "
 "bereitgestellt."
 msgstr ""
-"The OBP40 display device is assigned the system name OBP40V1 and connected "
-"to the LTE router's Wi-Fi network. The TCP client connection is used to "
-"communicate with the M5Stack. The OBP40 obtains all sensor data via the "
-"M5Stack. The data from the Yachta wind sensor is provided via the M5Stack."
+"The OBP40 display unit is assigned the system name OBP40V1 and connected to "
+"the LTE router's Wi-Fi network. The TCP client connection is used for "
+"communication with the M5Stack. The OBP40 receives all sensor data via the "
+"M5Stack. Data from the Yachta wind sensor is provided via the M5Stack."
 
 #: ../../usermanual/samples.rst:197 cd1cc2fcb4fd4ce4b0b91b8d796a995d
 #, fuzzy
 msgid "Folgende Einstellungen sind vorzunehmen:"
-msgstr "The following settings must be made:"
+msgstr "The following settings need to be configured:"
 
 #: ../../usermanual/samples.rst:200 ../../usermanual/samples.rst:232
 #: 238b86de20ac4f1285dc73aa1afda2dc 8ee88e4857a146a0aaf9eebf79095956
@@ -779,12 +779,12 @@ msgid ""
 "übertragen."
 msgstr ""
 "After configuration, you should see the following information in the status."
-" The OBP40 is registered as a WiFi client with the LTE router and has been "
+" The OBP40 is registered as a Wi-Fi client with the LTE router and has been "
 "assigned the IP address 192.168.1.100. The OBP40 is connected to the M5Stack"
-" as a TCP client. NMEA 0183 and NMEA 2000 data can be exchanged via this "
-"connection. The NMEA 2000 status is displayed as offline because there is no"
-" direct cable connection to the NMEA 2000 network. The NMEA 2000 data is "
-"transmitted with SeaSmart via the WiFi connection."
+" as a TCP client. NMEA0183 and NMEA2000 data can be exchanged via this "
+"connection. The NMEA2000 status is displayed as offline because there is no "
+"direct wired connection to the NMEA2000 network. The NMEA2000 data is "
+"transmitted via the Wi-Fi connection using SeaSmart."
 
 #: ../../usermanual/samples.rst:238 32349375208147c39bc8a496a8ee718c
 #, fuzzy
@@ -814,14 +814,14 @@ msgid ""
 " Winddaten zur Verfügung. Es werden dabei nur Daten vom Windsensor Yachta "
 "zum M5Stack übertragen."
 msgstr ""
-"The Yachta wind sensor is configured to log into the LTE router's Wi-Fi "
+"The Yachta wind sensor is configured to connect to the LTE router's Wi-Fi "
 "network. The wind sensor provides wind data to the M5Stack via port 6666. "
-"Only data from the Yachta wind sensor is transferred to the M5Stack."
+"Only data from the Yachta wind sensor is transmitted to the M5Stack."
 
 #: ../../usermanual/samples.rst:253 7906bd97df664c438fc33370ec24ba2d
 #, fuzzy
 msgid "Folgende Einstellungen werden für den Windsensor Yachta vorgenommen:"
-msgstr "The following settings are made for the Yachta wind sensor:"
+msgstr "The following settings are configured for the Yachta wind sensor:"
 
 #: ../../usermanual/samples.rst:256 ../../usermanual/samples.rst:266
 #: ../../usermanual/samples.rst:287 1974bef1966142e1a276ed16cc3efa06
@@ -920,10 +920,10 @@ msgid ""
 "dann simulierte Winddaten. Über **Server Mode** kann der Simulationsmodus "
 "mit der Einstellung ``Demo Mode`` aktiviert werden."
 msgstr ""
-"The Yachta wind sensor can be put into demo mode. This allows functionality "
-"to be tested outside of the boat. The wind sensor then provides simulated "
-"wind data. Simulation mode can be activated via **Server Mode** with the "
-"setting ``Demo Mode``."
+"The Yachta wind sensor can be put into demo mode. This allows its "
+"functionality to be tested outside the boat. The wind sensor then provides "
+"simulated wind data. The simulation mode can be activated via **Server "
+"Mode** using the setting ``Demo Mode``."
 
 #: ../../usermanual/samples.rst:284 9f7341551b0f42888399bdcc7ace25b6
 #, fuzzy
@@ -964,9 +964,9 @@ msgid ""
 "NMEA2000-Netzwerk nutzen."
 msgstr ""
 "The Android tablet is added to the LTE router's Wi-Fi network, and then the "
-"AvNav app is installed from the Play Store. Configuration details can be "
-"found in the tablet's manual. Data from a GPS receiver in the tablet can "
-"also be used in the NMEA 0183 and NMEA 2000 network."
+"AvNav app is installed from the Play Store. Refer to the tablet's manual for"
+" configuration details. Data from the tablet's GPS receiver can also be used"
+" in the NMEA0183 and NMEA2000 networks."
 
 #: ../../usermanual/samples.rst:307 96394030aa3440bab4aff71c771d8379
 #, fuzzy
@@ -976,7 +976,7 @@ msgstr "Android-Tablett"
 #: ../../usermanual/samples.rst:309 4efb6e93dcee43d8997a3c5a771a46ed
 #, fuzzy
 msgid "**Einstellungen WiFi**"
-msgstr "**Wi-Fi Settings**"
+msgstr "**WiFi Settings**"
 
 #: ../../usermanual/samples.rst:311 642c28019d98465996bb000781183214
 #, fuzzy
@@ -1002,15 +1002,15 @@ msgid ""
 "als TCP-Client an die M5Stack ATOM CAN angedockt. Unter AvNav wird die "
 "Verbindung als TCPReader eingerichtet."
 msgstr ""
-"The following demonstrates how to use bus data via a tablet in AvNav. Data "
-"is transferred via WiFi. The tablet exchanges data with the M5Stack via a "
-"TCP connection. The tablet is docked to the M5Stack ATOM CAN as a TCP "
-"client. In AvNav, the connection is configured as a TCPReader."
+"The following describes how to use bus data via a tablet in AvNav. Data "
+"transmission occurs via Wi-Fi. The tablet exchanges data with the M5Stack "
+"via a TCP connection. The tablet is connected to the M5Stack ATOM CAN as a "
+"TCP client. In AvNav, the connection is configured as a TCPReader."
 
 #: ../../usermanual/samples.rst:324 7b7d397148574439b9994ff716ccf7e9
 #, fuzzy
 msgid "Abb.: Startseite AvNav für Android"
-msgstr "Fig.: AvNav homepage for Android"
+msgstr "Image: AvNav homepage for Android"
 
 #: ../../usermanual/samples.rst:326 22e932a28c784508881b46bdea6a5085
 #, fuzzy
@@ -1018,8 +1018,8 @@ msgid ""
 "Unter AvNav klicken Sie auf der Startseite oben rechts das Symbol mit den 3 "
 "Strichen."
 msgstr ""
-"Under AvNav, click the icon with the three lines in the top right corner of "
-"the home page."
+"Under AvNav, click the icon with the 3 lines in the top right corner of the "
+"homepage."
 
 #: ../../usermanual/samples.rst:330 2338a34002d446bab559292408aa5312
 #, fuzzy
@@ -1027,7 +1027,7 @@ msgid ""
 "Sie gelangen dann auf die Seite zum Serverstatus. Dort können Sie über das "
 "Plus-Symbol weitere Verbindungen zum AvNavServer einrichten."
 msgstr ""
-"You will then be taken to the server status page. There, you can set up "
+"You will then be taken to the server status page. There, you can establish "
 "additional connections to the AvNavServer using the plus symbol."
 
 #: ../../usermanual/samples.rst:334 a26b1b84940641a7b1f2e2b3b889e748
@@ -1048,14 +1048,14 @@ msgid ""
 "**Port** die 10110. Um nicht nur Daten senden, sondern auch empfangen zu "
 "können, aktivieren Sie **SendOut**."
 msgstr ""
-"Under **IP Address** enter the IP address of the M5Stack and as **Port** "
-"enter 10110. To be able to not only send but also receive data, activate "
+"Under **IP Address**, enter the IP address of the M5Stack and 10110 as the "
+"**Port**. To be able to not only send but also receive data, activate "
 "**SendOut**."
 
 #: ../../usermanual/samples.rst:344 df991c60ed044c41a6c3e379d4c8ae2b
 #, fuzzy
 msgid "Abb.: Einstellungen zur TCPReader-Verbindung"
-msgstr "Fig.: Settings for the TCPReader connection"
+msgstr "Fig.: TCPReader connection settings"
 
 #: ../../usermanual/samples.rst:346 1d1013adbe7a4179a3c98649cdd45d78
 #, fuzzy

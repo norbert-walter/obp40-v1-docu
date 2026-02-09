@@ -34,10 +34,10 @@ msgid ""
 "OBP60 unterscheiden sich bezüglich der Spannungsbereiche für den I2C-Bus und"
 " der Isolation des Bussystems."
 msgstr ""
-"The extended sensor technology includes sensors that are not connected to "
-"the NMEA 0183 and NMEA 2000 buses. In addition, inexpensive sensors can be "
-"connected to the I2C and 1Wire buses. The OBP40 and OBP60 differ in the "
-"voltage ranges for the I2C bus and the isolation of the bus system."
+"The extended sensor range includes sensors that are not connected to the "
+"NMEA0183 or NMEA2000 buses. Additionally, inexpensive sensors can be "
+"connected to the I2C and 1-Wire buses. The OBP40 and OBP60 differ in terms "
+"of the voltage ranges for the I2C bus and the isolation of the bus system."
 
 #: ../../usermanual/sensors.rst:7 ../../usermanual/sensors.rst:15
 #: ../../usermanual/sensors.rst:35 74d93f4a358d4532907aaa205e2a8f2a
@@ -133,7 +133,7 @@ msgid ""
 "In der nachfolgenden Tabelle sind einige Sensoren aufgelistet, die am OBP40 "
 "und am OBP60 verwendet werden können."
 msgstr ""
-"The following table lists some sensors that can be used on the OBP40 and "
+"The table below lists some sensors that can be used with the OBP40 and the "
 "OBP60."
 
 #: ../../usermanual/sensors.rst:25 cfbcbc0eaff24896b42318592a49aaad
@@ -145,10 +145,10 @@ msgid ""
 "diesem Fall Pegelkonverter notwendig. Die meisten 5V-Module sind auch an "
 "3.3V-Systemen nutzbar, wenn sie mit 3.3V betrieben werden."
 msgstr ""
-"The sensor modules are designed for specific voltage ranges. Make sure you "
-"use the correct sensors. Using 3.3V modules in 5V systems can damage them. "
-"Level converters are required in this case. Most 5V modules can also be used"
-" in 3.3V systems when operated at 3.3V."
+"The sensor modules are designed for specific voltage ranges. Ensure you use "
+"the correct sensors. Using 3.3V modules in 5V systems can damage them. In "
+"this case, level converters are necessary. Most 5V modules can also be used "
+"in 3.3V systems if operated at 3.3V."
 
 #: ../../usermanual/sensors.rst:28 244cc91a0d804ac5aac04acb86693782
 #, fuzzy
@@ -159,7 +159,7 @@ msgid ""
 msgstr ""
 "When purchasing BMP280 and BME280 modules, please note that there are "
 "different types that look similar but behave differently. You can identify "
-"the types by the package size and shape of the chip."
+"the types by the package size and the shape of the chip."
 
 #: ../../usermanual/sensors.rst:32 de6355916e554ed08e2a12cf3ca053a8
 #, fuzzy
@@ -372,7 +372,7 @@ msgstr "T - Air temperature"
 #: ../../usermanual/sensors.rst:69 c1dfde8ef3bd4f0498fd4715c70eaa11
 #, fuzzy
 msgid "P - Luftdruck"
-msgstr "P - air pressure"
+msgstr "P - Air pressure"
 
 #: ../../usermanual/sensors.rst:70 6a07c10866be4ca4aada913e44fab69c
 #, fuzzy
@@ -387,7 +387,7 @@ msgstr "R - Rotation 0...360°"
 #: ../../usermanual/sensors.rst:72 b40cadae82244491a7cf663e0aa12e8a
 #, fuzzy
 msgid "U - Spannung"
-msgstr "U - voltage"
+msgstr "U-voltage"
 
 #: ../../usermanual/sensors.rst:73 d92b1d7518cf4300afcf77f3df4d70ed
 #, fuzzy

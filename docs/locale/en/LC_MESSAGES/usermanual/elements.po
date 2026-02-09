@@ -34,12 +34,12 @@ msgstr "Status bar"
 #, fuzzy
 msgid ""
 "Die Statuszeile dient zur Anzeige von Statusinformationen. Dazu zählen:"
-msgstr "The status bar displays status information, including:"
+msgstr "The status bar is used to display status information. This includes:"
 
 #: ../../usermanual/elements.rst:12 431e811270f04afcad0f7fd294a02632
 #, fuzzy
 msgid "**Zustandsanzeige des Access Points**"
-msgstr "**Access Point Status Display**"
+msgstr "**Access Point Status Indicator**"
 
 #: ../../usermanual/elements.rst:13 810a8d9106c54101bb93bde7642c5ac3
 #, fuzzy
@@ -89,7 +89,7 @@ msgstr "Date and time (country-specific)"
 #: ../../usermanual/elements.rst:24 eb69a3f2996b4e568c71235e1ebf16ba
 #, fuzzy
 msgid "Anzeige der Zeitzone"
-msgstr "Time zone display"
+msgstr "Display of time zone"
 
 #: ../../usermanual/elements.rst:26 8cc8b0ff7b9842b5bdf6201080467458
 #, fuzzy
@@ -99,7 +99,7 @@ msgstr "**UTC** - Universal Time"
 #: ../../usermanual/elements.rst:27 c61756be0d0b4b9e8399cd25bb7601a9
 #, fuzzy
 msgid "**LOT** - Lokalzeit"
-msgstr "**LOT** - Local time"
+msgstr "**LOT** - Local Time"
 
 #: ../../usermanual/elements.rst:32 93026716785c46f089c8af6a1f6ba546
 #, fuzzy
@@ -107,7 +107,7 @@ msgid ""
 "Die Statuszeile ist in allen Anzeigeseiten zu sehen, sie zeigt den aktuellen"
 " Status des Gerätes an."
 msgstr ""
-"The status bar is visible on all display pages and shows the current status "
+"The status bar is visible on all display pages; it shows the current status "
 "of the device."
 
 #: ../../usermanual/elements.rst:35 efcda4ceb49f4038aedebc3f0f2b1cbc
@@ -118,10 +118,10 @@ msgid ""
 "als aktiv. Sollte der Punkt nicht blinken, so ist die Software inaktiv oder "
 "das Gerät wurde ausgeschaltet."
 msgstr ""
-"The display content of an e-paper display remains intact when the device is "
-"turned off. The pulsing dot in the status bar indicates the device is "
-"active. If the dot is not flashing, the software is inactive or the device "
-"has been turned off."
+"The content displayed on an e-paper display remains visible when the device "
+"is switched off. A pulsating dot in the status bar indicates that the device"
+" is active. If the dot is not blinking, the software is inactive or the "
+"device has been switched off."
 
 #: ../../usermanual/elements.rst:38 06ed61b1e65046a0b70f5868acdccf41
 #, fuzzy
@@ -136,10 +136,10 @@ msgid ""
 "wird der Inhalt des Anzeigebereichs verändert. Die Aktualisierung des "
 "Anzeigebereichs erfolgt jede Sekunde als partieller Bild-Refresh."
 msgstr ""
-"The display area is located in the middle section. All relevant information "
-"is displayed there. The content of the display area changes each time you "
-"switch to a new page. The display area is updated every second with a "
-"partial image refresh."
+"The central area contains the display area. All relevant information is "
+"shown there. The content of the display area changes each time you switch to"
+" a new page. The display area is updated every second as a partial image "
+"refresh."
 
 #: ../../usermanual/elements.rst:42 0125bfb70b2042c5a641fdd6e7e00051
 #, fuzzy
@@ -157,16 +157,16 @@ msgid ""
 " per Default eingestellt und kann bei Bedarf über die Konfiguration "
 "deaktiviert werden."
 msgstr ""
-"Due to the e-paper technology, ghost images from previous display states can"
-" appear on the display after some time. To remove these ghost images, a full"
-" refresh of the display is performed at regular 10-minute intervals. The "
-"entire image content is inverted several times, then deleted, and finally "
-"rewritten. A full refresh can be recognized by the brief flickering of the "
-"display. The same happens 4 seconds after a page change. This allows you to "
-"quickly call up several display pages in succession. A full refresh is only "
-"performed after 4 seconds on the last page called up, thus removing ghost "
-"images from previous display pages. The regular full refresh is set by "
-"default and can be deactivated via the configuration if required."
+"Due to the e-paper technology, ghost images from previous display states may"
+" appear on the screen after some time. To remove these ghost images, a full "
+"refresh of the display is performed every 10 minutes. During this process, "
+"the entire image content is inverted several times, then cleared, and "
+"subsequently rewritten. A full refresh is indicated by a brief flicker of "
+"the display. The same process occurs 4 seconds after a page change. This "
+"allows for quick access to multiple pages in succession. Only after 4 "
+"seconds is a full refresh performed on the most recently viewed page, thus "
+"removing ghost images from older pages. The regular full refresh is enabled "
+"by default and can be disabled in the configuration settings if needed."
 
 #: ../../usermanual/elements.rst:44 af94ff2101e94b58a45903c11cf5c264
 #, fuzzy
@@ -177,11 +177,11 @@ msgid ""
 "Einschalten wird für die ersten 5 Minuten jede Minute ein Voll-Refresh "
 "durchgeführt, damit sich das Display akklimatisieren kann."
 msgstr ""
-"The occurrence of ghosting depends on the OBP40's display temperature. At "
-"lower temperatures, ghosting is more noticeable and the display responds "
-"more slowly than at higher temperatures. Shortly after power-on, a full "
-"refresh is performed every minute for the first five minutes to allow the "
-"display to acclimatize."
+"The appearance of ghost images depends on the display temperature of the "
+"OBP40. At lower temperatures, ghost images are more noticeable and the "
+"display reacts more slowly than at higher temperatures. For the first five "
+"minutes after power-on, a full refresh is performed every minute to allow "
+"the display to acclimatize."
 
 #: ../../usermanual/elements.rst:47 1b0ad1ccc06948f6ae77f71224b7e490
 #, fuzzy
@@ -192,10 +192,10 @@ msgid ""
 "Voll-Refresh regeneriert sich das Display und der Kontrast wird wieder "
 "vollständig hergestellt."
 msgstr ""
-"In extremely strong sunlight, the contrast of the display content may be "
-"lost. Black areas of the display will then appear gray. The display is not "
-"defective in this case. After a full refresh, the display regenerates and "
-"the contrast is fully restored."
+"In extremely bright sunlight, the contrast of the display content may be "
+"lost. Black areas of the screen will then appear gray. The display is not "
+"defective in this case. After a full refresh, the display will regenerate "
+"and the contrast will be fully restored."
 
 #: ../../usermanual/elements.rst:50 59c410bbeda643e080cd31101ff8c11e
 #, fuzzy
@@ -211,11 +211,11 @@ msgid ""
 "kann auch Anzeigeseiten geben, die keine Tastenfunktionen enthalten. In der "
 "Mitte der Fußzeile werden weitere Informationen eingeblendet:"
 msgstr ""
-"The footer is used to label key functions. Key assignments change depending "
-"on the content of the display pages. Active keys are indicated by "
-"abbreviations in square brackets, such as ``[AVG]``. There may also be "
-"display pages that do not contain any key functions. Further information is "
-"displayed in the middle of the footer:"
+"The footer is used to label the keyboard functions. The keyboard layout "
+"changes depending on the content of the display page. Active keyboards are "
+"labeled with abbreviations in square brackets, such as ``[AVG]``. There may "
+"also be display pages that do not contain any keyboard functions. Additional"
+" information is displayed in the center of the footer."
 
 #: ../../usermanual/elements.rst:56 c9156a5fef2b4d8bb311345ff0ea0763
 #, fuzzy
@@ -233,8 +233,8 @@ msgid ""
 "Sofern die Wischgeste aktiv ist, werden im Infobereich die aktuelle Seite "
 "und die Seitenanzahl angezeigt."
 msgstr ""
-"If the swipe gesture is active, the current page and the page number are "
-"displayed in the notification area."
+"If the swipe gesture is active, the current page and page number are "
+"displayed in the information area."
 
 #: ../../usermanual/elements.rst:62 fbe8a066d153466ea3b4e4ab2e24808e
 #, fuzzy
@@ -249,19 +249,19 @@ msgid ""
 " einigen Seiten Änderungen durchgeführt werden. Folgende Funktionen stehen "
 "zur Verfügung:"
 msgstr ""
-"The OBP40 has a jog dial and two buttons on the right edge of the display. "
-"The dial is used to select pages. The buttons can be used to make changes on"
-" some pages. The following functions are available:"
+"The OBP40 has a jog dial and two buttons on the right side of the display. "
+"The dial is used to select pages. The buttons allow changes to be made on "
+"some pages. The following functions are available:"
 
 #: ../../usermanual/elements.rst:69 0d33a25a27e44e6aa1317af1821962a5
 #, fuzzy
 msgid "**Wählrad drehen nach oben** - Seite zurück"
-msgstr "**Turn dial up** - page back"
+msgstr "**Turn dial up** - Back to previous page"
 
 #: ../../usermanual/elements.rst:70 5e3ef8c0b9c34919aefce2d457af6c40
 #, fuzzy
 msgid "**Wählrad drehen nach unten** - Seite vorwärts"
-msgstr "**Turn dial down** - Page forward"
+msgstr "**Turn dial down** - page forward"
 
 #: ../../usermanual/elements.rst:71 65864353e1834ad49f337bdade8b1631
 #, fuzzy
@@ -271,12 +271,12 @@ msgstr "**Press dial** - Sleep mode on/off"
 #: ../../usermanual/elements.rst:72 f1f7717d160c4cc3a2f4131e57f21cd6
 #, fuzzy
 msgid "**Taste oben** - Seitenspezifische Funktion"
-msgstr "**Top button** - Page-specific function"
+msgstr "**Top Button** - Page-Specific Function"
 
 #: ../../usermanual/elements.rst:73 6d433b90e66c4f1b81b797cdf0d01739
 #, fuzzy
 msgid "**Taste unten** - Seitenspezifische Funktion"
-msgstr "**Button down** - Page-specific function"
+msgstr "**Down Button** - Page-Specific Function"
 
 #: ../../usermanual/elements.rst:76 e3db2e8d82984428b1837adc2e89ae4c
 #, fuzzy
@@ -284,8 +284,8 @@ msgid ""
 "Das Jogdail-Wählrad kann nur gedrückt werden, wenn sich das Wählrad in "
 "Mittenposition bzw. Ruhestellung befindet."
 msgstr ""
-"The jog dial can only be pressed when the dial is in the center or rest "
-"position."
+"The jog dial can only be pressed when the dial is in the center position or "
+"rest position."
 
 #: ../../usermanual/elements.rst:79 c7f2521fdfff424e8e076cbbe7fade97
 #, fuzzy
@@ -302,11 +302,11 @@ msgid ""
 " schmalen Gegenstand und drücken Sie den Taster vorsichtig, bis der "
 "Druckpunkt spürbar überwunden ist."
 msgstr ""
-"The reset button is located on the back of the display, top right, behind a "
-"small hole. The reset button is not used during normal operation. During "
-"programming, it can be useful to initiate a manual reset. To initiate the "
-"reset, use a thin, non-conductive object and gently press the button until "
-"you feel it go beyond the pressure point."
+"The reset button is located on the back of the display, in the upper right "
+"corner behind a small hole. The reset button is not used during normal "
+"operation. However, it can be useful to perform a manual reset during "
+"programming procedures. To trigger the reset, use a non-conductive, narrow "
+"object and gently press the button until you feel a click."
 
 #: ../../usermanual/elements.rst:87 8982989c5d2b41a4824c605b88bdf802
 #, fuzzy
@@ -314,5 +314,5 @@ msgid ""
 "Verwenden Sie keine leitenden Gegenstände. Damit können Kurzschlüsse auf der"
 " Platine ausgelöst werden, das Gerät kann dadurch beschädigt werden."
 msgstr ""
-"Do not use conductive objects. This could cause short circuits on the "
-"circuit board, which could damage the device."
+"Do not use conductive objects. These can cause short circuits on the circuit"
+" board and damage the device."

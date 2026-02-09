@@ -44,15 +44,14 @@ msgid ""
 "Mindestspannung fallen, geht das OBP40 automatisch in den Tiefschlaf, um "
 "Strom zu sparen und den Akku zu schonen."
 msgstr ""
-"The OBP40 can be operated both as a standalone mobile device and as a "
-"stationary device in a docking station. To use it as a mobile device, an "
-"optional LiPo battery must be installed in the OBP40. The battery can be "
-"charged locally on the device via the USB port on the left side and via the "
-"docking station. A magnetic dock is located on the back of the OBP40 for "
-"charging in the docking station. As a mobile device, the OBP40 can operate "
-"independently for up to 8.5 hours. If the battery voltage drops below a "
-"critical minimum, the OBP40 automatically enters deep sleep to conserve "
-"power and preserve the battery."
+"The OBP40 can be used as a standalone mobile device or as a stationary "
+"device in a docking station. To use it as a mobile device, an optional LiPo "
+"battery must be installed. The battery can be charged locally via the USB "
+"port on the left side and via the docking station. A magnetic dock on the "
+"back of the OBP40 allows for charging in the docking station. As a mobile "
+"device, the OBP40 can operate independently for up to 8.5 hours. If the "
+"battery voltage drops below a critical minimum, the OBP40 automatically "
+"enters deep sleep mode to conserve power and protect the battery."
 
 #: ../../usermanual/functionality.rst:12 217783aa08cb49d5a9dc4515ea3c0d2f
 #, fuzzy
@@ -65,8 +64,8 @@ msgid ""
 "Das OBP40 kann auf verschiedene Arten befestigt werden. Dabei werden "
 "Metallboote als auch Kunhststoffboote berücksichtigt."
 msgstr ""
-"The OBP40 can be mounted in a variety of ways, including both metal and "
-"plastic boats."
+"The OBP40 can be attached in various ways, taking into account both metal "
+"and plastic boats."
 
 #: ../../usermanual/functionality.rst:16 e404bda69fb2485a8ba8c133d3502841
 #, fuzzy
@@ -78,22 +77,22 @@ msgstr "Attachment via magnets to metal surfaces and in the docking station"
 msgid ""
 "Befestigung über Klettband an beliebigen Oberflächen und in der Docking-"
 "Station"
-msgstr "Attaches via Velcro to any surface and in the docking station"
+msgstr "Attaches to any surface and in the docking station via Velcro strap"
 
 #: ../../usermanual/functionality.rst:18 d7d0438035494d938dcf2cf5e5a16212
 #, fuzzy
 msgid "Befestigung über Magnete an Halteplatte"
-msgstr "Attachment via magnets to the holding plate"
+msgstr "Attachment via magnets to mounting plate"
 
 #: ../../usermanual/functionality.rst:19 bf439e21c7b241fd9ee941ef0b106bcf
 #, fuzzy
 msgid "Befestigung über Klettband an der Halteplatte"
-msgstr "Attachment via Velcro to the mounting plate"
+msgstr "Attachment via Velcro strap to the mounting plate"
 
 #: ../../usermanual/functionality.rst:23 f2e861af254c404a96a7dd3f97407c64
 #, fuzzy
 msgid "Abb.: Rückseite OBP40 mit Magnet-Dock und Klettband"
-msgstr "Fig.: Back of OBP40 with magnetic dock and Velcro"
+msgstr "Fig.: Back of OBP40 with magnetic dock and Velcro strap"
 
 #: ../../usermanual/functionality.rst:27 8ecb8a6311fb42f6b593b37e89c7a91e
 #, fuzzy
@@ -103,7 +102,7 @@ msgstr "Fig.: Docking station support surface"
 #: ../../usermanual/functionality.rst:31 1f367f741ebc45ab84c2f3ae5ab17cc2
 #, fuzzy
 msgid "Abb.: Halteplatte"
-msgstr "Fig.: Holding plate"
+msgstr "Fig.: Mounting plate"
 
 #: ../../usermanual/functionality.rst:33 573a90bfaaf04a3b8fa8f9c2dcbc6cf4
 #, fuzzy
@@ -119,14 +118,14 @@ msgid ""
 "Die Halteplatte kann optional mit einem Magnet-Dock ausgestattet werden, "
 "über das das OBP40 mit Strom versorgt werden kann."
 msgstr ""
-"There are basically two mounting options: either with magnets or with "
-"Velcro. Depending on the situation, you can choose one or both options at "
-"the same time. The 50 x 40 mm Velcro offers sufficient adhesive strength and"
-" can be used on any surface. Those who prefer fixed positions for the OBP40 "
-"can use the mounting plate. This allows for precise alignment of the display"
-" device to other devices. The OBP40 centers itself automatically via the "
-"conical recess in the mounting plate. The mounting plate can optionally be "
-"equipped with a magnetic dock, which can be used to power the OBP40."
+"There are two basic mounting options: magnets or hook-and-loop fasteners. "
+"Depending on the situation, you can choose one or both. The 50 x 40 mm hook-"
+"and-loop fastener provides sufficient adhesion and can be used on any "
+"surface. For those who prefer a fixed position for the OBP40, the mounting "
+"plate can be used. This allows for precise alignment of the display with "
+"other devices. The OBP40 self-centers via the conical recess in the mounting"
+" plate. The mounting plate can optionally be equipped with a magnetic dock "
+"for powering the OBP40."
 
 #: ../../usermanual/functionality.rst:36 3f67ca59bad24dd5ada055d1a9757a60
 #, fuzzy
@@ -139,7 +138,7 @@ msgstr ""
 "Strong neodymium magnets are used as mounting magnets, which can distort the"
 " Earth's magnetic field at the compass. Maintain a minimum distance of 2 "
 "meters from compasses and check the deviation table for additional "
-"deviations. This also applies to electronic compasses."
+"discrepancies. This also applies to electronic compasses."
 
 #: ../../usermanual/functionality.rst:39 c61e7b34405a47769d9fbd1186e6433e
 #, fuzzy
@@ -149,10 +148,10 @@ msgid ""
 "die USB-Daten. Vermeiden Sie Kurzschlüsse mit metallischen Gegenständen an "
 "der Kontakten und schützen Sie die Kontakte vor Feuchtigkeit."
 msgstr ""
-"A supply voltage of 5V is applied to the two outer spring contacts of the "
+"A 5V supply voltage is applied to the two outer spring contacts of the "
 "magnetic dock. The two inner spring contacts transmit the USB data. Avoid "
-"short circuits with metallic objects on the contacts and protect them from "
-"moisture."
+"short circuits with metallic objects at the contacts and protect the "
+"contacts from moisture."
 
 #: ../../usermanual/functionality.rst:42 4758b2c7d8ad4cc2b0386aff3b568ed7
 #, fuzzy
@@ -168,10 +167,10 @@ msgid ""
 "Als Datenquellen können ein OBP60, ein M5Stack, SignalK, AvNav oder andere "
 "Quellen benutzt werden."
 msgstr ""
-"Data transmission in mobile and stationary operation occurs exclusively via "
-"a WiFi connection in the 2.4 GHz radio range. The OBP40 obtains its data "
-"from other devices via NMEA0183 as a TCP data stream. Data sources can be an"
-" OBP60, an M5Stack, SignalK, AvNav, or other sources."
+"Data transmission in both mobile and stationary operation occurs exclusively"
+" via a 2.4 GHz Wi-Fi connection. The OBP40 receives its data from other "
+"devices via NMEA0183 as a TCP data stream. Data sources can include an "
+"OBP60, an M5Stack, SignalK, AvNav, or other sources."
 
 #: ../../usermanual/functionality.rst:47 c46fe986268448b9be3917f7186536ca
 #, fuzzy
@@ -186,9 +185,10 @@ msgid ""
 "Busses in die Daten des anderen Busses übersetzt. Die Übersetzung "
 "funktioniert dabei in beide Richtungen."
 msgstr ""
-"The OBP40 features a gateway that can exchange data bidirectionally between "
-"NMEA 0183 and NMEA 2000. Data from one bus is translated into data from the "
-"other bus. The translation works in both directions."
+"The OBP40 has an integrated gateway that can exchange data bidirectionally "
+"between NMEA0183 and NMEA2000. This involves translating the data from one "
+"bus into the data from the other bus. The translation works in both "
+"directions."
 
 #: ../../usermanual/functionality.rst:55 53b4326c9734407cbe1d54d8be7813a4
 #, fuzzy
@@ -198,7 +198,7 @@ msgid ""
 "NMEA0183 existieren."
 msgstr ""
 "It should be noted that not all NMEA2000 data can be translated into "
-"NMEA0183 data because suitable telegrams do not always exist in NMEA0183."
+"NMEA0183 data, because suitable telegrams in NMEA0183 do not always exist."
 
 #: ../../usermanual/functionality.rst:58 6f0de7f051534086bb1980a3a273809a
 #, fuzzy
@@ -221,13 +221,13 @@ msgid ""
 msgstr ""
 "The OBP40 has an integrated access point and a small web server for device "
 "configuration. Unlike other commercial devices, the OBP40 is configured "
-"entirely via the web. A mobile phone, for example, can be used for this "
-"purpose. This makes device configuration significantly simpler and more "
-"convenient. Up to 10 display pages can be freely defined in the device. The "
-"user can choose between numeric and graphic display pages. Any bus system "
-"data can be displayed on each numeric display page. The data content of the "
-"graphic display pages is predefined because they offer special "
-"functionality."
+"exclusively via the web. A mobile phone, for example, can be used for this "
+"purpose. This makes device configuration significantly easier and more "
+"convenient. Up to 10 display pages can be freely defined on the device. The "
+"user can choose between numeric and graphical display pages. Any data from "
+"the bus systems can be displayed on each numeric display page. The data "
+"content on the graphical display pages is predefined, as they offer specific"
+" functionalities."
 
 #: ../../usermanual/functionality.rst:63 8bba11dc35134c8ebc41261ec2cf1b9d
 #, fuzzy
@@ -241,8 +241,8 @@ msgid ""
 "Kontrast und eine gute Ablesbarkeit auch bei starkem Sonnenlicht. Zudem "
 "verbraucht es sehr wenig Energie."
 msgstr ""
-"The display is an e-paper display. It features high contrast and is easy to "
-"read even in strong sunlight. It also consumes very little energy."
+"An e-paper display is used. It has a high contrast and good readability even"
+" in bright sunlight. Furthermore, it consumes very little energy."
 
 #: ../../usermanual/functionality.rst:70 3b03346e0b93465d99c4908bee600666
 #, fuzzy
@@ -256,9 +256,9 @@ msgid ""
 msgstr ""
 "The display pages are selected using a jog dial with a pressure point and "
 "two additional buttons on the right side. Depending on the display page, "
-"some settings can also be adjusted using the buttons. The settings then "
-"apply exclusively to that display page and are saved, so the settings are "
-"retained when changing pages."
+"some settings can also be adjusted using the buttons. These settings then "
+"apply exclusively to that display page and are saved, so they are retained "
+"when switching pages."
 
 #: ../../usermanual/functionality.rst:73 3c35112de9734cc3819942df6a722bc8
 #, fuzzy
@@ -274,11 +274,11 @@ msgid ""
 " verbunden werden kann. Solange sich das OBP40 in der Docking-Station "
 "befindet, erfolgt die USB-Verbindung über das USB-Kabel der Docking-Station."
 msgstr ""
-"The OBP40 has a USB port on the left side, which is connected to the docking"
-" station via contacts on the back. The docking station has its own USB cable"
-" that can be connected to other devices. As long as the OBP40 is in the "
-"docking station, the USB connection is made via the docking station's USB "
-"cable."
+"The OBP40 has a USB port on the left side, which is simultaneously "
+"transmitted to the docking station via contacts on the back. The docking "
+"station has its own USB cable, which can be used to connect to other "
+"devices. As long as the OBP40 is in the docking station, the USB connection "
+"is established via the docking station's USB cable."
 
 #: ../../usermanual/functionality.rst:80 686cc56277dd4ce7a6865c43d928760c
 #, fuzzy
@@ -287,8 +287,8 @@ msgid ""
 "die linke USB-Buchse am OBP40 **oder** das USB-Kabel der Docking-Station. "
 "Beide USB-Verbindungen dürfen nicht gleichzeitig benutzt werden."
 msgstr ""
-"Only one USB connection to the OBP40 is allowed. Use either the left USB "
-"port on the OBP40 or the USB cable from the docking station. Both USB "
+"Only one USB connection to the OBP40 is permitted. Use either the left USB "
+"port on the OBP40 **or** the USB cable of the docking station. Both USB "
 "connections must not be used simultaneously."
 
 #: ../../usermanual/functionality.rst:83 53bcfbc6d5cd408bb48a47d08ce5582d
@@ -299,7 +299,7 @@ msgstr "Expansion port"
 #: ../../usermanual/functionality.rst:88 82b31b1b0538489183748ac1615fc2db
 #, fuzzy
 msgid "Abb.: Platinen-Anschlussbelegung (Elecrow)"
-msgstr "Fig.: PCB pin assignment (Elecrow)"
+msgstr "Fig.: Circuit board pinout (Elecrow)"
 
 #: ../../usermanual/functionality.rst:90 da999e7a375340f4849e97f2e52a5a2a
 #, fuzzy
@@ -308,8 +308,8 @@ msgid ""
 "oberen Seite. Darüber lässt sich optional Zusatzhardware anschließen wie "
 "z.B.:"
 msgstr ""
-"The board features a 20-pin GPIO expansion port on the top panel. This "
-"allows for optional additional hardware to be connected, such as:"
+"The board features a 20-pin GPIO expansion port on the top side. This allows"
+" for the optional connection of additional hardware such as:"
 
 #: ../../usermanual/functionality.rst:92 74e853e4227a434bb941db731923859b
 #, fuzzy
@@ -355,10 +355,10 @@ msgid ""
 "Details zur Belegung des GPIO-Erweiterungsports finden Sie im Kapitel "
 ":ref:`GPIO-Erweiterungsport`."
 msgstr ""
-"To enable data exchange via NMEA2000 or NMEA0183, optional modules are "
-"required, which must be connected to the expansion port. The I2C and 1Wire "
-"buses, however, can be used directly. Details on the GPIO expansion port "
-"assignment can be found in the :ref:`GPIO-Erweiterungsport` chapter."
+"To enable data exchange via NMEA2000 or NMEA0183, optional add-on modules "
+"are required, which must be connected to the expansion port. The I2C and "
+"1-Wire buses, however, can be used directly. Details on the GPIO expansion "
+"port pinout can be found in the chapter :ref:`GPIO-Erweiterungsport`."
 
 #: ../../usermanual/functionality.rst:103 0c0ef3eef2c7410b98386f7066ff39b6
 #, fuzzy
@@ -370,9 +370,8 @@ msgid ""
 "herausgeführten Anschlüsse sind ungeschützt. Der Prozessor kann bei falscher"
 " Benutzung der Anschlüsse irreparabel beschädigt werden."
 msgstr ""
-"Connecting additional hardware requires knowledge of electronics to "
-"correctly connect the additional hardware. The signal levels at the "
-"connectors must not exceed 3.3 V, and it is important to consider whether "
-"the connectors are used as inputs or outputs. The exposed connectors are "
-"unprotected. Improper use of the connectors can cause irreparable damage to "
-"the processor."
+"Connecting additional hardware requires knowledge of electronics to ensure "
+"correct connection. Signal levels at the connectors must not exceed 3.3 V, "
+"and it is essential to check whether the connectors are being used as inputs"
+" or outputs. The exposed connectors are unprotected. Incorrect use of these "
+"connectors can cause irreparable damage to the processor."

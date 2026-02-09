@@ -33,13 +33,13 @@ msgstr "Functions"
 #: ../../intro/specification.rst:10 786e56db89d44b6a84035cd73221f95c
 #, fuzzy
 msgid "Mobiles E-Paper Display (tageslichttauglich)"
-msgstr "Mobile e-paper display (suitable for daylight)"
+msgstr "Mobile e-paper display (daylight compatible)"
 
 #: ../../intro/specification.rst:11 881a3636e812410b9814e6c83f8d6fb1
 #, fuzzy
 msgid "Numerische Anzeigeseiten für 1, 2, 3 und 4 Werte (Werte frei wählbar)"
 msgstr ""
-"Numerical display pages for 1, 2, 3 and 4 values (values freely selectable)"
+"Numeric display pages for 1, 2, 3 and 4 values (values freely selectable)"
 
 #: ../../intro/specification.rst:12 c4083b0610544d5ca1be565b4629e645
 #, fuzzy
@@ -49,7 +49,7 @@ msgstr "Graphic display pages (fixed values)"
 #: ../../intro/specification.rst:13 5c6659cf189a48b6a179268101c91d2b
 #, fuzzy
 msgid "Trendanzeige für Werte"
-msgstr "Trend display for values"
+msgstr "Trend indicator for values"
 
 #: ../../intro/specification.rst:14 17e3a820156f42bdb3c2425b05ec12f9
 #, fuzzy
@@ -64,7 +64,7 @@ msgstr "Magnetic dock for power supply via pogo pins"
 #: ../../intro/specification.rst:16 4f2d6fceb1e24edaaef89f1cfdd298ce
 #, fuzzy
 msgid "Magnet- und Kletthalterung"
-msgstr "Magnetic and Velcro holder"
+msgstr "Magnetic and Velcro mounting"
 
 #: ../../intro/specification.rst:17 004ae75bd3534db1b349fdb83b18eeac
 #, fuzzy
@@ -74,12 +74,12 @@ msgstr "USB docking station for charging and data exchange"
 #: ../../intro/specification.rst:18 2cd65cf9bbf24438bc17a9109c88b4f1
 #, fuzzy
 msgid "NMEA2000 (über Hardwareerweiterung)"
-msgstr "NMEA2000 (via hardware extension)"
+msgstr "NMEA2000 (via hardware expansion)"
 
 #: ../../intro/specification.rst:19 7fd5a1b6cb7740fe9b839c0cffab6eca
 #, fuzzy
 msgid "NMEA0183 (über WiFi oder über Hardwareerweiterung)"
-msgstr "NMEA0183 (via WiFi or hardware extension)"
+msgstr "NMEA0183 (via WiFi or via hardware extension)"
 
 #: ../../intro/specification.rst:20 8392ad4496e44c62b07a4e18e631e71a
 #, fuzzy
@@ -220,17 +220,17 @@ msgstr "USB power supply"
 #: ../../intro/specification.rst:46 cec3ec1599ce4f7bb8e1ce88c721f279
 #, fuzzy
 msgid "Wasserdichtes Gehäuse"
-msgstr "Waterproof housing"
+msgstr "Waterproof case"
 
 #: ../../intro/specification.rst:48 9d7e219112044e01995546f4cfbfbca0
 #, fuzzy
 msgid "Außenanwendung möglich"
-msgstr "Outdoor use possible"
+msgstr "Suitable for outdoor use"
 
 #: ../../intro/specification.rst:50 5603c35cbe6344ed84d25b1616a53cca
 #, fuzzy
 msgid "Display-Schutzscheibe"
-msgstr "Display protective screen"
+msgstr "Display screen protector"
 
 #: ../../intro/specification.rst:52 3614f06adac1484d913e319d83239f6e
 #, fuzzy
@@ -240,7 +240,7 @@ msgstr "Display lighting"
 #: ../../intro/specification.rst:54 c65d7afaf0174fb2b2b30d66f7fed0ee
 #, fuzzy
 msgid "Display-Schutzfilter"
-msgstr "Screen protection filter"
+msgstr "Display protection filter"
 
 #: ../../intro/specification.rst:56 117cb2d3b6f74dfcaf14248b1cd0a68a
 #, fuzzy
@@ -387,7 +387,7 @@ msgstr "5 V, 1 A, USB-C, Magnet Dock"
 #: ../../intro/specification.rst:108 fbc52033ddd247a6a5674ecfd0a82271
 #, fuzzy
 msgid "Stromverbrauch"
-msgstr "Power consumption"
+msgstr "Electricity consumption"
 
 #: ../../intro/specification.rst:108 a720ca93c3684673855eecdefe9f100f
 #, fuzzy
@@ -493,12 +493,12 @@ msgstr "Approx. 2.5 h at 600 mA"
 #: ../../intro/specification.rst:130 7005929c87e84780852c09b7910cf40f
 #, fuzzy
 msgid "Nutzungsdauer"
-msgstr "Useful life"
+msgstr "Service life"
 
 #: ../../intro/specification.rst:130 17835ba4e3574b459150cd82722a0146
 #, fuzzy
 msgid "ca. 8,8 h bei Volllast"
-msgstr "Approx. 8.8 hours at full load"
+msgstr "Approximately 8.8 hours at full load"
 
 #: ../../intro/specification.rst:132 49f225301788421490e5111e29dd4352
 #, fuzzy
@@ -508,12 +508,12 @@ msgstr "Sleep duration"
 #: ../../intro/specification.rst:132 9604d59a05aa4989bfad6f7a24abdeee
 #, fuzzy
 msgid "ca. 1,3 Jahre bei 1200 mAh"
-msgstr "Approx. 1.3 years at 1200 mAh"
+msgstr "Approximately 1.3 years at 1200 mAh"
 
 #: ../../intro/specification.rst:134 7bc08f660d934f2195afac96a017673d
 #, fuzzy
 msgid "Schutzgrad"
-msgstr "Degree of protection"
+msgstr "Protection level"
 
 #: ../../intro/specification.rst:134 ac2ab4f38d0a49e596d4c3deb618a1d9
 #, fuzzy
@@ -543,7 +543,7 @@ msgstr "110 G"
 #: ../../intro/specification.rst:142 f3464879367842338e6176f4475b0aa3
 #, fuzzy
 msgid "Anschlussbelegung"
-msgstr "Pin assignment"
+msgstr "Connection assignment"
 
 #: ../../intro/specification.rst:149 1e71559f69b14c579087e1a30fb125b0
 #, fuzzy
@@ -553,7 +553,7 @@ msgstr "Abb.: USB-Port"
 #: ../../intro/specification.rst:154 7435fc9b8616491bbadcee6929a0877e
 #, fuzzy
 msgid "Abb.: Platinen-Anschlussbelegung CrowPanel 4.2 (Elecrow)"
-msgstr "Fig.: Circuit board pin assignment CrowPanel 4.2 (Elecrow)"
+msgstr "Fig.: Circuit board pinout CrowPanel 4.2 (Elecrow)"
 
 #: ../../intro/specification.rst:157 d513bf56a75f44e2ab8ab9098567e6e9
 #, fuzzy
@@ -723,12 +723,12 @@ msgid ""
 "<../_static/files/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf>`_, bevor Sie "
 "Zusatzhardware am Erweiterungsport anschließen."
 msgstr ""
-"The expansion port connectors are not protected. Voltages below 0 V and "
-"above 3.3 V can cause irreparable damage to the processor if the permissible"
-" limits are not observed. Consult the technical manual for the `ESP32-S3 "
+"The expansion port connections are not protected. Voltages below 0V and "
+"above 3.3V can irreparably damage the processor if the permissible limits "
+"are not observed. Consult the technical manual for `ESP32-S3 "
 "<../_static/files/esp32-s3_datasheet_en.pdf>`_ and `ESP32-S3 WROOM "
 "<../_static/files/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf>`_ before "
-"connecting additional hardware to the expansion port."
+"connecting any additional hardware to the expansion port."
 
 #: ../../intro/specification.rst:190 70caad65999745729f5624e19cb8f508
 #, fuzzy
@@ -829,7 +829,7 @@ msgstr "AS5600, MT6701 (in preparation)"
 #: ../../intro/specification.rst:222 bb8e4ed256754fa3bdd6aff72b56cc7c
 #, fuzzy
 msgid "**Port-Erweiterungen**"
-msgstr "**Port extensions**"
+msgstr "**Port expansions**"
 
 #: ../../intro/specification.rst:223 2ffaa77b3d944a7f9950814be029fd8b
 #, fuzzy
@@ -839,7 +839,7 @@ msgstr "PCF8574 (in preparation)"
 #: ../../intro/specification.rst:225 b9f43abeb42447ffbdaef22aec30cb0b
 #, fuzzy
 msgid "**Echtzeit-Uhren**"
-msgstr "**Real-time clocks**"
+msgstr "**Real-time watches**"
 
 #: ../../intro/specification.rst:226 73e09ebd90544b44bfe11e56b8909d8e
 #, fuzzy
@@ -849,7 +849,7 @@ msgstr "DS1388"
 #: ../../intro/specification.rst:229 8e52927af662420d979697de6fa81cb3
 #, fuzzy
 msgid "Nutzbare 1Wire-Sensorik"
-msgstr "Usable 1Wire sensors"
+msgstr "Usable 1-Wire sensors"
 
 #: ../../intro/specification.rst:231 2b72237098a64bf5832dda7fedbfe942
 #, fuzzy

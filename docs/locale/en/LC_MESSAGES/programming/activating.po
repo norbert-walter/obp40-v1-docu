@@ -35,22 +35,22 @@ msgid ""
 "Versionen benutzt werden. Als Betriebssysteme werden Linux, Windows und Mac "
 "iOS unterstützt. Zum Kompilieren der Firmware gibt es zwei Möglichkeiten."
 msgstr ""
-"The firmware for the OBP40 can be easily customized to your needs. "
-"PlatformIO is used as the programming development environment. The source "
-"code is centrally located on Github. All software revisions are available "
-"there. Current or older versions can be used as needed. Linux, Windows, and "
-"Mac iOS are supported as operating systems. There are two ways to compile "
-"the firmware."
+"The OBP40 firmware can be easily customized to individual needs. The "
+"programming and development environment used is \"PlatformIO.\" The source "
+"code is centrally located on GitHub, where all software revisions are "
+"available. Current or older versions can be used as needed. Linux, Windows, "
+"and macOS are supported operating systems. There are two methods for "
+"compiling the firmware."
 
 #: ../../programming/activating.rst:8 fe6ea2fdc1eb46d18c634c3a60fee575
 #, fuzzy
 msgid "Verwendung von **Gitpod** (webbasiert in Cloud)"
-msgstr "Using **Gitpod** (web-based in cloud)"
+msgstr "Using **Gitpod** (web-based in the cloud)"
 
 #: ../../programming/activating.rst:9 b136deef542446439aab3b3b39e7722b
 #, fuzzy
 msgid "**Visual Studio Code** mit **PlatformIO** Plugin (lokal auf dem PC)"
-msgstr "**Visual Studio Code** with **PlatformIO** plugin (locally on the PC)"
+msgstr "**Visual Studio Code** with **PlatformIO** plugin (local on the PC)"
 
 #: ../../programming/activating.rst:12 682cb5b37c0a4359b229a6486b07574e
 #, fuzzy
@@ -63,7 +63,7 @@ msgid ""
 msgstr ""
 "The Arduino IDE is not used as a programming development environment because"
 " the source code is very complex and the Arduino IDE lacks a useful cross-"
-"referencing function. Necessary tool chains and libraries are linked in the "
+"referencing function. Necessary toolchains and libraries are linked in the "
 "correct version in PlatformIO, enabling error-free compilation."
 
 #: ../../programming/activating.rst:15 07b9276228ba456d840ad9493b86c34b
@@ -91,40 +91,40 @@ msgid ""
 "schnellere Hardware einsetzen möchte, kann den kostenpflichtigen Service von"
 " Gitpod nutzen. Weitere Details findet man auf der `Webseite von Gitpod`_."
 msgstr ""
-"Gitpod is a standardized, web-based development environment that runs in the"
-" cloud. This makes it possible to develop code on any computer with a modern"
-" web browser without installing any special software components. To use the "
-"service, you must register with Github. The code development environment, "
-"based on PlatformIO, is always kept up-to-date. Dependencies on external "
-"libraries are automatically resolved and integrated. The system is ready to "
-"use and is particularly suitable for beginners or for small changes that "
-"need to be made quickly on the go. The free version of Gitpod is free to "
-"use, but is subject to some restrictions regarding usage time and provided "
-"computer hardware. Currently, 50 hours of usage time per month are free and "
-"perfectly sufficient for simple changes. Those who need more time or want to"
-" use faster hardware can use Gitpod's paid service. Further details can be "
-"found on the `Webseite von Gitpod`_."
+"Gitpod is a standardized, web-based, cloud-based development environment. "
+"This allows you to develop code on any computer with a modern web browser "
+"without installing any special software components. To use the service, you "
+"need to register with GitHub. Based on PlatformIO, the code development "
+"environment is always up-to-date. Dependencies on external libraries are "
+"automatically resolved and integrated. The system is ready to use "
+"immediately and is particularly suitable for beginners or for making small "
+"changes quickly while on the go. The free version of Gitpod is free of "
+"charge, but it is subject to some limitations regarding usage time and "
+"available computer hardware. Currently, 50 hours of usage time per month are"
+" free and perfectly adequate for simple changes. Users who need more time or"
+" want to use faster hardware can subscribe to Gitpod's paid service. Further"
+" details can be found on the `Webseite von Gitpod`_."
 
 #: ../../programming/activating.rst:21 6da0615d682a44e58776db06faa7168a
 #, fuzzy
 msgid "**Der Workflow bei Gitpod sieht folgendermaßen aus:**"
-msgstr "**The Gitpod workflow looks like this:**"
+msgstr "**The workflow at Gitpod looks like this:**"
 
 #: ../../programming/activating.rst:23 ../../programming/activating.rst:159
 #: 83f203563cf046919f2dbaa9919d0113 df4c1018d9344a5f971391a1285db84c
 #, fuzzy
 msgid "OBP40-Github-Projekt in eigenes Github-Repository forken"
-msgstr "Fork the OBP40 Github project into your own Github repository"
+msgstr "Fork the OBP40 GitHub project into its own GitHub repository"
 
 #: ../../programming/activating.rst:24 8e6e5817c08b47bc97189ccd1f6df8d4
 #, fuzzy
 msgid "Gitpod-Link zum Projekt öffnen"
-msgstr "Open Gitpod link to the project"
+msgstr "Open the Gitpod link to the project"
 
 #: ../../programming/activating.rst:25 df70c489eff4480090550825c400c649
 #, fuzzy
 msgid "In Gitpod Entwicklungsumgebung und Hardware auswählen"
-msgstr "Select development environment and hardware in Gitpod"
+msgstr "Select the development environment and hardware in Gitpod"
 
 #: ../../programming/activating.rst:26 23aaabfc338d46999ee518391f1b669f
 #, fuzzy
@@ -132,8 +132,8 @@ msgid ""
 "Start eines Containers mit der Entwicklungsumgebung und Download des "
 "Projektes aus dem eigenen Github-Repository"
 msgstr ""
-"Start a container with the development environment and download the project "
-"from your own Github repository"
+"Starting a container with the development environment and downloading the "
+"project from your own Github repository"
 
 #: ../../programming/activating.rst:27 ../../programming/activating.rst:161
 #: 2d9efa39aedd471e974b81bee883ccba b99a6fa23ac54b42b0ad6ffc04b5656f
@@ -150,13 +150,13 @@ msgstr "Download des Binary-Files"
 #: 221bc6c95245453b9d13c339ab65a73e c0636b5c3c124d2e955a0bdccf91fa0f
 #, fuzzy
 msgid "Aktualisierung der Änderungen im eigenen Github-Repository"
-msgstr "Updating the changes in your own Github repository"
+msgstr "Update the changes in your own GitHub repository"
 
 #: ../../programming/activating.rst:33 ../../programming/activating.rst:167
 #: 47c65629073e443cb016a42266813035 bc9810b22db14f8a8bd7921e54cd2eae
 #, fuzzy
 msgid "Github-Projekt forken"
-msgstr "Fork Github project"
+msgstr "Github project forking"
 
 #: ../../programming/activating.rst:35 dc31ec03b35e41ccbddb4e1d6568b736
 #, fuzzy
@@ -169,24 +169,24 @@ msgid ""
 "entstandene Code ist dann eine Erweiterung oder Modifikation des Original-"
 "Projektes."
 msgstr ""
-"First, the original OBP40 project is forked into your private repository. A "
-"fork is essentially a split or separation of the source code into a new "
-"branch. A fork creates a copy of the original project in your private "
-"repository. This allows you to make changes to the code and save it in your "
-"repository. The newly created code is then an extension or modification of "
-"the original project."
+"First, the original OBP40 project is forked into your own private "
+"repository. A fork is essentially a splitting or separation of the source "
+"code into a new branch. A fork creates a copy of the original project in "
+"your private repository. This allows you to make changes to the code and "
+"save them in your repository. The resulting code is then an extension or "
+"modification of the original project."
 
 #: ../../programming/activating.rst:38 ../../programming/activating.rst:172
 #: 2fb71060059b4791a5fd22ea8d2f0a37 b1000e1956a14e949f2a90a39dbfcfb8
 #, fuzzy
 msgid "Nur mit einem Fork ist es möglich, eigene Code-Änderungen zu sichern."
-msgstr "Only with a fork is it possible to save your own code changes."
+msgstr "Only by creating a fork is it possible to save your own code changes."
 
 #: ../../programming/activating.rst:42 ../../programming/activating.rst:176
 #: 1c0dec676f2e4e229760ee8f2fe66b48 8b7f55667ea04ce280a80684130cb5a5
 #, fuzzy
 msgid "Abb.: Fork erstellen"
-msgstr "Fig.: Create a fork"
+msgstr "Fig.: Creating a fork"
 
 #: ../../programming/activating.rst:44 19d7686055004abf8c88de34424e2ef8
 #, fuzzy
@@ -198,11 +198,11 @@ msgid ""
 "Kopieren Sie sich danach den Link zu ihrem Github-Projekt aus der Browser-"
 "Zeile. Sie sollten dann einen ähnlichen Link haben wie diesen:"
 msgstr ""
-"First, log in to Github, then go to `Original-Projekt zum OBP60`_ and click "
-"the **Fork** button in the top right corner. You'll be asked whether you "
-"trust the source and can then choose a new project name or use the original "
-"project name. Then, copy the link to your Github project from the browser "
-"bar. You should then have a link similar to this:"
+"First, log in to GitHub and then go to `Original-Projekt zum OBP60`_ and "
+"click the **Fork** button in the upper right corner. You will then be asked "
+"if you trust the source and can choose to give a new project name or use the"
+" original project name. Next, copy the link to your GitHub project from the "
+"browser's address bar. You should then have a link similar to this:"
 
 #: ../../programming/activating.rst:48 d6225f67129d484ab6110fb67c6f6b8f
 #, fuzzy
@@ -213,7 +213,8 @@ msgstr "``Https://github.com/MyAccountName/esp32-nmea2000-obp60/tree/master``"
 #, fuzzy
 msgid ""
 "Der Part ``MyAccountName`` wird durch ihren eigenen Accountnamen ersetzt."
-msgstr "The part ``MyAccountName`` will be replaced by your own account name."
+msgstr ""
+"The part ``MyAccountName`` will be replaced by their own account name."
 
 #: ../../programming/activating.rst:54 30ebcc21bdb844f680b0a31a3b4e9353
 #, fuzzy
@@ -246,9 +247,9 @@ msgid ""
 "und getaggte Versionen können auf die selbe Weise verwendet werden, indem "
 "der Banch- oder Tagname verwendet wird."
 msgstr ""
-"If you want to compile a specific release version, use the release version "
-"number, such as ``20250304``, instead of ``master``. Branches and tagged "
-"versions can be used in the same way, using the branch or tag name."
+"To compile a specific release version, use the release version number, such "
+"as ``20250304``, instead of ``master``. Branches and tagged versions can be "
+"used in the same way by using the branch or tag name."
 
 #: ../../programming/activating.rst:63 f2aae53c18704c278c63548e7984c7ca
 #, fuzzy
@@ -257,13 +258,13 @@ msgid ""
 "anmelden. Loggen Sie sich dort mit dem bereits vorhandenen Github-Account "
 "ein."
 msgstr ""
-"You'll then be taken to the Gitpod homepage, where you'll need to log in. "
-"Log in with your existing GitHub account."
+"You will then be taken to the Gitpod homepage and will need to log in. Log "
+"in there with your existing GitHub account."
 
 #: ../../programming/activating.rst:67 ea9ce8554aa242d98eb75906e35d886a
 #, fuzzy
 msgid "Abb.: Login bei Gitpod mit Github-Account"
-msgstr "Fig.: Login to Gitpod with Github account"
+msgstr "Image: Login to Gitpod with a Github account"
 
 #: ../../programming/activating.rst:70 0ec5e784b7e84bc9992254aa88e187d1
 #, fuzzy
@@ -276,13 +277,13 @@ msgid ""
 "Danach können Sie die Default-Einstellungen übernehmen. Sie sind schon "
 "korrekt auf das Projekt eingestellt."
 msgstr ""
-"You can then accept the default settings. They are already correctly "
+"After that, you can accept the default settings. They are already correctly "
 "configured for the project."
 
 #: ../../programming/activating.rst:76 7ea4eab5e35045a8a54e81f82d8b0ba3
 #, fuzzy
 msgid "Abb.: Einstellungen für Gitpod"
-msgstr "Fig.: Settings for Gitpod"
+msgstr "Fig.: Gitpod settings"
 
 #: ../../programming/activating.rst:79 31375106e13a42bea80a60a6d01707c7
 #, fuzzy
@@ -305,29 +306,28 @@ msgid ""
 "kompilieren und das Binary herunterladen. Der Download des Binarys auf die "
 "Zielhardware muss mit externen Tools durchgeführt werden."
 msgstr ""
-"After confirming the Gitpod settings, a new Docker container will be "
-"started, after which all necessary software components will be automatically"
-" loaded into the container. This process may take some time. You should end "
-"up with a finished workplace. The workplace has the look and feel of Visual "
-"Studio Code, but is unrelated to it and differs in some respects. For "
+"After confirming the Gitpod settings, a new Docker container will start, and"
+" all necessary software components will be automatically loaded into the "
+"container. This process may take some time. At the end, you should have a "
+"fully configured workspace. The workspace has the look and feel of Visual "
+"Studio Code, but it is not related and differs in several aspects. For "
 "example, there is no IntelliSense, and the number of plugins is "
-"significantly fewer than in the original. Additionally, the buttons for "
+"significantly smaller than in the original. Additionally, the buttons for "
 "compiling and downloading to the target hardware, as well as the serial "
-"monitor, are missing, as is typical of Visual Studio Code. The workplace "
-"allows you to modify the code, compile it, and download the binary. "
-"Downloading the binary to the target hardware must be performed using "
-"external tools."
+"monitor familiar from Visual Studio Code, are missing. The workspace allows "
+"you to modify the code, compile it, and download the binary. Downloading the"
+" binary to the target hardware must be done using external tools."
 
 #: ../../programming/activating.rst:85 a60f43151ed14b1b86db3b9f75ed67ba
 #, fuzzy
 msgid "Abb.: Fertiger Workplace"
-msgstr "Fig.: Finished workplace"
+msgstr "Fig.: Finished Workplace"
 
 #: ../../programming/activating.rst:88 ../../programming/activating.rst:220
 #: 215e9bea680942669885d22682806c9a ed36ec5fa9054a4ba3c69b4ea484d434
 #, fuzzy
 msgid "Codeänderung und Kompilieren"
-msgstr "Code change and compilation"
+msgstr "Code modification and compilation"
 
 #: ../../programming/activating.rst:90 1a4545106199477d8915a151a92d6eb9
 #, fuzzy
@@ -338,9 +338,9 @@ msgid ""
 " und zum e-Paper-Display vorgenommen werden."
 msgstr ""
 "The code for the OBP40 is located in the folder: "
-"*/ESP32-NMEA2000-OBP60/lib/obp60task* . By editing the *platformio.ini* "
-"file, some hardware adjustments can be made to the ESP32-S3 variant and the "
-"e-paper display."
+"*/ESP32-NMEA2000-OBP60/lib/obp60task* . By editing the file "
+"*platformio.ini*, some hardware adjustments can be made for the ESP32-S3 "
+"variant and the e-paper display."
 
 #: ../../programming/activating.rst:92 0bb10fc8488d476398aa10bf9c0bd239
 #, fuzzy
@@ -349,9 +349,9 @@ msgid ""
 "in das Terminal-Fenster unten rechts einfügen. Sie können dazu die Copy & "
 "Paste Funktion benutzen."
 msgstr ""
-"To compile the code, you need to paste the following commands one after the "
-"other into the Terminal window at the bottom right. You can use the copy and"
-" paste function to do this."
+"To compile the code, you must paste the following commands one after the "
+"other into the terminal window in the bottom right corner. You can use the "
+"copy and paste function for this."
 
 #: ../../programming/activating.rst:94 a5865ea5b4bb4efab4de10b4afb79984
 #, fuzzy
@@ -379,11 +379,11 @@ msgid ""
 "einiges an Zeit benötigt. Wenn Sie den Code später geändert haben und erneut"
 " kompilieren wollen, so benutzen Sie einfach den letzten Befehl erneut."
 msgstr ""
-"After the second command, all necessary tool chains and libraries are loaded"
-" into the Workplace. This process can take several minutes. The final "
-"command begins the actual compilation process, which also takes some time. "
-"If you later change the code and want to compile again, simply reuse the "
-"last command."
+"After the second command, all necessary toolchains and libraries are loaded "
+"into the Workplace. This process can take several minutes. The actual "
+"compilation process begins with the last command, which also takes some "
+"time. If you later modify the code and want to recompile, simply use the "
+"last command again."
 
 #: ../../programming/activating.rst:102 fba9d6e2fafb40e8af3bf7878732b20c
 #, fuzzy
@@ -402,7 +402,7 @@ msgstr ""
 #: ../../programming/activating.rst:108 e545bd7a6f934e20aea22bea1199e3d0
 #, fuzzy
 msgid "Abb.: Kompilierung beendet"
-msgstr "Fig.: Compilation finished"
+msgstr "Fig.: Compilation complete"
 
 #: ../../programming/activating.rst:111 bf5de21db29d41efb514fecf7b565b5f
 #, fuzzy
@@ -415,8 +415,8 @@ msgid ""
 "Der Binary-Code zur Firmware befindet sich nach dem Kompilieren im "
 "Verzeichnis:"
 msgstr ""
-"After compiling, the binary code for the firmware is located in the "
-"directory:"
+"The binary code for the firmware is located in the following directory after"
+" compilation:"
 
 #: ../../programming/activating.rst:115 d2a6b4edff3d4cb48927405d72f88ac3
 #, fuzzy
@@ -426,7 +426,7 @@ msgstr "*/ESP32-NMEA2000-OBP60/.pio/build/obp40_s3* (for OBP40)"
 #: ../../programming/activating.rst:119 57a726a861864fb38daf7e099dd6137d
 #, fuzzy
 msgid "Abb.: Datei-Download"
-msgstr "Fig.: File download"
+msgstr "Image: File download"
 
 #: ../../programming/activating.rst:121 0353456104b140af8eb6b63208482609
 #, fuzzy
@@ -437,7 +437,7 @@ msgstr "The files have the following meaning:"
 #: 719d774239504e2ea8813343dc85f501 801dcdfe00bb48b68b4f05ff48d49f10
 #, fuzzy
 msgid "bootloader.bin - ESP32-S3 Bootloader für Firmware"
-msgstr "Bootloader.bin - ESP32-S3 bootloader for firmware"
+msgstr "Bootloader.bin - ESP32-S3 Bootloader for Firmware"
 
 #: ../../programming/activating.rst:124 a2019e5cfeb74742969484790fac17a0
 #, fuzzy
@@ -448,13 +448,13 @@ msgstr "Partitions.bin - Partition table for the flash memory"
 #: 6192435cd7684c34ae3d80663395d204 85f13b6965404a858838491ce8c3b2a1
 #, fuzzy
 msgid "firmware.bin - Binärfile als Update (nur Firmware)"
-msgstr "Firmware.bin - Binary file as update (firmware only)"
+msgstr "Firmware.bin - Binary file as an update (firmware only)"
 
 #: ../../programming/activating.rst:126 ../../programming/activating.rst:235
 #: 8a4a9437565143aaa83d30918c238c08 e19c394a76ec44b1804218dba50068c8
 #, fuzzy
 msgid "firmware.elf - ELF-File für Fehlerverfolgung"
-msgstr "Firmware.elf - ELF file for bug tracking"
+msgstr "Firmware.elf - ELF file for error tracking"
 
 #: ../../programming/activating.rst:127 ../../programming/activating.rst:236
 #: bcaa5079cfb5489d896c873699e739e9 d8ffe4be08ea473bb36382a1dc15d801
@@ -463,8 +463,8 @@ msgid ""
 "obp40_s3-all.bin - Binärfile mit allen Bestandteilen (Bootloader, "
 "Partitionstabelle, Firmware, Default-Settings)"
 msgstr ""
-"Obp40_s3-all.bin - Binary file with all components (bootloader, partition "
-"table, firmware, default settings)"
+"Obp40_s3-all.bin - Binary file containing all components (bootloader, "
+"partition table, firmware, default settings)"
 
 #: ../../programming/activating.rst:128 ../../programming/activating.rst:237
 #: 4af9e23b87d84f9699ca95f34f90f2ec bfeae3f0e6ea40baae866ffd0b98c911
@@ -491,12 +491,13 @@ msgid ""
 "dem OBP40 über die Webseite :ref:`Update` hochladen und damit die Firmware "
 "aktualisieren. Die **all-** Datei muss über USB geflasht werden."
 msgstr ""
-"Depending on whether you want to start with the default settings or continue"
-" working with the old settings, you can download one of the two files "
+"Depending on whether you want to start with default settings or continue "
+"working with the old settings, you can download one of the two files "
 "highlighted in bold. The easiest way to do this is to right-click the "
-"corresponding file in the file tree and then select **Download**. The "
-"**update** file can later be uploaded to the OBP40 via the :ref:`Update` "
-"website to update the firmware. The **all** file must be flashed via USB."
+"corresponding file in the file tree and then download it via **Download**. "
+"The **update** file can later be uploaded to the OBP40 via the website "
+":ref:`Update` to update the firmware. The **all** file must be flashed via "
+"USB."
 
 #: ../../programming/activating.rst:134 ../../programming/activating.rst:269
 #: 5a8a4003bb6e4b3fa7a3dcf605320a53 798830f299954dd38af4ca9e84679209
@@ -519,16 +520,15 @@ msgid ""
 "möchte, wo er zuletzt aufgehört hat, kann der Vorgehensweise ab Punkt 2 "
 "folgen und den Gitpod-Link zu seinem Projekt öffnen."
 msgstr ""
-"Anyone who wants to save the source code changes to their GitHub repository "
-"can use the GitHub functionality of the Workplace. On the left side, there "
-"is an icon with a path branch and a small blue number. This icon tells the "
-"user how many file changes have been made as a result of the source code "
-"changes. By clicking on the icon, you can add a description for the changes."
-" If you follow the dialog to the right of the blue Commit button, you can "
-"click **Commit and Push**. This will upload the code changes to your GitHub "
-"repository and save them. If you want to continue where you left off later, "
-"you can follow the procedure from step 2 and open the GitPod link to your "
-"project."
+"To save source code changes to your GitHub repository, you can use the "
+"GitHub functionality of the Workplace. On the left, there's an icon with a "
+"path branch and a small blue number next to it. This icon tells you how many"
+" changes have been made to files by the source code changes. Clicking the "
+"icon allows you to add a description for the changes. Following the dialog "
+"to the right of the blue Commit button, you can click **Commit and Push**. "
+"This uploads and saves the code changes to your GitHub repository. If you "
+"want to continue where you left off, you can follow the procedure from step "
+"2 onwards and open the Gitpod link to your project."
 
 #: ../../programming/activating.rst:139 4ca9e04aaa264f118421ef988ba7f10d
 #, fuzzy
@@ -536,15 +536,15 @@ msgid ""
 "Nur mit einem Beschreibungstext zur Codeänderung können Sie die Änderungen "
 "committen und nach Github hochladen."
 msgstr ""
-"Only with a description of the code change can you commit the changes and "
-"upload them to Github."
+"You can only commit and upload changes to Github if you include a "
+"description text for the code change."
 
 #: ../../programming/activating.rst:143 ../../programming/activating.rst:278
 #: ../../programming/activating.rst:287 2316c05d5809431e87227903db409bad
 #: e9d457c716304e66bcf4de06c5d1828f eef29c74613a422bb834c5b20bea5eb7
 #, fuzzy
 msgid "Abb.: Source Code auf Github sichern"
-msgstr "Fig.: Save source code on Github"
+msgstr "Fig.: Saving the source code to GitHub"
 
 #: ../../programming/activating.rst:146 5a126377ffd74934a557559809c6caf7
 #, fuzzy
@@ -566,15 +566,15 @@ msgid ""
 "Bibliotheken zu einem Projekt hinzugefügt, ohne dass man sich um Details "
 "kümmern muss."
 msgstr ""
-"**Visual Studio Code** (VSC) is a widely used software development "
-"environment that supports a variety of programming languages and is "
-"available for various operating systems. The development environment runs on"
-" a local PC. The **PlatformIO** plugin for Visual Studio Code was created "
-"for programming microcontroller-based embedded electronics in C and C++. "
-"This plugin makes it easy to develop software for hardware. A comprehensive "
-"database lists a wide variety of electronic hardware boards. The necessary "
-"tool chains and software libraries are added to a project based on the "
-"hardware board, without requiring any attention to detail."
+"Visual Studio Code (VSC) is a widely used software development environment "
+"that supports a variety of programming languages and is available for "
+"various operating systems. The development environment runs on a local PC. "
+"The PlatformIO plugin for Visual Studio Code was created for programming "
+"embedded electronics based on microcontrollers in C and C++. This makes it "
+"easy to develop software for hardware. A comprehensive database lists a "
+"large number of electronic hardware boards. The necessary toolchains and "
+"software libraries are automatically added to a project based on the "
+"hardware board, eliminating the need to worry about the details."
 
 #: ../../programming/activating.rst:151 bfe82d940c134f3090a7d7de8f07552b
 #, fuzzy
@@ -585,8 +585,8 @@ msgid ""
 "verfolgt werden können."
 msgstr ""
 "Anyone interested in further developing the OBP40 firmware should use Visual"
-" Studio Code / PlatformIO. Visual Studio Code has mechanisms for "
-"implementing and tracking software changes via GitHub."
+" Studio Code / PlatformIO. Visual Studio Code has mechanisms that allow "
+"software changes to be implemented and tracked via GitHub."
 
 #: ../../programming/activating.rst:153 c068bf2c0fdc411f848ec2bb6cd07c0b
 #, fuzzy
@@ -595,8 +595,8 @@ msgid ""
 "einrichtet, ist in dieser `Anleitung`_ beschrieben. Sie finden im Internet "
 "auch weitere Beschreibungen zu diesem Thema."
 msgstr ""
-"How to install Visual Studio Code and then set up the PlatformIO plugin is "
-"described in this `Anleitung`_. You can also find further descriptions on "
+"This document [[[[M0]]] describes how to install Visual Studio Code and then"
+" set up the PlatformIO plugin. You can also find further descriptions on "
 "this topic online."
 
 #: ../../programming/activating.rst:157 3fefccab66b1495fb8658d8d23bb1209
@@ -630,12 +630,12 @@ msgid ""
 "entstandene Code ist dann eine Erweiterung oder Modifikation des Original-"
 "Projektes."
 msgstr ""
-"First, the original OBP40 project is forked into your private repository. A "
-"fork is essentially a split or separation of the source code into a new "
-"branch. A fork creates a copy of the original project in your private "
-"repository. This allows you to make changes to the code and save them in "
-"your repository. The newly created code is then an extension or modification"
-" of the original project."
+"First, the original OBP40 project is forked into your own private "
+"repository. A fork is essentially a splitting or separation of the source "
+"code into a new branch. A fork creates a copy of the original project in "
+"your private repository. This allows you to make changes to the code and "
+"save them in your repository. The resulting code is then an extension or "
+"modification of the original project."
 
 #: ../../programming/activating.rst:178 7bbe4d6b38764bdf9d1283d539738ac1
 #, fuzzy
@@ -647,11 +647,11 @@ msgid ""
 " Kopieren Sie sich danach den Link zu Ihrem Github-Projekt aus der Browser-"
 "Zeile. Sie sollten dann einen ähnlichen Link haben wie diesen:"
 msgstr ""
-"First, log in to Github, then go to `Original-Projekt zum OBP60`_ and click "
-"the **Fork** button in the top right corner. You'll be asked whether you "
-"trust the source, and you can then choose a new project name or use the "
-"original project name. Then, copy the link to your Github project from the "
-"browser bar. You should then have a link similar to this:"
+"First, log in to GitHub, then go to `Original-Projekt zum OBP60`_ and click "
+"the **Fork** button in the upper right corner. You will then be asked if you"
+" trust the source, and you can then choose a new project name or use the "
+"original project name. Next, copy the link to your GitHub project from the "
+"browser's address bar. You should then have a link similar to this:"
 
 #: ../../programming/activating.rst:180 0f7d7893a6a84561bd9aedb50be9be47
 #, fuzzy
@@ -677,14 +677,14 @@ msgid ""
 "Github-Projekt ein. Danach klicken Sie auf die darunter liegende Zeile "
 "**Clone from Github**."
 msgstr ""
-"Initially, you'll see an empty Workplace. Click the **Clone Repository** "
-"button and enter the link to your Github project in the top line. Then click"
-" the **Clone from Github** line below."
+"You will initially find an empty Workplace. Click the **Clone Repository** "
+"button and enter the link to your GitHub project in the top line. Then click"
+" the **Clone from GitHub** line below."
 
 #: ../../programming/activating.rst:191 bab647e870eb450e8298f8c6b35e20ec
 #, fuzzy
 msgid "Abb.: Projekt clonen"
-msgstr "Fig.: Clone project"
+msgstr "Fig.: Cloning a project"
 
 #: ../../programming/activating.rst:193 78068a9eee5844f186fa3b8b8484a9d5
 #, fuzzy
@@ -696,11 +696,12 @@ msgid ""
 "sich um die Konfigurationsdatei zum NMEA2000-Gateway, das wir in unserem "
 "Fall nicht benötigen."
 msgstr ""
-"This will begin downloading the project, and after a while, the project and "
-"its file tree will appear on the left side of the Workplace. Finally, a file"
-" named **platformio.ini** will open on the right side. Close this file using"
-" the cross in the top right corner of the window. This is the configuration "
-"file for the NMEA 2000 gateway, which we don't need in our case."
+"The project download will then begin, and after a short time, the project "
+"and its file tree will appear on the left side of the Workplace. Finally, a "
+"file named **platformio.ini** will open on the right. Close this file by "
+"clicking the \"X\" in the upper right corner of the window. This is the "
+"configuration file for the NMEA2000 gateway, which we don't need in this "
+"case."
 
 #: ../../programming/activating.rst:197 9fc72699ebdb4bf68986e35c7f481950
 #, fuzzy
@@ -717,11 +718,11 @@ msgid ""
 "angeschlossen haben. Die Schnittstellenbezeichnungen unter Windows und Linux"
 " sind dabei unterschiedlich."
 msgstr ""
-"Then, navigate to the file tree and open the path: "
-"``/esp32-nmea2000-obp60/lib/obp60task`` and open the **platformio.ini** file"
-" belonging to the OBP40 project. In the file, change the serial interface to"
-" match the port to which you connected the OBP40. The interface names are "
-"different under Windows and Linux."
+"Then go to the file tree and open the path: "
+"``/esp32-nmea2000-obp60/lib/obp60task`` and open the file "
+"**platformio.ini**, which belongs to the OBP40 project. In the file, change "
+"the serial interface to the port to which you have connected the OBP40. The "
+"interface names differ between Windows and Linux."
 
 #: ../../programming/activating.rst:201 714cf07a969941138709645cdf7d4e5d
 #, fuzzy
@@ -740,9 +741,9 @@ msgid ""
 "integriert. Für die älteren Win7/8-Versionen benötigen Sie `zusätzliche "
 "Treiber`_, um die USB-Schnittstelle Ihres Rechners benutzen zu können."
 msgstr ""
-"For Linux and Windows 10/11, corresponding USB drivers are integrated into "
-"the operating system. For older versions of Windows 7/8, you will need "
-"`zusätzliche Treiber`_ to use your computer's USB port."
+"For Linux and Windows 10/11, the necessary USB drivers are integrated into "
+"the operating system. For older Windows 7/8 versions, you need `zusätzliche "
+"Treiber`_ to use your computer's USB interface."
 
 #: ../../programming/activating.rst:211 d707e5d6baac47d18fdaf9d52d5b9327
 #, fuzzy
@@ -757,8 +758,8 @@ msgid ""
 "Einstellung **env:obp40_s3** auswählen. Damit wird sichergestellt, dass die "
 "Firmware für die Hardware OBP40 erstellt wird."
 msgstr ""
-"Next, select the hardware environment you want to use by clicking on the "
-"bottom line. A window will open at the top where you can select the setting "
+"Next, select the hardware environment to use by clicking on the bottom row. "
+"A window will then open at the top where you select the setting "
 "**env:obp40_s3**. This ensures that the firmware is created for the OBP40 "
 "hardware."
 
@@ -777,12 +778,12 @@ msgid ""
 " benötigt einiges an Zeit. Am Ende sollten Sie eine Mitteilung im Terminal-"
 "Fenster erhalten, die Sie über das Resultat informiert."
 msgstr ""
-"Once you've completed your code changes, you can activate the compilation "
-"process using the checkmark icon in the bottom line. Before doing so, make "
-"sure you've selected the correct hardware environment, "
-"**env:obp40_s3(esp32-nmea2000)**. The compilation process will take some "
-"time. At the end, you should see a message in the terminal window informing "
-"you of the result."
+"Once you have finished making your code changes, you can activate the "
+"compilation process by clicking the checkmark icon in the bottom row. "
+"Beforehand, ensure that the correct hardware environment, "
+"**env:obp40_s3(esp32-nmea2000)**, is selected. The compilation process will "
+"take some time. At the end, you should receive a message in the terminal "
+"window informing you of the result."
 
 #: ../../programming/activating.rst:226 db53e0acc904415cb5ebe972e60dc96b
 #, fuzzy
@@ -795,8 +796,8 @@ msgid ""
 "Der Binary-Code zur Firmware befindet sich nach dem Kompilieren im "
 "Verzeichnis: */esp32-nmea2000-obp60/.pio/build/obp40_s3*"
 msgstr ""
-"The binary code for the firmware is located in the directory after "
-"compilation: */esp32-nmea2000-obp60/.pio/build/obp40_s3*"
+"The binary code for the firmware, after compilation, is located in the "
+"directory: */esp32-nmea2000-obp60/.pio/build/obp40_s3*"
 
 #: ../../programming/activating.rst:230 9a042f7f4f994a00b15c4606064a2be3
 #, fuzzy
@@ -822,10 +823,10 @@ msgid ""
 "anschließend auf das OBP40 übertragen. Im Terminalfenster sehen Sie den "
 "Ablauf der einzelnen Schritte."
 msgstr ""
-"If you want to flash the firmware onto the OBP40, connect the OBP40 to your "
-"PC's USB port and then click the arrow icon in the bottom row. The firmware "
-"will first be compiled and then transferred to the OBP40. You can see the "
-"individual steps in the terminal window."
+"To flash the firmware onto the OBP40, connect the OBP40 to your PC's USB "
+"port and then click the arrow icon in the bottom row. The firmware will "
+"first be compiled and then transferred to the OBP40. The terminal window "
+"will show the progress of each step."
 
 #: ../../programming/activating.rst:247 61371212ab4e427e92307b424be47020
 #, fuzzy
@@ -845,18 +846,19 @@ msgid ""
 "im Flash-Modus. Danach starten Sie einen erneuten Flash-Vorgang über das "
 "Symbol mit dem Pfeil, wie oben gezeigt."
 msgstr ""
-"If the OBP40 cannot be connected via the USB interface, you can manually put"
-" the OBP40 into flash mode. First, disconnect the USB connection. Then, open"
-" the rear cover of the OBP40 and hold down the ``BOOT`` button. Then connect"
-" the OBP40 to your PC using the USB cable. Once the USB interface is "
-"recognized, a sound will be heard on the PC. You can then release the "
-"``BOOT`` button. The ESP32-S3 is now in flash mode. Then, restart the flash "
-"process using the arrow icon, as shown above."
+"If a connection to the OBP40 cannot be established via the USB interface, "
+"you can manually put the OBP40 into flash mode. First, disconnect the USB "
+"connection. Then, open the rear cover of the OBP40 and press and hold the "
+"``BOOT`` button. Next, connect the OBP40 to your PC using the USB cable. As "
+"soon as the USB interface is recognized, a sound will be emitted from the "
+"PC. You can then release the ``BOOT`` button. The ESP32-S3 is now in flash "
+"mode. Afterward, start another flashing process using the arrow icon, as "
+"shown above."
 
 #: ../../programming/activating.rst:254 634f8031f264448fb0fafb2e0becd984
 #, fuzzy
 msgid "Abb.: Platinenrückseite CrowPanel 4.2"
-msgstr "Fig.: Back of the CrowPanel 4.2 board"
+msgstr "Fig.: Circuit board back of CrowPanel 4.2"
 
 #: ../../programming/activating.rst:257 898fbab11f2d4c70981e954117bf7b3e
 #, fuzzy
@@ -876,14 +878,13 @@ msgid ""
 "beenden wollen, klicken Sie rechts auf den aktuell laufenden Task und "
 "beenden ihn, indem Sie auf das Symbol mit dem Papierkorb drücken."
 msgstr ""
-"An easy way to troubleshoot problems is to output debugging information via "
-"the USB serial interface, which can be received on the PC using a terminal "
-"program. The OBP40 firmware contains functions that allow you to generate "
-"debugging output. A serial terminal is integrated into Visual Studio Code. "
-"You can launch it using the plug-in icon in the bottom row. The output is "
-"then displayed in the \"Terminal\" area at the bottom right. To stop "
-"logging, right-click on the currently running task and end it by clicking "
-"the trash can icon."
+"A simple way to troubleshoot is to output debugging information via the USB "
+"serial interface, which can be received on a PC using a terminal program. "
+"The OBP40 firmware includes functions for generating debugging output. "
+"Visual Studio Code has an integrated serial terminal. You can start it using"
+" the plug icon in the bottom row. The output will then appear in the "
+"\"Terminal\" area in the lower right corner. To stop logging, right-click on"
+" the currently running task and end it by clicking the trash can icon."
 
 #: ../../programming/activating.rst:262 ba2dde83653f4407af88ec08df2709d7
 #, fuzzy
@@ -893,9 +894,9 @@ msgid ""
 "Schnittstelle lässt sich bei Bedarf in platformio.ini unter "
 "**monitor_speed** verändern."
 msgstr ""
-"Please note that the interface speed is set to **115200 Mbps 8N1** by "
-"default. The USB serial interface speed can be changed if necessary in "
-"platformio.ini under **monitor_speed**."
+"Note that the interface speed is set to **115200 Bd 8N1** by default. The "
+"serial USB interface speed can be changed in platformio.ini under "
+"**monitor_speed** if needed."
 
 #: ../../programming/activating.rst:266 ad5c5787febb46538ef168f43477677f
 #, fuzzy
@@ -915,14 +916,13 @@ msgid ""
 "folgt, kann man **Commit und Push** anklicken. Dadurch werden die Code-"
 "Änderungen in das eigene Github-Repository hochgeladen und gesichert."
 msgstr ""
-"If you want to save the source code changes to your GitHub repository, you "
-"can use the GitHub functionality of the Workplace. On the left side, there "
-"is an icon with a path branch and a small blue number next to it. This icon "
-"tells the user how many file changes have been made as a result of the "
-"source code changes. By clicking on the icon, you can add a description for "
-"the changes. If you follow the dialog to the right of the blue Commit "
-"button, you can click **Commit and Push**. This will upload and save the "
-"code changes to your GitHub repository."
+"To save source code changes to your GitHub repository, you can use the "
+"GitHub functionality of the Workplace. On the left, there's an icon with a "
+"path branch and a small blue number next to it. This icon tells you how many"
+" changes have been made to files by the source code changes. Clicking the "
+"icon allows you to add a description for the changes. Following the dialog "
+"to the right of the blue Commit button, you can click **Commit and Push**. "
+"This will upload and save the code changes to your GitHub repository."
 
 #: ../../programming/activating.rst:274 22bd4ae68fa94c018c3cea7ecc479608
 #, fuzzy
@@ -930,8 +930,8 @@ msgid ""
 "Nur mit einem Beschreibungstext zur Codeänderung können Sie die Änderungen "
 "commiten und nach Github hochladen."
 msgstr ""
-"Only with a description of the code change can you commit the changes and "
-"upload them to Github."
+"You can only commit and upload changes to Github if you include a "
+"description text for the code change."
 
 #: ../../programming/activating.rst:280 91ad68b2b7c1455881fc373021a71180
 #, fuzzy
@@ -942,10 +942,10 @@ msgid ""
 "selben Fenster auf die kleinen 3 Punkte. Über **Pull** können Sie ihr "
 "Projekt aktualisieren."
 msgstr ""
-"If you want to pick up where you left off later, you can download the latest"
-" version from Github to your Workplace and update it. To do this, click the "
-"path icon on the left and then the three small dots at the top of the same "
-"window. You can update your project using **Pull**."
+"If you want to pick up where you left off, you can download the latest "
+"version from GitHub to your Workplace and update it. To do this, click the "
+"path icon on the left and then the three dots at the top of the same window."
+" You can then update your project by clicking **Pull**."
 
 #: ../../programming/activating.rst:283 ff9a4fc1e0a74f468b6312154e55a2bc
 #, fuzzy
@@ -955,6 +955,6 @@ msgid ""
 "nachträglich ausgeführtes **Pull** würde den bereits veränderten Code "
 "überschreiben."
 msgstr ""
-"It is recommended to perform a **pull** before starting any code change to "
-"bring the project up to date, because a subsequent **pull** would overwrite "
-"the code that has already been changed."
+"It is recommended to perform a **pull** before making any code changes to "
+"bring the project up to date, because a **pull** performed afterwards would "
+"overwrite the already changed code."

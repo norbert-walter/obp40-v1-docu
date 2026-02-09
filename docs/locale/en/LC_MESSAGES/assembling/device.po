@@ -23,12 +23,12 @@ msgstr ""
 #: ../../assembling/device.rst:2 1e30e63f14a24617a883ac8ce38a21af
 #, fuzzy
 msgid "Geräteaufbau"
-msgstr "Device structure"
+msgstr "Device setup"
 
 #: ../../assembling/device.rst:5 d27815f5773e4b7eaa34846381ef5f34
 #, fuzzy
 msgid "Mechanischer Aufbau"
-msgstr "Mechanical structure"
+msgstr "Mechanical design"
 
 #: ../../assembling/device.rst:10 0b010f6258ad4d54ae601dbf877eadc2
 #, fuzzy
@@ -57,9 +57,9 @@ msgid ""
 "sind schwarze Flächen eingelassen. Das Gehäuse wird als zweifarbiges Teil 3D"
 " gedruckt."
 msgstr ""
-"The front shell of the case forms the end of the housing. It is designed as "
-"a box construction, making it torsionally rigid. Black surfaces are recessed"
-" into the front area. The housing is 3D printed as a two-color part."
+"The front panel of the housing forms the end of the enclosure. It is "
+"designed as a box structure, making it torsionally rigid. Black surfaces are"
+" recessed into the front. The housing is 3D printed as a two-color part."
 
 #: ../../assembling/device.rst:16 e736779899d241aebe33d9e00b3438d8
 #, fuzzy
@@ -75,11 +75,11 @@ msgid ""
 "Testfirmware ausgeliefert, die den Funktionsumfang zeigt. Um das Crow Panel "
 "4.2 als OBP40 nutzen zu können, muss eine neue Firmware aufgespielt werden."
 msgstr ""
-"The **Crow Panel 4.2** electronics unit with display is a commercially "
+"The **Crow Panel 4.2** electronic unit with display is a commercially "
 "available unit from **Elecrow**. The Crow Panel 4.2 can be purchased "
-"directly from Elecrow or from some electronics mail-order companies. It "
-"comes with test firmware that demonstrates its functionality. To use the "
-"Crow Panel 4.2 as an OBP40, new firmware must be installed."
+"directly from Elecrow or through some electronics retailers. It is shipped "
+"with test firmware that demonstrates its functionality. To use the Crow "
+"Panel 4.2 as an OBP40, a new firmware must be installed."
 
 #: ../../assembling/device.rst:18 8c775a164e2d4985ab3a1ea602b1a3f9
 #, fuzzy
@@ -96,9 +96,10 @@ msgid ""
 "einen stromsparenden Tiefschlaf versetzt werden."
 msgstr ""
 "The OBP40 can optionally be powered by a LiPo battery. This allows the OBP40"
-" to operate independently for more than 8 hours. The LiPo battery is "
-"soldered to the mainboard at specific points. The OBP40 is then continuously"
-" powered and can be put into a power-saving deep sleep mode when not in use."
+" to operate autonomously for more than 8 hours. The LiPo battery is "
+"permanently soldered to the main board at defined points. The OBP40 is then "
+"continuously powered and can be put into a power-saving deep sleep mode when"
+" not in use."
 
 #: ../../assembling/device.rst:20 ../../assembling/device.rst:46
 #: 3a07087446ab4c0d9b46bcf56bf6b87e a71d66864e1b46608a5d2239e91b8135
@@ -114,9 +115,9 @@ msgid ""
 "Haltemagnete. Das Klettband und die Haltemagnete können nach Bedarf benutzt "
 "werden."
 msgstr ""
-"The back panel completes the rear of the case. It also includes a slot for "
-"the Magnetic Dock, the Velcro strip, and four neodymium holding magnets. The"
-" Velcro strip and the holding magnets can be used as needed."
+"The rear panel completes the back of the case. It also includes a recess for"
+" the magnetic dock, the hook-and-loop fastener, and four neodymium magnets. "
+"The hook-and-loop fastener and magnets can be used as needed."
 
 #: ../../assembling/device.rst:22 ../../assembling/device.rst:44
 #: 0d8f1cf0268b4d2485b0b7c02287d159 8f688de80c1b4e9bab13b7de9edc0afc
@@ -132,10 +133,9 @@ msgid ""
 " Aufladen des LiPo-Akkus in der Docking-Station und zur Datenübertragung mit"
 " anderen Geräten wie z.B. einem Marine Control Server."
 msgstr ""
-"The magnetic dock provides power and data transfer. The interface is "
-"designed as a USB port. The magnetic dock is used to charge the LiPo battery"
-" in the docking station and to transfer data to other devices, such as a "
-"Marine Control Server."
+"The magnetic dock provides power and data transfer. It uses a USB interface."
+" The magnetic dock charges the LiPo battery in the docking station and "
+"allows data transfer with other devices, such as a marine control server."
 
 #: ../../assembling/device.rst:24 15bada3697c949c18e91404c1e1bf82c
 #, fuzzy
@@ -149,7 +149,7 @@ msgid ""
 "metallischen Flächen verwendet werden."
 msgstr ""
 "The magnets can be used to attach the OBP40 to the charging cradle or to "
-"metal surfaces."
+"metallic surfaces."
 
 #: ../../assembling/device.rst:26 ../../assembling/device.rst:40
 #: 08dac16e3a1841eeb921fbd70b2ef4d0 afd25ab31ea44d11b1ed01fc1637c885
@@ -163,8 +163,8 @@ msgid ""
 "In der Gehäuserückseite kann optional Klettband verwendet werden. Damit hat "
 "man eine unabhängige Befestigungsmöglichkeit an beliebigen Flächen."
 msgstr ""
-"Optional Velcro can be used on the back of the case, allowing independent "
-"attachment to any surface."
+"Optionally, hook-and-loop fasteners can be used on the back of the housing. "
+"This provides an independent mounting option on any surface."
 
 #: ../../assembling/device.rst:28 ../../assembling/device.rst:38
 #: 2416a5f0644640d4a3ec88a216c32f92 4fbeff877e1e46b0aa1f9949f9ed9aa1
@@ -179,9 +179,8 @@ msgid ""
 "Gehäuseschrauben sind Bestandteil des Crow Panel 4.2 und können beim OBP40 "
 "wiederverwendet werden."
 msgstr ""
-"The four housing screws connect the front panel to the rear panel. These "
-"housing screws are part of the Crow Panel 4.2 and can be reused on the "
-"OBP40."
+"The four case screws connect the front panel to the back. These case screws "
+"are part of the Crow Panel 4.2 and can be reused with the OBP40."
 
 #: ../../assembling/device.rst:34 8cdfec51657041dca4485bab07e64db6
 #, fuzzy
@@ -195,8 +194,8 @@ msgid ""
 "kann der Akku des OBP40 geladen werden. Zusätzlich besteht die Möglichkeit "
 "der Datenübertragung über eine USB-Verbindung."
 msgstr ""
-"The docking station accommodates the OBP40. The OBP40's battery can be "
-"charged in the docking station. Data transfer is also possible via a USB "
+"The docking station is designed to hold the OBP40. The OBP40's battery can "
+"be charged in the docking station. Data transfer is also possible via a USB "
 "connection."
 
 #: ../../assembling/device.rst:39 081c051ec0b0422191c1ceec9df85c61
@@ -211,7 +210,7 @@ msgstr "The 6 screws connect the adapter plate to the back and the stand."
 msgid ""
 "Das Klettband ist das Gegenstück zum Klettband auf der Rückseite des OBP40."
 msgstr ""
-"The Velcro strap is the counterpart to the Velcro strap on the back of the "
+"The Velcro strip is the counterpart to the Velcro strip on the back of the "
 "OBP40."
 
 #: ../../assembling/device.rst:42 a08a9ab400d44824a6bff4e685e6de45
@@ -226,8 +225,8 @@ msgid ""
 "Magneten an den inneren 4 Schrauben, die zur Befestigung der Rückseite "
 "dienen."
 msgstr ""
-"The adapter plate is used to hold the OBP40. The OBP40 adheres with magnets "
-"to the four inner screws that secure the back panel."
+"The adapter plate is used to mount the OBP40. The OBP40 adheres to the four "
+"inner screws, which are used to attach the back panel, via magnets."
 
 #: ../../assembling/device.rst:45 adee2d1e47d84da889a8268d3ac1bbc9
 #, fuzzy
@@ -238,10 +237,10 @@ msgid ""
 "Das Magnet Dock dient zum Aufladen des LiPo-Akkus in der Docking-Station und"
 " zur Datenübertragung."
 msgstr ""
-"The Magnetic Dock is the counterpart to the Magnetic Dock in the OBP40. The "
+"The magnetic dock is the counterpart to the magnetic dock in the OBP40. The "
 "gold-plated contact pins are spring-loaded and can compensate for positional"
-" tolerances within certain limits. The interface is designed as a USB port. "
-"The Magnetic Dock is used to charge the LiPo battery in the docking station "
+" tolerances within certain limits. The interface is a USB interface. The "
+"magnetic dock is used for charging the LiPo battery in the docking station "
 "and for data transfer."
 
 #: ../../assembling/device.rst:47 2ca60b056a6e4b809d5ca0b31f0a4671
@@ -252,10 +251,9 @@ msgid ""
 "eine weitere größere Version der Rückseite, die mehr Platz für Erweiterungen"
 " zur Verfügung stellt."
 msgstr ""
-"The back panel is used to accommodate the Magnetic Dock. The back panel "
-"provides enough space for additional small electronic modules. There is also"
-" a larger version of the back panel available, which provides more space for"
-" expansion."
+"The back panel is used to mount the magnetic dock. It also provides enough "
+"space for additional small electronic modules. A larger version of the back "
+"panel is also available, offering even more room for expansion."
 
 #: ../../assembling/device.rst:48 be67ce43b6ce4ef2ba187549e400bd9c
 #, fuzzy
@@ -269,8 +267,8 @@ msgid ""
 "den Standfuß ist die Adapterplatte leicht geneigt, so dass das Display des "
 "OBP40 besser abgelesen werden kann."
 msgstr ""
-"The stand is connected to the adapter plate with two screws. The stand tilts"
-" the adapter plate slightly, making the OBP40's display easier to read."
+"The stand is attached to the adapter plate via two screws. The stand "
+"slightly tilts the adapter plate, making the OBP40's display easier to read."
 
 #: ../../assembling/device.rst:53 3b4aec2ecc754e348e1fb433e5481a6c
 #, fuzzy
@@ -334,7 +332,7 @@ msgstr "USB-C"
 #: ../../assembling/device.rst:70 b4066bbc0cc9499aaa8c39f243899b7a
 #, fuzzy
 msgid "Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)"
-msgstr "Fig.: Crow Panel 4.2 mainboard top (Elecrow)"
+msgstr "Fig.: Crow Panel 4.2 Mainboard Top (Elecrow)"
 
 #: ../../assembling/device.rst:74 3c417f58382a4edfa960aa31e1368ae3
 #, fuzzy
@@ -344,7 +342,7 @@ msgstr "Circuit diagram and manufacturing documents"
 #: ../../assembling/device.rst:76 cdd754a6299a483c9eb433a5f9670ad8
 #, fuzzy
 msgid "Nachfolgend sind die Unterlagen für einen Nachbau aufgeführt."
-msgstr "The documents for a replica are listed below."
+msgstr "The following are the documents for a replica."
 
 #: ../../assembling/device.rst:78 f30807b571e34cf1ac9af23c704e1f15
 #, fuzzy
@@ -397,9 +395,9 @@ msgid ""
 "öffentlich über das Wiki und Github einsehbar und haben Public-Charakter."
 msgstr ""
 "The manufacturing data for the circuit diagram and the 3D data for the Crow "
-"Panel 4.2 are subject to the copyright of Elecrow. The type of copyright is "
-"unknown. The documents are publicly available via the wiki and Github and "
-"are public domain."
+"Panel 4.2 are subject to the copyright of Elecrow. The specific type of "
+"copyright is unknown. The documents are publicly accessible via the wiki and"
+" GitHub and are in the public domain."
 
 #: ../../assembling/device.rst:95 fb02abf6ea764535b2a19af9710167cb
 #, fuzzy
@@ -415,12 +413,12 @@ msgid ""
 "Nutzungsrecht über eine kommerzielle Lizenz zu erwerben. Die Firmware des "
 "OBP40 steht unter der Apache 2.0 Lizenz."
 msgstr ""
-"The 3D design documents for the mechanical components of the OBP40 and the "
-"docking station are subject to the `Common Creative Lizenz (CC) BY BC SA "
-"4.0`_. The OBP40 may be reproduced or modified provided the authors are "
-"cited. There are no costs for private, non-commercial use. Commercial "
-"exploitation is prohibited by the license. Derivative works are subject to "
-"the same license. If you intend to use the OBP40 commercially, please "
-"contact us via the `Kontaktformular`_. It is possible to acquire a non-"
-"exclusive right of use through a commercial license. The OBP40 firmware is "
-"subject to the Apache 2.0 license."
+"The 3D design documents for the mechanical parts of the OBP40 and the "
+"docking station are subject to `Common Creative Lizenz (CC) BY BC SA 4.0`_. "
+"The OBP40 may be reproduced or modified, provided the authors are credited. "
+"There are no costs for private, non-commercial use. Commercial use is "
+"prohibited by the license. Derivative works are subject to the same license."
+" If you intend to use the OBP40 commercially, please contact us via "
+"`Kontaktformular`_. It is possible to acquire a non-exclusive right of use "
+"through a commercial license. The OBP40 firmware is licensed under the "
+"Apache 2.0 license."

@@ -38,7 +38,7 @@ msgstr "Abb.: Montage Docking Station"
 #: ../../assembling/dockingstation.rst:13 f0a1f9ef7e3e44d49ddbc887e3f9c44e
 #, fuzzy
 msgid "Stückliste"
-msgstr "Parts list"
+msgstr "Bill of materials"
 
 #: ../../assembling/dockingstation.rst:16 9dd3662885e44443a6c7e2ddf7d77ce5
 #, fuzzy
@@ -201,7 +201,7 @@ msgstr ""
 #: ../../assembling/dockingstation.rst:40 e66696b577014352bb31b4ba13987776
 #, fuzzy
 msgid "Gehäuseteile drucken"
-msgstr "Printing housing parts"
+msgstr "Print housing parts"
 
 #: ../../assembling/dockingstation.rst:41 f636a13204bd47e3a3f0d60a628a228c
 #, fuzzy
@@ -209,7 +209,7 @@ msgid ""
 "Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. "
 "Verwenden Sie folgende Einstellungen:"
 msgstr ""
-"The housing parts can be printed using a standard 3D printer. Use the "
+"The housing parts can be printed with a standard 3D printer. Use the "
 "following settings:"
 
 #: ../../assembling/dockingstation.rst:43 d92c185d297548f08408c918eebf4b27
@@ -225,7 +225,7 @@ msgstr "Wall thickness 1 mm"
 #: ../../assembling/dockingstation.rst:45 39dbcd7a6d74457487666c69a48d243e
 #, fuzzy
 msgid "Wanddicke der Ober- und Unterseite 1 mm"
-msgstr "Wall thickness of the top and bottom 1 mm"
+msgstr "Wall thickness of the top and bottom: 1 mm"
 
 #: ../../assembling/dockingstation.rst:46 a72b4b64e77643f289e04fe10d2ae128
 #, fuzzy
@@ -235,12 +235,12 @@ msgstr "Fill level 30%"
 #: ../../assembling/dockingstation.rst:47 f113bde7460b4b3ea2a7cb3bb0b27965
 #, fuzzy
 msgid "Support eingeschaltet"
-msgstr "Support activated"
+msgstr "Support enabled"
 
 #: ../../assembling/dockingstation.rst:49 2222c9468a4b40cd8e72c60a68a3eac9
 #, fuzzy
 msgid "Magnet Dock mit Heißkleber in Rückwand einkleben"
-msgstr "Glue the magnet dock into the back wall with hot glue"
+msgstr "Glue the magnetic dock to the back panel using hot glue."
 
 #: ../../assembling/dockingstation.rst:50 c5e07736bb0d4dc9a69c32afac70baee
 #, fuzzy
@@ -249,7 +249,7 @@ msgid ""
 "Heißkleber umschlossen ist, Darauf achten, dass kein Heißkleber nach außen "
 "dringt. Gegebenenfalls überschüssigen Heißkleber entfernen."
 msgstr ""
-"Make sure the magnet dock is centered and encased with plenty of hot glue. "
+"Ensure the magnetic dock is centered and thoroughly coated with hot glue. "
 "Make sure no hot glue seeps out. Remove any excess hot glue if necessary."
 
 #: ../../assembling/dockingstation.rst:53 77ab985b9c104c1a866e41256458f393
@@ -295,7 +295,7 @@ msgstr "Pin 3"
 #: ../../assembling/dockingstation.rst:59 6fbc774b621048128f4cbd084b6c136b
 #, fuzzy
 msgid "gelb, D+"
-msgstr "Gelb, D+"
+msgstr "Yellow, D+"
 
 #: ../../assembling/dockingstation.rst:61 922781c591db431589758429f895b7d9
 #, fuzzy
@@ -317,9 +317,9 @@ msgid ""
 "Docking-Station geladen werden können."
 msgstr ""
 "When attaching the magnetic dock, ensure it is oriented correctly. It must "
-"align with the counterpart in the OBP40. If you plan to use multiple OBP40s "
-"with a docking station, all contacts must be installed in the same "
-"orientation so that the different devices can all be charged in the docking "
+"align with its counterpart in the OBP40. If you intend to use multiple "
+"OBP40s with docking stations, all contacts must be installed in the same "
+"orientation so that all different devices can be charged in the docking "
 "station."
 
 #: ../../assembling/dockingstation.rst:70 fa3c02c179b54a8b8e3e76446e89284c
@@ -330,7 +330,7 @@ msgstr "Fig.: Alignment of the two magnetic dock parts"
 #: ../../assembling/dockingstation.rst:75 83228385ba8a4d1db9fdafacf76d0b3e
 #, fuzzy
 msgid "Abb.: Magnet-Dock in Halteplatte"
-msgstr "Fig.: Magnetic dock in holding plate"
+msgstr "Fig.: Magnetic dock in mounting plate"
 
 #: ../../assembling/dockingstation.rst:77 456825a660684a58bbb1f7cc77496700
 #, fuzzy
@@ -338,8 +338,8 @@ msgid ""
 "Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand "
 "einkleben"
 msgstr ""
-"Cut the Velcro strip to 50 x 40 mm and glue it into the recess of the back "
-"wall"
+"Cut the hook and loop tape to 50 x 40 mm and glue it into the recess of the "
+"back panel."
 
 #: ../../assembling/dockingstation.rst:78 b39e8ef5ec4f45c59e816b4309dbc2f2
 #, fuzzy
@@ -347,8 +347,8 @@ msgid ""
 "Das Klettband so einkleben, dass es nicht an den Kanten übersteht und "
 "vollständig in der Vertiefung ist."
 msgstr ""
-"Glue the Velcro strip in such a way that it does not protrude at the edges "
-"and is completely in the recess."
+"Stick the Velcro strip in place so that it does not protrude at the edges "
+"and is completely inside the recess."
 
 #: ../../assembling/dockingstation.rst:80 3288571643594a33a850248028b8c3cc
 #, fuzzy
@@ -363,6 +363,6 @@ msgid ""
 "erst danach die Schraube rechts herum an. So vermeiden Sie eine Beschädigung"
 " des Gewindes."
 msgstr ""
-"If you want to reinstall the screws, first turn them counterclockwise until "
-"you feel the thread click into place, and then tighten them clockwise. This "
-"will prevent damaging the thread."
+"If you need to re-tighten the screws, first turn them counterclockwise until"
+" you feel the threads click into place, and only then tighten them "
+"clockwise. This will prevent damage to the threads."

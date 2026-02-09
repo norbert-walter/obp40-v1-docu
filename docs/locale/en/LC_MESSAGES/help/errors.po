@@ -23,7 +23,7 @@ msgstr ""
 #: ../../help/errors.rst:2 5c7246fe4f9646608793c4adb5bf4105
 #, fuzzy
 msgid "Bekannte Fehler"
-msgstr "Known bugs"
+msgstr "Known errors"
 
 #: ../../help/errors.rst:4 5f8741efed7043119355ff1891c5b034
 #, fuzzy
@@ -35,10 +35,10 @@ msgid ""
 "so gehen Sie in die Rubrik **Issues** oder schauen Sie unten in die "
 "jeweiligen Bereiche."
 msgstr ""
-"Known bugs that have not yet been fixed are listed here. There is also a "
-"`Projektseite`_ for the firmware and hardware on Github, which implements a "
-"bug tracking system. If you want to see reported and fixed bugs, go to the "
-"**Issues** section or look in the respective sections below."
+"This section lists known bugs that have not yet been fixed. Additionally, "
+"there is a `Projektseite`_ repository for the firmware and hardware on "
+"GitHub, which includes a bug tracking system. To view reported and fixed "
+"bugs, go to the **Issues** section or check the relevant areas below."
 
 #: ../../help/errors.rst:8 2c2fb24ecdc04c34a828daa0c7021793
 #, fuzzy
@@ -57,12 +57,12 @@ msgid ""
 "wenn Sie bestimmte Funktionen vermissen, möchten wir Sie bitten, diese "
 "ebenfalls zu melden."
 msgstr ""
-"There you can search for errors and view error descriptions and solutions. "
-"You can also report errors that aren't yet included in the system via the "
-"**Issues** section. Please describe the circumstances under which the error "
-"occurs in English as precisely as possible. The error must be understandable"
-" for us to fix it. If you have any tips on how to improve things or if "
-"you're missing certain features, please let us know."
+"There you can search for errors and view error descriptions and their "
+"solutions. You can also report errors not yet in the system via the "
+"**Issues** section. Please describe as precisely as possible in English "
+"under what circumstances the error occurs. The error must be reproducible "
+"for us to fix it. If you have any suggestions for improvement or if you are "
+"missing certain features, please report them as well."
 
 #: ../../help/errors.rst:12 d51f87202b674bbe8d1e34ab56e70bea
 #, fuzzy
@@ -74,10 +74,11 @@ msgid ""
 "die Lage versetzt, eine qualitativ hochwertige Software und Hardware zur "
 "Verfügung zu stellen."
 msgstr ""
-"We prefer this type of bug tracking because it allows us to resolve bugs in "
-"a structured and timely manner. This system allows us to collaborate with "
-"multiple employees at locations around the world to resolve bugs. With your "
-"support, we are able to provide high-quality software and hardware."
+"We prefer this method of bug tracking because it allows us to resolve errors"
+" in a structured and timely manner. This system enables us to collaborate "
+"with multiple employees at globally distributed locations to fix bugs. With "
+"your support, this will allow us to provide high-quality software and "
+"hardware."
 
 #: ../../help/errors.rst:15 577ff4d921744c34a888c5ed345114df
 #, fuzzy
@@ -107,7 +108,7 @@ msgid ""
 "nicht kritisch."
 msgstr ""
 "`Software-Fehler`_ are errors within the software. A function is faulty "
-"under certain circumstances or is missing altogether. The errors are not "
+"under certain circumstances or is missing entirely. The errors are not "
 "critical."
 
 #: ../../help/errors.rst:29 f25ba6c2efad43f99643acb546a5cfd8
@@ -124,10 +125,10 @@ msgid ""
 "einzelner Komponenten kann auch davon betroffen sein. Die Fehler sind nicht "
 "kritisch."
 msgstr ""
-"`Hardware-Fehler`_ are caused by hardware. These can be, for example, design"
-" errors on a circuit board or, in isolated cases, incorrectly populated "
-"circuit boards. The device's construction or the material selection of "
-"individual components can also be affected. The errors are not critical."
+"`Hardware-Fehler`_ are caused by the hardware. This can be due to design "
+"flaws in a circuit board or, in isolated cases, incorrectly assembled "
+"boards. The device's construction or the choice of materials for individual "
+"components can also be affected. The errors are not critical."
 
 #: ../../help/errors.rst:36 97eade24fe914b0badac9d2c8f2180ea
 #, fuzzy
@@ -141,9 +142,9 @@ msgid ""
 "auch die behobenen Fehler anzusehen, da teilweise Workarounds zur "
 "Beseitigung der Fehler zur Verfügung gestellt werden."
 msgstr ""
-"`Behobene Fehler`_ have been resolved. If errors occur, it's worth checking "
-"out the resolved errors, as some workarounds are available to resolve the "
-"errors."
+"`Behobene Fehler`_ have been resolved. If errors occur, it is worthwhile to "
+"also review the resolved errors, as workarounds are sometimes provided to "
+"eliminate them."
 
 #: ../../help/errors.rst:43 7411b3ec864b4028aed270dcbb80f59b
 #, fuzzy
@@ -157,12 +158,12 @@ msgid ""
 " zur Erweiterung der Funktionalität des Geräts."
 msgstr ""
 "`Software-Erweiterungen`_ are suggestions for improving the software or "
-"extending the functionality of the device."
+"expanding the functionality of the device."
 
 #: ../../help/errors.rst:50 c08cab2e1ad4402fa6fb9c817b6709f8
 #, fuzzy
 msgid "Neue Anzeigeseiten"
-msgstr "New display pages"
+msgstr "New ad pages"
 
 #: ../../help/errors.rst:52 f1fe1ab36ade410ca7a56030f0679e09
 #, fuzzy

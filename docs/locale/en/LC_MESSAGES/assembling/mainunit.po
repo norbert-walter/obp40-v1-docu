@@ -38,7 +38,7 @@ msgstr "Abb.: Montage OBP40 Main Unit"
 #: ../../assembling/mainunit.rst:13 b27e22408e2a4ad0972c19aa49f412b0
 #, fuzzy
 msgid "Stückliste"
-msgstr "Parts list"
+msgstr "Bill of materials"
 
 #: ../../assembling/mainunit.rst:16 70098da86a5647cf9db90320bee56826
 #, fuzzy
@@ -246,7 +246,7 @@ msgstr ""
 #: ../../assembling/mainunit.rst:48 f8440c075ede48e388ccc501dce51d8c
 #, fuzzy
 msgid "Gehäuseteile drucken"
-msgstr "Printing housing parts"
+msgstr "Print housing parts"
 
 #: ../../assembling/mainunit.rst:49 780d2b9aa4714d87ac9fdcf199847ea6
 #, fuzzy
@@ -254,7 +254,7 @@ msgid ""
 "Die Gehäuseteile lassen sich mit einem gewöhnlichen 3D-Drucker drucken. "
 "Verwenden Sie folgende Einstellungen:"
 msgstr ""
-"The housing parts can be printed using a standard 3D printer. Use the "
+"The housing parts can be printed with a standard 3D printer. Use the "
 "following settings:"
 
 #: ../../assembling/mainunit.rst:51 ca740148ad7b4c9182419336901fa07f
@@ -270,7 +270,7 @@ msgstr "Wall thickness 1 mm"
 #: ../../assembling/mainunit.rst:53 c2ec23adf03440e1a8ec76500d0a5a20
 #, fuzzy
 msgid "Wanddicke der Ober- und Unterseite 1 mm"
-msgstr "Wall thickness of the top and bottom 1 mm"
+msgstr "Wall thickness of the top and bottom: 1 mm"
 
 #: ../../assembling/mainunit.rst:54 9242b0fdbfbc49e58c06299793f28a5c
 #, fuzzy
@@ -280,7 +280,7 @@ msgstr "Fill level 30%"
 #: ../../assembling/mainunit.rst:55 bed88489de674f56a8dc72f0a6010846
 #, fuzzy
 msgid "Support eingeschaltet"
-msgstr "Support activated"
+msgstr "Support enabled"
 
 #: ../../assembling/mainunit.rst:58 7d412d97fd5a4157b41f4901a33ee094
 #, fuzzy
@@ -291,38 +291,39 @@ msgid ""
 " keinen zweifarbigen Ausdruck zulässt, können Sie die Frontschale auch in "
 "einer durchgängigen Farbe drucken. Benutzen Sie dazu einfach die STL-Datei."
 msgstr ""
-"The front panel is designed as a two-color print. The black areas are "
+"The front panel is designed for two-color printing. The black areas are "
 "implemented as 0.2 mm thick inlays. Consult your printer's documentation for"
-" a two-color print. If your printer doesn't support two-color printing, you "
-"can also print the front panel in a solid color. Simply use the STL file."
+" two-color printing instructions. If your printer does not support two-color"
+" printing, you can also print the front panel in a single color. Simply use "
+"the STL file for this."
 
 #: ../../assembling/mainunit.rst:60 773b1d984e8b4a03aea4ce004f8eb880
 #, fuzzy
 msgid "Rückseite und Spacer des Crow Panel 4.2 abschrauben"
-msgstr "Unscrew the back and spacer of the Crow Panel 4.2"
+msgstr "Unscrew the back and spacers of the Crow Panel 4.2"
 
 #: ../../assembling/mainunit.rst:64 01cce1539f1d4bee94725e43847414e4
 #, fuzzy
 msgid "Abb.: Crow Panel 4.2 Mainboard Oberseite (Elecrow)"
-msgstr "Fig.: Crow Panel 4.2 mainboard top (Elecrow)"
+msgstr "Fig.: Crow Panel 4.2 Mainboard Top (Elecrow)"
 
 #: ../../assembling/mainunit.rst:66 46ec71c173ca42568605b3b991950763
 #, fuzzy
 msgid "Crow Panle 4.2 Platine in Frontschale einlegen"
-msgstr "Crow Panle 4.2 board inserted into front shell"
+msgstr "Insert the Crow Panel 4.2 circuit board into the front cover."
 
 #: ../../assembling/mainunit.rst:67 4426aa0062d74e418285604b100e2bfe
 #, fuzzy
 msgid ""
 "Platine seitlich beginnend mit den Tastern in die Frontschale einlegen."
 msgstr ""
-"Insert the circuit board into the front shell starting from the side with "
+"Insert the circuit board into the front panel, starting from the side with "
 "the buttons."
 
 #: ../../assembling/mainunit.rst:72 666edc8fab124c7b92525a8c181bb1f6
 #, fuzzy
 msgid "Magnet Dock mit Heißkleber in Rückwand einkleben"
-msgstr "Glue the magnet dock into the back wall with hot glue"
+msgstr "Glue the magnetic dock to the back panel using hot glue."
 
 #: ../../assembling/mainunit.rst:73 8932fee699464c6f8c13f8435c554fc2
 #, fuzzy
@@ -331,13 +332,13 @@ msgid ""
 "Heißkleber umschlossen ist, Darauf achten, dass kein Heißkleber nach außen "
 "dringt. Gegebenenfalls überschüssigen Heißkleber entfernen."
 msgstr ""
-"Make sure the magnet dock is centered and encased with plenty of hot glue. "
+"Ensure the magnetic dock is centered and thoroughly coated with hot glue. "
 "Make sure no hot glue seeps out. Remove any excess hot glue if necessary."
 
 #: ../../assembling/mainunit.rst:78 dcf9d46f47a44bf392574376f5c2f8e7
 #, fuzzy
 msgid "Magnete mit Heißkleber in Rückwand einkleben"
-msgstr "Glue magnets to the back wall with hot glue"
+msgstr "Glue magnets into the back panel using hot glue."
 
 #: ../../assembling/mainunit.rst:79 df01ebe08e8b40bbb485d2f93d7feea2
 #, fuzzy
@@ -347,9 +348,9 @@ msgid ""
 "erstarrt. Darauf achten, dass nicht zu viel Heißkleber in der Vertiefung "
 "verwendet wird."
 msgstr ""
-"Before inserting the magnets, add a dab of hot glue to the recess and insert"
-" the magnet quickly to prevent the glue from setting prematurely. Be careful"
-" not to use too much hot glue in the recess."
+"Before inserting the magnets, put a small dab of hot glue into the recess "
+"and quickly insert the magnet so that the glue doesn't set prematurely. Make"
+" sure not to use too much hot glue in the recess."
 
 #: ../../assembling/mainunit.rst:81 85d29300c5cb4e0190c494ad1dac09ed
 #, fuzzy
@@ -357,8 +358,8 @@ msgid ""
 "Klettband auf 50 x 40 mm zuschneiden und in Vertiefung der Rückwand "
 "einkleben"
 msgstr ""
-"Cut the Velcro strip to 50 x 40 mm and glue it into the recess of the back "
-"wall"
+"Cut the hook and loop tape to 50 x 40 mm and glue it into the recess of the "
+"back panel."
 
 #: ../../assembling/mainunit.rst:82 a924c3f999e84b7b9d81124e789366ed
 #, fuzzy
@@ -366,14 +367,15 @@ msgid ""
 "Das Klettband so einkleben, dass es nicht an den Kanten übersteht und "
 "vollständig in der Vertiefung ist."
 msgstr ""
-"Glue the Velcro strip in such a way that it does not protrude at the edges "
-"and is completely in the recess."
+"Stick the Velcro strip in place so that it does not protrude at the edges "
+"and is completely inside the recess."
 
 #: ../../assembling/mainunit.rst:87 eca770bb956b4c8a8790adf069b3435f
 #, fuzzy
 msgid "LiPo-Akku, Magnet Dock und Spannungsteiler einbauen und Kabel anlöten"
 msgstr ""
-"Install LiPo battery, magnet dock and voltage divider and solder cables"
+"Install the LiPo battery, magnetic dock and voltage divider, and solder the "
+"cables."
 
 #: ../../assembling/mainunit.rst:89 32b8c71e24a24dcaa975724fd4aa2e88
 #, fuzzy
@@ -386,10 +388,11 @@ msgid ""
 "zutrauen, kontaktieren Sie eine Fachkraft, die ihnen behilflich ist."
 msgstr ""
 "Soldering the cables requires good soldering skills and high-quality "
-"soldering tools, as the connections are very small. Use an adjustable "
-"soldering iron with a fine tip and 0.5 mm diameter solder. Flux and copper "
-"tape to absorb excess solder will simplify the process. If you don't feel "
-"confident enough to do this yourself, contact a professional for assistance."
+"soldering tools, as the connections are very small. Use a temperature-"
+"controlled soldering iron with a fine tip and 0.5 mm diameter solder. Flux "
+"and copper tape for absorbing excess solder will simplify the process. If "
+"you are unsure about doing this yourself, contact a professional for "
+"assistance."
 
 #: ../../assembling/mainunit.rst:91 9d562f8b44374160a31a3808dcfa594c
 #, fuzzy
@@ -402,17 +405,17 @@ msgid ""
 " den Lötungen. Bedenken sie, dass Sie durch die Lötarbeiten die Garantie des"
 " Herstellers verlieren."
 msgstr ""
-"Be careful not to cause short circuits between other components on the "
-"board. Do not solder for too long at the affected points, as this could "
-"cause components to become desoldered or the circuit boards to become "
-"damaged. Check all solder joints before putting the board back into "
-"operation. Use a digital voltmeter to check for short circuits in the solder"
-" joints. Remember that soldering will void the manufacturer's warranty."
+"Take care not to cause short circuits on the circuit board with other "
+"components. Do not solder for too long at the affected points, as you may "
+"desolder components or damage traces. Check all solder joints before putting"
+" the circuit board back into operation. Use a digital voltmeter to check for"
+" short circuits at the solder joints. Keep in mind that soldering work will "
+"void the manufacturer's warranty."
 
 #: ../../assembling/mainunit.rst:93 7e11e465e08348e39651f9bfa9a33123
 #, fuzzy
 msgid "Löten Sie die Kabel entsprechend der Tabelle und der Bilder an."
-msgstr "Solder the cables according to the table and pictures."
+msgstr "Solder the cables according to the table and the pictures."
 
 #: ../../assembling/mainunit.rst:96 436b114e27474033b8f219ef16d8261e
 #, fuzzy
@@ -486,7 +489,7 @@ msgstr "U1 Pin 5"
 #: ../../assembling/mainunit.rst:106 c4c619da76954ae2a281ea3518ca58d2
 #, fuzzy
 msgid "gelb, D+"
-msgstr "Gelb, D+"
+msgstr "Yellow, D+"
 
 #: ../../assembling/mainunit.rst:108 e51061e0972f41a893f31319a6a83e65
 #, fuzzy
@@ -523,7 +526,7 @@ msgstr "USB-C, GND"
 #: ../../assembling/mainunit.rst:120 20e60d22266f404dacd3eeceb838fc1e
 #, fuzzy
 msgid "Abb.: Lötpunkte für Anschlusskabel"
-msgstr "Fig.: Soldering points for connection cables"
+msgstr "Fig.: Solder points for connecting cables"
 
 #: ../../assembling/mainunit.rst:125 79595194fbe54b6ebe329628f7005612
 #, fuzzy
@@ -533,12 +536,12 @@ msgstr "Fig.: Voltage divider for state of charge measurement"
 #: ../../assembling/mainunit.rst:130 77bc9ec42dda44429659ac36193a11e9
 #, fuzzy
 msgid "Abb.: Lötpunkt für IO3"
-msgstr "Fig.: Soldering point for IO3"
+msgstr "Fig.: Solder point for IO3"
 
 #: ../../assembling/mainunit.rst:135 552015f5a2b3459d97803dfad97cbc29
 #, fuzzy
 msgid "Abb.: Lötpunkte für USB-C GND"
-msgstr "Fig.: Soldering points for USB-C GND"
+msgstr "Fig.: Solder points for USB-C GND"
 
 #: ../../assembling/mainunit.rst:140 64a664fdac1046c2b580d773bb3ab2ce
 #, fuzzy
@@ -552,14 +555,14 @@ msgid ""
 "Schrumpfschlauch zu isolieren. So vermeiden Sie Kurzschlüsse mit der "
 "Platine."
 msgstr ""
-"Be sure to insulate the connection cables on the Magnet Dock with 3 mm heat "
-"shrink tubing. This will prevent short circuits with the circuit board."
+"Make sure to insulate the connecting cables on the magnetic dock with 3 mm "
+"heat shrink tubing. This will prevent short circuits with the circuit board."
 
 #: ../../assembling/mainunit.rst:148 6be570354b4c4782b2bbb1ff31a4baf5
 #, fuzzy
 msgid "Rückwand auf Frontschale auflegen und mit Schrauben M2.5 verbinden"
 msgstr ""
-"Place the rear panel on the front panel and connect it with M2.5 screws"
+"Place the back panel onto the front panel and connect it with M2.5 screws."
 
 #: ../../assembling/mainunit.rst:149 4de7d54f37cb41f6be042efd7fa07b5c
 #, fuzzy
@@ -571,7 +574,7 @@ msgid ""
 msgstr ""
 "Use the screws you removed from the back of the Crow Panel 4.2. The holes in"
 " the plastic are sized so that you can screw the screws in with a little "
-"pressure. The thread will then cut itself into the plastic."
+"pressure. The thread will then cut into the plastic on its own."
 
 #: ../../assembling/mainunit.rst:152 a439170e1ab341f08a8e17546e2912dd
 #, fuzzy
@@ -581,14 +584,14 @@ msgid ""
 "erst danach die Schraube rechts herum an. So vermeiden Sie eine Beschädigung"
 " des Gewindes."
 msgstr ""
-"If you want to reinstall the screws, first turn them counterclockwise until "
-"you feel the thread click into place, and then tighten them clockwise. This "
-"will prevent damaging the thread."
+"If you need to re-tighten the screws, first turn them counterclockwise until"
+" you feel the threads click into place, and only then tighten them "
+"clockwise. This will prevent damage to the threads."
 
 #: ../../assembling/mainunit.rst:154 6fef085f77e94920bccce77a8cdeb33f
 #, fuzzy
 msgid "Firmware flashen"
-msgstr "Flash firmware"
+msgstr "Flashing firmware"
 
 #: ../../assembling/mainunit.rst:155 6dc24a92dc674fa9a4105fbcf9573a16
 #, fuzzy
@@ -596,8 +599,8 @@ msgid ""
 "Im letzten Punkt wird die Firmware geflasht. Dazu gehen Sie nach der "
 "Anleitung im Kapitel :ref:`Web-Flashtool` vor."
 msgstr ""
-"The last step involves flashing the firmware. To do so, follow the "
-"instructions in chapter :ref:`Web-Flashtool`."
+"The last step involves flashing the firmware. Follow the instructions in "
+"chapter :ref:`Web-Flashtool`."
 
 #: ../../assembling/mainunit.rst:157 1dc5b573ac404370b2e43f4b0c741e5e
 #, fuzzy
@@ -614,9 +617,8 @@ msgid ""
 ":ref:`Update` aktivieren. Details zur Firmwareerstellung finden Sie im "
 "Kapitel :ref:`Gitpod`."
 msgstr ""
-"In order for the firmware to display the LiPo battery and its charge level, "
-"the corresponding compiler flags ``LIPO_ACCU_1200`` and ``VOLTAGE_SENSOR`` "
-"must be set in the `platformio.ini`_ file. To do this, you must create a "
-"customized firmware file and activate this firmware in the OBP60 as "
-":ref:`Update`. Details on creating the firmware can be found in the "
-":ref:`Gitpod` chapter."
+"For the firmware to display the LiPo battery and its charge level, the "
+"corresponding compiler flags ``LIPO_ACCU_1200`` and ``VOLTAGE_SENSOR`` must "
+"be set in the firmware file `platformio.ini`_. You will need to create a "
+"customized firmware file and activate it in the OBP60 as :ref:`Update`. "
+"Details on firmware creation can be found in the chapter :ref:`Gitpod`."
