@@ -4256,7 +4256,7 @@ msgstr ""
 #, fuzzy
 msgid "Abb.: Magnetischer Rotationssensor AS5600 zur Anzeige der Kielstellung"
 msgstr ""
-"Fig.: Magnetic rotation sensor AS5600 for displaying the keel position"
+"Fig.: AS5600 magnetic rotation sensor for displaying the keel position"
 
 #: ../../usermanual/configuration.rst:1096 9f782a5fd5d0414486188ddb423eba09
 #, fuzzy

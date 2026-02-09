@@ -241,8 +241,9 @@ msgid ""
 "Kontrast und eine gute Ablesbarkeit auch bei starkem Sonnenlicht. Zudem "
 "verbraucht es sehr wenig Energie."
 msgstr ""
-"An e-paper display is used. It has a high contrast and good readability even"
-" in bright sunlight. Furthermore, it consumes very little energy."
+"The display uses an e-paper screen. It offers high contrast and good "
+"readability even in bright sunlight. Furthermore, it consumes very little "
+"energy."
 
 #: ../../usermanual/functionality.rst:70 3b03346e0b93465d99c4908bee600666
 #, fuzzy

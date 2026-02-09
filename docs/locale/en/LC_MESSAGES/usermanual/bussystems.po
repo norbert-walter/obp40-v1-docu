@@ -41,7 +41,7 @@ msgstr ""
 #: ../../usermanual/bussystems.rst:11 f6752a9657634a1198952d0c53b17c42
 #, fuzzy
 msgid "**NMEA2000** über CAN-Bus (erfordert Leitungstreiber)"
-msgstr "**NMEA2000** via CAN bus (requires line drivers)"
+msgstr "**NMEA2000** via CAN bus (requires line driver)"
 
 #: ../../usermanual/bussystems.rst:12 44ec982fbb5c4b3c9aec835141cae2fa
 #, fuzzy
@@ -564,7 +564,7 @@ msgstr "Without"
 #: ../../usermanual/bussystems.rst:112 0a63a87803484b3ab7ac65b622561d16
 #, fuzzy
 msgid "Schirmgeflecht"
-msgstr "Umbrella mesh"
+msgstr "Umbrella weave"
 
 #: ../../usermanual/bussystems.rst:114 ../../usermanual/bussystems.rst:218
 #: 275ce3221f1a4e61b641084d0e8519b8 5052932beecc44b183ce09aee85d8eb8
